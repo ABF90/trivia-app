@@ -1,0 +1,602 @@
+[
+ {
+  "id": "otdb-history-381a77d9f3",
+  "question": "America's Strategic Defense System during the Cold War was nicknamed after this famous movie.",
+  "correct": "Star Wars",
+  "incorrect": [
+   "Jaws",
+   "Blade Runner",
+   "Alien"
+  ]
+ },
+ {
+  "id": "otdb-history-6867106ac5",
+  "question": "In what year did Texas secede from Mexico?",
+  "correct": "1836",
+  "incorrect": [
+   "1838",
+   "1845",
+   "1844"
+  ]
+ },
+ {
+  "id": "otdb-history-7e92296960",
+  "question": "What did Albert Einstein win the Nobel Prize for in 1921?",
+  "correct": "Photoelectric Effect",
+  "incorrect": [
+   "Relativity",
+   "Wave-Particle Duality",
+   "Zero-Point Energy"
+  ]
+ },
+ {
+  "id": "otdb-history-82c9084a82",
+  "question": "How many years did the Hundred Years' War last?",
+  "correct": "116",
+  "incorrect": [
+   "100",
+   "90",
+   "101"
+  ]
+ },
+ {
+  "id": "otdb-history-f589a717ed",
+  "question": "In what prison was Adolf Hitler held in 1924?",
+  "correct": "Landsberg Prison",
+  "incorrect": [
+   "Spandau Prison",
+   "Ebrach Abbey",
+   "Hohenasperg"
+  ]
+ },
+ {
+  "id": "otdb-history-222dc2aed9",
+  "question": "The ontological argument for the proof of God's existence is first attributed to whom?",
+  "correct": "Anselm of Canterbury",
+  "incorrect": [
+   "René Descartes",
+   "Immanuel Kant",
+   "Aristotle"
+  ]
+ },
+ {
+  "id": "otdb-history-33242191b5",
+  "question": "In which year did the Tokyo Subway Sarin Attack occur?",
+  "correct": "1995",
+  "incorrect": [
+   "2001",
+   "2011",
+   "1991"
+  ]
+ },
+ {
+  "id": "otdb-history-ff396f81ff",
+  "question": "Who was the first President of the People's Republic of China?",
+  "correct": "Mao Zedong",
+  "incorrect": [
+   "Liu Shaoqi",
+   "Dong Biwu",
+   "Li Xiannian"
+  ]
+ },
+ {
+  "id": "otdb-history-9e23bb25e9",
+  "question": "Who was the first American in space?",
+  "correct": "Alan Shephard",
+  "incorrect": [
+   "Neil Armstrong",
+   "John Glenn",
+   "Jim Lovell"
+  ]
+ },
+ {
+  "id": "otdb-history-eb25f2c411",
+  "question": "Which one of these rulers did not belong to the Habsburg dynasty?",
+  "correct": "Philip V",
+  "incorrect": [
+   "Charles V",
+   "Philip II",
+   "Francis Joseph"
+  ]
+ },
+ {
+  "id": "otdb-history-f36bc1cd92",
+  "question": "How many times was Albert Einstein married in his lifetime?",
+  "correct": "Twice",
+  "incorrect": [
+   "Five",
+   "Thrice",
+   "Once"
+  ]
+ },
+ {
+  "id": "otdb-history-be522d1dc7",
+  "question": "Which Louis was known as 'The Sun King of France'?",
+  "correct": "Louis XIV",
+  "incorrect": [
+   "Louis XIII",
+   "Louis XV",
+   "Louis XVI"
+  ]
+ },
+ {
+  "id": "otdb-history-7521f9b4fa",
+  "question": "Which dictator killed the most people?",
+  "correct": "Mao Zedong",
+  "incorrect": [
+   "Joseph Stalin",
+   "Adolf Hitler",
+   "Kim Il Sung"
+  ]
+ },
+ {
+  "id": "otdb-history-875288c7d2",
+  "question": "The creator of the Enigma Cypher and Machine was of what nationality?",
+  "correct": "German",
+  "incorrect": [
+   "American",
+   "British",
+   "Polish"
+  ]
+ },
+ {
+  "id": "otdb-history-753e1617eb",
+  "question": "What year was the United States Declaration of Independence signed?",
+  "correct": "1776",
+  "incorrect": [
+   "1775",
+   "1774",
+   "1777"
+  ]
+ },
+ {
+  "id": "otdb-history-cbb89e4d6a",
+  "question": "Which of the following was not one of Joseph Stalin's ten blows during World War II?",
+  "correct": "Vistula-Oder Offensive",
+  "incorrect": [
+   "Crimean Offensive",
+   "Leningrad-Novgorod Offensive",
+   "Operation Bagration"
+  ]
+ },
+ {
+  "id": "otdb-history-7e35d55171",
+  "question": "What event marked the start of World War II?",
+  "correct": "Invasion of Poland (1939)",
+  "incorrect": [
+   "Invasion of Russia (1942)",
+   "Battle of Britain (1940)",
+   "Invasion of Normandy (1944)"
+  ]
+ },
+ {
+  "id": "otdb-history-366f087315",
+  "question": "When did Spanish Peninsular War start?",
+  "correct": "1808",
+  "incorrect": [
+   "1806",
+   "1810",
+   "1809"
+  ]
+ },
+ {
+  "id": "otdb-history-7fb8062282",
+  "question": "What is the name given to the series of confrontations between the UK and Iceland over North Atlantic fishing rights?",
+  "correct": "The Cod Wars",
+  "incorrect": [
+   "The Lobster Wars",
+   "The Halibut Wars",
+   "The Mackerel Wars"
+  ]
+ },
+ {
+  "id": "otdb-history-e2ce71eb48",
+  "question": "Who was a military strategist in the Eastern Zhou period?",
+  "correct": "Sun Tzu",
+  "incorrect": [
+   "Lu Bu",
+   "Genghis Khan",
+   "Vlad The Impaler"
+  ]
+ },
+ {
+  "id": "otdb-history-cfc3fc824d",
+  "question": "What was the first sport to have been played on the moon?",
+  "correct": "Golf",
+  "incorrect": [
+   "Football",
+   "Tennis",
+   "Soccer"
+  ]
+ },
+ {
+  "id": "otdb-history-973b1d3500",
+  "question": "Which Apollo mission was the last one in NASA's Apollo program?",
+  "correct": "Apollo 17",
+  "incorrect": [
+   "Apollo 13",
+   "Apollo 11",
+   "Apollo 15"
+  ]
+ },
+ {
+  "id": "otdb-history-c0f671ab55",
+  "question": "Toussaint Louverture led a successful slave revolt in which country?",
+  "correct": "Haiti",
+  "incorrect": [
+   "France",
+   "Cuba",
+   "United States"
+  ]
+ },
+ {
+  "id": "otdb-history-bdbd5965dd",
+  "question": "Who assassinated President James A. Garfield?",
+  "correct": "Charles Guiteau",
+  "incorrect": [
+   "Sirhan Sirhan",
+   "Leon Czolgosz",
+   "John Wilkes Booth"
+  ]
+ },
+ {
+  "id": "otdb-history-de4a5b46be",
+  "question": "Who was the President of the United States during the signing of the Gadsden Purchase?",
+  "correct": "Franklin Pierce",
+  "incorrect": [
+   "Andrew Johnson",
+   "Abraham Lincoln",
+   "James Polk"
+  ]
+ },
+ {
+  "id": "otdb-history-dd39029e3c",
+  "question": "What was the name of the national hero of the Philippines who inspired and lead the Philippine Revolution against colonial Spain?",
+  "correct": "José Rizal",
+  "incorrect": [
+   "Simón Bolívar",
+   "Benito Juárez",
+   "José de San Martín"
+  ]
+ },
+ {
+  "id": "otdb-history-efcc7cd1d0",
+  "question": "Abolitionist John Brown raided the arsenal in which Virginia Town?",
+  "correct": "Harper's Ferry",
+  "incorrect": [
+   "Richmond",
+   "Harrisonburg",
+   "Martinsburg"
+  ]
+ },
+ {
+  "id": "otdb-history-afc0801ea9",
+  "question": "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed \"the Kingmaker\"?",
+  "correct": "Richard Neville",
+  "incorrect": [
+   "Richard III",
+   "Henry V",
+   "Thomas Warwick"
+  ]
+ },
+ {
+  "id": "otdb-history-d29ec83484",
+  "question": "When was Google founded?",
+  "correct": "September 4, 1998",
+  "incorrect": [
+   "October 9, 1997",
+   "December 12, 1989",
+   "Feburary 7th, 2000"
+  ]
+ },
+ {
+  "id": "otdb-history-9bdc8c8bf1",
+  "question": "Which infamous European traitor was known as \"the last person to enter Parliament with honest intentions\"?",
+  "correct": "Guy Fawkes",
+  "incorrect": [
+   "Robert Catesby",
+   "Francis Tresham",
+   "Everard Digby"
+  ]
+ },
+ {
+  "id": "otdb-history-1486ac2efb",
+  "question": "To what political party did Abraham Lincoln belong when elected POTUS?",
+  "correct": "Republican",
+  "incorrect": [
+   "Democrat",
+   "Independent",
+   "Whig"
+  ]
+ },
+ {
+  "id": "otdb-history-b266b5d468",
+  "question": "What was the code name for the Allied invasion of Southern France on August 15th, 1944?",
+  "correct": "Operation Dragoon",
+  "incorrect": [
+   "Operation Overlord",
+   "Operation Market Garden",
+   "Operation Torch"
+  ]
+ },
+ {
+  "id": "otdb-history-fd472edf98",
+  "question": "How was Socrates executed?",
+  "correct": "Poison",
+  "incorrect": [
+   "Decapitation",
+   "Firing squad",
+   "Crucifixion "
+  ]
+ },
+ {
+  "id": "otdb-history-ef1f041e6b",
+  "question": "The first Legoland park was opened in 1968 in which of these cities?",
+  "correct": "Billund, Denmark",
+  "incorrect": [
+   "Carlsbad, California",
+   "Winter Haven, Florida",
+   "Nagoya, Japan"
+  ]
+ },
+ {
+  "id": "otdb-history-a2f25576f0",
+  "question": "Who was the leader of the Communist Party of Yugoslavia ?",
+  "correct": "Josip Broz Tito",
+  "incorrect": [
+   "Karadjordje Petrovic",
+   "Milos Obilic",
+   "Aleskandar Petrovic"
+  ]
+ },
+ {
+  "id": "otdb-history-8cc7576407",
+  "question": "When was Finland's 100th year of being independent?",
+  "correct": "2017",
+  "incorrect": [
+   "2016",
+   "2018",
+   "2015"
+  ]
+ },
+ {
+  "id": "otdb-history-57d5bf0e7c",
+  "question": "The pantheon in Rome was used to worship what god?",
+  "correct": "Any god they wanted",
+  "incorrect": [
+   "Athena",
+   "Zeus",
+   "Both Athena and Zeus"
+  ]
+ },
+ {
+  "id": "otdb-history-47993f18d9",
+  "question": "In what year did Kentucky become the 15th state to join the union?",
+  "correct": "1792",
+  "incorrect": [
+   "1782",
+   "1798",
+   "1788"
+  ]
+ },
+ {
+  "id": "otdb-history-cc3f0409a7",
+  "question": "What was Genghis Khan's real name?",
+  "correct": "Temüjin",
+  "incorrect": [
+   "Möngke",
+   "Ögedei",
+   "Temür"
+  ]
+ },
+ {
+  "id": "otdb-history-8b847fb87f",
+  "question": "What was the name of the planned invasion of Japan towards the end of World War II?",
+  "correct": "Operation Downfall",
+  "incorrect": [
+   "Operation Boarding Party",
+   "Operation Ironclad",
+   "Operation Aflame"
+  ]
+ },
+ {
+  "id": "otdb-history-24de97063a",
+  "question": "Which modern day country is the region that was known as Phrygia in ancient times?",
+  "correct": "Turkey",
+  "incorrect": [
+   "Syria",
+   "Greece",
+   "Egypt"
+  ]
+ },
+ {
+  "id": "otdb-history-d262257ecf",
+  "question": "What number does the Roman numeral \"D\" stand for?",
+  "correct": "500",
+  "incorrect": [
+   "100",
+   "1000",
+   "50"
+  ]
+ },
+ {
+  "id": "otdb-history-d64d7f423d",
+  "question": "In 1453, which important city fell?",
+  "correct": "Constantinople",
+  "incorrect": [
+   "Rome",
+   "Hamburg",
+   "Athens"
+  ]
+ },
+ {
+  "id": "otdb-history-d8236b758b",
+  "question": "The Panama Canal was finished under the administration of which U.S. president?",
+  "correct": "Woodrow Wilson",
+  "incorrect": [
+   "Franklin Delano Roosevelt",
+   "Herbert Hoover",
+   "Theodore Roosevelt"
+  ]
+ },
+ {
+  "id": "otdb-history-820d80b157",
+  "question": "In what year did the North American Video Game Crash occur?",
+  "correct": "1983",
+  "incorrect": [
+   "1982",
+   "1993",
+   "1970"
+  ]
+ },
+ {
+  "id": "otdb-history-cfef4f550c",
+  "question": "Who was the first Chancellor of a united Germany in 1871? ",
+  "correct": "Otto Von Bismark",
+  "incorrect": [
+   "Kaiser Wilhelm ",
+   "Fredrick the 2nd",
+   "Robert Koch"
+  ]
+ },
+ {
+  "id": "otdb-history-9ac3fc321b",
+  "question": "What was the total length of the Titanic?",
+  "correct": "882 ft | 268.8 m",
+  "incorrect": [
+   "759 ft | 231.3 m",
+   "1042 ft | 317.6 m",
+   "825 ft | 251.5 m"
+  ]
+ },
+ {
+  "id": "otdb-history-3353d14fcc",
+  "question": "Which of these landmarks is not included in the original 'Seven Wonders of the Ancient World'?",
+  "correct": "Great Wall of China",
+  "incorrect": [
+   "Great Pyramid of Giza",
+   "Colossus of Rhodes",
+   "Hanging Gardens of Babylon"
+  ]
+ },
+ {
+  "id": "otdb-history-bc1b791f8b",
+  "question": "The Battle of Hastings was fought in which year?",
+  "correct": "1066",
+  "incorrect": [
+   "911",
+   "1204",
+   "1420"
+  ]
+ },
+ {
+  "id": "otdb-history-a9daf12ebd",
+  "question": "When was the People's Republic of China founded?",
+  "correct": "October 1, 1949",
+  "incorrect": [
+   "April 3, 1947",
+   "May 7, 1945",
+   "December 6, 1950"
+  ]
+ },
+ {
+  "id": "otdb-history-ca34b51ad8",
+  "question": "What was the transfer of disease, crops, and people across the Atlantic shortly after the discovery of the Americas called?",
+  "correct": "The Columbian Exchange",
+  "incorrect": [
+   "Triangle Trade",
+   "Transatlantic Slave Trade",
+   "The Silk Road"
+  ]
+ },
+ {
+  "id": "otdb-history-6be7ff5a07",
+  "question": "What is the name of the ship which was only a few miles away from the RMS Titanic when it struck an iceberg on April 14, 1912?",
+  "correct": "Californian",
+  "incorrect": [
+   "Carpathia",
+   "Cristol",
+   "Commerce"
+  ]
+ },
+ {
+  "id": "otdb-history-52fcdd9e2e",
+  "question": "When did the Battle of the Bulge end?",
+  "correct": "January 25, 1945",
+  "incorrect": [
+   "August 6, 1945",
+   "December 7, 1941",
+   "December 16, 1944"
+  ]
+ },
+ {
+  "id": "otdb-history-dbe23f25c3",
+  "question": "Who assassinated Archduke Franz Ferdinand?",
+  "correct": "Gavrilo Princip",
+  "incorrect": [
+   "Nedeljko Čabrinović",
+   "Oskar Potiorek",
+   "Ferdinand Cohen-Blind"
+  ]
+ },
+ {
+  "id": "otdb-history-2393953a2f",
+  "question": "How did the Vikings call their short-lived colony in today's Canada?",
+  "correct": "Vínland",
+  "incorrect": [
+   "Føroyar",
+   "Hålogaland",
+   "Skåne"
+  ]
+ },
+ {
+  "id": "otdb-history-4759a9f1ab",
+  "question": "The gunpowder plot was a well-known failed assassination attempt against which of England's then reigning monarchs?",
+  "correct": "James I",
+  "incorrect": [
+   "Elizabeth I",
+   "Charles II",
+   "Charles I"
+  ]
+ },
+ {
+  "id": "otdb-history-17040dc795",
+  "question": "Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?",
+  "correct": "Battle of Midway",
+  "incorrect": [
+   "Attack on Truk Island",
+   "Attack on Pearl Harbor",
+   "Battle of the Coral Sea"
+  ]
+ },
+ {
+  "id": "otdb-history-c627ae2392",
+  "question": "When was the city of Rome, Italy founded?",
+  "correct": "753 BCE",
+  "incorrect": [
+   "902 BCE",
+   "524 BCE",
+   "697 BCE"
+  ]
+ },
+ {
+  "id": "otdb-history-a07d7dd697",
+  "question": "What was the unofficial name for Germany between 1919 and 1933?",
+  "correct": "Weimar Republic",
+  "incorrect": [
+   "German Democratic Republic",
+   "Federal Republic of Germany",
+   "Oesterreich "
+  ]
+ },
+ {
+  "id": "otdb-history-f334afa3de",
+  "question": "Which of these countries remained neutral during World War II?",
+  "correct": "Switzerland",
+  "incorrect": [
+   "United Kingdom",
+   "France",
+   "Italy"
+  ]
+ }
+]

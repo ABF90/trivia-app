@@ -3,7 +3,7 @@ export { Avatar, avatarColorAt, type AvatarColor } from "./Avatar";
 export { Badge } from "./Badge";
 export { BottomSheet } from "./BottomSheet";
 export { Button } from "./Button";
-export { Chip, ChipRow } from "./Chip";
+export { Chip, ChipGroup } from "./Chip";
 export { Confetti } from "./Confetti";
 export { FactCard } from "./FactCard";
 export { Icon, type IconName } from "./Icon";

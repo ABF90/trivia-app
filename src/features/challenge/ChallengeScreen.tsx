@@ -1,24 +1,19 @@
 import { useMemo, useState } from "react";
 import { Button, Confetti, Screen } from "@/components/ui";
 import { useGoHome } from "@/hooks/useGoHome";
-import { toArabicDigits } from "@/lib/arabic";
+import { useI18n } from "@/i18n";
 import { GameRunner, ResultView, type GameResult } from "../game";
 import { recordRound } from "../player";
 import { ShareSheet } from "../share";
-import { compareScores, decodeChallenge, type ChallengeOutcome } from "./codec";
+import { compareScores, decodeChallenge } from "./codec";
 import { ChallengeIntro } from "./components/ChallengeIntro";
 import { InvalidChallenge } from "./components/InvalidChallenge";
 
 type Stage = { kind: "intro" } | { kind: "playing" } | { kind: "result"; result: GameResult };
 
-const HEADLINES: Record<ChallengeOutcome, string> = {
-  win: "غلبته!",
-  draw: "تعادل!",
-  lose: "غلبك هالمرة",
-};
-
 export function ChallengeScreen({ code }: { code?: string }) {
   const goHome = useGoHome();
+  const { t, n } = useI18n();
   const challenge = useMemo(() => decodeChallenge(code), [code]);
   const [stage, setStage] = useState<Stage>({ kind: "intro" });
   const [sharing, setSharing] = useState(false);
@@ -30,6 +25,8 @@ export function ChallengeScreen({ code }: { code?: string }) {
       </Screen>
     );
   }
+
+  const name = challenge.name || t.aFriend;
 
   const finish = (result: GameResult) => {
     recordRound(result);
@@ -50,21 +47,21 @@ export function ChallengeScreen({ code }: { code?: string }) {
         <>
           <ResultView
             result={stage.result}
-            headline={HEADLINES[compareScores(stage.result.score, challenge.score)]}
-            hint={`${challenge.name} جاب ${toArabicDigits(challenge.score)} من ${toArabicDigits(challenge.questions.length)}`}
+            headline={t.outcomes[compareScores(stage.result.score, challenge.score)]}
+            hint={t.theyScored(name, n(challenge.score), n(challenge.questions.length))}
           >
             <Button variant="secondary" icon="swords" iconPosition="start" onPress={() => setSharing(true)}>
-              رد التحدي
+              {t.replyChallenge}
             </Button>
             <Button size="lg" icon="chevronForward" onPress={goHome}>
-              العب صفارة
+              {t.playSfara}
             </Button>
           </ResultView>
           <ShareSheet
             open={sharing}
             onClose={() => setSharing(false)}
             result={stage.result}
-            subtitle={`رد على تحدي ${challenge.name}`}
+            subtitle={t.replySubtitle(name)}
             intent="challenge"
           />
         </>

@@ -1,10 +1,10 @@
 import { DIWANIYA_CONFIG } from "@/config/game";
-import { toArabicDigits } from "@/lib/arabic";
+import type { I18n } from "@/i18n";
 import type { Question } from "../game/types";
 
 export interface DiwaniyaPlayer {
   id: number;
-  /** Raw input; may be empty (then the default "لاعب n" is used). */
+  /** Raw input; may be empty (then the default "لاعب n" / "Player n" is used). */
   name: string;
   score: number;
 }
@@ -45,12 +45,12 @@ export const initialDiwaniyaState: DiwaniyaState = {
   queue: [],
 };
 
-export function defaultPlayerName(index: number): string {
-  return `لاعب ${toArabicDigits(index + 1)}`;
+export function defaultPlayerName({ t, n }: I18n, index: number): string {
+  return t.playerN(n(index + 1));
 }
 
-export function playerName(player: DiwaniyaPlayer, index: number): string {
-  return player.name.trim() || defaultPlayerName(index);
+export function playerName(i18n: I18n, player: DiwaniyaPlayer, index: number): string {
+  return player.name.trim() || defaultPlayerName(i18n, index);
 }
 
 export function diwaniyaReducer(state: DiwaniyaState, action: DiwaniyaAction): DiwaniyaState {
@@ -106,9 +106,9 @@ export const totalTurns = (s: DiwaniyaState) => s.players.length * s.questionsPe
 export const selectCurrentQuestion = (s: DiwaniyaState) => s.queue[s.round * s.players.length + s.turn];
 
 /** Players sorted by score with shared ranks for ties. */
-export function selectStandings(s: DiwaniyaState) {
+export function selectStandings(s: DiwaniyaState, i18n: I18n) {
   const sorted = s.players
-    .map((player, index) => ({ player, index, name: playerName(player, index) }))
+    .map((player, index) => ({ player, index, name: playerName(i18n, player, index) }))
     .sort((a, b) => b.player.score - a.player.score || a.index - b.index);
   return sorted.map((entry) => ({
     ...entry,

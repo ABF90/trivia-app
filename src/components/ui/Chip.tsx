@@ -1,21 +1,23 @@
-import { useRef, type ReactNode } from "react";
-import { I18nManager, Pressable, ScrollView, StyleSheet, type ScrollViewInstance } from "react-native";
-import { colors, layout, rtl, tints } from "@/theme";
+import type { ReactNode } from "react";
+import { Pressable, StyleSheet, View } from "react-native";
+import { colors, tints } from "@/theme";
 import { Text } from "./Text";
 
 interface ChipProps {
   selected?: boolean;
+  /** Dimmed but still tappable (e.g. the max-3 limit is reached). */
+  dimmed?: boolean;
   onPress?: () => void;
   children: string;
 }
 
-export function Chip({ selected = false, onPress, children }: ChipProps) {
+export function Chip({ selected = false, dimmed = false, onPress, children }: ChipProps) {
   return (
     <Pressable
       role="button"
       aria-selected={selected}
       onPress={onPress}
-      style={[styles.chip, selected && styles.selected]}
+      style={({ pressed }) => [styles.chip, selected && styles.selected, dimmed && styles.dimmed, pressed && styles.pressed]}
     >
       <Text weight={selected ? "heavy" : "bold"} size={15}>
         {children}
@@ -24,35 +26,27 @@ export function Chip({ selected = false, onPress, children }: ChipProps) {
   );
 }
 
-/** Horizontally scrolling chip list that bleeds to the screen edges and starts on the right. */
-export function ChipRow({ children }: { children: ReactNode }) {
-  const ref = useRef<ScrollViewInstance>(null);
+/** Wrapping group of chips, so every option is visible without scrolling. */
+export function ChipGroup({ children, label }: { children: ReactNode; label?: string }) {
   return (
-    <ScrollView
-      ref={ref}
-      horizontal
-      showsHorizontalScrollIndicator={false}
-      style={styles.row}
-      contentContainerStyle={styles.rowContent}
-      // Without native RTL the reversed row starts scrolled to the left; jump to its right edge.
-      onContentSizeChange={() => !I18nManager.isRTL && ref.current?.scrollToEnd({ animated: false })}
-    >
+    <View role="group" aria-label={label} style={styles.group}>
       {children}
-    </ScrollView>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   chip: {
-    height: 44,
-    paddingHorizontal: 16,
-    borderRadius: 22,
+    height: 42,
+    paddingHorizontal: 15,
+    borderRadius: 21,
     borderWidth: 1.5,
     borderColor: colors.borderStrong,
     backgroundColor: colors.surface,
     justifyContent: "center",
   },
   selected: { borderWidth: 2, borderColor: colors.primary, backgroundColor: tints.primary20 },
-  row: { marginHorizontal: -layout.gutter, flexGrow: 0 },
-  rowContent: { flexDirection: rtl.row, gap: 8, paddingHorizontal: layout.gutter },
+  dimmed: { opacity: 0.45 },
+  pressed: { transform: [{ scale: 0.97 }] },
+  group: { flexDirection: "row", flexWrap: "wrap", gap: 8 },
 });

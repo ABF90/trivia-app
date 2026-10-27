@@ -1,0 +1,602 @@
+[
+ {
+  "id": "otdb-history-28654d8cc5",
+  "question": "Which U.S. President was famously 'attacked' by a swimming rabbit?",
+  "correct": "Jimmy Carter",
+  "incorrect": [
+   "Ronald Reagan",
+   "Lydon B. Johnson",
+   "Gerald Ford"
+  ]
+ },
+ {
+  "id": "otdb-history-0dcd69ce16",
+  "question": "Which of these facilities was not present on the Titanic?",
+  "correct": "Fainting room",
+  "incorrect": [
+   "Turkish bath",
+   "Kennel",
+   "Squash court"
+  ]
+ },
+ {
+  "id": "otdb-history-72768b1412",
+  "question": "In 1939, Britain and France declared war on Germany after it invaded which country?",
+  "correct": "Poland",
+  "incorrect": [
+   "Czechoslovakia",
+   "Austria",
+   "Hungary"
+  ]
+ },
+ {
+  "id": "otdb-history-a8852366d2",
+  "question": "List the following Iranic empires in chronological order:",
+  "correct": "Median, Achaemenid, Parthian, Sassanid",
+  "incorrect": [
+   "Median, Achaemenid, Sassanid, Parthian",
+   "Achaemenid, Median, Parthian, Sassanid",
+   "Achaemenid, Median, Sassanid, Parthian"
+  ]
+ },
+ {
+  "id": "otdb-history-5a7c943e45",
+  "question": "When was the Grand Patriotic War in the USSR concluded?",
+  "correct": "May 9th, 1945",
+  "incorrect": [
+   "September 2nd, 1945",
+   "August 9th, 1945",
+   "December 11th, 1945"
+  ]
+ },
+ {
+  "id": "otdb-history-ed26cb3896",
+  "question": "Which of the following African countries was most successful in resisting colonization?",
+  "correct": "Ethiopia",
+  "incorrect": [
+   "Côte d’Ivoire",
+   "Congo",
+   "Namibia"
+  ]
+ },
+ {
+  "id": "otdb-history-4743af3412",
+  "question": "Who discovered Penicillin?",
+  "correct": "Alexander Flemming",
+  "incorrect": [
+   "Marie Curie",
+   "Alfred Nobel",
+   "Louis Pasteur"
+  ]
+ },
+ {
+  "id": "otdb-history-ab0ce001c3",
+  "question": "Who was the first president of Kenya?",
+  "correct": "Jomo Kenyatta",
+  "incorrect": [
+   "Daniel Moi",
+   "Tom Mboya",
+   "Oginga Odinga"
+  ]
+ },
+ {
+  "id": "otdb-history-d59ed0e783",
+  "question": "What year did the Vietnam War end?",
+  "correct": "1975",
+  "incorrect": [
+   "1978",
+   "1967",
+   "1969"
+  ]
+ },
+ {
+  "id": "otdb-history-dcbeabf6a4",
+  "question": "When was \"The Gadget\", the first nuclear device to be detonated, tested?",
+  "correct": "July 16, 1945",
+  "incorrect": [
+   "June 22, 1945",
+   "August 6, 1945",
+   "April 5, 1945"
+  ]
+ },
+ {
+  "id": "otdb-history-c8d0dc9c8e",
+  "question": "Under which name was Rodrigo Borgia made Pope?",
+  "correct": "Alexander VI",
+  "incorrect": [
+   "Rodrigo I",
+   "John Paul II",
+   "Pius VII"
+  ]
+ },
+ {
+  "id": "otdb-history-766552ff42",
+  "question": "Who led the Communist Revolution of Russia?",
+  "correct": "Vladimir Lenin",
+  "incorrect": [
+   "Joseph Stalin",
+   "Vladimir Putin",
+   "Mikhail Gorbachev"
+  ]
+ },
+ {
+  "id": "otdb-history-f275210c81",
+  "question": "Who was the last emperor of Mexico?",
+  "correct": "Ferdinand Maximilian",
+  "incorrect": [
+   "Andrés Manuel López Obrador",
+   "Napoleon III",
+   "Agustín de Iturbide"
+  ]
+ },
+ {
+  "id": "otdb-history-b45241df4d",
+  "question": "What year did the Battle of Agincourt take place?",
+  "correct": "1415",
+  "incorrect": [
+   "1463",
+   "1401",
+   "1422"
+  ]
+ },
+ {
+  "id": "otdb-history-2f5173e788",
+  "question": "What is the bloodiest event in United States history, in terms of casualties?",
+  "correct": "Battle of Antietam",
+  "incorrect": [
+   "Pearl Harbor",
+   "September 11th",
+   "D-Day"
+  ]
+ },
+ {
+  "id": "otdb-history-9023f7f06e",
+  "question": "On which day did the attempted coup d'etat of 1991 in the Soviet Union begin?",
+  "correct": "August 19",
+  "incorrect": [
+   "August 21",
+   "December 26",
+   "December 24"
+  ]
+ },
+ {
+  "id": "otdb-history-592650271c",
+  "question": "When is the Ides of March?",
+  "correct": "March 15",
+  "incorrect": [
+   "March 14",
+   "March 31",
+   "March 1"
+  ]
+ },
+ {
+  "id": "otdb-history-d517133eb1",
+  "question": "John Moses Browning, the designer of the M1918 BAR (Browning Automatic Rifle) was a part of which religion?",
+  "correct": "Mormon",
+  "incorrect": [
+   "Catholic",
+   "Jewish",
+   "Atheist"
+  ]
+ },
+ {
+  "id": "otdb-history-950b36f18e",
+  "question": "On which day did ARPANET suffer a 4 hour long network crash?",
+  "correct": "October 27, 1980",
+  "incorrect": [
+   "November 21, 1969",
+   "October 29, 1969",
+   "December 9, 1991"
+  ]
+ },
+ {
+  "id": "otdb-history-3bbe1c3efd",
+  "question": "In the year 1900, what were the most popular first names given to boy and girl babies born in the United States?",
+  "correct": "John and Mary",
+  "incorrect": [
+   "Joseph and Catherine",
+   "William and Elizabeth",
+   "George and Anne"
+  ]
+ },
+ {
+  "id": "otdb-history-0eac431396",
+  "question": "When was Napoleon Bonaparte crowned emperor of the French? ",
+  "correct": " December 2nd 1804",
+  "incorrect": [
+   " July 3rd 1802",
+   " March 8th 1803",
+   " October 15th 1804"
+  ]
+ },
+ {
+  "id": "otdb-history-849adf869e",
+  "question": "How old was Lyndon B. Johnson when he assumed the role of President of the United States?",
+  "correct": "55",
+  "incorrect": [
+   "50",
+   "60",
+   "54"
+  ]
+ },
+ {
+  "id": "otdb-history-81e00f306d",
+  "question": "In what year did the Great Northern War, between Russia and Sweden, end?",
+  "correct": "1721",
+  "incorrect": [
+   "1726",
+   "1727",
+   "1724"
+  ]
+ },
+ {
+  "id": "otdb-history-ff9b963979",
+  "question": "When was the \"Siege of Leningrad\" lifted during World War II?",
+  "correct": "January 1944",
+  "incorrect": [
+   "September 1943",
+   "November 1943",
+   "March 1944"
+  ]
+ },
+ {
+  "id": "otdb-history-c88bc85487",
+  "question": "Which U.S. President was in office when the Gulf War began?",
+  "correct": "George H. W. Bush",
+  "incorrect": [
+   "Richard Nixon",
+   "George W. Bush ",
+   "Ronald Regan"
+  ]
+ },
+ {
+  "id": "otdb-history-33dba612d3",
+  "question": "What is widely considered to be the oldest civilization known to mankind?",
+  "correct": "Sumeria",
+  "incorrect": [
+   "Babylon",
+   "Assyria",
+   "Phoenicia"
+  ]
+ },
+ {
+  "id": "otdb-history-2a4bb44099",
+  "question": "What were the first states to break away from Yugoslavia?",
+  "correct": "Slovenia, Croatia",
+  "incorrect": [
+   "Macedonia, Montenegro",
+   "Slovenia, Macedonia",
+   "Montenegro, Slovenia"
+  ]
+ },
+ {
+  "id": "otdb-history-637a13d4da",
+  "question": "What was the name of the first permanent English settlement in America?",
+  "correct": "Jamestown",
+  "incorrect": [
+   "New York",
+   "St. John's",
+   "Plymouth"
+  ]
+ },
+ {
+  "id": "otdb-history-01495b878f",
+  "question": "Which country did the Eureka Rebellion, an 1856 battle against colonial rule, take place in?",
+  "correct": "Australia",
+  "incorrect": [
+   "India",
+   "Canada",
+   "Brazil"
+  ]
+ },
+ {
+  "id": "otdb-history-6b8c864476",
+  "question": "In what year did the Wall Street Crash take place?",
+  "correct": "1929",
+  "incorrect": [
+   "1932",
+   "1930",
+   "1925"
+  ]
+ },
+ {
+  "id": "otdb-history-6dcbc8de46",
+  "question": "Which is the hull NO. of the Fletcher class destroyer Fletcher?",
+  "correct": "DD-445",
+  "incorrect": [
+   "DD-992",
+   "DD-444",
+   "DD-446"
+  ]
+ },
+ {
+  "id": "otdb-history-8d02452c84",
+  "question": "What does the United States of America celebrate during the 4th of July?",
+  "correct": "The signing of the Declaration of Independence",
+  "incorrect": [
+   "The anniversary of the Battle of Gettysburg",
+   "The crossing of the Delaware River",
+   "The ratification of the Constitution"
+  ]
+ },
+ {
+  "id": "otdb-history-58e3105799",
+  "question": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+  "correct": "Silver",
+  "incorrect": [
+   "Gold",
+   "Juno",
+   "Sword"
+  ]
+ },
+ {
+  "id": "otdb-history-8d123ea437",
+  "question": "The Bohemian Revolt (1618-1620) started after Protestants in Prague did what to their Catholic Lords Regents?",
+  "correct": "Threw them out of a window",
+  "incorrect": [
+   "Insulted their mothers",
+   "Locked them in stockades",
+   "Hung them."
+  ]
+ },
+ {
+  "id": "otdb-history-825e0496af",
+  "question": "Who was the first mammal successfully launched into Earth's orbit?",
+  "correct": "Laika, the dog",
+  "incorrect": [
+   "Ham, the chimpanzee",
+   "Baker, the monkey",
+   "Belka, the dog"
+  ]
+ },
+ {
+  "id": "otdb-history-9847aaedc6",
+  "question": "Which English king was married to Eleanor of Aquitaine?",
+  "correct": "Henry II",
+  "incorrect": [
+   "Richard I",
+   "Henry I",
+   "Henry V"
+  ]
+ },
+ {
+  "id": "otdb-history-d660525423",
+  "question": "Who was the first president born in the independent United States?",
+  "correct": "Martin Van Buren",
+  "incorrect": [
+   "John Adams",
+   "George Washington",
+   "James Monroe "
+  ]
+ },
+ {
+  "id": "otdb-history-236414bdde",
+  "question": "What was Manfred von Richthofen's nickname?",
+  "correct": "The Red Baron",
+  "incorrect": [
+   "The High Flying Ace",
+   "The Blue Serpent ",
+   "The Germany Gunner"
+  ]
+ },
+ {
+  "id": "otdb-history-864bc2717c",
+  "question": "Which of the following years is commonly referred to as the \"Year Without a Summer\"?",
+  "correct": "1816",
+  "incorrect": [
+   "1823",
+   "1813",
+   "1808"
+  ]
+ },
+ {
+  "id": "otdb-history-ac2967fc00",
+  "question": "When did Canada leave the confederation to become their own nation?",
+  "correct": "July 1st, 1867",
+  "incorrect": [
+   "July 1st, 1763",
+   "July 1st, 1832",
+   "July 1st, 1902"
+  ]
+ },
+ {
+  "id": "otdb-history-27ecda88e2",
+  "question": "Which game was the Game of the Year in 2018?",
+  "correct": "God of War",
+  "incorrect": [
+   "Detroit: Become Human",
+   "Red Dead Redemption 2",
+   "A Way Out"
+  ]
+ },
+ {
+  "id": "otdb-history-af724251bf",
+  "question": "What is the name of the US Navy spy ship which was attacked and captured by North Korean forces in 1968?",
+  "correct": "USS Pueblo",
+  "incorrect": [
+   "USS North Carolina",
+   "USS Constitution",
+   "USS Indianapolis"
+  ]
+ },
+ {
+  "id": "otdb-history-97127fb761",
+  "question": "What year did the Boxing Day earthquake & tsunami occur in the Indian Ocean?",
+  "correct": "2004",
+  "incorrect": [
+   "2006",
+   "2008",
+   "2002"
+  ]
+ },
+ {
+  "id": "otdb-history-c8337250d8",
+  "question": "In what year did the nuclear power plant in Chernobyl melt down?",
+  "correct": "1986",
+  "incorrect": [
+   "1991",
+   "1975",
+   "1998"
+  ]
+ },
+ {
+  "id": "otdb-history-45ad180fb0",
+  "question": "What date was the first flight of the P-40 Warhawk?",
+  "correct": "October 14 1938",
+  "incorrect": [
+   "August 21 1939",
+   "January 12 1940",
+   "June 1 1939"
+  ]
+ },
+ {
+  "id": "otdb-history-3d62061f8b",
+  "question": "In what year was the M1911 pistol designed?",
+  "correct": "1911",
+  "incorrect": [
+   "1907",
+   "1899",
+   "1917"
+  ]
+ },
+ {
+  "id": "otdb-history-434bc2e373",
+  "question": "Which modern country is known as \"The Graveyard of Empires\"?",
+  "correct": "Afghanistan",
+  "incorrect": [
+   "China",
+   "Iraq",
+   "Russia"
+  ]
+ },
+ {
+  "id": "otdb-history-a964c1cfc9",
+  "question": "In which year was Constantinople conquered by the Turks?",
+  "correct": "1453",
+  "incorrect": [
+   "1435",
+   "1454",
+   "1440"
+  ]
+ },
+ {
+  "id": "otdb-history-b4505dff70",
+  "question": "Who was the Prime Minister of Japan when Japan declared war on the US?",
+  "correct": "Hideki Tojo",
+  "incorrect": [
+   "Michinomiya Hirohito",
+   "Isoroku Yamamoto",
+   "Fumimaro Konoe"
+  ]
+ },
+ {
+  "id": "otdb-history-9ea627bce0",
+  "question": "Where was Portuguese explorer Ferdinand Magellan killed in 1521?",
+  "correct": "The Phillipines",
+  "incorrect": [
+   "Canary Islands",
+   "Guam",
+   "Argentina"
+  ]
+ },
+ {
+  "id": "otdb-history-825eaac340",
+  "question": "Pianist Frédéric Chopin was a composer of which musical era?",
+  "correct": "Romantic",
+  "incorrect": [
+   "Classic",
+   "Baroque",
+   "Renaissance"
+  ]
+ },
+ {
+  "id": "otdb-history-bafc5ba9fc",
+  "question": "During which American Civil War campaign did Union troops dig a tunnel beneath Confederate troops to detonate explosives underneath them?",
+  "correct": "Siege of Petersburg",
+  "incorrect": [
+   "Siege of Vicksburg",
+   "Antietam Campaign",
+   "Gettysburg Campagin"
+  ]
+ },
+ {
+  "id": "otdb-history-1e93dababf",
+  "question": "The coat of arms of the King of Spain contains the arms from the monarchs of Castille, Leon, Aragon and which other former Iberian kingdom?",
+  "correct": "Navarre",
+  "incorrect": [
+   "Galicia",
+   "Granada",
+   "Catalonia"
+  ]
+ },
+ {
+  "id": "otdb-history-ac0f016c33",
+  "question": "Pol Pot was the former dictator of which country?",
+  "correct": "Cambodia",
+  "incorrect": [
+   "Laos",
+   "North Korea",
+   "Vietnam"
+  ]
+ },
+ {
+  "id": "otdb-history-de84760186",
+  "question": "Who was the first man to travel into outer space twice?",
+  "correct": "Gus Grissom",
+  "incorrect": [
+   "Vladimir Komarov",
+   "Charles Conrad",
+   "Yuri Gagarin"
+  ]
+ },
+ {
+  "id": "otdb-history-6af95e459f",
+  "question": "In which year was Nelson Mandela released from prison",
+  "correct": "1990",
+  "incorrect": [
+   "1994",
+   "1992",
+   "1980"
+  ]
+ },
+ {
+  "id": "otdb-history-e3925bd87e",
+  "question": "What age was King Henry V when he died?",
+  "correct": "35",
+  "incorrect": [
+   "62",
+   "87",
+   "73"
+  ]
+ },
+ {
+  "id": "otdb-history-1a54102b08",
+  "question": "In World War I, what was the name of the alliance of Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria?",
+  "correct": "The Central Powers",
+  "incorrect": [
+   "The Axis Powers",
+   "The Federation of Empires",
+   "Authoritarian Alliance"
+  ]
+ },
+ {
+  "id": "otdb-history-4c176142eb",
+  "question": "What was the name of the African-American cultural explosion centered in upper Manhattan during the 1920s and 1930s?",
+  "correct": "Harlem Renaissance",
+  "incorrect": [
+   "Inwood Renaissance",
+   "Bed-Stuy Renaissance",
+   "Upper East Renaissance"
+  ]
+ },
+ {
+  "id": "otdb-history-6d7a1ccdb5",
+  "question": "What was the original name of New York City?",
+  "correct": "New Amsterdam",
+  "incorrect": [
+   "New London",
+   "New Paris",
+   "New Rome"
+  ]
+ }
+]

@@ -2,7 +2,8 @@ import { LinearGradient } from "expo-linear-gradient";
 import type { ReactNode } from "react";
 import { ScrollView, StyleSheet, View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { colors, layout, rtl } from "@/theme";
+import { useI18n } from "@/i18n";
+import { colors, directionStyle, layout } from "@/theme";
 import { IconButton } from "./IconButton";
 import { Text } from "./Text";
 import type { Href } from "expo-router";
@@ -28,9 +29,10 @@ interface ScreenProps {
  */
 export function Screen({ children, background = "plain", overlay }: ScreenProps) {
   const insets = useSafeAreaInsets();
+  const { dir } = useI18n();
   const gradient = background === "plain" ? null : GRADIENTS[background];
   return (
-    <View style={styles.root}>
+    <View style={[styles.root, directionStyle(dir)]}>
       {gradient && <LinearGradient colors={gradient.colors} locations={gradient.locations} style={StyleSheet.absoluteFill} />}
       <ScrollView
         style={styles.scroll}
@@ -61,10 +63,11 @@ interface ScreenHeaderProps {
   onBack?: () => void;
 }
 
-export function ScreenHeader({ title, backHref, backLabel = "رجوع", onBack }: ScreenHeaderProps) {
+export function ScreenHeader({ title, backHref, backLabel, onBack }: ScreenHeaderProps) {
+  const { t } = useI18n();
   return (
     <View style={styles.header}>
-      {(backHref || onBack) && <IconButton icon="chevronBack" href={backHref} onPress={onBack} label={backLabel} />}
+      {(backHref || onBack) && <IconButton icon="chevronBack" href={backHref} onPress={onBack} label={backLabel ?? t.back} />}
       {title && (
         <Text weight="heavy" size={20} role="heading">
           {title}
@@ -85,5 +88,5 @@ const styles = StyleSheet.create({
     paddingHorizontal: layout.gutter,
   },
   spacer: { flexGrow: 1, minHeight: 24 },
-  header: { flexDirection: rtl.row, alignItems: "center", gap: 12 },
+  header: { flexDirection: "row", alignItems: "center", gap: 12 },
 });

@@ -1,0 +1,7010 @@
+[
+  {
+    "id": "otdb-sports-ef94fcb35c",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who won the \"Champions League\" in 1999?",
+    "correct": "Manchester United",
+    "incorrect": [
+      "Barcelona",
+      "Bayern Munich",
+      "Liverpool"
+    ]
+  },
+  {
+    "id": "otdb-sports-bd77947a49",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which NBA player has the most games played over the course of their career?",
+    "correct": "Robert Parish",
+    "incorrect": [
+      "Kareem Abdul-Jabbar",
+      "Kevin Garnett",
+      "Kobe Bryant"
+    ]
+  },
+  {
+    "id": "otdb-sports-38e43091c4",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "In what sport does Fanny Chmelar compete for Germany?",
+    "correct": "Skiing",
+    "incorrect": [
+      "Swimming",
+      "Showjumping",
+      "Gymnastics"
+    ]
+  },
+  {
+    "id": "otdb-sports-e6a04106c9",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Who did Drew Brees pass in all time NFL passing yards in 2018?",
+    "correct": "Peyton Manning",
+    "incorrect": [
+      "Tom Brady",
+      "Dan Marino",
+      "Joe Montana"
+    ]
+  },
+  {
+    "id": "otdb-sports-3aeebc4f5e",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which of these teams isn't a member of the NHL's \"Original Six\" era?",
+    "correct": "Philadelphia Flyers",
+    "incorrect": [
+      "New York Rangers",
+      "Toronto Maple Leafs",
+      "Boston Bruins"
+    ]
+  },
+  {
+    "id": "otdb-sports-fcf70f2700",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which soccer team won the Copa América 2015 Championship ?",
+    "correct": "Chile",
+    "incorrect": [
+      "Argentina",
+      "Brazil",
+      "Paraguay"
+    ]
+  },
+  {
+    "id": "otdb-sports-ebee26ca8d",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "The Los Angeles Dodgers were originally from what U.S. city?",
+    "correct": "Brooklyn",
+    "incorrect": [
+      "Las Vegas",
+      "Boston",
+      "Seattle"
+    ]
+  },
+  {
+    "id": "otdb-sports-921c019f89",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which Italian footballer told Neuer where he's putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?",
+    "correct": "Pelle",
+    "incorrect": [
+      "Insigne",
+      "Barzagli",
+      "Giaccherini"
+    ]
+  },
+  {
+    "id": "otdb-sports-78c4d7b998",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What is the name of the \"tool\" used to hit the white ball in snooker or billiards?",
+    "correct": "Cue",
+    "incorrect": [
+      "Racquet",
+      "Bat",
+      "Mallet"
+    ]
+  },
+  {
+    "id": "otdb-sports-6012ee0f80",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What is the exact length of one non-curved part in Lane 1 of an Olympic Track?",
+    "correct": "84.39m",
+    "incorrect": [
+      "100m",
+      "100yd",
+      "109.36yd"
+    ]
+  },
+  {
+    "id": "otdb-sports-87e64dd3a2",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many French Open's did Björn Borg win?",
+    "correct": "6",
+    "incorrect": [
+      "4",
+      "9",
+      "2"
+    ]
+  },
+  {
+    "id": "otdb-sports-335dabe98a",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which of these NHL players have never won a Hart Trophy for Regular Season MVP?",
+    "correct": "Steve Yzerman",
+    "incorrect": [
+      "Chris Pronger",
+      "Jose Theodore",
+      "Henrik Sedin"
+    ]
+  },
+  {
+    "id": "otdb-sports-8676c76697",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Where was the Games of the XXII Olympiad held?",
+    "correct": "Moscow",
+    "incorrect": [
+      "Barcelona",
+      "Tokyo",
+      "Los Angeles"
+    ]
+  },
+  {
+    "id": "otdb-sports-b06f2c0c11",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which boxer was banned for taking a bite out of Evander Holyfield's ear in 1997?",
+    "correct": "Mike Tyson",
+    "incorrect": [
+      "Roy Jones Jr.",
+      "Evander Holyfield",
+      "Lennox Lewis"
+    ]
+  },
+  {
+    "id": "otdb-sports-088965795a",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Hockey player Wayne Gretzky was born in what Canadian province?",
+    "correct": "Ontario",
+    "incorrect": [
+      "British Columbia",
+      "Quebec",
+      "Alberta"
+    ]
+  },
+  {
+    "id": "otdb-sports-5d4757b818",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which year was the third Super Bowl held?",
+    "correct": "1969",
+    "incorrect": [
+      "1968",
+      "1971",
+      "1970"
+    ]
+  },
+  {
+    "id": "otdb-sports-d1c0afb397",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which English football team is nicknamed 'The Tigers'?",
+    "correct": "Hull City",
+    "incorrect": [
+      "Cardiff City",
+      "Bristol City",
+      "Manchester City"
+    ]
+  },
+  {
+    "id": "otdb-sports-af46156d0e",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which country produced football players such as Cafu, Roberto Carlos and Pelé?",
+    "correct": "Brazil",
+    "incorrect": [
+      "Argentina",
+      "Portugal",
+      "Spain"
+    ]
+  },
+  {
+    "id": "otdb-sports-5c1e4e40f5",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Who did Steven Gerrard win the Champions League with?",
+    "correct": "Liverpool",
+    "incorrect": [
+      "Real Madrid",
+      "Chelsea",
+      "Man City"
+    ]
+  },
+  {
+    "id": "otdb-sports-bf439afe50",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Who is often called \"the Maestro\" in the men's tennis circuit?",
+    "correct": "Roger Federer",
+    "incorrect": [
+      "Bill Tilden",
+      "Boris Becker",
+      "Pete Sampras"
+    ]
+  },
+  {
+    "id": "otdb-sports-b0510c4b6e",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which country hosted the 2018 FIFA World Cup?",
+    "correct": "Russia",
+    "incorrect": [
+      "Germany",
+      "United States",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "id": "otdb-sports-793bd42b45",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What was the year of estabilishment of the Bari Italian Football Club?",
+    "correct": "1908",
+    "incorrect": [
+      "1945",
+      "2014",
+      "1895"
+    ]
+  },
+  {
+    "id": "otdb-sports-966474a80a",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
+    "correct": "Ma Long (China)",
+    "incorrect": [
+      "Zhang Jike (China)",
+      "Jun Mizutani (Japan)",
+      "Vladimir Samsonov (Belarus)"
+    ]
+  },
+  {
+    "id": "otdb-sports-d37c8b2f22",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "In a game of snooker, what colour ball is worth 3 points?",
+    "correct": "Green",
+    "incorrect": [
+      "Yellow",
+      "Brown",
+      "Blue"
+    ]
+  },
+  {
+    "id": "otdb-sports-9b9d13c826",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "This Canadian television sportscaster is known for his \"Hockey Night in Canada\" role, a commentary show during hockey games.",
+    "correct": "Don Cherry",
+    "incorrect": [
+      "Don McKellar",
+      "Don Taylor ",
+      "Donald Sutherland"
+    ]
+  },
+  {
+    "id": "otdb-sports-beae86a6d7",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "When was the first official international game played?",
+    "correct": "1872",
+    "incorrect": [
+      "1880",
+      "1863",
+      "1865"
+    ]
+  },
+  {
+    "id": "otdb-sports-d518ec9895",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who won the 2015 College Football Playoff (CFP) National Championship? ",
+    "correct": "Ohio State Buckeyes",
+    "incorrect": [
+      "Alabama Crimson Tide",
+      "Clemson Tigers",
+      "Wisconsin Badgers"
+    ]
+  },
+  {
+    "id": "otdb-sports-0bf14d800d",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which portuguese island is soccer player Cristiano Ronaldo from?",
+    "correct": "Madeira",
+    "incorrect": [
+      "Terceira",
+      "Santa Maria",
+      "Porto Santo"
+    ]
+  },
+  {
+    "id": "otdb-sports-c4a8fbe1d1",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which basketball team has attended the most NBA grand finals?",
+    "correct": "Los Angeles Lakers",
+    "incorrect": [
+      "Boston Celtics",
+      "Philadelphia 76ers",
+      "Golden State Warriors"
+    ]
+  },
+  {
+    "id": "otdb-sports-96ae8a7764",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which driver has been the Formula 1 world champion for a record 7 times?",
+    "correct": "Michael Schumacher",
+    "incorrect": [
+      "Ayrton Senna",
+      "Fernando Alonso",
+      "Jim Clark"
+    ]
+  },
+  {
+    "id": "otdb-sports-5b8183c2f5",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
+    "correct": "Nine",
+    "incorrect": [
+      "Ten",
+      "Seven",
+      "Eight"
+    ]
+  },
+  {
+    "id": "otdb-sports-e8bc60f332",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who was the first footballer to score 200 goals in the English Premier League?",
+    "correct": "Alan Shearer",
+    "incorrect": [
+      "Wayne Rooney",
+      "Robbie Fowler",
+      "Thierry Henry"
+    ]
+  },
+  {
+    "id": "otdb-sports-4335cf25a8",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who won the 2011 Stanley Cup?",
+    "correct": "Boston Bruins",
+    "incorrect": [
+      "Montreal Canadiens",
+      "New York Rangers",
+      "Toronto Maple Leafs"
+    ]
+  },
+  {
+    "id": "otdb-sports-f50b1caa17",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which NFL team plays for New England?",
+    "correct": "Patriots",
+    "incorrect": [
+      "Chiefs",
+      "Dolphins",
+      "49ers"
+    ]
+  },
+  {
+    "id": "otdb-sports-bae0234226",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "\"Stadium of Light\" is the home stadium for which soccer team?",
+    "correct": "Sunderland FC",
+    "incorrect": [
+      "Barcelona FC",
+      "Paris Saints-Germain",
+      "Manchester United"
+    ]
+  },
+  {
+    "id": "otdb-sports-62ca6a7f62",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "At which bridge does the annual Oxford and Cambridge boat race start?",
+    "correct": "Putney",
+    "incorrect": [
+      "Hammersmith",
+      "Vauxhall ",
+      "Battersea"
+    ]
+  },
+  {
+    "id": "otdb-sports-501364b1ef",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which country won the 2018 FIFA World Cup hosted in Russia?",
+    "correct": "France",
+    "incorrect": [
+      "Croatia",
+      "Belgium",
+      "England"
+    ]
+  },
+  {
+    "id": "otdb-sports-4b4d08eda9",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "In 2016, who won the Formula 1 World Constructor's Championship for the third time in a row?",
+    "correct": "Mercedes-AMG Petronas",
+    "incorrect": [
+      "Scuderia Ferrari",
+      "McLaren Honda",
+      "Red Bull Racing Renault"
+    ]
+  },
+  {
+    "id": "otdb-sports-d5c86fb8ce",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who is Manchester United's top premier league goal scorer?",
+    "correct": "Wayne Rooney",
+    "incorrect": [
+      "Sir Bobby Charlton",
+      "Ryan Giggs",
+      "David Beckham"
+    ]
+  },
+  {
+    "id": "otdb-sports-4b5526de8c",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What is the oldest team in the NFL?",
+    "correct": "Arizona Cardinals",
+    "incorrect": [
+      "Chicago Bears",
+      "Green Bay Packers",
+      "New York Giants"
+    ]
+  },
+  {
+    "id": "otdb-sports-2c2e96fb8e",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which city did the former NHL team \"The Nordiques\" originiate from?",
+    "correct": "Quebec City",
+    "incorrect": [
+      "Houston",
+      "Montreal",
+      "New York"
+    ]
+  },
+  {
+    "id": "otdb-sports-7cf667a447",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What sport features the terms love, deuce, match and volley?",
+    "correct": "Tennis",
+    "incorrect": [
+      "Cricket",
+      "Basketball",
+      "Curling"
+    ]
+  },
+  {
+    "id": "otdb-sports-f620ca3c54",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "What is “The Sport of Kings”?",
+    "correct": "Horse Racing",
+    "incorrect": [
+      "Chess",
+      "Jousting",
+      "Fencing"
+    ]
+  },
+  {
+    "id": "otdb-sports-12ee12715e",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What national team won the 2016 edition of UEFA European Championship?",
+    "correct": "Portugal",
+    "incorrect": [
+      "France",
+      "Germany",
+      "England"
+    ]
+  },
+  {
+    "id": "otdb-sports-ccc0e1ae1a",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who has played the most tournaments in the German national soccer team?",
+    "correct": "Lothar Matthäus",
+    "incorrect": [
+      "Miroslav Klose",
+      "Philipp Lahm",
+      "Oliver Kahn"
+    ]
+  },
+  {
+    "id": "otdb-sports-7f2b1ddc5b",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who won NFL Super Bowl LI? (51)",
+    "correct": "Patriots",
+    "incorrect": [
+      "Falcons",
+      "Broncos",
+      "Eagles"
+    ]
+  },
+  {
+    "id": "otdb-sports-3436a34455",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
+    "correct": "4",
+    "incorrect": [
+      "1",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "id": "otdb-sports-5f1d9913eb",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "With which team did Michael Schumacher make his Formula One debut at the 1991 Belgian Grand Prix?",
+    "correct": "Jordan",
+    "incorrect": [
+      "Benetton",
+      "Ferrari",
+      "Mercedes"
+    ]
+  },
+  {
+    "id": "otdb-sports-f5c97ed1cb",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "What is the full name of the footballer \"Cristiano Ronaldo\"?",
+    "correct": "Cristiano Ronaldo dos Santos Aveiro",
+    "incorrect": [
+      "Cristiano Ronaldo los Santos Diego",
+      "Cristiano Armando Diego Ronaldo",
+      "Cristiano Luis Armando Ronaldo"
+    ]
+  },
+  {
+    "id": "otdb-sports-a24d5e429e",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "What team did England beat in the semi-final stage to win in the 1966 World Cup final?",
+    "correct": "Portugal",
+    "incorrect": [
+      "West Germany",
+      "Soviet Union",
+      "Brazil"
+    ]
+  },
+  {
+    "id": "otdb-sports-fe43d20b69",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who was the British professional wrestler Shirley Crabtree better known as?",
+    "correct": "Big Daddy",
+    "incorrect": [
+      "Giant Haystacks",
+      "Kendo Nagasaki",
+      "Masambula"
+    ]
+  },
+  {
+    "id": "otdb-sports-b56372c6ec",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which is Kenesisa Bekele's personal best at marathon?",
+    "correct": "2:01:41",
+    "incorrect": [
+      "2:01:12",
+      "2:01:45",
+      "2:01:51"
+    ]
+  },
+  {
+    "id": "otdb-sports-5274b8aa1c",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which of the following sports is not part of the triathlon?",
+    "correct": "Horse-Riding",
+    "incorrect": [
+      "Cycling",
+      "Swimming",
+      "Running"
+    ]
+  },
+  {
+    "id": "otdb-sports-a1be12f821",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Who won the 2017 Formula One World Drivers' Championship?",
+    "correct": "Lewis Hamilton",
+    "incorrect": [
+      "Sebastian Vettel",
+      "Nico Rosberg",
+      "Max Verstappen"
+    ]
+  },
+  {
+    "id": "otdb-sports-f637fa7283",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many players are there in an association football/soccer team?",
+    "correct": "11",
+    "incorrect": [
+      "10",
+      "9",
+      "8"
+    ]
+  },
+  {
+    "id": "otdb-sports-7a1f6eb879",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What city did the Lakers represent before relocating to Los Angeles?",
+    "correct": "Minneapolis",
+    "incorrect": [
+      "Philadelphia",
+      "Chicago",
+      "San Francisco"
+    ]
+  },
+  {
+    "id": "otdb-sports-f6efd38514",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which of these NHL teams have never moved since their inception?",
+    "correct": "St. Louis Blues",
+    "incorrect": [
+      "New Jersey Devils",
+      "Carolina Hurricanes",
+      "Dallas Stars"
+    ]
+  },
+  {
+    "id": "otdb-sports-f7c92d5eab",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "In what country were the 2014 Winter Olympics held in the town of Sochi?",
+    "correct": "Russia",
+    "incorrect": [
+      "South Korea",
+      "Norway",
+      "Canada"
+    ]
+  },
+  {
+    "id": "otdb-sports-1eea042143",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What was Sir Donald Bradman's batting average in test matches?",
+    "correct": "99.94",
+    "incorrect": [
+      "100",
+      "69.51",
+      "44.78"
+    ]
+  },
+  {
+    "id": "otdb-sports-936aabd0d4",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which of the following player scored a hat-trick during their Manchester United debut?",
+    "correct": "Wayne Rooney",
+    "incorrect": [
+      "Cristiano Ronaldo",
+      "Robin Van Persie",
+      "David Beckham"
+    ]
+  },
+  {
+    "id": "otdb-sports-903474d8aa",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which English football club has the nickname 'The Foxes'?",
+    "correct": "Leicester City",
+    "incorrect": [
+      "Northampton Town",
+      "Bradford City",
+      "West Bromwich Albion"
+    ]
+  },
+  {
+    "id": "otdb-sports-d81d0a253c",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What cricketing term denotes a batsman being dismissed with a score of zero?",
+    "correct": "Duck",
+    "incorrect": [
+      "Bye",
+      "Beamer",
+      "Carry"
+    ]
+  },
+  {
+    "id": "otdb-sports-f05d2bd06c",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Josh Mansour is part of what NRL team?",
+    "correct": "Penrith Panthers",
+    "incorrect": [
+      "Melbourne Storm",
+      "Sydney Roosters",
+      "North Queensland Cowboys"
+    ]
+  },
+  {
+    "id": "otdb-sports-32f172a452",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which soccer team won the Copa América Centenario 2016?",
+    "correct": "Chile",
+    "incorrect": [
+      "Argentina",
+      "Brazil",
+      "Colombia"
+    ]
+  },
+  {
+    "id": "otdb-sports-4b6035b6c6",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In golf, what name is given to a hole score of two under par?",
+    "correct": "Eagle",
+    "incorrect": [
+      "Birdie",
+      "Bogey",
+      "Albatross"
+    ]
+  },
+  {
+    "id": "otdb-sports-078172726f",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What country hosted the 2014 Winter Olympics?",
+    "correct": "Russia",
+    "incorrect": [
+      "Canada",
+      "United States",
+      "Germany"
+    ]
+  },
+  {
+    "id": "otdb-sports-d211489b32",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "The UEFA Champions League is an annual club football competition featuring clubs from which continent?",
+    "correct": "Europe",
+    "incorrect": [
+      "South America",
+      "Africa",
+      "Asia"
+    ]
+  },
+  {
+    "id": "otdb-sports-9ef1dca5f4",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who is regarded as the best Romanian footballer of all time?",
+    "correct": "Gheorghe Hagi",
+    "incorrect": [
+      "Cristian Chivu",
+      "Nicolae Dobrin",
+      "Gheorghe Popescu"
+    ]
+  },
+  {
+    "id": "otdb-sports-a13419cbf3",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which wrestler won the 2019 Men’s Royal Rumble?",
+    "correct": "Seth Rollins",
+    "incorrect": [
+      "Braun Strowman",
+      "AJ Styles",
+      "Andrade"
+    ]
+  },
+  {
+    "id": "otdb-sports-f1df49cb21",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which country hosted the 2020 Summer Olympics?",
+    "correct": "Japan",
+    "incorrect": [
+      "China",
+      "Australia",
+      "Germany"
+    ]
+  },
+  {
+    "id": "otdb-sports-81233a576f",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which country hosted the 2022 FIFA World Cup?",
+    "correct": "Qatar",
+    "incorrect": [
+      "USA",
+      "Japan",
+      "Switzerland"
+    ]
+  },
+  {
+    "id": "otdb-sports-ea26702b15",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "What tool lends it's name to a last-stone advantage in an end in Curling?",
+    "correct": "Hammer",
+    "incorrect": [
+      "Wrench",
+      "Drill",
+      "Screwdriver"
+    ]
+  },
+  {
+    "id": "otdb-sports-b9087ba68a",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which NBA player won Most Valuable Player for the 1999-2000 season?",
+    "correct": "Shaquille O'Neal",
+    "incorrect": [
+      "Allen Iverson",
+      "Kobe Bryant",
+      "Paul Pierce"
+    ]
+  },
+  {
+    "id": "otdb-sports-6f4052c248",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which of these Russian cities did NOT contain a stadium that was used in the 2018 FIFA World Cup?",
+    "correct": "Vladivostok",
+    "incorrect": [
+      "Rostov-on-Don",
+      "Yekaterinburg",
+      "Kaliningrad"
+    ]
+  },
+  {
+    "id": "otdb-sports-149b4b2127",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which player has scored the most goals in the England Premier League (EPL)?",
+    "correct": "Alan Shearer",
+    "incorrect": [
+      "Wayne Rooney",
+      "Lionel Messi",
+      "Didier Drogba"
+    ]
+  },
+  {
+    "id": "otdb-sports-eb268f6e9e",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which of these NHL teams originally played in Atlanta?",
+    "correct": "Calgary Flames",
+    "incorrect": [
+      "St. Louis Blues",
+      "Minnesota Wild",
+      "Vancouver Canucks"
+    ]
+  },
+  {
+    "id": "otdb-sports-d7cd2f1ada",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In bowling, what is the term used for getting three consecutive strikes?",
+    "correct": "Turkey",
+    "incorrect": [
+      "Flamingo",
+      "Birdie",
+      "Eagle"
+    ]
+  },
+  {
+    "id": "otdb-sports-d80d317579",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which car manufacturer won the 2017 24 Hours of Le Mans?",
+    "correct": "Porsche",
+    "incorrect": [
+      "Toyota",
+      "Audi",
+      "Chevrolet"
+    ]
+  },
+  {
+    "id": "otdb-sports-adf7defe29",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who won the 2018 Monaco Grand Prix?",
+    "correct": "Daniel Ricciardo",
+    "incorrect": [
+      "Sebastian Vettel",
+      "Kimi Raikkonen",
+      "Lewis Hamilton"
+    ]
+  },
+  {
+    "id": "otdb-sports-6862fc52a7",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which football manager won more trophies than any other during his tenure at English football club Manchester United?",
+    "correct": "Sir Alex Ferguson",
+    "incorrect": [
+      "David Moyes",
+      "Louis van Gaal",
+      "José Mourinho"
+    ]
+  },
+  {
+    "id": "otdb-sports-bd5b4748c8",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In baseball, how many fouls are an out?",
+    "correct": "0",
+    "incorrect": [
+      "5",
+      "3",
+      "2"
+    ]
+  },
+  {
+    "id": "otdb-sports-23ca1da737",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What year did the New Orleans Saints win the Super Bowl?",
+    "correct": "2010",
+    "incorrect": [
+      "2008",
+      "2009",
+      "2011"
+    ]
+  },
+  {
+    "id": "otdb-sports-faa18c936d",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which team was the 2014-2015 NBA Champions?",
+    "correct": "Golden State Warriors",
+    "incorrect": [
+      "Cleveland Cavaliers",
+      "Houston Rockets",
+      "Atlanta Hawks"
+    ]
+  },
+  {
+    "id": "otdb-sports-a3b9cd2657",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In what sport is a \"shuttlecock\" used?",
+    "correct": "Badminton",
+    "incorrect": [
+      "Table Tennis",
+      "Rugby",
+      "Cricket"
+    ]
+  },
+  {
+    "id": "otdb-sports-48c77ab7ff",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Who won the 2016 Formula 1 World Driver's Championship?",
+    "correct": "Nico Rosberg",
+    "incorrect": [
+      "Lewis Hamilton",
+      "Max Verstappen",
+      "Kimi Raikkonen"
+    ]
+  },
+  {
+    "id": "otdb-sports-2e569da969",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "In what year did Steaua București win the European Cup, actual UEFA Champions League, against FC Barcelona?",
+    "correct": "1986",
+    "incorrect": [
+      "1990",
+      "1982",
+      "1989"
+    ]
+  },
+  {
+    "id": "otdb-sports-1577baa13e",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Formula One driver was nicknamed 'The Professor'?",
+    "correct": "Alain Prost",
+    "incorrect": [
+      "Ayrton Senna",
+      "Niki Lauda",
+      "Emerson Fittipaldi"
+    ]
+  },
+  {
+    "id": "otdb-sports-6ef2c33df8",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which German sportswear company's logo is the 'Formstripe'?",
+    "correct": "Puma",
+    "incorrect": [
+      "Nike",
+      "Adidas",
+      "Reebok"
+    ]
+  },
+  {
+    "id": "otdb-sports-c9f7d7cd4c",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What is Tiger Woods' all-time best career golf-score?",
+    "correct": "61",
+    "incorrect": [
+      "65",
+      "63",
+      "67"
+    ]
+  },
+  {
+    "id": "otdb-sports-bb3c293917",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What is the most common type of pitch thrown by pitchers in baseball?",
+    "correct": "Fastball",
+    "incorrect": [
+      "Slowball",
+      "Screwball",
+      "Palmball"
+    ]
+  },
+  {
+    "id": "otdb-sports-75639b86bb",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Edson Arantes do Nascimento is the full name of which legendary football player?",
+    "correct": "Pelé",
+    "incorrect": [
+      "Romário",
+      "Zico",
+      "Ronaldinho"
+    ]
+  },
+  {
+    "id": "otdb-sports-d42122ef37",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "At which race was the 2018 F1 Drivers Championship won?",
+    "correct": "Mexico",
+    "incorrect": [
+      "United States",
+      "Belgium",
+      "Abu Dhabi"
+    ]
+  },
+  {
+    "id": "otdb-sports-0d55dcf75d",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Who won the UEFA Champions League in 2017?",
+    "correct": "Real Madrid C.F.",
+    "incorrect": [
+      "Atletico Madrid",
+      "AS Monaco FC",
+      "Juventus F.C."
+    ]
+  },
+  {
+    "id": "otdb-sports-448fa7558c",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Who won the premier league title in the 2015-2016 season following a fairy tale run?",
+    "correct": "Leicester City",
+    "incorrect": [
+      "Tottenham Hotspur",
+      "Watford",
+      "Stoke City"
+    ]
+  },
+  {
+    "id": "otdb-sports-dfc95b9838",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many scoring zones are there on a conventional dart board?",
+    "correct": "82",
+    "incorrect": [
+      "62",
+      "42",
+      "102"
+    ]
+  },
+  {
+    "id": "otdb-sports-c043548cad",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Who won the 2015 Formula 1 World Championship?",
+    "correct": "Lewis Hamilton",
+    "incorrect": [
+      "Nico Rosberg",
+      "Sebastian Vettel",
+      "Jenson Button"
+    ]
+  },
+  {
+    "id": "otdb-sports-118412f73e",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "When was the FC Schalke 04 founded?",
+    "correct": "1904",
+    "incorrect": [
+      "1909",
+      "2008",
+      "1999"
+    ]
+  },
+  {
+    "id": "otdb-sports-2dfdc8c47d",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which team won 2014 FIFA World Cup in Brazil?",
+    "correct": "Germany",
+    "incorrect": [
+      "Argentina",
+      "Brazil",
+      "Netherlands"
+    ]
+  },
+  {
+    "id": "otdb-sports-e3b9706abe",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "The 1988 Formula 1 season had McLaren win all but one race, what race did they not win?",
+    "correct": "Italian Grand Prix",
+    "incorrect": [
+      "Japanese Grand Prix",
+      "Monaco Grand Prix",
+      "Brazilian Grand Prix"
+    ]
+  },
+  {
+    "id": "otdb-sports-fd17a41a0e",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What is the oldest team in Major League Baseball?",
+    "correct": "Atlanta Braves",
+    "incorrect": [
+      "Chicago Cubs",
+      "Cincinnati Reds",
+      "St. Louis Cardinals"
+    ]
+  },
+  {
+    "id": "otdb-sports-15364ba138",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who won the 1994 San Marino Grand Prix, the race in which Ayrton Senna was killed?",
+    "correct": "Michael Schumacher",
+    "incorrect": [
+      "Nicola Larini",
+      "Gerhard Berger",
+      "Mika Häkkinen"
+    ]
+  },
+  {
+    "id": "otdb-sports-480675b77a",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which sport is NOT traditionally played during the Mongolian Naadam festival?",
+    "correct": "American Football",
+    "incorrect": [
+      "Wrestling",
+      "Archery",
+      "Horse-Racing"
+    ]
+  },
+  {
+    "id": "otdb-sports-987e930052",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many games did Arsenal FC go unbeaten during the 2003-2004 season of the English Premier League",
+    "correct": "38",
+    "incorrect": [
+      "51",
+      "49",
+      "22"
+    ]
+  },
+  {
+    "id": "otdb-sports-e20f6a362a",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who was the top scorer of the 2014 FIFA World Cup?",
+    "correct": "James Rodríguez",
+    "incorrect": [
+      "Thomas Müller",
+      "Lionel Messi",
+      "Neymar"
+    ]
+  },
+  {
+    "id": "otdb-sports-b40ce4d38a",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which African American is in part responsible for integrating  Major League baseball?",
+    "correct": "Jackie Robinson",
+    "incorrect": [
+      "Curt Flood",
+      "Roy Campanella",
+      "Satchell Paige"
+    ]
+  },
+  {
+    "id": "otdb-sports-1ed6de0b0c",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What national team won the first UEFA Nations League?",
+    "correct": "Portugal",
+    "incorrect": [
+      "Netherlands",
+      "England",
+      "Switzerland"
+    ]
+  },
+  {
+    "id": "otdb-sports-edee009d10",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who was the topscorer for England national football team?",
+    "correct": "Wayne Rooney",
+    "incorrect": [
+      "David Beckham",
+      "Steven Gerrard",
+      "Michael Owen"
+    ]
+  },
+  {
+    "id": "otdb-sports-f43404e2d9",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What is the nickname of Northampton town's rugby union club?",
+    "correct": "Saints",
+    "incorrect": [
+      "Harlequins",
+      "Saracens",
+      "Wasps"
+    ]
+  },
+  {
+    "id": "otdb-sports-a34b0ff50f",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which player holds the NHL record of 2,857 points?",
+    "correct": "Wayne Gretzky",
+    "incorrect": [
+      "Mario Lemieux ",
+      "Sidney Crosby",
+      "Gordie Howe"
+    ]
+  },
+  {
+    "id": "otdb-sports-04d97b9de4",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "The Mazda 787B won the 24 Hours of Le Mans in what year?",
+    "correct": "1991",
+    "incorrect": [
+      "1990",
+      "2000",
+      "1987"
+    ]
+  },
+  {
+    "id": "otdb-sports-aad79629a3",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Who won the UEFA Champions League in 2016?",
+    "correct": "Real Madrid C.F.",
+    "incorrect": [
+      "FC Bayern Munich",
+      "Atletico Madrid",
+      "Manchester City F.C."
+    ]
+  },
+  {
+    "id": "otdb-sports-e0c7d38338",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
+    "correct": "13",
+    "incorrect": [
+      "11",
+      "20",
+      "22"
+    ]
+  },
+  {
+    "id": "otdb-sports-b2285f4a0a",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which of these teams has Jaromir Jagr not played for?",
+    "correct": "New York Islanders",
+    "incorrect": [
+      "Calgary Flames",
+      "New Jersey Devils",
+      "Dallas Stars"
+    ]
+  },
+  {
+    "id": "otdb-sports-a2d33e8d94",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which of these English football clubs is based in Liverpool?",
+    "correct": "Everton",
+    "incorrect": [
+      "West Ham United",
+      "Crystal Palace",
+      "Arsenal"
+    ]
+  },
+  {
+    "id": "otdb-sports-edf13ef958",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which car manufacturer won the 2016 24 Hours of Le Mans?",
+    "correct": "Porsche",
+    "incorrect": [
+      "Toyota",
+      "Audi",
+      "Ferrari"
+    ]
+  },
+  {
+    "id": "otdb-sports-9c4037dac2",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which professional wrestler fell from the rafters to his death during a live Pay-Per-View event in 1999?",
+    "correct": "Owen Hart",
+    "incorrect": [
+      "Chris Benoit",
+      "Lex Luger",
+      "Al Snow"
+    ]
+  },
+  {
+    "id": "otdb-sports-4bda23d18f",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "In the 2014 FIFA World Cup, what was the final score in the match Brazil - Germany?",
+    "correct": "1-7",
+    "incorrect": [
+      "1-5",
+      "1-6",
+      "2-6"
+    ]
+  },
+  {
+    "id": "otdb-sports-c576c628e7",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which Formula 1 driver switched teams in the middle of the 2017 season?",
+    "correct": "Carlos Sainz Jr.",
+    "incorrect": [
+      "Daniil Kvyat",
+      "Jolyon Palmer",
+      "Rio Haryanto"
+    ]
+  },
+  {
+    "id": "otdb-sports-73b2fb60a5",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "The song \"Three Lions\" by the Lightning Seeds was made for which major football event in 1996?",
+    "correct": "European Championships",
+    "incorrect": [
+      "World Cup",
+      "Champions League",
+      "Confederations Cup"
+    ]
+  },
+  {
+    "id": "otdb-sports-f1a0fcd407",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Why was The Green Monster at Fenway Park was originally built?",
+    "correct": "To prevent viewing games from outside the park.",
+    "incorrect": [
+      "To make getting home runs harder.",
+      "To display advertisements.",
+      "To provide extra seating."
+    ]
+  },
+  {
+    "id": "otdb-sports-1ce05de3bd",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Who won the 1998 Daytona 500?",
+    "correct": "Dale Earnhardt",
+    "incorrect": [
+      "John Anderson",
+      "Jeff Gordon",
+      "Michael Walltrip"
+    ]
+  },
+  {
+    "id": "otdb-sports-eefc68e260",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many soccer players should be on the field at the same time?",
+    "correct": "22",
+    "incorrect": [
+      "20",
+      "24",
+      "26"
+    ]
+  },
+  {
+    "id": "otdb-sports-9a2e8869ef",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What was the final score of the Germany vs. Brazil 2014 FIFA World Cup match?",
+    "correct": "7 - 1",
+    "incorrect": [
+      "0 - 1",
+      "3 - 4",
+      "16 - 0"
+    ]
+  },
+  {
+    "id": "otdb-sports-4662b30da9",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What team won the 2016 MLS Cup?",
+    "correct": "Seattle Sounders",
+    "incorrect": [
+      "Colorado Rapids",
+      "Toronto FC",
+      "Montreal Impact"
+    ]
+  },
+  {
+    "id": "otdb-sports-b665177bd4",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "How many points did LeBron James score in his first NBA game?",
+    "correct": "25",
+    "incorrect": [
+      "19",
+      "69",
+      "41"
+    ]
+  },
+  {
+    "id": "otdb-sports-7438299a0f",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Etihad Stadium is the home stadium for which team?",
+    "correct": "Manchester City",
+    "incorrect": [
+      "Manchester United",
+      "Arsenal",
+      "Blackpool"
+    ]
+  },
+  {
+    "id": "otdb-sports-11d0e9fa88",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which country did Kabaddi, a contact sport involving tackling, originate from?",
+    "correct": "India",
+    "incorrect": [
+      "Australia",
+      "Turkey",
+      "Cambodia"
+    ]
+  },
+  {
+    "id": "otdb-sports-305ff13634",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which of these jersey numbers has Shaquille O'Neal never worn?",
+    "correct": "35",
+    "incorrect": [
+      "36",
+      "33",
+      "32"
+    ]
+  },
+  {
+    "id": "otdb-sports-85dd1d65da",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which city features all of their professional sports teams' jersey's with the same color scheme?",
+    "correct": "Pittsburgh",
+    "incorrect": [
+      "New York",
+      "Seattle",
+      "Tampa Bay"
+    ]
+  },
+  {
+    "id": "otdb-sports-c588e810c1",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What is the name of the AHL affiliate of the Toronto Maple Leafs?",
+    "correct": "Toronto Marlies",
+    "incorrect": [
+      "Toronto Rock",
+      "Toronto Argonauts",
+      "Toronto Wolfpack"
+    ]
+  },
+  {
+    "id": "otdb-sports-6f900b50d2",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "With which doubles partner did John McEnroe have most success?",
+    "correct": "Peter Fleming",
+    "incorrect": [
+      "Mark Woodforde",
+      "Michael Stich",
+      "Mary Carillo"
+    ]
+  },
+  {
+    "id": "otdb-sports-9d4ee38624",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which of the following Grand Slam tennis tournaments occurs LAST?",
+    "correct": "US Open",
+    "incorrect": [
+      "French Open",
+      "Wimbledon",
+      "Australian Open"
+    ]
+  },
+  {
+    "id": "otdb-sports-792d1f8a26",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which of these track-and-field events is NOT included in the Olympic men's decathlon?",
+    "correct": "Hammer throw",
+    "incorrect": [
+      "Pole vault",
+      "Long jump",
+      "Shot put"
+    ]
+  },
+  {
+    "id": "otdb-sports-1da37079d6",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which of the following pitchers was named National League Rookie of the Year for the 2013 season?",
+    "correct": "Jose Fernandez",
+    "incorrect": [
+      "Jacob deGrom",
+      "Shelby Miller",
+      "Matt Harvey"
+    ]
+  },
+  {
+    "id": "otdb-sports-ec7421ef09",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What year was hockey legend Wayne Gretzky born?",
+    "correct": "1961",
+    "incorrect": [
+      "1965",
+      "1959",
+      "1963"
+    ]
+  },
+  {
+    "id": "otdb-sports-17659c2dec",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "The AHL affiliate team of the Boston Bruins is named what?",
+    "correct": "Providence Bruins",
+    "incorrect": [
+      "New Haven Bruins",
+      "Cambridge Bruins",
+      "Hartford Bruins"
+    ]
+  },
+  {
+    "id": "otdb-sports-c18bbb4226",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Prior to 2018, which car company is the only Japanese company which won the 24 Hours of Le Mans?",
+    "correct": "Mazda",
+    "incorrect": [
+      "Toyota",
+      "Subaru",
+      "Nissan"
+    ]
+  },
+  {
+    "id": "otdb-sports-288abeeed2",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What is the name of Manchester United's home stadium?",
+    "correct": "Old Trafford",
+    "incorrect": [
+      "Anfield",
+      "City of Manchester Stadium",
+      "St James Park"
+    ]
+  },
+  {
+    "id": "otdb-sports-0fdf67abd7",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which of these European cities was the first to host the modern Summer Olympic Games three times?",
+    "correct": "London",
+    "incorrect": [
+      "Paris",
+      "Athens",
+      "Rome"
+    ]
+  },
+  {
+    "id": "otdb-sports-45735f9ed6",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which female player won the gold medal of table tennis singles in 2016 Olympics Games?",
+    "correct": "DING Ning (China)",
+    "incorrect": [
+      "LI Xiaoxia (China)",
+      "Ai FUKUHARA (Japan)",
+      "Song KIM (North Korea)"
+    ]
+  },
+  {
+    "id": "otdb-sports-c98ca5ab72",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which nation hosted the FIFA World Cup in 2006?",
+    "correct": "Germany",
+    "incorrect": [
+      "United Kingdom",
+      "Brazil",
+      "South Africa"
+    ]
+  },
+  {
+    "id": "otdb-sports-fc520a6f04",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Who scored the injury time winning goal in the 1999 UEFA Champions League final between Manchester United and Bayern Munich?",
+    "correct": "Ole Gunnar Solskjær",
+    "incorrect": [
+      "Dwight Yorke",
+      "Andy Cole",
+      "David Beckham"
+    ]
+  },
+  {
+    "id": "otdb-sports-2e5c76b30b",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which darts player has won the most World Championship titles?",
+    "correct": "Phil Taylor",
+    "incorrect": [
+      "Michael van Gerwen",
+      "Raymond van Barneveld",
+      "Eric Bristow"
+    ]
+  },
+  {
+    "id": "otdb-sports-2101b0e426",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "In Canadian football, scoring a rouge is worth how many points?",
+    "correct": "1",
+    "incorrect": [
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "id": "otdb-sports-c6861673e3",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "The F1 season of 1994 is remembered for what tragic event?",
+    "correct": "Death of Ayrton Senna (San Marino)",
+    "incorrect": [
+      "The Showdown (Australia)",
+      "Verstappen on Fire (Germany)",
+      "Schumacher's Ban (Britain)"
+    ]
+  },
+  {
+    "id": "otdb-sports-7732c495a3",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which country is hosting the 2022 FIFA World Cup?",
+    "correct": "Qatar",
+    "incorrect": [
+      "Uganda",
+      "Vietnam",
+      "Bolivia"
+    ]
+  },
+  {
+    "id": "otdb-sports-c39015cf72",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?",
+    "correct": "Jules Bianchi",
+    "incorrect": [
+      "Ayrton Senna",
+      "Ronald Ratzenberger",
+      "Gilles Villeneuve"
+    ]
+  },
+  {
+    "id": "otdb-sports-ab736faeb3",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Which player \"kung-fu kicked\" a Crystal Palace fan in January 1995?",
+    "correct": "Eric Cantona",
+    "incorrect": [
+      "David Seamen",
+      "Ashley Cole",
+      "Mark Hughes"
+    ]
+  },
+  {
+    "id": "otdb-sports-5f6128a20d",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "What team did England beat to win in the 1966 World Cup final?",
+    "correct": "West Germany",
+    "incorrect": [
+      "Soviet Union",
+      "Portugal",
+      "Brazil"
+    ]
+  },
+  {
+    "id": "otdb-sports-d22bb2a51c",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "A stimpmeter measures the speed of a ball over what surface?",
+    "correct": "Golf Putting Green",
+    "incorrect": [
+      " Football Pitch",
+      "Cricket Outfield",
+      "Pinball Table"
+    ]
+  },
+  {
+    "id": "otdb-sports-6186dabb27",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which team won the 2015-16 English Premier League?",
+    "correct": "Leicester City",
+    "incorrect": [
+      "Liverpool",
+      "Cheslea",
+      "Manchester United"
+    ]
+  },
+  {
+    "id": "otdb-sports-eb5ddb86b1",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which of these countries' national teams qualified for the 2018 FIFA World Cup in Russia?",
+    "correct": "Tunisia",
+    "incorrect": [
+      "United States of America",
+      "Italy",
+      "Netherlands"
+    ]
+  },
+  {
+    "id": "otdb-sports-23432106ab",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which two teams played in Super Bowl XLII?",
+    "correct": "The New York Giants & The New England Patriots",
+    "incorrect": [
+      "The Green Bay Packers & The Pittsburgh Steelers",
+      "The Philadelphia Eagles & The New England Patriots",
+      "The Seattle Seahawks & The Denver Broncos"
+    ]
+  },
+  {
+    "id": "otdb-sports-e21b77c3b1",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which team has won the most Stanley Cups in the NHL?",
+    "correct": "Montreal Canadians",
+    "incorrect": [
+      "Chicago Blackhawks",
+      "Toronto Maple Leafs",
+      "Detroit Red Wings"
+    ]
+  },
+  {
+    "id": "otdb-sports-4a1fbcd9e0",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "Which year did Jenson Button won his first ever Formula One World Drivers' Championship?",
+    "correct": "2009",
+    "incorrect": [
+      "2010",
+      "2007",
+      "2006"
+    ]
+  },
+  {
+    "id": "otdb-sports-691e043708",
+    "category": "sports",
+    "difficulty": "easy",
+    "question": "The Rio 2016 Summer Olympics held it's closing ceremony on what date?",
+    "correct": "August 21",
+    "incorrect": [
+      "August 23",
+      "August 19",
+      "August 17"
+    ]
+  },
+  {
+    "id": "otdb-sports-8fbff9d2af",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "What is the highest belt you can get in Taekwondo?",
+    "correct": "Black",
+    "incorrect": [
+      "White",
+      "Red",
+      "Green"
+    ]
+  },
+  {
+    "id": "otdb-sports-7a406e6abe",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Which team was the 2015-2016 NBA Champions?",
+    "correct": "Cleveland Cavaliers",
+    "incorrect": [
+      "Golden State Warriors",
+      "Toronto Raptors",
+      "Oklahoma City Thunders"
+    ]
+  },
+  {
+    "id": "otdb-sports-0a1d5579b6",
+    "category": "sports",
+    "difficulty": "medium",
+    "question": "Who has played the most tournaments on the Brazilian national soccer team?",
+    "correct": "Cafu",
+    "incorrect": [
+      "Ronaldo",
+      "Kaká",
+      "Roberto Carlos"
+    ]
+  },
+  {
+    "id": "otdb-sports-9ff9ef2a30",
+    "category": "sports",
+    "difficulty": "hard",
+    "question": "Who is Manchester United's leading appearance maker?",
+    "correct": "Ryan Giggs",
+    "incorrect": [
+      "David Beckham",
+      "Wayne Rooney",
+      "Eric Cantona"
+    ]
+  },
+  {
+    "id": "otdb-animals-d12aa9bb76",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "How many legs do butterflies have?",
+    "correct": "6",
+    "incorrect": [
+      "2",
+      "4",
+      "0"
+    ]
+  },
+  {
+    "id": "otdb-animals-b4fce8d2c4",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "Which of these species is not extinct?",
+    "correct": "Komodo dragon",
+    "incorrect": [
+      "Japanese sea lion",
+      "Tasmanian tiger",
+      "Saudi gazelle"
+    ]
+  },
+  {
+    "id": "otdb-animals-2a3779ccb2",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What are rhino's horn made of?",
+    "correct": "Keratin",
+    "incorrect": [
+      "Bone",
+      "Ivory",
+      "Skin"
+    ]
+  },
+  {
+    "id": "otdb-animals-9fce89800e",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What is the scientific name for the \"Polar Bear\"?",
+    "correct": "Ursus Maritimus",
+    "incorrect": [
+      "Polar Bear",
+      "Ursus Spelaeus",
+      "Ursus Arctos"
+    ]
+  },
+  {
+    "id": "otdb-animals-f6bb63ff3c",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What is the national bird of Bahrain?",
+    "correct": "Bulbul",
+    "incorrect": [
+      "Hummingbird",
+      "Falcon",
+      "Sparrow"
+    ]
+  },
+  {
+    "id": "otdb-animals-c62d161ab8",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "Unlike on most salamanders, this part of a newt is flat?",
+    "correct": "Tail",
+    "incorrect": [
+      "Head",
+      "Teeth",
+      "Feet"
+    ]
+  },
+  {
+    "id": "otdb-animals-35017b4ed9",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "Cashmere is the wool from which kind of animal?",
+    "correct": "Goat",
+    "incorrect": [
+      "Sheep",
+      "Camel",
+      "Llama"
+    ]
+  },
+  {
+    "id": "otdb-animals-8dd55ebeb6",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "Which of the following is true when alligators are behaving territorially?",
+    "correct": "They bellow while showing their tail and neck",
+    "incorrect": [
+      "Open their jaws while making a clicking noise",
+      "They run full force at the threat",
+      "Slap their tails on the ground"
+    ]
+  },
+  {
+    "id": "otdb-animals-cc8960f824",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "What is the scientific name of the Budgerigar?",
+    "correct": "Melopsittacus undulatus",
+    "incorrect": [
+      "Nymphicus hollandicus",
+      "Pyrrhura molinae",
+      "Ara macao"
+    ]
+  },
+  {
+    "id": "otdb-animals-7bcee664fa",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What is the name of the family that the domestic cat is a member of?",
+    "correct": "Felidae",
+    "incorrect": [
+      "Felinae",
+      "Felis",
+      "Cat"
+    ]
+  },
+  {
+    "id": "otdb-animals-fbc563eabc",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What is the common term for bovine spongiform encephalopathy (BSE)?",
+    "correct": "Mad Cow disease",
+    "incorrect": [
+      "Weil's disease",
+      "Milk fever",
+      "Foot-and-mouth disease"
+    ]
+  },
+  {
+    "id": "otdb-animals-30b102ecb3",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "What is the collective noun for vultures?",
+    "correct": "Wake",
+    "incorrect": [
+      "Ambush",
+      "Building",
+      "Gaze"
+    ]
+  },
+  {
+    "id": "otdb-animals-23663567ba",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "Hippocampus is the Latin name for which marine creature?",
+    "correct": "Seahorse",
+    "incorrect": [
+      "Dolphin",
+      "Whale",
+      "Octopus"
+    ]
+  },
+  {
+    "id": "otdb-animals-b77afa2e6a",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "What scientific family does the Aardwolf belong to?",
+    "correct": "Hyaenidae",
+    "incorrect": [
+      "Canidae",
+      "Felidae",
+      "Eupleridae"
+    ]
+  },
+  {
+    "id": "otdb-animals-53c5e6c98c",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What type of animal is a natterjack?",
+    "correct": "Toad",
+    "incorrect": [
+      "Bird",
+      "Fish",
+      "Insect"
+    ]
+  },
+  {
+    "id": "otdb-animals-4a38aa318c",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "What is Grumpy Cat's real name?",
+    "correct": "Tardar Sauce",
+    "incorrect": [
+      "Sauce",
+      "Minnie",
+      "Broccoli"
+    ]
+  },
+  {
+    "id": "otdb-animals-125772307f",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What is the fastest animal?",
+    "correct": "Peregrine Falcon",
+    "incorrect": [
+      "Golden Eagle",
+      "Cheetah",
+      "Horsefly"
+    ]
+  },
+  {
+    "id": "otdb-animals-6f9001d7ba",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "What is the fastest  land animal?",
+    "correct": "Cheetah",
+    "incorrect": [
+      "Lion",
+      "Thomson’s Gazelle",
+      "Pronghorn Antelope"
+    ]
+  },
+  {
+    "id": "otdb-animals-8199eb5fe0",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "A carnivorous animal eats flesh, what does a nucivorous animal eat?",
+    "correct": "Nuts",
+    "incorrect": [
+      "Nothing",
+      "Fruit",
+      "Seaweed"
+    ]
+  },
+  {
+    "id": "otdb-animals-f89980e2fa",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What are the scales on all snakes and most lizards are made of?",
+    "correct": "Keratin",
+    "incorrect": [
+      "Ecdysis",
+      "Epidermis",
+      "Ankyloglossia"
+    ]
+  },
+  {
+    "id": "otdb-animals-202004fb1d",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "What colour is the female blackbird?",
+    "correct": "Brown",
+    "incorrect": [
+      "Black",
+      "White",
+      "Yellow"
+    ]
+  },
+  {
+    "id": "otdb-animals-4b485ddb4f",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "Which dog breed is named after a region in Croatia",
+    "correct": "Dalmatian",
+    "incorrect": [
+      "Pekingnese",
+      "Chihuahua ",
+      "Pomeranian"
+    ]
+  },
+  {
+    "id": "otdb-animals-de4cf5115c",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What does \"hippopotamus\" mean and in what langauge?",
+    "correct": "River Horse (Greek)",
+    "incorrect": [
+      "River Horse (Latin)",
+      "Fat Pig (Greek)",
+      "Fat Pig (Latin)"
+    ]
+  },
+  {
+    "id": "otdb-animals-d0046f0312",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "What color is a Steller's Jay?",
+    "correct": "blue and black",
+    "incorrect": [
+      "blue and grey",
+      "blue and white",
+      "grey and black"
+    ]
+  },
+  {
+    "id": "otdb-animals-19b5e4fed2",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "The now extinct species \"Thylacine\" was native to where?",
+    "correct": "Tasmania, Australia",
+    "incorrect": [
+      "Baluchistan, Pakistan",
+      "Wallachia, Romania",
+      "Oregon, United States"
+    ]
+  },
+  {
+    "id": "otdb-animals-b036e98836",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "Which of these is a colony of polyps and not a jellyfish?",
+    "correct": "Portuguese Man-of-War",
+    "incorrect": [
+      "Sea Wasp",
+      "Irukandji",
+      "Sea Nettle"
+    ]
+  },
+  {
+    "id": "otdb-animals-4891222568",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "What is the name of the copper-rich protein that creates the blue blood in the Antarctic octopus?",
+    "correct": "Hemocyanin",
+    "incorrect": [
+      "Cytochrome",
+      "Iron",
+      "Methionine"
+    ]
+  },
+  {
+    "id": "otdb-animals-9d7733ffac",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "Which animal was part of an Russian domestication experiment in 1959?",
+    "correct": "Foxes",
+    "incorrect": [
+      "Pigeons",
+      "Bears",
+      "Alligators"
+    ]
+  },
+  {
+    "id": "otdb-animals-c51570b283",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What dog breed is one of the oldest breeds of dog and has flourished since before 400 BCE.",
+    "correct": "Pugs",
+    "incorrect": [
+      "Bulldogs",
+      "Boxers",
+      "Chihuahua"
+    ]
+  },
+  {
+    "id": "otdb-animals-dfd9de0990",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What is the name for a male bee that comes from an unfertilized egg?",
+    "correct": "Drone",
+    "incorrect": [
+      "Soldier",
+      "Worker",
+      "Male"
+    ]
+  },
+  {
+    "id": "otdb-animals-0d38c22ac2",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "What is the collective noun for a group of crows?",
+    "correct": "Murder",
+    "incorrect": [
+      "Pack",
+      "Gaggle",
+      "Herd"
+    ]
+  },
+  {
+    "id": "otdb-animals-851fac9b1a",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "Which class of animals are newts members of?",
+    "correct": "Amphibian",
+    "incorrect": [
+      "Fish",
+      "Reptiles",
+      "Mammals"
+    ]
+  },
+  {
+    "id": "otdb-animals-ad7cbd4486",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "By definition, where does an abyssopelagic animal live?",
+    "correct": "At the bottom of the ocean",
+    "incorrect": [
+      "In the desert",
+      "On top of a mountain",
+      "Inside a tree"
+    ]
+  },
+  {
+    "id": "otdb-animals-4f92fdd880",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "What is the scientific name for modern day humans?",
+    "correct": "Homo Sapiens",
+    "incorrect": [
+      "Homo Ergaster",
+      "Homo Erectus",
+      "Homo Neanderthalensis"
+    ]
+  },
+  {
+    "id": "otdb-animals-a0c6a001d5",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "Which of these animals are not real?",
+    "correct": "Nemean Lion",
+    "incorrect": [
+      "Sea Dragon",
+      "Tasmanian Devil",
+      "Giant Squid"
+    ]
+  },
+  {
+    "id": "otdb-animals-b36456159f",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What is the average lifespan of a domestic rabbit?",
+    "correct": "8-12 years",
+    "incorrect": [
+      "1-2 years",
+      "4-7 years",
+      "14-20 years"
+    ]
+  },
+  {
+    "id": "otdb-animals-e8c2ccab12",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What color/colour is a polar bear's skin?",
+    "correct": "Black",
+    "incorrect": [
+      "White",
+      "Pink",
+      "Green"
+    ]
+  },
+  {
+    "id": "otdb-animals-90558984b6",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "What do you call a baby bat?",
+    "correct": "Pup",
+    "incorrect": [
+      "Cub",
+      "Chick",
+      "Kid"
+    ]
+  },
+  {
+    "id": "otdb-animals-d6c2fad7e3",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "How many known living species of hyenas are there?",
+    "correct": "4",
+    "incorrect": [
+      "8",
+      "2",
+      "6"
+    ]
+  },
+  {
+    "id": "otdb-animals-d10eb3948e",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "What is the Gray Wolf's scientific name?",
+    "correct": "Canis Lupus",
+    "incorrect": [
+      "Canis Aureus",
+      "Canis Latrans",
+      "Canis Lupus Lycaon"
+    ]
+  },
+  {
+    "id": "otdb-animals-7b598563d9",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "Snakes and lizards are known to flick their tongue, this behavior is to?",
+    "correct": "Capture scent particles",
+    "incorrect": [
+      "Taste the sweet air",
+      "Threaten other species",
+      "Attract female mates"
+    ]
+  },
+  {
+    "id": "otdb-animals-942cb09830",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "Which species is a \"mountain chicken\"?",
+    "correct": "Frog",
+    "incorrect": [
+      "Chicken",
+      "Horse",
+      "Fly"
+    ]
+  },
+  {
+    "id": "otdb-animals-bddfa66541",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "Chronic Wasting Disease (CWD) exclusively infects members of which family of animals?",
+    "correct": "Cervids",
+    "incorrect": [
+      "Hominids",
+      "Felids",
+      "Canids"
+    ]
+  },
+  {
+    "id": "otdb-animals-3d0a5c5ca8",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What is the collective noun for rats?",
+    "correct": "Mischief",
+    "incorrect": [
+      "Pack",
+      "Race",
+      "Drift"
+    ]
+  },
+  {
+    "id": "otdb-animals-18fd417019",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "Which is the national animal of India?",
+    "correct": "Tiger",
+    "incorrect": [
+      "Lion",
+      "Horse",
+      "Camel"
+    ]
+  },
+  {
+    "id": "otdb-animals-600599abcb",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "What bird is born with claws on its wing digits?",
+    "correct": "Hoatzin",
+    "incorrect": [
+      "Cormorant",
+      "Cassowary",
+      "Secretary bird"
+    ]
+  },
+  {
+    "id": "otdb-animals-12cf0b4e64",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What is the scientific name of the Common Chimpanzee?",
+    "correct": "Pan troglodytes",
+    "incorrect": [
+      "Gorilla gorilla",
+      "Pan paniscus",
+      "Panthera leo"
+    ]
+  },
+  {
+    "id": "otdb-animals-e6c6843c0e",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What is the collective noun for bears?",
+    "correct": "Sloth",
+    "incorrect": [
+      "Drove",
+      "Tribe",
+      "Husk"
+    ]
+  },
+  {
+    "id": "otdb-animals-ffdc889941",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "What was the name of the Ethiopian Wolf before they knew it was related to wolves?",
+    "correct": "Simien Jackel",
+    "incorrect": [
+      "Ethiopian Coyote",
+      "Amharic Fox",
+      "Canis Simiensis"
+    ]
+  },
+  {
+    "id": "otdb-animals-f65b7b7fc6",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "What is the average amount of chinchillas born into a single litter?",
+    "correct": "2-3",
+    "incorrect": [
+      "10-15",
+      "5-8",
+      "15-18"
+    ]
+  },
+  {
+    "id": "otdb-animals-6359939b8b",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT a venomous snake?",
+    "correct": "Reticulated python",
+    "incorrect": [
+      "Malayan Krait",
+      "Yellow bellied sea snake",
+      "Black mamba"
+    ]
+  },
+  {
+    "id": "otdb-animals-fa829de003",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "The dish Fugu, is made from what family of fish?",
+    "correct": "Pufferfish",
+    "incorrect": [
+      "Bass",
+      "Salmon",
+      "Mackerel"
+    ]
+  },
+  {
+    "id": "otdb-animals-bb682bd910",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "For what reason would a spotted hyena \"laugh\"?",
+    "correct": "Nervousness",
+    "incorrect": [
+      "Excitement",
+      "Aggression",
+      "Exhaustion"
+    ]
+  },
+  {
+    "id": "otdb-animals-0fa16e91bb",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "What type of creature is a Bonobo?",
+    "correct": "Ape",
+    "incorrect": [
+      "Lion",
+      "Parrot",
+      "Wildcat"
+    ]
+  },
+  {
+    "id": "otdb-animals-d4ecb76368",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "The Kākāpō is a large, flightless, nocturnal parrot native to which country?",
+    "correct": "New Zealand",
+    "incorrect": [
+      "South Africa",
+      "Australia",
+      "Madagascar"
+    ]
+  },
+  {
+    "id": "otdb-animals-29bfe89dd5",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "What is the world's longest venomous snake?",
+    "correct": "King Cobra",
+    "incorrect": [
+      "Green Anaconda",
+      "Inland Taipan",
+      "Yellow Bellied Sea Snake"
+    ]
+  },
+  {
+    "id": "otdb-animals-5c2f3ad2c8",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "Which of these animals is NOT a lizard?",
+    "correct": "Tuatara",
+    "incorrect": [
+      "Komodo Dragon",
+      "Gila Monster",
+      "Green Iguana"
+    ]
+  },
+  {
+    "id": "otdb-animals-08b8b239e8",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "Wombats are native to which Country?",
+    "correct": "Australia",
+    "incorrect": [
+      "New Zealand",
+      "Papua New Guinea",
+      "Palau"
+    ]
+  },
+  {
+    "id": "otdb-animals-9a674e4757",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "About how much of their body weight in food do sea otters eat every day?",
+    "correct": "25%",
+    "incorrect": [
+      "10%",
+      "80%",
+      "45%"
+    ]
+  },
+  {
+    "id": "otdb-animals-666b2d7156",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "What is the scientific name of the cheetah?",
+    "correct": "Acinonyx jubatus",
+    "incorrect": [
+      "Panthera onca",
+      "Lynx rufus",
+      "Felis catus"
+    ]
+  },
+  {
+    "id": "otdb-animals-2957639413",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "What scientific suborder does the family Hyaenidae belong to?",
+    "correct": "Feliformia",
+    "incorrect": [
+      "Haplorhini",
+      "Caniformia",
+      "Ciconiiformes"
+    ]
+  },
+  {
+    "id": "otdb-animals-3d2e374020",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "What is the scientific name for the Bald Eagle?",
+    "correct": "Haliaeetus Leucocephalus ",
+    "incorrect": [
+      "Tyto Alba",
+      "Cyanocitta Cristata",
+      "Aquila Chrysaetos"
+    ]
+  },
+  {
+    "id": "otdb-animals-857fcd1aab",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "How many teeth does an adult rabbit have?",
+    "correct": "28",
+    "incorrect": [
+      "30",
+      "26",
+      "24"
+    ]
+  },
+  {
+    "id": "otdb-animals-c8b19e08e0",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "Which breed of dog is traditionally associated with firefighters?",
+    "correct": "Dalmatians",
+    "incorrect": [
+      "German Shepard",
+      "Great Dane",
+      "Mastiff"
+    ]
+  },
+  {
+    "id": "otdb-animals-de675b06cd",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "To which biological phylum do all mammals, birds and reptiles belong?",
+    "correct": "Chordata",
+    "incorrect": [
+      "Echinodermata",
+      "Annelida",
+      "Placazoa"
+    ]
+  },
+  {
+    "id": "otdb-animals-0ff0982be1",
+    "category": "animals",
+    "difficulty": "easy",
+    "question": "What is the name of a rabbit's abode?",
+    "correct": "Burrow",
+    "incorrect": [
+      "Nest",
+      "Den",
+      "Dray"
+    ]
+  },
+  {
+    "id": "otdb-animals-32d28d6d5b",
+    "category": "animals",
+    "difficulty": "medium",
+    "question": "\"Decapods\" are an order of ten-footed crustaceans.  Which of these are NOT decapods?",
+    "correct": "Krill",
+    "incorrect": [
+      "Lobsters",
+      "Shrimp",
+      "Crabs"
+    ]
+  },
+  {
+    "id": "otdb-animals-f432ed2e73",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "Which of the following is another name for the \"Poecilotheria Metallica Tarantula\"?",
+    "correct": "Gooty",
+    "incorrect": [
+      "Hopper",
+      "Silver Stripe",
+      "Woebegone"
+    ]
+  },
+  {
+    "id": "otdb-animals-0216a4f54f",
+    "category": "animals",
+    "difficulty": "hard",
+    "question": "Which species of Brown Bear is not extinct?",
+    "correct": "Syrian Brown Bear",
+    "incorrect": [
+      "California Grizzly Bear",
+      "Atlas Bear",
+      "Mexican Grizzly Bear"
+    ]
+  },
+  {
+    "id": "otdb-history-7d12981cda",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of the following Soviet revolutionaries was exiled from the USSR and later assassinated in 1940 for criticizing Stalinism?",
+    "correct": "Leon Trotsky",
+    "incorrect": [
+      "Lev Kamenev",
+      "Mikhail Kalinin",
+      "Vladimir Lenin"
+    ]
+  },
+  {
+    "id": "otdb-history-89157e62ee",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In what year did William the Conqueror take control of England?",
+    "correct": "1066",
+    "incorrect": [
+      "1123",
+      "1205",
+      "901"
+    ]
+  },
+  {
+    "id": "otdb-history-be239ac035",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "When was the Gregorian Calendar first adopted?",
+    "correct": "1582",
+    "incorrect": [
+      "1623",
+      "1501",
+      "1555"
+    ]
+  },
+  {
+    "id": "otdb-history-b7f6e9a780",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In the War of the Pacific (1879 - 1883), Bolivia lost its access to the Pacific Ocean after being defeated by which South American country?",
+    "correct": "Chile",
+    "incorrect": [
+      "Peru",
+      "Brazil",
+      "Argentina"
+    ]
+  },
+  {
+    "id": "otdb-history-e754248174",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which King of England was faced with the Peasants' Revolt in 1381?",
+    "correct": "Richard II",
+    "incorrect": [
+      "Edward III",
+      "Edward II",
+      "Henry IV"
+    ]
+  },
+  {
+    "id": "otdb-history-5571539feb",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "What war did George Orwell famously volunteer for and nearly died in?",
+    "correct": "Spanish Civil War",
+    "incorrect": [
+      "World War I",
+      "World War II",
+      "Russian Civil War"
+    ]
+  },
+  {
+    "id": "otdb-history-6b04a405c0",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Who succeded Josef Stalin as the leader of the Soviet Union?",
+    "correct": "Nikita Krushchev",
+    "incorrect": [
+      "Lavrentiy Beria",
+      "Vyacheslav Molotov",
+      "Georgy Malenkov"
+    ]
+  },
+  {
+    "id": "otdb-history-e1ee1aa56a",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of these founding fathers of the United States of America later became president?",
+    "correct": "James Monroe",
+    "incorrect": [
+      "Alexander Hamilton",
+      "Samuel Adams",
+      "Roger Sherman"
+    ]
+  },
+  {
+    "id": "otdb-history-b9ea9c15da",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "The idea of Socialism was articulated and advanced by whom?",
+    "correct": "Karl Marx",
+    "incorrect": [
+      "Vladimir Lenin",
+      "Joseph Stalin",
+      "Vladimir Putin"
+    ]
+  },
+  {
+    "id": "otdb-history-15c665e1a0",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Where and when was the first cardboard box made for industrial use?",
+    "correct": "England, 1817",
+    "incorrect": [
+      "United States, 1817",
+      "England, 1917",
+      "United States, 1917"
+    ]
+  },
+  {
+    "id": "otdb-history-8cf585b488",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "The \"Trail of Tears\" was a result of which United States President's Indian Removal Policy?",
+    "correct": "Andrew Jackson",
+    "incorrect": [
+      "Harry S. Truman",
+      "Martin Van Buren",
+      "John Quincy Adams"
+    ]
+  },
+  {
+    "id": "otdb-history-424924b71d",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "These two countries held a commonwealth from the 16th to 18th century.",
+    "correct": "Poland and Lithuania",
+    "incorrect": [
+      "Hutu and Rwanda",
+      "North Korea and South Korea",
+      "Bangladesh and Bhutan"
+    ]
+  },
+  {
+    "id": "otdb-history-0459a65d98",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "King Henry VIII was the second monarch of which European royal house?",
+    "correct": "Tudor",
+    "incorrect": [
+      "York",
+      "Stuart",
+      "Lancaster"
+    ]
+  },
+  {
+    "id": "otdb-history-9878e2fbaa",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which famous military commander marched an army, which included war elephants, over the Alps during the Second Punic War?",
+    "correct": "Hannibal",
+    "incorrect": [
+      "Garmanicus",
+      "Alexander the Great",
+      "Tiberius"
+    ]
+  },
+  {
+    "id": "otdb-history-51f2dd40dc",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The Tsar Bomba, the most powerful nuclear bomb ever tested, had a yield of 50 megatons but theoretically had a maximum yield of how much?",
+    "correct": "100 Megatons",
+    "incorrect": [
+      "200 Megatons",
+      "75 Megatons",
+      "150 Megatons"
+    ]
+  },
+  {
+    "id": "otdb-history-b5479c0d63",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "In which country was the Statue of Liberty built and exported to the United States of America?",
+    "correct": "France",
+    "incorrect": [
+      "Germany",
+      "Spain",
+      "England"
+    ]
+  },
+  {
+    "id": "otdb-history-a74f5e3868",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "During the Roman Triumvirate of 42 BCE, what region of the Roman Republic was given to Lepidus?",
+    "correct": "Hispania ",
+    "incorrect": [
+      "Italia",
+      "Gallia",
+      "Asia"
+    ]
+  },
+  {
+    "id": "otdb-history-5a66e2f016",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In what year was the video game company Electronic Arts founded?",
+    "correct": "1982",
+    "incorrect": [
+      "1999",
+      "1981",
+      "2005"
+    ]
+  },
+  {
+    "id": "otdb-history-1c4dae59e5",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "How many manned moon landings have there been?",
+    "correct": "6",
+    "incorrect": [
+      "1",
+      "3",
+      "7"
+    ]
+  },
+  {
+    "id": "otdb-history-a59b1554d3",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What is the name of the famous Apache leader who died in 1909 at the age of 70?",
+    "correct": "Geronimo",
+    "incorrect": [
+      "Sitting Bull",
+      "Red Cloud",
+      "Crazy Horse"
+    ]
+  },
+  {
+    "id": "otdb-history-e2f1097a0e",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "During World War I, which nation's monarchs were blood related?",
+    "correct": "England, Germany, Russia",
+    "incorrect": [
+      "France, Russia, Germany",
+      "Serbia, Russia, Croatia",
+      "Germany, Spain, Austria"
+    ]
+  },
+  {
+    "id": "otdb-history-20b6251ab2",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "What was William Frederick Cody better known as?",
+    "correct": "Buffalo Bill",
+    "incorrect": [
+      "Billy the Kid",
+      "Wild Bill Hickok",
+      "Pawnee Bill"
+    ]
+  },
+  {
+    "id": "otdb-history-a4184659ee",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When did L. L. Zamenhof first publish \"Unua Libro\", the first publication describing his international language Esperanto?",
+    "correct": "1887",
+    "incorrect": [
+      "1897",
+      "1905",
+      "1915"
+    ]
+  },
+  {
+    "id": "otdb-history-b2462596a5",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "The collapse of the Soviet Union took place in which year?",
+    "correct": "1991",
+    "incorrect": [
+      "1992",
+      "1891",
+      "1990"
+    ]
+  },
+  {
+    "id": "otdb-history-3680cfc341",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "The Second Boer War in 1899 was fought where?",
+    "correct": "South Africa",
+    "incorrect": [
+      "Argentina",
+      "Nepal",
+      "Bulgaria"
+    ]
+  },
+  {
+    "id": "otdb-history-91e769b8bd",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "On what day did Germany invade Poland?",
+    "correct": "September 1, 1939",
+    "incorrect": [
+      "December 7, 1941",
+      "June 22, 1941",
+      "July 7, 1937"
+    ]
+  },
+  {
+    "id": "otdb-history-524fb7a71c",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The United States Army Air Corps became the United States Air Force on what date?",
+    "correct": "September 18, 1947",
+    "incorrect": [
+      "December 14, 1946",
+      "October 27, 1945",
+      "November 08, 1944"
+    ]
+  },
+  {
+    "id": "otdb-history-0535be57ab",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which Las Vegas casino was originally constructed and operated by mobster Bugsy Siegel?",
+    "correct": "The Flamingo",
+    "incorrect": [
+      "The MGM Grand",
+      "The Sands",
+      "The Sahara"
+    ]
+  },
+  {
+    "id": "otdb-history-e01bc31317",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "In what year did the Battle of Verdun take place?",
+    "correct": "1916",
+    "incorrect": [
+      "1917",
+      "1915",
+      "1918"
+    ]
+  },
+  {
+    "id": "otdb-history-0836c2a03d",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What was Napoleon Bonaparte's name before he changed it?",
+    "correct": "Napoleone di Buonaparte",
+    "incorrect": [
+      "Naapolion van Bonijpaart",
+      "Napoleão do Boaparte",
+      "Napoleona de Buenoparte"
+    ]
+  },
+  {
+    "id": "otdb-history-52dac39c0a",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What year did Skoal, a smokeless Tobacco company, release their first line of Pouches, known as \"Skoal Bandits\"?",
+    "correct": "1983",
+    "incorrect": [
+      "1934",
+      "1984",
+      "1822"
+    ]
+  },
+  {
+    "id": "otdb-history-3257b94315",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In what year was the last natural case of smallpox documented?",
+    "correct": "1977",
+    "incorrect": [
+      "1982",
+      "1980",
+      "1990"
+    ]
+  },
+  {
+    "id": "otdb-history-d4656e7e6c",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When Christopher Columbus sailed to America, what was the first region he arrived in?",
+    "correct": "The Bahamas Archipelago",
+    "incorrect": [
+      "Florida",
+      "Isthmus of Panama",
+      "Nicaragua"
+    ]
+  },
+  {
+    "id": "otdb-history-abd1984074",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What year is considered to be the year that the British Empire ended?",
+    "correct": "1997",
+    "incorrect": [
+      "1986",
+      "1981",
+      "1971"
+    ]
+  },
+  {
+    "id": "otdb-history-9e4588360e",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The minigun was designed in 1960 by which manufacturer.",
+    "correct": "General Electric",
+    "incorrect": [
+      "Colt Firearms",
+      "Heckler & Koch",
+      "Sig Sauer"
+    ]
+  },
+  {
+    "id": "otdb-history-8aa90a9310",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Joseph Stalin had a criminal past doing what?",
+    "correct": "Robbing Trains",
+    "incorrect": [
+      "Murder for Hire",
+      "Tax Evasion",
+      "Identity Fraud"
+    ]
+  },
+  {
+    "id": "otdb-history-78b3a810fb",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The Korean War started in what year?",
+    "correct": "1950",
+    "incorrect": [
+      "1945",
+      "1960",
+      "1912"
+    ]
+  },
+  {
+    "id": "otdb-history-d58a04552e",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When did Vesuvius destroy the city of Pompeii? ",
+    "correct": "79 AD",
+    "incorrect": [
+      "62 AD",
+      "31 BC",
+      "54 BC"
+    ]
+  },
+  {
+    "id": "otdb-history-ed03f2fa83",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Bohdan Khmelnytsky was which of the following?",
+    "correct": "Leader of the Ukrainian Cossacks",
+    "incorrect": [
+      "General Secretary of the Communist Party of the USSR",
+      "Prince of Wallachia",
+      "Grand Prince of Novgorod"
+    ]
+  },
+  {
+    "id": "otdb-history-e9fd76ab05",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "After the 1516 Battle of Marj Dabiq, the Ottoman Empire took control of Jerusalem from which sultanate?",
+    "correct": "Mamluk",
+    "incorrect": [
+      "Ayyubid",
+      "Ummayyad",
+      "Seljuq"
+    ]
+  },
+  {
+    "id": "otdb-history-222a1d38e0",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which historical conflict killed the most people?",
+    "correct": "World War II",
+    "incorrect": [
+      "Taiping Rebellion",
+      "Three Kingdoms War",
+      "Mongol conquests"
+    ]
+  },
+  {
+    "id": "otdb-history-546d718ebc",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
+    "correct": "Aragon",
+    "incorrect": [
+      "Galicia",
+      "León",
+      "Navarre"
+    ]
+  },
+  {
+    "id": "otdb-history-48e6717ecc",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which day did World War I begin?",
+    "correct": "July 28",
+    "incorrect": [
+      "January 28",
+      "June 28",
+      "April 28"
+    ]
+  },
+  {
+    "id": "otdb-history-f53f3c2011",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What was the name of the chemical that was dropped on Vietnam during the Vietnam war?",
+    "correct": "Agent Orange",
+    "incorrect": [
+      "Phosgene",
+      "Mustard Gas",
+      "Hydrogen Cyanide"
+    ]
+  },
+  {
+    "id": "otdb-history-d125c7ac8e",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "How old was the famous King Tutankhamen (Tut) when he died?",
+    "correct": "19",
+    "incorrect": [
+      "21",
+      "15",
+      "30"
+    ]
+  },
+  {
+    "id": "otdb-history-a577b7ffe0",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of the following countries was the first to send an object into space?",
+    "correct": "Germany",
+    "incorrect": [
+      "USA",
+      "Russia",
+      "China"
+    ]
+  },
+  {
+    "id": "otdb-history-ca288f08e1",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of the following ancient Near Eastern peoples still exists as a modern ethnic group?",
+    "correct": "Assyrians",
+    "incorrect": [
+      "Babylonians",
+      "Hittites",
+      "Elamites"
+    ]
+  },
+  {
+    "id": "otdb-history-7fd2264470",
+    "category": "history",
+    "difficulty": "medium",
+    "question": " What Russian automatic gas-operated assault rifle was developed in the Soviet Union in 1947, and is still popularly used today?",
+    "correct": "AK-47",
+    "incorrect": [
+      "RPK",
+      "M16",
+      "MG 42"
+    ]
+  },
+  {
+    "id": "otdb-history-50a09264be",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was the first emperor of Rome?",
+    "correct": "Augustus ",
+    "incorrect": [
+      "Julius Caesar",
+      "Pompey Magnus",
+      "Claudius"
+    ]
+  },
+  {
+    "id": "otdb-history-c8ae5e49b8",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which country attacked the USS Liberty on June 8, 1967?",
+    "correct": "Israel",
+    "incorrect": [
+      "Syria",
+      "Saudi Arabia",
+      "Iran"
+    ]
+  },
+  {
+    "id": "otdb-history-4ebd8a1780",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Against which country did the Dutch Republic fight the Eighty Years' War?",
+    "correct": "Spain",
+    "incorrect": [
+      "France",
+      "England",
+      "Portugal"
+    ]
+  },
+  {
+    "id": "otdb-history-202b04678d",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which king was killed at the Battle of Bosworth Field in 1485? ",
+    "correct": "Richard III",
+    "incorrect": [
+      "Edward V",
+      "Henry VII",
+      "James I"
+    ]
+  },
+  {
+    "id": "otdb-history-dfaa821c00",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?",
+    "correct": "The Polish President",
+    "incorrect": [
+      "Pope John Paul II",
+      "Bang-Ding Ow",
+      "Albert Putin"
+    ]
+  },
+  {
+    "id": "otdb-history-999a953038",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was the main developer of the Suez Canal?",
+    "correct": "Ferdinand de Lesseps",
+    "incorrect": [
+      "Louis-Eugène Cavaignac",
+      "John Milton",
+      "Johann Lukas von Hildebrandt"
+    ]
+  },
+  {
+    "id": "otdb-history-f297c06d80",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who famously coined the phrase \"I think, therefore I am\"?",
+    "correct": "Descartes",
+    "incorrect": [
+      "Plato",
+      "Aristotle",
+      "Shakespeare"
+    ]
+  },
+  {
+    "id": "otdb-history-96c25791d8",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "How long did the Warsaw Uprising during World War II last?",
+    "correct": "63 Days",
+    "incorrect": [
+      "20 Days",
+      "55 Days",
+      "224 Days"
+    ]
+  },
+  {
+    "id": "otdb-history-f104bb9f27",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Where was Abraham Lincoln when he was assassinated by John Wilkes Booth in 1865?",
+    "correct": "At the theatre",
+    "incorrect": [
+      "On a boat",
+      "On his horse",
+      "In bed"
+    ]
+  },
+  {
+    "id": "otdb-history-a09da18508",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The Spitfire L.F. Mk IX had what engine?",
+    "correct": "Merlin 66",
+    "incorrect": [
+      "Griffon 65",
+      "Merlin 50",
+      "Merlin X"
+    ]
+  },
+  {
+    "id": "otdb-history-8d3bc56ded",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "In 1720, England was in massive debt and became involved in the South Sea Bubble. Who was the main mastermind behind it?",
+    "correct": "John Blunt",
+    "incorrect": [
+      "Daniel Defoe",
+      "Robert Harley",
+      "John Churchill"
+    ]
+  },
+  {
+    "id": "otdb-history-2026401b27",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What was the capital of South Vietnam before the Vietnam War?",
+    "correct": "Saigon",
+    "incorrect": [
+      "Ho Chi Minh City",
+      "Hanoi",
+      "Hue"
+    ]
+  },
+  {
+    "id": "otdb-history-1ef2cacab3",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In relation to the British Occupation in Ireland, what does the IRA stand for.",
+    "correct": "Irish Republican Army",
+    "incorrect": [
+      "Irish Rebel Alliance",
+      "Irish Reformation Army",
+      "Irish-Royal Alliance"
+    ]
+  },
+  {
+    "id": "otdb-history-328fd814ca",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "What was the official German currency until 2002?",
+    "correct": "Mark",
+    "incorrect": [
+      "Frank",
+      "Pound sterling",
+      "Reichtoken"
+    ]
+  },
+  {
+    "id": "otdb-history-f603187e06",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In what year was the famous 45 foot tall Hollywood sign first erected?",
+    "correct": "1923",
+    "incorrect": [
+      "1903",
+      "1913",
+      "1933"
+    ]
+  },
+  {
+    "id": "otdb-history-d1a84e5e94",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who is believed to have been the first European to 'discover' the land of New Zealand?",
+    "correct": "Abel Tasman",
+    "incorrect": [
+      "Christopher Columbus",
+      "Jeanne Baré",
+      "John Cabot "
+    ]
+  },
+  {
+    "id": "otdb-history-f8bf4c4dda",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which country gifted the Statue of Liberty to the United States of America?",
+    "correct": "France",
+    "incorrect": [
+      "Spain",
+      "England",
+      "Germany"
+    ]
+  },
+  {
+    "id": "otdb-history-be2c68ec2f",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of these countries was NOT a part of the Soviet Union?",
+    "correct": "Afghanistan",
+    "incorrect": [
+      "Turkmenistan",
+      "Kazakhstan",
+      "Uzbekistan"
+    ]
+  },
+  {
+    "id": "otdb-history-7deb2933ed",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "During the Mongolian invasions of Japan, what were the Mongol boats mostly stopped by?",
+    "correct": "Typhoons",
+    "incorrect": [
+      "Tornados",
+      "Economic depression",
+      "Samurai"
+    ]
+  },
+  {
+    "id": "otdb-history-bd4c402d0d",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What year did Australia become a federation?",
+    "correct": "1901",
+    "incorrect": [
+      "1910",
+      "1899",
+      "1911"
+    ]
+  },
+  {
+    "id": "otdb-history-d11b280e97",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "The RMS Titanic sunk during her maiden voyage from Southampton, England to which American city?",
+    "correct": "New York City",
+    "incorrect": [
+      "Boston ",
+      "Philadelphia",
+      "Washington"
+    ]
+  },
+  {
+    "id": "otdb-history-964029ad85",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What micro-state is considered to have the oldest constitution still in effect?",
+    "correct": "San Marino",
+    "incorrect": [
+      "Andorra",
+      "Monaco",
+      "Saint Kitts and Nevis"
+    ]
+  },
+  {
+    "id": "otdb-history-aecd663497",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Who was the British Prime Minister at the outbreak of the Second World War in 1939?",
+    "correct": "Neville Chamberlain",
+    "incorrect": [
+      "Stanley Baldwin",
+      "Winston Churchill",
+      "Ramsay MacDonald"
+    ]
+  },
+  {
+    "id": "otdb-history-60b6882975",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "From 1940 to 1942, what was the capital-in-exile of Free France ?",
+    "correct": "Brazzaville",
+    "incorrect": [
+      "Algiers",
+      "Paris",
+      "Tunis"
+    ]
+  },
+  {
+    "id": "otdb-history-9dac395649",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "The assassination of which royal led to the start of World War I?",
+    "correct": "Archduke Franz Ferdinand",
+    "incorrect": [
+      "Louis Mountbatten",
+      "King Charles I",
+      "Nicholas II"
+    ]
+  },
+  {
+    "id": "otdb-history-0081e0b7ae",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which American civilization is the source of the belief that the world would end or drastically change on December 21st, 2012?",
+    "correct": "The Mayans",
+    "incorrect": [
+      "The Incas",
+      "The Aztecs",
+      "The Navajos"
+    ]
+  },
+  {
+    "id": "otdb-history-91b97daaec",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What year was the Italian firearms manufacturer Beretta founded?",
+    "correct": "1526",
+    "incorrect": [
+      "1776",
+      "1923",
+      "1998"
+    ]
+  },
+  {
+    "id": "otdb-history-92e49ee3f9",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Where did first known lesbian rights organization in the United States, Daughters of Bilitis, start?",
+    "correct": "San Francisco",
+    "incorrect": [
+      "New York",
+      "Chicago",
+      "Los Angeles"
+    ]
+  },
+  {
+    "id": "otdb-history-666eb26d8d",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which of the following was Brazil was a former colony under?",
+    "correct": "Portugal",
+    "incorrect": [
+      "Spain",
+      "The Netherlands",
+      "France"
+    ]
+  },
+  {
+    "id": "otdb-history-5c4405309b",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "The Ottoman Empire was dissolved after their loss in which war?",
+    "correct": "World War I",
+    "incorrect": [
+      "Crimean War",
+      "Serbian Revolution",
+      "Second Balkan War"
+    ]
+  },
+  {
+    "id": "otdb-history-d6c91f11ba",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When did Jamaica receive its independence from England? ",
+    "correct": "1962",
+    "incorrect": [
+      "1492",
+      "1963",
+      "1987"
+    ]
+  },
+  {
+    "id": "otdb-history-0fe29aefc6",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What happened on June 6, 1944?",
+    "correct": "D-Day",
+    "incorrect": [
+      "Atomic bombings of Hiroshima and Nagasaki",
+      "Attack on Pearl Harbor",
+      "The Liberation of Paris"
+    ]
+  },
+  {
+    "id": "otdb-history-0f3590eb90",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which of these positions did the astronomer and physicist Isaac Newton not hold?",
+    "correct": "Surveyor to the City of London",
+    "incorrect": [
+      "Professor of Mathematics",
+      "Warden of the Royal Mint",
+      "Member of Parliament"
+    ]
+  },
+  {
+    "id": "otdb-history-cc5ed9d5c9",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The catastrophic nuclear accident that occurred in Ukraine in 1986 occurred at which power plant?",
+    "correct": "Chernobyl",
+    "incorrect": [
+      "Ignalina",
+      "Mayak",
+      "Kursk"
+    ]
+  },
+  {
+    "id": "otdb-history-6344aa0103",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "What year did World War I begin?",
+    "correct": "1914",
+    "incorrect": [
+      "1905",
+      "1919",
+      "1925"
+    ]
+  },
+  {
+    "id": "otdb-history-109372d8c1",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "According to scholarly estimates, what percentage of the world population at the time died due to Tamerlane's conquests?",
+    "correct": "5%",
+    "incorrect": [
+      "1%",
+      "3%",
+      "<1%"
+    ]
+  },
+  {
+    "id": "otdb-history-4e569aa3af",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When did construction of the Suez Canal finish?",
+    "correct": "1869",
+    "incorrect": [
+      "1859",
+      "1860",
+      "1850"
+    ]
+  },
+  {
+    "id": "otdb-history-26d376449f",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When did Norway get its constitution?",
+    "correct": "1814",
+    "incorrect": [
+      "1932",
+      "1905",
+      "1854"
+    ]
+  },
+  {
+    "id": "otdb-history-af49268d75",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "What battle was the longest in World War I, lasting approximately 303 days?",
+    "correct": "Battle of Verdun ",
+    "incorrect": [
+      "Battle of Passchendaele",
+      "Battle of Amiens",
+      "Battle of Stalingrad"
+    ]
+  },
+  {
+    "id": "otdb-history-3141e4ffc1",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which famous world leader is famed for the saying, \"Let them eat cake\", yet is rumored that he/she never said it at all?",
+    "correct": "Marie Antoinette",
+    "incorrect": [
+      "Czar Nicholas II",
+      "Elizabeth I",
+      "Henry VIII"
+    ]
+  },
+  {
+    "id": "otdb-history-0e40a195e9",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What was the code name for the German invasion of the Soviet Union in WW2?",
+    "correct": "Operation Barbarossa",
+    "incorrect": [
+      "Operation Kaiserschlact",
+      "Operation Unthinkable",
+      "Operation Molotov"
+    ]
+  },
+  {
+    "id": "otdb-history-1aea8b2a25",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "How long did World War II last?",
+    "correct": "6 years",
+    "incorrect": [
+      "4 years",
+      "5 years",
+      "7 years"
+    ]
+  },
+  {
+    "id": "otdb-history-064e9092ff",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which countries participated in the Lobster War?",
+    "correct": "France and Brazil",
+    "incorrect": [
+      "Canada and Norway",
+      "Australia and New Zealand",
+      "United States and England"
+    ]
+  },
+  {
+    "id": "otdb-history-cdaeb43a87",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which country were potatoes originally grown?",
+    "correct": "Peru",
+    "incorrect": [
+      "United States ",
+      "Ireland",
+      "New Zealand"
+    ]
+  },
+  {
+    "id": "otdb-history-ef40915524",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "What is the historical name of Sri Lanka?",
+    "correct": "Ceylon",
+    "incorrect": [
+      "Myanmar",
+      "Colombo",
+      "Badulla"
+    ]
+  },
+  {
+    "id": "otdb-history-227127048e",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "How many sonatas did Ludwig van Beethoven write?",
+    "correct": "32",
+    "incorrect": [
+      "50",
+      "31",
+      "21"
+    ]
+  },
+  {
+    "id": "otdb-history-b6bd4a5852",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What was the last colony the UK ceded marking the end of the British Empire?",
+    "correct": "Hong Kong",
+    "incorrect": [
+      "India",
+      "Australia",
+      "Ireland"
+    ]
+  },
+  {
+    "id": "otdb-history-54c6ea4971",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who tutored Alexander the Great?",
+    "correct": "Aristotle",
+    "incorrect": [
+      "Socrates",
+      "Plato",
+      "King Philip"
+    ]
+  },
+  {
+    "id": "otdb-history-4a066cdd4f",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What was the first recorded object to ever reach space?",
+    "correct": "Bumper-WAC",
+    "incorrect": [
+      "American Manhole Cover",
+      "Sputnik I ",
+      "Sputnik II"
+    ]
+  },
+  {
+    "id": "otdb-history-e11f02a49e",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When did the Crisis of the Third Century begin?",
+    "correct": "235 AD",
+    "incorrect": [
+      "235 BC",
+      "242 AD",
+      "210 AD"
+    ]
+  },
+  {
+    "id": "otdb-history-f00ecb5b1a",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "On which aircraft carrier did the Doolitte Raid launch from on April 18, 1942 during World War II?",
+    "correct": "USS Hornet",
+    "incorrect": [
+      "USS Enterprise",
+      "USS Lexington",
+      "USS Saratoga"
+    ]
+  },
+  {
+    "id": "otdb-history-3052284be3",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "As poverty and racial tensions pushed African-Americans out of the southern US, many of them moved north in an event known as what?",
+    "correct": "The Great Migration",
+    "incorrect": [
+      "The Great Awakening",
+      "The Harlem Renaissance",
+      "The Resettlement"
+    ]
+  },
+  {
+    "id": "otdb-history-c78144de5b",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which one of these tanks was designed and operated by the United Kingdom?",
+    "correct": "Tog II",
+    "incorrect": [
+      "M4 Sherman",
+      "Tiger H1",
+      "T-34"
+    ]
+  },
+  {
+    "id": "otdb-history-a744ba4f09",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was the first explorer to sail to North America?",
+    "correct": "Leif Erikson",
+    "incorrect": [
+      "Christopher Columbus",
+      "Amerigo Vespucci",
+      "Ferdinand Magellan"
+    ]
+  },
+  {
+    "id": "otdb-history-93b58c4a7a",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Who was the first man to travel into outer space?",
+    "correct": "Yuri Gagarin",
+    "incorrect": [
+      "Virgil Ivan \"Gus\" Grissom",
+      "Neil Armstrong",
+      "Buzz Aldrin"
+    ]
+  },
+  {
+    "id": "otdb-history-21863ad46f",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When did Norway become free from Sweden?",
+    "correct": "1905",
+    "incorrect": [
+      "1925",
+      "1814",
+      "1834"
+    ]
+  },
+  {
+    "id": "otdb-history-2c9a739fc2",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which Australian Prime Minister disappeared in 1967 and was never found?",
+    "correct": "Harold Holt",
+    "incorrect": [
+      "Paul Keating",
+      "Edmund Barton",
+      "Scott Morrison"
+    ]
+  },
+  {
+    "id": "otdb-history-73586b0add",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "In the Seven Wonders of the World, which wonder is the only that has survived to this day?",
+    "correct": "Great Pyramid of Giza",
+    "incorrect": [
+      "Colossus of Rhodes",
+      "Lighthouse of Alexandria",
+      "Statue of Zeus at Olympia"
+    ]
+  },
+  {
+    "id": "otdb-history-c6db39ba67",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "The Arab Spring was a series of protests and rebellions that began in which of these Arab nations?",
+    "correct": "Tunisia",
+    "incorrect": [
+      "Morocco",
+      "Syria",
+      "Egypt"
+    ]
+  },
+  {
+    "id": "otdb-history-0aff6c2033",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What year were the Marian Reforms instituted in the Roman Republic?",
+    "correct": "107 BCE",
+    "incorrect": [
+      "42 BCE",
+      "264 BCE",
+      "102 CE"
+    ]
+  },
+  {
+    "id": "otdb-history-bf372c28d7",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Who is the creator of the soft drink, Dr. Pepper?",
+    "correct": "Charles Alderton",
+    "incorrect": [
+      "James Wellington",
+      "Johnson Hinsin",
+      "Boris Heviltik"
+    ]
+  },
+  {
+    "id": "otdb-history-f69f1bf78f",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In 1961, an American B-52 aircraft crashed and nearly detonated two 4mt nuclear bombs over which US city?",
+    "correct": "Goldsboro, North Carolina",
+    "incorrect": [
+      "Hicksville, New York",
+      "Jacksonville, Florida",
+      "Conway, Arkansas"
+    ]
+  },
+  {
+    "id": "otdb-history-fd0fa07563",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?",
+    "correct": "Nagasaki",
+    "incorrect": [
+      "Kawasaki",
+      "Tokyo",
+      "Kagoshima"
+    ]
+  },
+  {
+    "id": "otdb-history-270b1e0c4f",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In 1845, a series of wars named after which indigenous people began in New Zealand?",
+    "correct": "Māori",
+    "incorrect": [
+      "Papuans",
+      "Aborigines",
+      "Polynesians"
+    ]
+  },
+  {
+    "id": "otdb-history-e68dfaa596",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Who was the first ruler of Haiti after the country had gained its independence?",
+    "correct": "Jean-Jacques Dessalines",
+    "incorrect": [
+      "Toussaint Louverture",
+      "Henri Christophe",
+      "Alexandre Petion"
+    ]
+  },
+  {
+    "id": "otdb-history-472cb93df2",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When was the United States National Security Agency established?",
+    "correct": "November 4, 1952",
+    "incorrect": [
+      "July 26, 1908",
+      " July 1, 1973",
+      " November 25, 2002"
+    ]
+  },
+  {
+    "id": "otdb-history-13922575fa",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which U.S. president took part in the Potsdam Conference, where the Allies reached a peace settlement with Germany?",
+    "correct": "Harry S. Truman",
+    "incorrect": [
+      "Dwight D. Eisenhower",
+      "Franklin D. Roosevelt",
+      "Herbert Hoover"
+    ]
+  },
+  {
+    "id": "otdb-history-44212a51f3",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "When did the French Revolution begin?",
+    "correct": "May 05 1789",
+    "incorrect": [
+      "April 12 1789",
+      "April 05 1789",
+      "May 06 1799"
+    ]
+  },
+  {
+    "id": "otdb-history-2b62bc2f67",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "All of the following are names of the Seven Warring States EXCEPT:",
+    "correct": "Zhai (翟)",
+    "incorrect": [
+      "Zhao (趙)",
+      "Qin (秦)",
+      "Qi (齊)"
+    ]
+  },
+  {
+    "id": "otdb-history-4adad3393e",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "The ancient city of Chichén Itzá was built by which civilization?",
+    "correct": "Mayans",
+    "incorrect": [
+      "Aztecs",
+      "Incas",
+      "Toltecs"
+    ]
+  },
+  {
+    "id": "otdb-history-233df1f4f8",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The seed drill was invented by which British inventor?",
+    "correct": "Jethro Tull",
+    "incorrect": [
+      "Charles Babbage",
+      "Isaac Newton",
+      "J.J Thomson"
+    ]
+  },
+  {
+    "id": "otdb-history-4bf07028e1",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In what year did Neil Armstrong and Buzz Aldrin land on the moon?",
+    "correct": "1969",
+    "incorrect": [
+      "1965",
+      "1966",
+      "1973"
+    ]
+  },
+  {
+    "id": "otdb-history-28654d8cc5",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which U.S. President was famously 'attacked' by a swimming rabbit?",
+    "correct": "Jimmy Carter",
+    "incorrect": [
+      "Ronald Reagan",
+      "Lydon B. Johnson",
+      "Gerald Ford"
+    ]
+  },
+  {
+    "id": "otdb-history-0dcd69ce16",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of these facilities was not present on the Titanic?",
+    "correct": "Fainting room",
+    "incorrect": [
+      "Turkish bath",
+      "Kennel",
+      "Squash court"
+    ]
+  },
+  {
+    "id": "otdb-history-72768b1412",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "In 1939, Britain and France declared war on Germany after it invaded which country?",
+    "correct": "Poland",
+    "incorrect": [
+      "Czechoslovakia",
+      "Austria",
+      "Hungary"
+    ]
+  },
+  {
+    "id": "otdb-history-a8852366d2",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "List the following Iranic empires in chronological order:",
+    "correct": "Median, Achaemenid, Parthian, Sassanid",
+    "incorrect": [
+      "Median, Achaemenid, Sassanid, Parthian",
+      "Achaemenid, Median, Parthian, Sassanid",
+      "Achaemenid, Median, Sassanid, Parthian"
+    ]
+  },
+  {
+    "id": "otdb-history-5a7c943e45",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When was the Grand Patriotic War in the USSR concluded?",
+    "correct": "May 9th, 1945",
+    "incorrect": [
+      "September 2nd, 1945",
+      "August 9th, 1945",
+      "December 11th, 1945"
+    ]
+  },
+  {
+    "id": "otdb-history-ed26cb3896",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which of the following African countries was most successful in resisting colonization?",
+    "correct": "Ethiopia",
+    "incorrect": [
+      "Côte d’Ivoire",
+      "Congo",
+      "Namibia"
+    ]
+  },
+  {
+    "id": "otdb-history-4743af3412",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Who discovered Penicillin?",
+    "correct": "Alexander Flemming",
+    "incorrect": [
+      "Marie Curie",
+      "Alfred Nobel",
+      "Louis Pasteur"
+    ]
+  },
+  {
+    "id": "otdb-history-ab0ce001c3",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Who was the first president of Kenya?",
+    "correct": "Jomo Kenyatta",
+    "incorrect": [
+      "Daniel Moi",
+      "Tom Mboya",
+      "Oginga Odinga"
+    ]
+  },
+  {
+    "id": "otdb-history-d59ed0e783",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What year did the Vietnam War end?",
+    "correct": "1975",
+    "incorrect": [
+      "1978",
+      "1967",
+      "1969"
+    ]
+  },
+  {
+    "id": "otdb-history-dcbeabf6a4",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When was \"The Gadget\", the first nuclear device to be detonated, tested?",
+    "correct": "July 16, 1945",
+    "incorrect": [
+      "June 22, 1945",
+      "August 6, 1945",
+      "April 5, 1945"
+    ]
+  },
+  {
+    "id": "otdb-history-c8d0dc9c8e",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Under which name was Rodrigo Borgia made Pope?",
+    "correct": "Alexander VI",
+    "incorrect": [
+      "Rodrigo I",
+      "John Paul II",
+      "Pius VII"
+    ]
+  },
+  {
+    "id": "otdb-history-766552ff42",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Who led the Communist Revolution of Russia?",
+    "correct": "Vladimir Lenin",
+    "incorrect": [
+      "Joseph Stalin",
+      "Vladimir Putin",
+      "Mikhail Gorbachev"
+    ]
+  },
+  {
+    "id": "otdb-history-f275210c81",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Who was the last emperor of Mexico?",
+    "correct": "Ferdinand Maximilian",
+    "incorrect": [
+      "Andrés Manuel López Obrador",
+      "Napoleon III",
+      "Agustín de Iturbide"
+    ]
+  },
+  {
+    "id": "otdb-history-b45241df4d",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What year did the Battle of Agincourt take place?",
+    "correct": "1415",
+    "incorrect": [
+      "1463",
+      "1401",
+      "1422"
+    ]
+  },
+  {
+    "id": "otdb-history-2f5173e788",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What is the bloodiest event in United States history, in terms of casualties?",
+    "correct": "Battle of Antietam",
+    "incorrect": [
+      "Pearl Harbor",
+      "September 11th",
+      "D-Day"
+    ]
+  },
+  {
+    "id": "otdb-history-9023f7f06e",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "On which day did the attempted coup d'etat of 1991 in the Soviet Union begin?",
+    "correct": "August 19",
+    "incorrect": [
+      "August 21",
+      "December 26",
+      "December 24"
+    ]
+  },
+  {
+    "id": "otdb-history-592650271c",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "When is the Ides of March?",
+    "correct": "March 15",
+    "incorrect": [
+      "March 14",
+      "March 31",
+      "March 1"
+    ]
+  },
+  {
+    "id": "otdb-history-d517133eb1",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "John Moses Browning, the designer of the M1918 BAR (Browning Automatic Rifle) was a part of which religion?",
+    "correct": "Mormon",
+    "incorrect": [
+      "Catholic",
+      "Jewish",
+      "Atheist"
+    ]
+  },
+  {
+    "id": "otdb-history-950b36f18e",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "On which day did ARPANET suffer a 4 hour long network crash?",
+    "correct": "October 27, 1980",
+    "incorrect": [
+      "November 21, 1969",
+      "October 29, 1969",
+      "December 9, 1991"
+    ]
+  },
+  {
+    "id": "otdb-history-3bbe1c3efd",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "In the year 1900, what were the most popular first names given to boy and girl babies born in the United States?",
+    "correct": "John and Mary",
+    "incorrect": [
+      "Joseph and Catherine",
+      "William and Elizabeth",
+      "George and Anne"
+    ]
+  },
+  {
+    "id": "otdb-history-0eac431396",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When was Napoleon Bonaparte crowned emperor of the French? ",
+    "correct": " December 2nd 1804",
+    "incorrect": [
+      " July 3rd 1802",
+      " March 8th 1803",
+      " October 15th 1804"
+    ]
+  },
+  {
+    "id": "otdb-history-849adf869e",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "How old was Lyndon B. Johnson when he assumed the role of President of the United States?",
+    "correct": "55",
+    "incorrect": [
+      "50",
+      "60",
+      "54"
+    ]
+  },
+  {
+    "id": "otdb-history-81e00f306d",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "In what year did the Great Northern War, between Russia and Sweden, end?",
+    "correct": "1721",
+    "incorrect": [
+      "1726",
+      "1727",
+      "1724"
+    ]
+  },
+  {
+    "id": "otdb-history-ff9b963979",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "When was the \"Siege of Leningrad\" lifted during World War II?",
+    "correct": "January 1944",
+    "incorrect": [
+      "September 1943",
+      "November 1943",
+      "March 1944"
+    ]
+  },
+  {
+    "id": "otdb-history-c88bc85487",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which U.S. President was in office when the Gulf War began?",
+    "correct": "George H. W. Bush",
+    "incorrect": [
+      "Richard Nixon",
+      "George W. Bush ",
+      "Ronald Regan"
+    ]
+  },
+  {
+    "id": "otdb-history-33dba612d3",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "What is widely considered to be the oldest civilization known to mankind?",
+    "correct": "Sumeria",
+    "incorrect": [
+      "Babylon",
+      "Assyria",
+      "Phoenicia"
+    ]
+  },
+  {
+    "id": "otdb-history-2a4bb44099",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What were the first states to break away from Yugoslavia?",
+    "correct": "Slovenia, Croatia",
+    "incorrect": [
+      "Macedonia, Montenegro",
+      "Slovenia, Macedonia",
+      "Montenegro, Slovenia"
+    ]
+  },
+  {
+    "id": "otdb-history-637a13d4da",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What was the name of the first permanent English settlement in America?",
+    "correct": "Jamestown",
+    "incorrect": [
+      "New York",
+      "St. John's",
+      "Plymouth"
+    ]
+  },
+  {
+    "id": "otdb-history-01495b878f",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which country did the Eureka Rebellion, an 1856 battle against colonial rule, take place in?",
+    "correct": "Australia",
+    "incorrect": [
+      "India",
+      "Canada",
+      "Brazil"
+    ]
+  },
+  {
+    "id": "otdb-history-6b8c864476",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "In what year did the Wall Street Crash take place?",
+    "correct": "1929",
+    "incorrect": [
+      "1932",
+      "1930",
+      "1925"
+    ]
+  },
+  {
+    "id": "otdb-history-6dcbc8de46",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which is the hull NO. of the Fletcher class destroyer Fletcher?",
+    "correct": "DD-445",
+    "incorrect": [
+      "DD-992",
+      "DD-444",
+      "DD-446"
+    ]
+  },
+  {
+    "id": "otdb-history-8d02452c84",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "What does the United States of America celebrate during the 4th of July?",
+    "correct": "The signing of the Declaration of Independence",
+    "incorrect": [
+      "The anniversary of the Battle of Gettysburg",
+      "The crossing of the Delaware River",
+      "The ratification of the Constitution"
+    ]
+  },
+  {
+    "id": "otdb-history-58e3105799",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+    "correct": "Silver",
+    "incorrect": [
+      "Gold",
+      "Juno",
+      "Sword"
+    ]
+  },
+  {
+    "id": "otdb-history-8d123ea437",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "The Bohemian Revolt (1618-1620) started after Protestants in Prague did what to their Catholic Lords Regents?",
+    "correct": "Threw them out of a window",
+    "incorrect": [
+      "Insulted their mothers",
+      "Locked them in stockades",
+      "Hung them."
+    ]
+  },
+  {
+    "id": "otdb-history-825e0496af",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was the first mammal successfully launched into Earth's orbit?",
+    "correct": "Laika, the dog",
+    "incorrect": [
+      "Ham, the chimpanzee",
+      "Baker, the monkey",
+      "Belka, the dog"
+    ]
+  },
+  {
+    "id": "otdb-history-9847aaedc6",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which English king was married to Eleanor of Aquitaine?",
+    "correct": "Henry II",
+    "incorrect": [
+      "Richard I",
+      "Henry I",
+      "Henry V"
+    ]
+  },
+  {
+    "id": "otdb-history-d660525423",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was the first president born in the independent United States?",
+    "correct": "Martin Van Buren",
+    "incorrect": [
+      "John Adams",
+      "George Washington",
+      "James Monroe "
+    ]
+  },
+  {
+    "id": "otdb-history-236414bdde",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "What was Manfred von Richthofen's nickname?",
+    "correct": "The Red Baron",
+    "incorrect": [
+      "The High Flying Ace",
+      "The Blue Serpent ",
+      "The Germany Gunner"
+    ]
+  },
+  {
+    "id": "otdb-history-864bc2717c",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of the following years is commonly referred to as the \"Year Without a Summer\"?",
+    "correct": "1816",
+    "incorrect": [
+      "1823",
+      "1813",
+      "1808"
+    ]
+  },
+  {
+    "id": "otdb-history-ac2967fc00",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "When did Canada leave the confederation to become their own nation?",
+    "correct": "July 1st, 1867",
+    "incorrect": [
+      "July 1st, 1763",
+      "July 1st, 1832",
+      "July 1st, 1902"
+    ]
+  },
+  {
+    "id": "otdb-history-27ecda88e2",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which game was the Game of the Year in 2018?",
+    "correct": "God of War",
+    "incorrect": [
+      "Detroit: Become Human",
+      "Red Dead Redemption 2",
+      "A Way Out"
+    ]
+  },
+  {
+    "id": "otdb-history-af724251bf",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What is the name of the US Navy spy ship which was attacked and captured by North Korean forces in 1968?",
+    "correct": "USS Pueblo",
+    "incorrect": [
+      "USS North Carolina",
+      "USS Constitution",
+      "USS Indianapolis"
+    ]
+  },
+  {
+    "id": "otdb-history-97127fb761",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What year did the Boxing Day earthquake & tsunami occur in the Indian Ocean?",
+    "correct": "2004",
+    "incorrect": [
+      "2006",
+      "2008",
+      "2002"
+    ]
+  },
+  {
+    "id": "otdb-history-c8337250d8",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "In what year did the nuclear power plant in Chernobyl melt down?",
+    "correct": "1986",
+    "incorrect": [
+      "1991",
+      "1975",
+      "1998"
+    ]
+  },
+  {
+    "id": "otdb-history-45ad180fb0",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What date was the first flight of the P-40 Warhawk?",
+    "correct": "October 14 1938",
+    "incorrect": [
+      "August 21 1939",
+      "January 12 1940",
+      "June 1 1939"
+    ]
+  },
+  {
+    "id": "otdb-history-3d62061f8b",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "In what year was the M1911 pistol designed?",
+    "correct": "1911",
+    "incorrect": [
+      "1907",
+      "1899",
+      "1917"
+    ]
+  },
+  {
+    "id": "otdb-history-434bc2e373",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which modern country is known as \"The Graveyard of Empires\"?",
+    "correct": "Afghanistan",
+    "incorrect": [
+      "China",
+      "Iraq",
+      "Russia"
+    ]
+  },
+  {
+    "id": "otdb-history-a964c1cfc9",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In which year was Constantinople conquered by the Turks?",
+    "correct": "1453",
+    "incorrect": [
+      "1435",
+      "1454",
+      "1440"
+    ]
+  },
+  {
+    "id": "otdb-history-b4505dff70",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Who was the Prime Minister of Japan when Japan declared war on the US?",
+    "correct": "Hideki Tojo",
+    "incorrect": [
+      "Michinomiya Hirohito",
+      "Isoroku Yamamoto",
+      "Fumimaro Konoe"
+    ]
+  },
+  {
+    "id": "otdb-history-9ea627bce0",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Where was Portuguese explorer Ferdinand Magellan killed in 1521?",
+    "correct": "The Phillipines",
+    "incorrect": [
+      "Canary Islands",
+      "Guam",
+      "Argentina"
+    ]
+  },
+  {
+    "id": "otdb-history-825eaac340",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Pianist Frédéric Chopin was a composer of which musical era?",
+    "correct": "Romantic",
+    "incorrect": [
+      "Classic",
+      "Baroque",
+      "Renaissance"
+    ]
+  },
+  {
+    "id": "otdb-history-bafc5ba9fc",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "During which American Civil War campaign did Union troops dig a tunnel beneath Confederate troops to detonate explosives underneath them?",
+    "correct": "Siege of Petersburg",
+    "incorrect": [
+      "Siege of Vicksburg",
+      "Antietam Campaign",
+      "Gettysburg Campagin"
+    ]
+  },
+  {
+    "id": "otdb-history-1e93dababf",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "The coat of arms of the King of Spain contains the arms from the monarchs of Castille, Leon, Aragon and which other former Iberian kingdom?",
+    "correct": "Navarre",
+    "incorrect": [
+      "Galicia",
+      "Granada",
+      "Catalonia"
+    ]
+  },
+  {
+    "id": "otdb-history-ac0f016c33",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Pol Pot was the former dictator of which country?",
+    "correct": "Cambodia",
+    "incorrect": [
+      "Laos",
+      "North Korea",
+      "Vietnam"
+    ]
+  },
+  {
+    "id": "otdb-history-de84760186",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Who was the first man to travel into outer space twice?",
+    "correct": "Gus Grissom",
+    "incorrect": [
+      "Vladimir Komarov",
+      "Charles Conrad",
+      "Yuri Gagarin"
+    ]
+  },
+  {
+    "id": "otdb-history-6af95e459f",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "In which year was Nelson Mandela released from prison",
+    "correct": "1990",
+    "incorrect": [
+      "1994",
+      "1992",
+      "1980"
+    ]
+  },
+  {
+    "id": "otdb-history-e3925bd87e",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What age was King Henry V when he died?",
+    "correct": "35",
+    "incorrect": [
+      "62",
+      "87",
+      "73"
+    ]
+  },
+  {
+    "id": "otdb-history-1a54102b08",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In World War I, what was the name of the alliance of Germany, Austria-Hungary, the Ottoman Empire, and Bulgaria?",
+    "correct": "The Central Powers",
+    "incorrect": [
+      "The Axis Powers",
+      "The Federation of Empires",
+      "Authoritarian Alliance"
+    ]
+  },
+  {
+    "id": "otdb-history-4c176142eb",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What was the name of the African-American cultural explosion centered in upper Manhattan during the 1920s and 1930s?",
+    "correct": "Harlem Renaissance",
+    "incorrect": [
+      "Inwood Renaissance",
+      "Bed-Stuy Renaissance",
+      "Upper East Renaissance"
+    ]
+  },
+  {
+    "id": "otdb-history-6d7a1ccdb5",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What was the original name of New York City?",
+    "correct": "New Amsterdam",
+    "incorrect": [
+      "New London",
+      "New Paris",
+      "New Rome"
+    ]
+  },
+  {
+    "id": "otdb-history-240b0c5de7",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "The main objective of the German operation \"Case Blue\" during World War II was originally to capture what?",
+    "correct": "Caucasus",
+    "incorrect": [
+      "Stalingrad",
+      "Crimea",
+      "Voronezh"
+    ]
+  },
+  {
+    "id": "otdb-history-d041e5eba8",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "When did Lithuania declare independence from the Soviet Union?",
+    "correct": "March 11th, 1990",
+    "incorrect": [
+      "December 25th, 1991",
+      "December 5th, 1991",
+      "April 20th, 1989"
+    ]
+  },
+  {
+    "id": "otdb-history-d39393536e",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Adolf Hitler was born on which date?",
+    "correct": "April 20, 1889",
+    "incorrect": [
+      "June 12, 1889",
+      "February 6, 1889",
+      "April 16, 1889"
+    ]
+  },
+  {
+    "id": "otdb-history-d86df2a687",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When did O, Canada officially become the national anthem?",
+    "correct": "1980",
+    "incorrect": [
+      "1950",
+      "1920",
+      "1880"
+    ]
+  },
+  {
+    "id": "otdb-history-b9661436b7",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who crowned Charlemagne as Holy Roman Emperor on Christmas Day in 800?",
+    "correct": "Pope Leo III",
+    "incorrect": [
+      "Pope Urban IV",
+      "Pope Stephen V",
+      "Pope Valentine"
+    ]
+  },
+  {
+    "id": "otdb-history-e0bae14dda",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The Thirty Years War ended with which treaty?",
+    "correct": "Peace of Westphalia",
+    "incorrect": [
+      "Treaty of Versailles",
+      "Treaty of Paris",
+      "Peace of Prague"
+    ]
+  },
+  {
+    "id": "otdb-history-9bbd0abf6f",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The Battle of the Somme in World War I took place in which country?",
+    "correct": "France",
+    "incorrect": [
+      "Germany",
+      "Italy",
+      "Austria"
+    ]
+  },
+  {
+    "id": "otdb-history-fdb11b9144",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Who was the Confederate general in the American Civil War?",
+    "correct": "Robert E. Lee",
+    "incorrect": [
+      "George A. Custer",
+      "Ulysses S. Grant",
+      "George B. McClellan"
+    ]
+  },
+  {
+    "id": "otdb-history-065c0255d7",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which of the following countries was not an axis power during World War II?",
+    "correct": " Soviet Union",
+    "incorrect": [
+      "Italy",
+      "Germany",
+      "Japan"
+    ]
+  },
+  {
+    "id": "otdb-history-572307b3b7",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What was the real name of the Albanian national leader Skanderbeg?",
+    "correct": "Gjergj Kastrioti",
+    "incorrect": [
+      "Diturak Zhulati",
+      "Iskander Bejko",
+      "Mirash Krasniki"
+    ]
+  },
+  {
+    "id": "otdb-history-6f18d8dc6a",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which Nation did NOT have a Colony in modern-day North America?",
+    "correct": "Portugal",
+    "incorrect": [
+      "Spain",
+      "Sweden",
+      "Netherlands"
+    ]
+  },
+  {
+    "id": "otdb-history-68d16293f6",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of the following Presidents of the United States was assassinated?",
+    "correct": "William McKinley",
+    "incorrect": [
+      "Lyndon Johnson",
+      "Chester Arthur",
+      "Franklin Roosevelt"
+    ]
+  },
+  {
+    "id": "otdb-history-5c158d2d6f",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "During the Spanish Civil War (1936), Francisco Franco fought for which political faction?",
+    "correct": "Nationalist Spain",
+    "incorrect": [
+      "Republican Spain",
+      "Popular Front",
+      "Papal State"
+    ]
+  },
+  {
+    "id": "otdb-history-bb21e3f119",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What was the Canada's first capital?",
+    "correct": "Kingston",
+    "incorrect": [
+      "Toronto",
+      "Ottawa",
+      "Montreal"
+    ]
+  },
+  {
+    "id": "otdb-history-c0e6c45b31",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In which year did the First World War begin?",
+    "correct": "1914",
+    "incorrect": [
+      "1930",
+      "1917",
+      "1939"
+    ]
+  },
+  {
+    "id": "otdb-history-dd09a125ec",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What year was the first Pizza Hut restaurant opened?",
+    "correct": "1958",
+    "incorrect": [
+      "1976",
+      "1965",
+      "1942"
+    ]
+  },
+  {
+    "id": "otdb-history-03dfb2a6bf",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was the leader of Sweden in the Great Northern War?",
+    "correct": "Charles XII",
+    "incorrect": [
+      "Per Albin Hansson",
+      "Peter the Great",
+      "Gustavus Adolphus"
+    ]
+  },
+  {
+    "id": "otdb-history-7887f19fa2",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What was the aim of the \"Umbrella Revolution\" in Hong Kong in 2014?",
+    "correct": "Genuine universal suffrage",
+    "incorrect": [
+      "Gaining Independence",
+      "Go back under British Rule",
+      "Lower taxes"
+    ]
+  },
+  {
+    "id": "otdb-history-3016e60568",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which Roman Emperor led the Roman Empire to reach its maximum territorial extent?",
+    "correct": "Trajan",
+    "incorrect": [
+      "Julius Caesar",
+      "Claudius",
+      "Constantine the Great"
+    ]
+  },
+  {
+    "id": "otdb-history-90d8f270f9",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which Nazi General was known as the \"Desert Fox\"?",
+    "correct": "Erwin Rommel",
+    "incorrect": [
+      "Gerd von Rundstadt",
+      "Wilhelm Keitel",
+      "Heinz Guderian "
+    ]
+  },
+  {
+    "id": "otdb-history-88c45d21b1",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What Southeast Asian country was formerly known as 'Lan Xang'?",
+    "correct": "Laos",
+    "incorrect": [
+      "Cambodia",
+      "Vietnam",
+      "Thailand"
+    ]
+  },
+  {
+    "id": "otdb-history-b5213e0647",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "How many Sister Ships were related to the TItanic?",
+    "correct": "2",
+    "incorrect": [
+      "4",
+      "3",
+      "1"
+    ]
+  },
+  {
+    "id": "otdb-history-98269e40b6",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "When did the Battle of the Somme begin?",
+    "correct": "July 1st, 1916",
+    "incorrect": [
+      "August 1st, 1916",
+      "July 2nd, 1916",
+      "June 30th, 1916"
+    ]
+  },
+  {
+    "id": "otdb-history-ccb688b75b",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "What country joined the EU in 2013?",
+    "correct": "Croatia",
+    "incorrect": [
+      "Bulgaria",
+      "Slovenia",
+      "Turkey"
+    ]
+  },
+  {
+    "id": "otdb-history-eff1c50304",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which of the following Physicists aided Nazi Germany in their production of a nuclear weapon?",
+    "correct": "Werner Heisenberg",
+    "incorrect": [
+      "John von Neumann",
+      "Albert Einstein",
+      "Max Planck"
+    ]
+  },
+  {
+    "id": "otdb-history-7a48d0270d",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who led France during the \"Reign of Terror\" ?",
+    "correct": "Maximilien Robespierre",
+    "incorrect": [
+      "Napoleon Bonaparte",
+      "Jean-Paul Marat",
+      "Louis XVI"
+    ]
+  },
+  {
+    "id": "otdb-history-975a5db97b",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which country was an allied power in World War II?",
+    "correct": "Soviet Union",
+    "incorrect": [
+      "Italy",
+      "Germany",
+      "Japan"
+    ]
+  },
+  {
+    "id": "otdb-history-886e432a95",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "During what war did the \"Cuban Missile Crisis\" occur?",
+    "correct": "Cold War",
+    "incorrect": [
+      "World War I",
+      "World War II",
+      "Revolutionary War"
+    ]
+  },
+  {
+    "id": "otdb-history-8e33c07374",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Who was the first president of the United States?",
+    "correct": "George Washington",
+    "incorrect": [
+      "James Madison",
+      "Thomas Jefferson",
+      "James K. Polk"
+    ]
+  },
+  {
+    "id": "otdb-history-1d6273bf0f",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Where was Napoleon Bonaparte born?",
+    "correct": "Corsica",
+    "incorrect": [
+      "Normandy",
+      "Brittany",
+      "Paris"
+    ]
+  },
+  {
+    "id": "otdb-history-b00570ed03",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which of the following ancient peoples was NOT classified as Hellenic (Greek)?",
+    "correct": "Illyrians",
+    "incorrect": [
+      "Dorians",
+      "Achaeans",
+      "Ionians"
+    ]
+  },
+  {
+    "id": "otdb-history-af43095ef1",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which South American country fought Great Britain over the Falkland Islands in 1982?",
+    "correct": "Argentina",
+    "incorrect": [
+      "Brazil",
+      "Chile",
+      "Venezuela"
+    ]
+  },
+  {
+    "id": "otdb-history-2dd84b5d97",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Before the American colonies switched to the Gregorian calendar in 1752, on what date did their new year start?",
+    "correct": "March 25th",
+    "incorrect": [
+      "June 1st",
+      "September 25th",
+      "December 1st"
+    ]
+  },
+  {
+    "id": "otdb-history-c48f6de21c",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What was found in 1946 by two young shepards near a cave?",
+    "correct": "Dead Sea Scrolls",
+    "incorrect": [
+      "The Blackbeard Chest",
+      "Sheep",
+      "The First Oaxaca Cave Sleeper"
+    ]
+  },
+  {
+    "id": "otdb-history-9e5c7ebfef",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When did the United States formally declare war on Japan, entering World War II?",
+    "correct": "December 8, 1941",
+    "incorrect": [
+      "June 6, 1944",
+      "June 22, 1941",
+      "September 1, 1939"
+    ]
+  },
+  {
+    "id": "otdb-history-3aedbee8f0",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What did the abbreviation \"RMS\" stand for in the RMS Titanic in 1912?",
+    "correct": "Royal Mail Ship",
+    "incorrect": [
+      "Royal Majesty Service",
+      "Regular Maritime Schedule ",
+      "Regulated Maelstrom Sensor"
+    ]
+  },
+  {
+    "id": "otdb-history-4bde4ef1e1",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of the following snipers has the highest amount of confirmed kills?",
+    "correct": "Simo Häyhä",
+    "incorrect": [
+      "Chris Kyle",
+      "Vasily Zaytsev",
+      "Craig Harrison"
+    ]
+  },
+  {
+    "id": "otdb-history-c1d1a3d916",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was the Prime Minister of the United Kingdom for most of World War II?",
+    "correct": "Winston Churchill",
+    "incorrect": [
+      "Neville Chamberlain",
+      "Harold Macmillan",
+      "Edward Heath"
+    ]
+  },
+  {
+    "id": "otdb-history-6cc52ae447",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "With which Greek philosopher would you associate the phrase, \"I know that I know nothing\"?",
+    "correct": "Socrates",
+    "incorrect": [
+      "Aristotle",
+      "Plato",
+      "Pythagoras"
+    ]
+  },
+  {
+    "id": "otdb-history-4b0dd48baa",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In what dialogue did Socrates defend himself to the court of Athens? ",
+    "correct": "The Apology",
+    "incorrect": [
+      "The Euthyphro",
+      "The Laws",
+      "The Republic"
+    ]
+  },
+  {
+    "id": "otdb-history-a04a9a57db",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What disease crippled President Franklin D. Roosevelt and led him to help the nation find a cure? ",
+    "correct": "Polio",
+    "incorrect": [
+      "Cancer",
+      "Meningitis",
+      "HIV"
+    ]
+  },
+  {
+    "id": "otdb-history-ad74530805",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "The term Luddite originally applied to disgruntled workers in which industry?",
+    "correct": "Textile",
+    "incorrect": [
+      "Farming",
+      "Mining",
+      "Ceramics"
+    ]
+  },
+  {
+    "id": "otdb-history-20cf7442be",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which Irish village in County Mayo built a tourism industry on the back of an alleged appearance by the Virgin Mary in 1879?",
+    "correct": "Knock",
+    "incorrect": [
+      "Ballycastle",
+      "Swinford",
+      "Turlough"
+    ]
+  },
+  {
+    "id": "otdb-history-89d6378d7e",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What did the first vending machines in the early 1880's dispense?",
+    "correct": "Post cards",
+    "incorrect": [
+      "Alcohol",
+      "Cigarettes",
+      "Sodas "
+    ]
+  },
+  {
+    "id": "otdb-history-e1afa4eff2",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What is the name of the Boeing B-29 that dropped the 'Little Boy' atomic bomb on Hiroshima?",
+    "correct": "Enola Gay",
+    "incorrect": [
+      "Necessary Evil",
+      "The Great Artiste",
+      "Full House"
+    ]
+  },
+  {
+    "id": "otdb-history-6db643e8b0",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What was the name of the spy ring that helped the United States win the Revolutionary War?",
+    "correct": "Culper Ring",
+    "incorrect": [
+      "New York Spy Ring",
+      "Washington's Spies",
+      "Unnamed"
+    ]
+  },
+  {
+    "id": "otdb-history-881e297cca",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What nationality was sultan Saladin?",
+    "correct": "Kurdish",
+    "incorrect": [
+      "Arab",
+      "Egyptian",
+      "Syrian"
+    ]
+  },
+  {
+    "id": "otdb-history-13e07de66f",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "On which day did construction start on \"The Pentagon\", the headquarters for the United States Department of Defense?",
+    "correct": "September 11, 1941",
+    "incorrect": [
+      "June 15, 1947",
+      "January 15, 1943",
+      "September 2, 1962"
+    ]
+  },
+  {
+    "id": "otdb-history-35c2f5f284",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which building was set aflame on August 24th, 1812?",
+    "correct": "The White House",
+    "incorrect": [
+      "Parliament Building",
+      "Grand National Assembly Building",
+      "Palace of the Nation"
+    ]
+  },
+  {
+    "id": "otdb-history-e20b11145d",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which WWII tank ace is credited with having destroyed the most tanks?",
+    "correct": "Kurt Knispel",
+    "incorrect": [
+      "Michael Wittmann",
+      "Walter Kniep",
+      "Otto Carius"
+    ]
+  },
+  {
+    "id": "otdb-history-58c424f37e",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was Hannibal?",
+    "correct": "Carthaginian general",
+    "incorrect": [
+      "British serial killer",
+      "French explorer",
+      "Greek philosopher"
+    ]
+  },
+  {
+    "id": "otdb-history-19c012bfcc",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of these countries was sea charted in 1500 by the Portuguese maritime explorations?",
+    "correct": "Brazil",
+    "incorrect": [
+      "India",
+      "Mozambique",
+      "Madagascar"
+    ]
+  },
+  {
+    "id": "otdb-history-e9c575ae3e",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Who was the first prime minister of Canada?",
+    "correct": "John Macdonald",
+    "incorrect": [
+      "John Abbott",
+      "Alexander Mackenzie",
+      "Robert Borden"
+    ]
+  },
+  {
+    "id": "otdb-history-155ca992e3",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Who rode on horseback to warn the Minutemen that the British were coming during the U.S. Revolutionary War?",
+    "correct": "Paul Revere",
+    "incorrect": [
+      "Thomas Paine",
+      "Henry Longfellow",
+      "Nathan Hale"
+    ]
+  },
+  {
+    "id": "otdb-history-e45b6225e9",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of the following is NOT classified as a Semetic language?",
+    "correct": "Sumerian",
+    "incorrect": [
+      "Maltese",
+      "Akkadian",
+      "Mandaic"
+    ]
+  },
+  {
+    "id": "otdb-history-a68133d272",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "When was the SS or Schutzstaffel established?",
+    "correct": "April 4th, 1925",
+    "incorrect": [
+      "September 1st, 1941",
+      "March 8th, 1935",
+      "February 21st, 1926"
+    ]
+  },
+  {
+    "id": "otdb-history-969233e427",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was the last Roman emperor in the Year of Four Emperors (69 AD)?",
+    "correct": "Vespasian",
+    "incorrect": [
+      "Vitellius",
+      "Otho",
+      "Galba"
+    ]
+  },
+  {
+    "id": "otdb-history-8c9711fccd",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of the following battles is often considered as marking the beginning of the fall of the Western Roman Empire?",
+    "correct": "Battle of Adrianople",
+    "incorrect": [
+      "Battle of Thessalonica",
+      "Battle of Pollentia",
+      "Battle of Constantinople"
+    ]
+  },
+  {
+    "id": "otdb-history-bba1978be3",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which Greek god was the god of the Sun?",
+    "correct": "Helios",
+    "incorrect": [
+      "Zeus",
+      "Hades",
+      "Poseidon"
+    ]
+  },
+  {
+    "id": "otdb-history-190d877874",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What is the oldest US state?",
+    "correct": "Delaware",
+    "incorrect": [
+      "Rhode Island",
+      "Maine",
+      "Virginia"
+    ]
+  },
+  {
+    "id": "otdb-history-381a77d9f3",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "America's Strategic Defense System during the Cold War was nicknamed after this famous movie.",
+    "correct": "Star Wars",
+    "incorrect": [
+      "Jaws",
+      "Blade Runner",
+      "Alien"
+    ]
+  },
+  {
+    "id": "otdb-history-6867106ac5",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In what year did Texas secede from Mexico?",
+    "correct": "1836",
+    "incorrect": [
+      "1838",
+      "1845",
+      "1844"
+    ]
+  },
+  {
+    "id": "otdb-history-7e92296960",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What did Albert Einstein win the Nobel Prize for in 1921?",
+    "correct": "Photoelectric Effect",
+    "incorrect": [
+      "Relativity",
+      "Wave-Particle Duality",
+      "Zero-Point Energy"
+    ]
+  },
+  {
+    "id": "otdb-history-82c9084a82",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "How many years did the Hundred Years' War last?",
+    "correct": "116",
+    "incorrect": [
+      "100",
+      "90",
+      "101"
+    ]
+  },
+  {
+    "id": "otdb-history-f589a717ed",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In what prison was Adolf Hitler held in 1924?",
+    "correct": "Landsberg Prison",
+    "incorrect": [
+      "Spandau Prison",
+      "Ebrach Abbey",
+      "Hohenasperg"
+    ]
+  },
+  {
+    "id": "otdb-history-222dc2aed9",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "The ontological argument for the proof of God's existence is first attributed to whom?",
+    "correct": "Anselm of Canterbury",
+    "incorrect": [
+      "René Descartes",
+      "Immanuel Kant",
+      "Aristotle"
+    ]
+  },
+  {
+    "id": "otdb-history-33242191b5",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "In which year did the Tokyo Subway Sarin Attack occur?",
+    "correct": "1995",
+    "incorrect": [
+      "2001",
+      "2011",
+      "1991"
+    ]
+  },
+  {
+    "id": "otdb-history-ff396f81ff",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was the first President of the People's Republic of China?",
+    "correct": "Mao Zedong",
+    "incorrect": [
+      "Liu Shaoqi",
+      "Dong Biwu",
+      "Li Xiannian"
+    ]
+  },
+  {
+    "id": "otdb-history-9e23bb25e9",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Who was the first American in space?",
+    "correct": "Alan Shephard",
+    "incorrect": [
+      "Neil Armstrong",
+      "John Glenn",
+      "Jim Lovell"
+    ]
+  },
+  {
+    "id": "otdb-history-eb25f2c411",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which one of these rulers did not belong to the Habsburg dynasty?",
+    "correct": "Philip V",
+    "incorrect": [
+      "Charles V",
+      "Philip II",
+      "Francis Joseph"
+    ]
+  },
+  {
+    "id": "otdb-history-f36bc1cd92",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "How many times was Albert Einstein married in his lifetime?",
+    "correct": "Twice",
+    "incorrect": [
+      "Five",
+      "Thrice",
+      "Once"
+    ]
+  },
+  {
+    "id": "otdb-history-be522d1dc7",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which Louis was known as 'The Sun King of France'?",
+    "correct": "Louis XIV",
+    "incorrect": [
+      "Louis XIII",
+      "Louis XV",
+      "Louis XVI"
+    ]
+  },
+  {
+    "id": "otdb-history-7521f9b4fa",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which dictator killed the most people?",
+    "correct": "Mao Zedong",
+    "incorrect": [
+      "Joseph Stalin",
+      "Adolf Hitler",
+      "Kim Il Sung"
+    ]
+  },
+  {
+    "id": "otdb-history-875288c7d2",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The creator of the Enigma Cypher and Machine was of what nationality?",
+    "correct": "German",
+    "incorrect": [
+      "American",
+      "British",
+      "Polish"
+    ]
+  },
+  {
+    "id": "otdb-history-753e1617eb",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What year was the United States Declaration of Independence signed?",
+    "correct": "1776",
+    "incorrect": [
+      "1775",
+      "1774",
+      "1777"
+    ]
+  },
+  {
+    "id": "otdb-history-cbb89e4d6a",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which of the following was not one of Joseph Stalin's ten blows during World War II?",
+    "correct": "Vistula-Oder Offensive",
+    "incorrect": [
+      "Crimean Offensive",
+      "Leningrad-Novgorod Offensive",
+      "Operation Bagration"
+    ]
+  },
+  {
+    "id": "otdb-history-7e35d55171",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What event marked the start of World War II?",
+    "correct": "Invasion of Poland (1939)",
+    "incorrect": [
+      "Invasion of Russia (1942)",
+      "Battle of Britain (1940)",
+      "Invasion of Normandy (1944)"
+    ]
+  },
+  {
+    "id": "otdb-history-366f087315",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "When did Spanish Peninsular War start?",
+    "correct": "1808",
+    "incorrect": [
+      "1806",
+      "1810",
+      "1809"
+    ]
+  },
+  {
+    "id": "otdb-history-7fb8062282",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What is the name given to the series of confrontations between the UK and Iceland over North Atlantic fishing rights?",
+    "correct": "The Cod Wars",
+    "incorrect": [
+      "The Lobster Wars",
+      "The Halibut Wars",
+      "The Mackerel Wars"
+    ]
+  },
+  {
+    "id": "otdb-history-e2ce71eb48",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was a military strategist in the Eastern Zhou period?",
+    "correct": "Sun Tzu",
+    "incorrect": [
+      "Lu Bu",
+      "Genghis Khan",
+      "Vlad The Impaler"
+    ]
+  },
+  {
+    "id": "otdb-history-cfc3fc824d",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "What was the first sport to have been played on the moon?",
+    "correct": "Golf",
+    "incorrect": [
+      "Football",
+      "Tennis",
+      "Soccer"
+    ]
+  },
+  {
+    "id": "otdb-history-973b1d3500",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which Apollo mission was the last one in NASA's Apollo program?",
+    "correct": "Apollo 17",
+    "incorrect": [
+      "Apollo 13",
+      "Apollo 11",
+      "Apollo 15"
+    ]
+  },
+  {
+    "id": "otdb-history-c0f671ab55",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Toussaint Louverture led a successful slave revolt in which country?",
+    "correct": "Haiti",
+    "incorrect": [
+      "France",
+      "Cuba",
+      "United States"
+    ]
+  },
+  {
+    "id": "otdb-history-bdbd5965dd",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Who assassinated President James A. Garfield?",
+    "correct": "Charles Guiteau",
+    "incorrect": [
+      "Sirhan Sirhan",
+      "Leon Czolgosz",
+      "John Wilkes Booth"
+    ]
+  },
+  {
+    "id": "otdb-history-de4a5b46be",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Who was the President of the United States during the signing of the Gadsden Purchase?",
+    "correct": "Franklin Pierce",
+    "incorrect": [
+      "Andrew Johnson",
+      "Abraham Lincoln",
+      "James Polk"
+    ]
+  },
+  {
+    "id": "otdb-history-dd39029e3c",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What was the name of the national hero of the Philippines who inspired and lead the Philippine Revolution against colonial Spain?",
+    "correct": "José Rizal",
+    "incorrect": [
+      "Simón Bolívar",
+      "Benito Juárez",
+      "José de San Martín"
+    ]
+  },
+  {
+    "id": "otdb-history-efcc7cd1d0",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Abolitionist John Brown raided the arsenal in which Virginia Town?",
+    "correct": "Harper's Ferry",
+    "incorrect": [
+      "Richmond",
+      "Harrisonburg",
+      "Martinsburg"
+    ]
+  },
+  {
+    "id": "otdb-history-afc0801ea9",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed \"the Kingmaker\"?",
+    "correct": "Richard Neville",
+    "incorrect": [
+      "Richard III",
+      "Henry V",
+      "Thomas Warwick"
+    ]
+  },
+  {
+    "id": "otdb-history-d29ec83484",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "When was Google founded?",
+    "correct": "September 4, 1998",
+    "incorrect": [
+      "October 9, 1997",
+      "December 12, 1989",
+      "Feburary 7th, 2000"
+    ]
+  },
+  {
+    "id": "otdb-history-9bdc8c8bf1",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which infamous European traitor was known as \"the last person to enter Parliament with honest intentions\"?",
+    "correct": "Guy Fawkes",
+    "incorrect": [
+      "Robert Catesby",
+      "Francis Tresham",
+      "Everard Digby"
+    ]
+  },
+  {
+    "id": "otdb-history-1486ac2efb",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "To what political party did Abraham Lincoln belong when elected POTUS?",
+    "correct": "Republican",
+    "incorrect": [
+      "Democrat",
+      "Independent",
+      "Whig"
+    ]
+  },
+  {
+    "id": "otdb-history-b266b5d468",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What was the code name for the Allied invasion of Southern France on August 15th, 1944?",
+    "correct": "Operation Dragoon",
+    "incorrect": [
+      "Operation Overlord",
+      "Operation Market Garden",
+      "Operation Torch"
+    ]
+  },
+  {
+    "id": "otdb-history-fd472edf98",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "How was Socrates executed?",
+    "correct": "Poison",
+    "incorrect": [
+      "Decapitation",
+      "Firing squad",
+      "Crucifixion "
+    ]
+  },
+  {
+    "id": "otdb-history-ef1f041e6b",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "The first Legoland park was opened in 1968 in which of these cities?",
+    "correct": "Billund, Denmark",
+    "incorrect": [
+      "Carlsbad, California",
+      "Winter Haven, Florida",
+      "Nagoya, Japan"
+    ]
+  },
+  {
+    "id": "otdb-history-a2f25576f0",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was the leader of the Communist Party of Yugoslavia ?",
+    "correct": "Josip Broz Tito",
+    "incorrect": [
+      "Karadjordje Petrovic",
+      "Milos Obilic",
+      "Aleskandar Petrovic"
+    ]
+  },
+  {
+    "id": "otdb-history-8cc7576407",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "When was Finland's 100th year of being independent?",
+    "correct": "2017",
+    "incorrect": [
+      "2016",
+      "2018",
+      "2015"
+    ]
+  },
+  {
+    "id": "otdb-history-57d5bf0e7c",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "The pantheon in Rome was used to worship what god?",
+    "correct": "Any god they wanted",
+    "incorrect": [
+      "Athena",
+      "Zeus",
+      "Both Athena and Zeus"
+    ]
+  },
+  {
+    "id": "otdb-history-47993f18d9",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In what year did Kentucky become the 15th state to join the union?",
+    "correct": "1792",
+    "incorrect": [
+      "1782",
+      "1798",
+      "1788"
+    ]
+  },
+  {
+    "id": "otdb-history-cc3f0409a7",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What was Genghis Khan's real name?",
+    "correct": "Temüjin",
+    "incorrect": [
+      "Möngke",
+      "Ögedei",
+      "Temür"
+    ]
+  },
+  {
+    "id": "otdb-history-8b847fb87f",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What was the name of the planned invasion of Japan towards the end of World War II?",
+    "correct": "Operation Downfall",
+    "incorrect": [
+      "Operation Boarding Party",
+      "Operation Ironclad",
+      "Operation Aflame"
+    ]
+  },
+  {
+    "id": "otdb-history-24de97063a",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which modern day country is the region that was known as Phrygia in ancient times?",
+    "correct": "Turkey",
+    "incorrect": [
+      "Syria",
+      "Greece",
+      "Egypt"
+    ]
+  },
+  {
+    "id": "otdb-history-d262257ecf",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What number does the Roman numeral \"D\" stand for?",
+    "correct": "500",
+    "incorrect": [
+      "100",
+      "1000",
+      "50"
+    ]
+  },
+  {
+    "id": "otdb-history-d64d7f423d",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "In 1453, which important city fell?",
+    "correct": "Constantinople",
+    "incorrect": [
+      "Rome",
+      "Hamburg",
+      "Athens"
+    ]
+  },
+  {
+    "id": "otdb-history-d8236b758b",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The Panama Canal was finished under the administration of which U.S. president?",
+    "correct": "Woodrow Wilson",
+    "incorrect": [
+      "Franklin Delano Roosevelt",
+      "Herbert Hoover",
+      "Theodore Roosevelt"
+    ]
+  },
+  {
+    "id": "otdb-history-820d80b157",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In what year did the North American Video Game Crash occur?",
+    "correct": "1983",
+    "incorrect": [
+      "1982",
+      "1993",
+      "1970"
+    ]
+  },
+  {
+    "id": "otdb-history-cfef4f550c",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was the first Chancellor of a united Germany in 1871? ",
+    "correct": "Otto Von Bismark",
+    "incorrect": [
+      "Kaiser Wilhelm ",
+      "Fredrick the 2nd",
+      "Robert Koch"
+    ]
+  },
+  {
+    "id": "otdb-history-9ac3fc321b",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What was the total length of the Titanic?",
+    "correct": "882 ft | 268.8 m",
+    "incorrect": [
+      "759 ft | 231.3 m",
+      "1042 ft | 317.6 m",
+      "825 ft | 251.5 m"
+    ]
+  },
+  {
+    "id": "otdb-history-3353d14fcc",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which of these landmarks is not included in the original 'Seven Wonders of the Ancient World'?",
+    "correct": "Great Wall of China",
+    "incorrect": [
+      "Great Pyramid of Giza",
+      "Colossus of Rhodes",
+      "Hanging Gardens of Babylon"
+    ]
+  },
+  {
+    "id": "otdb-history-bc1b791f8b",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "The Battle of Hastings was fought in which year?",
+    "correct": "1066",
+    "incorrect": [
+      "911",
+      "1204",
+      "1420"
+    ]
+  },
+  {
+    "id": "otdb-history-a9daf12ebd",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When was the People's Republic of China founded?",
+    "correct": "October 1, 1949",
+    "incorrect": [
+      "April 3, 1947",
+      "May 7, 1945",
+      "December 6, 1950"
+    ]
+  },
+  {
+    "id": "otdb-history-ca34b51ad8",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What was the transfer of disease, crops, and people across the Atlantic shortly after the discovery of the Americas called?",
+    "correct": "The Columbian Exchange",
+    "incorrect": [
+      "Triangle Trade",
+      "Transatlantic Slave Trade",
+      "The Silk Road"
+    ]
+  },
+  {
+    "id": "otdb-history-6be7ff5a07",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What is the name of the ship which was only a few miles away from the RMS Titanic when it struck an iceberg on April 14, 1912?",
+    "correct": "Californian",
+    "incorrect": [
+      "Carpathia",
+      "Cristol",
+      "Commerce"
+    ]
+  },
+  {
+    "id": "otdb-history-52fcdd9e2e",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When did the Battle of the Bulge end?",
+    "correct": "January 25, 1945",
+    "incorrect": [
+      "August 6, 1945",
+      "December 7, 1941",
+      "December 16, 1944"
+    ]
+  },
+  {
+    "id": "otdb-history-dbe23f25c3",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who assassinated Archduke Franz Ferdinand?",
+    "correct": "Gavrilo Princip",
+    "incorrect": [
+      "Nedeljko Čabrinović",
+      "Oskar Potiorek",
+      "Ferdinand Cohen-Blind"
+    ]
+  },
+  {
+    "id": "otdb-history-2393953a2f",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "How did the Vikings call their short-lived colony in today's Canada?",
+    "correct": "Vínland",
+    "incorrect": [
+      "Føroyar",
+      "Hålogaland",
+      "Skåne"
+    ]
+  },
+  {
+    "id": "otdb-history-4759a9f1ab",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The gunpowder plot was a well-known failed assassination attempt against which of England's then reigning monarchs?",
+    "correct": "James I",
+    "incorrect": [
+      "Elizabeth I",
+      "Charles II",
+      "Charles I"
+    ]
+  },
+  {
+    "id": "otdb-history-17040dc795",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which naval battle was considered the turning point of the Pacific Ocean Theater during World War 2?",
+    "correct": "Battle of Midway",
+    "incorrect": [
+      "Attack on Truk Island",
+      "Attack on Pearl Harbor",
+      "Battle of the Coral Sea"
+    ]
+  },
+  {
+    "id": "otdb-history-c627ae2392",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "When was the city of Rome, Italy founded?",
+    "correct": "753 BCE",
+    "incorrect": [
+      "902 BCE",
+      "524 BCE",
+      "697 BCE"
+    ]
+  },
+  {
+    "id": "otdb-history-a07d7dd697",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What was the unofficial name for Germany between 1919 and 1933?",
+    "correct": "Weimar Republic",
+    "incorrect": [
+      "German Democratic Republic",
+      "Federal Republic of Germany",
+      "Oesterreich "
+    ]
+  },
+  {
+    "id": "otdb-history-f334afa3de",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which of these countries remained neutral during World War II?",
+    "correct": "Switzerland",
+    "incorrect": [
+      "United Kingdom",
+      "France",
+      "Italy"
+    ]
+  },
+  {
+    "id": "otdb-history-4f23bec8d3",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In what year did the First World War end?",
+    "correct": "1918",
+    "incorrect": [
+      "1914",
+      "1916",
+      "1912"
+    ]
+  },
+  {
+    "id": "otdb-history-fec17d94b8",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of the following Assyrian kings did NOT rule during the Neo-Assyrian Empire?",
+    "correct": "Shamshi-Adad III",
+    "incorrect": [
+      "Shalmaneser V",
+      "Esharhaddon",
+      "Ashur-nasir-pal II"
+    ]
+  },
+  {
+    "id": "otdb-history-b5bfc0e192",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What was the name of the German offensive operation in October 1941 to take Moscow before winter?",
+    "correct": "Operation Typhoon",
+    "incorrect": [
+      "Operation Sunflower",
+      "Operation Barbarossa",
+      "Case Blue"
+    ]
+  },
+  {
+    "id": "otdb-history-654b88d7d8",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What historical event was Tchaikovsky's 1812 Overture referencing?",
+    "correct": "The Napoleonic Wars",
+    "incorrect": [
+      "The American War of 1812",
+      "The Russian Revolution",
+      "The Charge of the Light Brigade (Crimean War)"
+    ]
+  },
+  {
+    "id": "otdb-history-80c9627dde",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What was the bloodiest single-day battle during the American Civil War?",
+    "correct": "The Battle of Antietam",
+    "incorrect": [
+      "The Siege of Vicksburg",
+      "The Battle of Gettysburg",
+      "The Battles of Chancellorsville"
+    ]
+  },
+  {
+    "id": "otdb-history-d681505889",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "In which war did the atomic bombings of Hiroshima and Nagasaki occur?",
+    "correct": "World War II",
+    "incorrect": [
+      "World War I",
+      "Russo-Japanese War",
+      "First Sino-Japanese War"
+    ]
+  },
+  {
+    "id": "otdb-history-2655e6c80b",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which U.S. president was said to have been too honest to lie to his father about chopping down a cherry tree?",
+    "correct": "George Washington",
+    "incorrect": [
+      "Abraham Lincoln",
+      "Thomas Jefferson",
+      "James Monroe"
+    ]
+  },
+  {
+    "id": "otdb-history-68be42e34e",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In what year did the Berlin Wall fall?",
+    "correct": "1989",
+    "incorrect": [
+      "1987",
+      "1991",
+      "1993"
+    ]
+  },
+  {
+    "id": "otdb-history-f01377bc92",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which country had an \"Orange Revolution\" between 2004 and 2005?",
+    "correct": "Ukraine",
+    "incorrect": [
+      "Belarus",
+      "Latvia",
+      "Lithuania"
+    ]
+  },
+  {
+    "id": "otdb-history-b825725228",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The crown of the Empire State Building was originally built for what purpose?",
+    "correct": "Airship Dock",
+    "incorrect": [
+      "Lightning Rod",
+      "Antennae",
+      "Flag Pole"
+    ]
+  },
+  {
+    "id": "otdb-history-fe8e755b8c",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The Little Entente was an alliance formed against which nation?",
+    "correct": "Hungary",
+    "incorrect": [
+      "Germany",
+      "France",
+      "Prussia"
+    ]
+  },
+  {
+    "id": "otdb-history-936120abf3",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was the only US President to be elected four times?",
+    "correct": "Franklin Roosevelt",
+    "incorrect": [
+      "Theodore Roosevelt",
+      "George Washington",
+      "Abraham Lincoln"
+    ]
+  },
+  {
+    "id": "otdb-history-7e424a0b7d",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "When did the British hand-over sovereignty of Hong Kong back to China?",
+    "correct": "1997",
+    "incorrect": [
+      "1999",
+      "1841",
+      "1900"
+    ]
+  },
+  {
+    "id": "otdb-history-b6df25c3b4",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "On what street did the 1666 Great Fire of London start?",
+    "correct": "Pudding Lane",
+    "incorrect": [
+      "Baker Street",
+      "Houses of Parliament",
+      "St Paul's Cathedral"
+    ]
+  },
+  {
+    "id": "otdb-history-adcfdd13f6",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "What year did the Titanic sink?",
+    "correct": "1912",
+    "incorrect": [
+      "1930",
+      "1917",
+      "1941"
+    ]
+  },
+  {
+    "id": "otdb-history-f335983d6c",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The Fallingwater House, located in Pennsylvania, was designed by which architect?",
+    "correct": "Frank Lloyd Wright",
+    "incorrect": [
+      "Antoni Gaudi",
+      "Frank Gehry",
+      "Le Corbusier"
+    ]
+  },
+  {
+    "id": "otdb-history-f3cd25f534",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Who invented the \"Flying Shuttle\" in 1738; one of the key developments in the industrialization of weaving?",
+    "correct": "John Kay",
+    "incorrect": [
+      "James Hargreaves",
+      "Richard Arkwright",
+      "John Deere"
+    ]
+  },
+  {
+    "id": "otdb-history-1e4745d7b1",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who is attributed credit for recording the epic poem The Odyssey?",
+    "correct": "Homer",
+    "incorrect": [
+      "Aristotle",
+      "Odysseus",
+      "Socrates"
+    ]
+  },
+  {
+    "id": "otdb-history-b1bb92ad5c",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which British monarch was also known as \"William of Orange\"?",
+    "correct": "William III",
+    "incorrect": [
+      "William I",
+      "William II",
+      "William IV"
+    ]
+  },
+  {
+    "id": "otdb-history-01216abf44",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In which years did the Battle of Gallipoli take place?",
+    "correct": "1915 - 1916",
+    "incorrect": [
+      "1914 - 1918",
+      "1914 - 1915",
+      "1915 - 1918"
+    ]
+  },
+  {
+    "id": "otdb-history-2eb5fc7613",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Joseph Smith was the founder of what religion?",
+    "correct": "Mormonism",
+    "incorrect": [
+      "Buddhism",
+      "Christianity",
+      "Hinduism"
+    ]
+  },
+  {
+    "id": "otdb-history-65da0ea7ee",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "In addition to his career as an astrologer and \"prophet\", Nostradamus published a 1555 treatise that included a section on what?",
+    "correct": "Making jams and jellies",
+    "incorrect": [
+      "Teaching parrots to talk",
+      "Cheating at card games",
+      "Digging graves"
+    ]
+  },
+  {
+    "id": "otdb-history-d4280b6d25",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "The original Roman alphabet lacked the following letters EXCEPT:",
+    "correct": "X",
+    "incorrect": [
+      "W",
+      "U",
+      "J"
+    ]
+  },
+  {
+    "id": "otdb-history-3d1a76ea7a",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "How many women joined the United States Armed Services during World War II?",
+    "correct": "350,000",
+    "incorrect": [
+      "225,000",
+      "100,000",
+      "500,000"
+    ]
+  },
+  {
+    "id": "otdb-history-545454059b",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Who was the first wife of King Henry VIII?",
+    "correct": "Catherine of Aragon",
+    "incorrect": [
+      "Jane Seymour",
+      "Anne Boleyn",
+      "Anne of Cleves"
+    ]
+  },
+  {
+    "id": "otdb-history-8a1c24f577",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "The Hagia Sophia was commissioned by which emperor of the Byzantine Empire?",
+    "correct": "Justinian I",
+    "incorrect": [
+      "Constantine IV",
+      "Arcadius",
+      "Theodosius the Great"
+    ]
+  },
+  {
+    "id": "otdb-history-a1b5385d0a",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of the following is not in the Indo-European language family?",
+    "correct": "Finnish",
+    "incorrect": [
+      "English",
+      "Hindi",
+      "Russian"
+    ]
+  },
+  {
+    "id": "otdb-history-94cf15ddf0",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The Herero genocide was perpetrated in Africa by which of the following colonial nations?",
+    "correct": "Germany",
+    "incorrect": [
+      "Britain",
+      "Belgium",
+      "France"
+    ]
+  },
+  {
+    "id": "otdb-history-5ba4b7d64c",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The 15th century conflicts between the Houses of York and Lancaster are known as the Wars of the what?",
+    "correct": "Wars of the Roses",
+    "incorrect": [
+      "Wars of the Lillies",
+      "Wars of the Daffodils",
+      "Wars of the Tulips"
+    ]
+  },
+  {
+    "id": "otdb-history-2ce779fa8b",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "After his loss at the Battle of Waterloo, Napoleon Bonaparte was exiled to which island?",
+    "correct": "St. Helena",
+    "incorrect": [
+      "Elba",
+      "Corsica",
+      "Canary"
+    ]
+  },
+  {
+    "id": "otdb-history-2849739354",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "In which one of these cities did the Great Stink of 1858 occur?",
+    "correct": "London",
+    "incorrect": [
+      "Berlin",
+      "New York",
+      "Moscow"
+    ]
+  },
+  {
+    "id": "otdb-history-e70af9eb08",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "What year was Canada founded in?",
+    "correct": "1867",
+    "incorrect": [
+      "1798",
+      "1859",
+      "1668"
+    ]
+  },
+  {
+    "id": "otdb-history-a929f6b0e6",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Hong Kong was a part of which country's territory before Britain regained it in 1945?",
+    "correct": "Japan",
+    "incorrect": [
+      "China",
+      "Phillipines",
+      "French Indonesia"
+    ]
+  },
+  {
+    "id": "otdb-history-6bbbb2f977",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What is the mnemonic device for remembering the fates of the wives of Henry VIII?",
+    "correct": "Divorced, Beheaded, Died, Divorced, Beheaded, Survived",
+    "incorrect": [
+      "Beheaded, Died, Divorced, Divorced, Beheaded, Survived",
+      "Died, Beheaded, Divorced, Beheaded, Survived, Divorced",
+      "Survived, Beheaded, Died, Divorced, Divorced, Beheaded"
+    ]
+  },
+  {
+    "id": "otdb-history-8c394874bc",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "The fraudelent doctor John R. Brinkley acummulated great fame and wealth in the early 1900s offering what service?",
+    "correct": "Goat testicles transplant",
+    "incorrect": [
+      "Pig blood transfusion",
+      "Cow liver transplant",
+      "Turkey breast implants"
+    ]
+  },
+  {
+    "id": "otdb-history-a96aa85fa1",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of his six wives was Henry VIII married to the longest?",
+    "correct": "Catherine of Aragon",
+    "incorrect": [
+      "Anne Boleyn",
+      "Jane Seymour",
+      "Catherine Parr"
+    ]
+  },
+  {
+    "id": "otdb-history-2fee6b66ff",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which one of these countries was NOT in the Central Powers during WWI?",
+    "correct": "Spain",
+    "incorrect": [
+      "Austria-Hungary",
+      "Turkey",
+      "Germany"
+    ]
+  },
+  {
+    "id": "otdb-history-3f546d85eb",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "What was the name commonly given to the ancient trade routes that connected the East and West of Eurasia?",
+    "correct": "Silk Road",
+    "incorrect": [
+      "Spice Road",
+      "Clay Road",
+      "Salt Road"
+    ]
+  },
+  {
+    "id": "otdb-history-38cb18a94a",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "A collection of Sanskrit hymns and verses known as the Vedas are sacred texts in what religion?",
+    "correct": "Hinduism",
+    "incorrect": [
+      "Judaism",
+      "Islam",
+      "Buddhism"
+    ]
+  },
+  {
+    "id": "otdb-history-cb5ec7f325",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "In which year did the Invasion of Kuwait by Iraq occur?",
+    "correct": "1990",
+    "incorrect": [
+      "1992",
+      "1988",
+      "1986"
+    ]
+  },
+  {
+    "id": "otdb-history-d5c08827de",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "When did the Byzantine Empire collapse?",
+    "correct": "1453",
+    "incorrect": [
+      "1299",
+      "1353",
+      "1498"
+    ]
+  },
+  {
+    "id": "otdb-history-2ab0ad0e4e",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What was the name of one of the surviving palaces of Henry VIII located near Richmond, London?",
+    "correct": "Hampton Court",
+    "incorrect": [
+      "St James's Palace",
+      "Buckingham Palace",
+      "Coughton Court"
+    ]
+  },
+  {
+    "id": "otdb-history-cc5c1afec1",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "How old was Adolf Hitler when he died?",
+    "correct": "56",
+    "incorrect": [
+      "43",
+      "65",
+      "47"
+    ]
+  },
+  {
+    "id": "otdb-history-675bcaf4c6",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "Which of these 1900s tanks were designed and built BEFORE the others?",
+    "correct": "Renault FT",
+    "incorrect": [
+      "M4 Sherman",
+      " Panzer IV",
+      "Cromwell "
+    ]
+  },
+  {
+    "id": "otdb-history-f01ef6a437",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which of these theoretical phycisists first predicted the existence of antimatter?",
+    "correct": "Paul Dirac",
+    "incorrect": [
+      "Niels Bohr",
+      "Albert Einstein",
+      "Werner Heisenberg"
+    ]
+  },
+  {
+    "id": "otdb-history-e5a4ee62b6",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "According to legend, the ancient Greeks constructed a huge wooden model of which animal to gain entrance to Troy?",
+    "correct": "Horse",
+    "incorrect": [
+      "Goat",
+      "Elephant",
+      "Wolf"
+    ]
+  },
+  {
+    "id": "otdb-history-7fec29d498",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "Which of the following physicists did NOT work on the Manhattan project?",
+    "correct": "Murray Gell-Mann",
+    "incorrect": [
+      "Richard Feynman",
+      "J. Robert Oppenheimer",
+      "John Von-Neumann"
+    ]
+  },
+  {
+    "id": "otdb-history-fe44fb57e1",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "When was Adolf Hitler appointed as Chancellor of Germany?",
+    "correct": "January 30, 1933",
+    "incorrect": [
+      "September 1, 1939",
+      "February 27, 1933",
+      "October 6, 1939"
+    ]
+  },
+  {
+    "id": "otdb-history-573528c478",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which German field marshal was known as the `Desert Fox`?",
+    "correct": "Erwin Rommel",
+    "incorrect": [
+      "Ernst Busch",
+      "Wolfram Freiherr von Richthofen",
+      "Wilhelm List"
+    ]
+  },
+  {
+    "id": "otdb-history-b80cc9a2d5",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "What day did the Battle of Gettysburg begin?",
+    "correct": "July 1, 1863",
+    "incorrect": [
+      "September 17, 1862",
+      "July 21, 1861",
+      "Apr 30, 1863"
+    ]
+  },
+  {
+    "id": "otdb-history-e1256cdc62",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "Which country was Josef Stalin born in?",
+    "correct": "Georgia",
+    "incorrect": [
+      "Russia",
+      "Germany",
+      "Poland"
+    ]
+  },
+  {
+    "id": "otdb-history-b097f3c4d9",
+    "category": "history",
+    "difficulty": "medium",
+    "question": "One of the deadliest pandemics, the \"Spanish Flu\", killed off what percentage of the human world population at the time?",
+    "correct": "3 to 6 percent",
+    "incorrect": [
+      "6 to 10 percent",
+      "1 to 3 percent",
+      "less than 1 percent"
+    ]
+  },
+  {
+    "id": "otdb-history-340cbeb580",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "In 1547 who became the 1st Tsar of Russia",
+    "correct": "Ivan the Terrible",
+    "incorrect": [
+      "Alexis of Russia",
+      "Mikhail Romanov",
+      "Peter the Great"
+    ]
+  },
+  {
+    "id": "otdb-history-9b1d123380",
+    "category": "history",
+    "difficulty": "hard",
+    "question": "The son of which pope supposedly held a lecherous fête involving 50 courtesans in the papal palace?",
+    "correct": "Alexander VI",
+    "incorrect": [
+      "Innocent V",
+      "Urban II",
+      "Pius III"
+    ]
+  },
+  {
+    "id": "otdb-history-dd306c68c1",
+    "category": "history",
+    "difficulty": "easy",
+    "question": "What year did World War II end?",
+    "correct": "1945",
+    "incorrect": [
+      "1943",
+      "1947",
+      "1950"
+    ]
+  }
+]

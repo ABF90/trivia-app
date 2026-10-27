@@ -12,8 +12,8 @@ import Animated, {
 } from "react-native-reanimated";
 import { Button, Confetti, Icon, IconButton, Screen, Spacer, Text } from "@/components/ui";
 import { useGoHome } from "@/hooks/useGoHome";
-import { toArabicDigits } from "@/lib/arabic";
-import { colors, rtl } from "@/theme";
+import { useI18n } from "@/i18n";
+import { colors } from "@/theme";
 import { GameRunner } from "../game";
 import { Standings } from "./components/Standings";
 import { useDiwaniya } from "./DiwaniyaProvider";
@@ -40,13 +40,15 @@ export function DiwaniyaPlayScreen() {
   const goHome = useGoHome();
   const router = useRouter();
   const { state, recordTurn, start } = useDiwaniya();
+  const i18n = useI18n();
+  const { t, n } = i18n;
   const [answering, setAnswering] = useState(false);
 
   // Landing here without a game (reload / deep link) → back to setup.
   if (state.status === "setup") return <Redirect href="/diwaniya" />;
 
-  const standings = selectStandings(state);
-  const roundLabel = `الجولة ${toArabicDigits(state.round + 1)} من ${toArabicDigits(state.questionsPerPlayer)}`;
+  const standings = selectStandings(state, i18n);
+  const roundLabel = t.roundOf(n(state.round + 1), n(state.questionsPerPlayer));
 
   if (state.status === "finished") {
     const top = standings.filter((s) => s.rank === 1);
@@ -56,10 +58,10 @@ export function DiwaniyaPlayScreen() {
           <Icon name="trophy" size={84} strokeWidth={1.6} color={colors.warning} />
         </Animated.View>
         <Text size={18} color={colors.textSecondary} align="center" style={styles.winnerLabel}>
-          {top.length > 1 ? "تعادل بين" : "الفايز"}
+          {top.length > 1 ? t.tieBetween : t.winner}
         </Text>
         <Text weight="display" size={52} lineHeight={72} color={colors.warning} align="center">
-          {top.map((s) => s.name).join(" و ")}
+          {top.map((s) => s.name).join(t.and)}
         </Text>
         <View style={styles.standings}>
           <Standings standings={standings} />
@@ -67,11 +69,11 @@ export function DiwaniyaPlayScreen() {
         <Spacer />
         <View style={styles.actions}>
           <Button size="lg" icon="replay" iconPosition="start" onPress={start}>
-            جولة ثانية بنفس الربع
+            {t.rematch}
           </Button>
           {/* Setup keeps the names; starting again resets the scores. */}
           <Button variant="ghost" size="sm" onPress={() => router.dismissTo("/diwaniya")}>
-            غيّر اللاعبين
+            {t.changePlayers}
           </Button>
         </View>
       </Screen>
@@ -79,7 +81,7 @@ export function DiwaniyaPlayScreen() {
   }
 
   const current = state.players[state.turn]!;
-  const currentName = playerName(current, state.turn);
+  const currentName = playerName(i18n, current, state.turn);
   const question = selectCurrentQuestion(state);
 
   if (answering && question) {
@@ -90,7 +92,7 @@ export function DiwaniyaPlayScreen() {
           questions={[question]}
           allowLifeline={false}
           scoreOffset={current.score}
-          label={() => `دور ${currentName} · ${roundLabel}`}
+          label={() => t.turnOf(currentName, roundLabel)}
           onFinish={(r) => {
             recordTurn(r.score > 0);
             setAnswering(false);
@@ -104,7 +106,7 @@ export function DiwaniyaPlayScreen() {
   return (
     <Screen background="glowTeal">
       <View style={styles.header}>
-        <IconButton icon="close" label="إنهاء اللعبة" onPress={goHome} />
+        <IconButton icon="close" label={t.endGame} onPress={goHome} />
         <Text weight="heavy" size={15} color={colors.textSecondary}>
           {roundLabel}
         </Text>
@@ -112,7 +114,7 @@ export function DiwaniyaPlayScreen() {
 
       <PassingPhone />
       <Text size={18} color={colors.textSecondary} align="center" style={styles.passTo}>
-        مرّر التلفون لـ
+        {t.passPhoneTo}
       </Text>
       <Animated.View key={current.id} entering={ZoomIn.delay(200).springify()}>
         <Text weight="display" size={56} lineHeight={76} color={colors.success} align="center">
@@ -120,7 +122,7 @@ export function DiwaniyaPlayScreen() {
         </Text>
       </Animated.View>
       <Text size={15} color={colors.textMuted} align="center">
-        لا تشوف السؤال قبل دورك!
+        {t.noPeeking}
       </Text>
 
       <View style={styles.standings}>
@@ -130,14 +132,14 @@ export function DiwaniyaPlayScreen() {
       <Spacer />
 
       <Button size="lg" variant="success" onPress={() => setAnswering(true)}>
-        {`أنا ${currentName}، جاهز`}
+        {t.imReady(currentName)}
       </Button>
     </Screen>
   );
 }
 
 const styles = StyleSheet.create({
-  header: { flexDirection: rtl.row, alignItems: "center", justifyContent: "space-between" },
+  header: { flexDirection: "row", alignItems: "center", justifyContent: "space-between" },
   phone: { marginTop: 40, alignSelf: "center" },
   passTo: { marginTop: 20 },
   standings: { marginTop: 32 },

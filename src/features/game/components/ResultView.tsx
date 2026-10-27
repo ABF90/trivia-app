@@ -2,9 +2,9 @@ import type { ReactNode } from "react";
 import { StyleSheet, View } from "react-native";
 import Animated, { FadeInDown, ZoomIn } from "react-native-reanimated";
 import { Badge, ResultDots, ScoreDigits, Spacer, Text } from "@/components/ui";
-import { formatScore, toArabicDigits } from "@/lib/arabic";
+import { useI18n } from "@/i18n";
 import { colors, radius } from "@/theme";
-import { getHeadline, getNextTitleHint, getTitle } from "../model/titles";
+import { headlineText, titleHintText, titleText } from "../model/titles";
 import type { GameResult } from "../types";
 
 interface ResultViewProps {
@@ -21,15 +21,16 @@ interface ResultViewProps {
 /** Score reveal. Pair it with <Confetti /> via the Screen overlay when shouldCelebrate(). */
 export function ResultView({ result, best, headline, hint, children }: ResultViewProps) {
   const { score, total, answers } = result;
+  const { t, n, score: fmtScore } = useI18n();
   return (
     <>
       <Animated.View entering={FadeInDown.delay(500).duration(400)} style={styles.head}>
         <Text weight="display" size={56} lineHeight={76} align="center">
-          {headline ?? getHeadline(score, total)}
+          {headline ?? headlineText(t, score, total)}
         </Text>
-        <Badge icon="badge" outlined size={16}>{`لقبك: ${getTitle(score, total)}`}</Badge>
+        <Badge icon="badge" outlined size={16}>{t.titleBadge(titleText(t, score, total))}</Badge>
         <Text size={14} color={colors.textSecondary} align="center">
-          {hint ?? getNextTitleHint(score, total)}
+          {hint ?? titleHintText(t, score, total, n)}
         </Text>
       </Animated.View>
 
@@ -37,18 +38,18 @@ export function ResultView({ result, best, headline, hint, children }: ResultVie
         entering={ZoomIn.springify().damping(12)}
         style={styles.board}
         accessible
-        aria-label={`نتيجتك ${toArabicDigits(score)} من ${toArabicDigits(total)}`}
+        aria-label={t.yourScore(n(score), n(total))}
       >
         <Text weight="bold" size={13} color={colors.textMuted} align="center" style={styles.boardLabel}>
-          النتيجة النهائية
+          {t.finalScore}
         </Text>
         <ScoreDigits score={score} total={total} size={total >= 10 ? 80 : 96} />
         <ResultDots results={answers.map((a) => a.correct)} />
         {best && (
           <Text size={14} color={colors.textMuted} align="center">
-            أفضل نتيجة لك:{" "}
+            {t.bestLabel}
             <Text weight="heavy" size={14}>
-              {formatScore(best.score, best.total)}
+              {fmtScore(best.score, best.total)}
             </Text>
           </Text>
         )}

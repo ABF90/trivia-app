@@ -1,0 +1,402 @@
+[
+ {
+  "id": "otdb-sports-ef94fcb35c",
+  "question": "Who won the \"Champions League\" in 1999?",
+  "correct": "Manchester United",
+  "incorrect": [
+   "Barcelona",
+   "Bayern Munich",
+   "Liverpool"
+  ]
+ },
+ {
+  "id": "otdb-sports-bd77947a49",
+  "question": "Which NBA player has the most games played over the course of their career?",
+  "correct": "Robert Parish",
+  "incorrect": [
+   "Kareem Abdul-Jabbar",
+   "Kevin Garnett",
+   "Kobe Bryant"
+  ]
+ },
+ {
+  "id": "otdb-sports-38e43091c4",
+  "question": "In what sport does Fanny Chmelar compete for Germany?",
+  "correct": "Skiing",
+  "incorrect": [
+   "Swimming",
+   "Showjumping",
+   "Gymnastics"
+  ]
+ },
+ {
+  "id": "otdb-sports-e6a04106c9",
+  "question": "Who did Drew Brees pass in all time NFL passing yards in 2018?",
+  "correct": "Peyton Manning",
+  "incorrect": [
+   "Tom Brady",
+   "Dan Marino",
+   "Joe Montana"
+  ]
+ },
+ {
+  "id": "otdb-sports-3aeebc4f5e",
+  "question": "Which of these teams isn't a member of the NHL's \"Original Six\" era?",
+  "correct": "Philadelphia Flyers",
+  "incorrect": [
+   "New York Rangers",
+   "Toronto Maple Leafs",
+   "Boston Bruins"
+  ]
+ },
+ {
+  "id": "otdb-sports-fcf70f2700",
+  "question": "Which soccer team won the Copa América 2015 Championship ?",
+  "correct": "Chile",
+  "incorrect": [
+   "Argentina",
+   "Brazil",
+   "Paraguay"
+  ]
+ },
+ {
+  "id": "otdb-sports-ebee26ca8d",
+  "question": "The Los Angeles Dodgers were originally from what U.S. city?",
+  "correct": "Brooklyn",
+  "incorrect": [
+   "Las Vegas",
+   "Boston",
+   "Seattle"
+  ]
+ },
+ {
+  "id": "otdb-sports-921c019f89",
+  "question": "Which Italian footballer told Neuer where he's putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?",
+  "correct": "Pelle",
+  "incorrect": [
+   "Insigne",
+   "Barzagli",
+   "Giaccherini"
+  ]
+ },
+ {
+  "id": "otdb-sports-78c4d7b998",
+  "question": "What is the name of the \"tool\" used to hit the white ball in snooker or billiards?",
+  "correct": "Cue",
+  "incorrect": [
+   "Racquet",
+   "Bat",
+   "Mallet"
+  ]
+ },
+ {
+  "id": "otdb-sports-6012ee0f80",
+  "question": "What is the exact length of one non-curved part in Lane 1 of an Olympic Track?",
+  "correct": "84.39m",
+  "incorrect": [
+   "100m",
+   "100yd",
+   "109.36yd"
+  ]
+ },
+ {
+  "id": "otdb-sports-87e64dd3a2",
+  "question": "How many French Open's did Björn Borg win?",
+  "correct": "6",
+  "incorrect": [
+   "4",
+   "9",
+   "2"
+  ]
+ },
+ {
+  "id": "otdb-sports-335dabe98a",
+  "question": "Which of these NHL players have never won a Hart Trophy for Regular Season MVP?",
+  "correct": "Steve Yzerman",
+  "incorrect": [
+   "Chris Pronger",
+   "Jose Theodore",
+   "Henrik Sedin"
+  ]
+ },
+ {
+  "id": "otdb-sports-8676c76697",
+  "question": "Where was the Games of the XXII Olympiad held?",
+  "correct": "Moscow",
+  "incorrect": [
+   "Barcelona",
+   "Tokyo",
+   "Los Angeles"
+  ]
+ },
+ {
+  "id": "otdb-sports-b06f2c0c11",
+  "question": "Which boxer was banned for taking a bite out of Evander Holyfield's ear in 1997?",
+  "correct": "Mike Tyson",
+  "incorrect": [
+   "Roy Jones Jr.",
+   "Evander Holyfield",
+   "Lennox Lewis"
+  ]
+ },
+ {
+  "id": "otdb-sports-088965795a",
+  "question": "Hockey player Wayne Gretzky was born in what Canadian province?",
+  "correct": "Ontario",
+  "incorrect": [
+   "British Columbia",
+   "Quebec",
+   "Alberta"
+  ]
+ },
+ {
+  "id": "otdb-sports-5d4757b818",
+  "question": "Which year was the third Super Bowl held?",
+  "correct": "1969",
+  "incorrect": [
+   "1968",
+   "1971",
+   "1970"
+  ]
+ },
+ {
+  "id": "otdb-sports-d1c0afb397",
+  "question": "Which English football team is nicknamed 'The Tigers'?",
+  "correct": "Hull City",
+  "incorrect": [
+   "Cardiff City",
+   "Bristol City",
+   "Manchester City"
+  ]
+ },
+ {
+  "id": "otdb-sports-af46156d0e",
+  "question": "Which country produced football players such as Cafu, Roberto Carlos and Pelé?",
+  "correct": "Brazil",
+  "incorrect": [
+   "Argentina",
+   "Portugal",
+   "Spain"
+  ]
+ },
+ {
+  "id": "otdb-sports-5c1e4e40f5",
+  "question": "Who did Steven Gerrard win the Champions League with?",
+  "correct": "Liverpool",
+  "incorrect": [
+   "Real Madrid",
+   "Chelsea",
+   "Man City"
+  ]
+ },
+ {
+  "id": "otdb-sports-bf439afe50",
+  "question": "Who is often called \"the Maestro\" in the men's tennis circuit?",
+  "correct": "Roger Federer",
+  "incorrect": [
+   "Bill Tilden",
+   "Boris Becker",
+   "Pete Sampras"
+  ]
+ },
+ {
+  "id": "otdb-sports-b0510c4b6e",
+  "question": "Which country hosted the 2018 FIFA World Cup?",
+  "correct": "Russia",
+  "incorrect": [
+   "Germany",
+   "United States",
+   "Saudi Arabia"
+  ]
+ },
+ {
+  "id": "otdb-sports-793bd42b45",
+  "question": "What was the year of estabilishment of the Bari Italian Football Club?",
+  "correct": "1908",
+  "incorrect": [
+   "1945",
+   "2014",
+   "1895"
+  ]
+ },
+ {
+  "id": "otdb-sports-966474a80a",
+  "question": "Which male player won the gold medal of table tennis singles in 2016 Olympics Games?",
+  "correct": "Ma Long (China)",
+  "incorrect": [
+   "Zhang Jike (China)",
+   "Jun Mizutani (Japan)",
+   "Vladimir Samsonov (Belarus)"
+  ]
+ },
+ {
+  "id": "otdb-sports-d37c8b2f22",
+  "question": "In a game of snooker, what colour ball is worth 3 points?",
+  "correct": "Green",
+  "incorrect": [
+   "Yellow",
+   "Brown",
+   "Blue"
+  ]
+ },
+ {
+  "id": "otdb-sports-9b9d13c826",
+  "question": "This Canadian television sportscaster is known for his \"Hockey Night in Canada\" role, a commentary show during hockey games.",
+  "correct": "Don Cherry",
+  "incorrect": [
+   "Don McKellar",
+   "Don Taylor ",
+   "Donald Sutherland"
+  ]
+ },
+ {
+  "id": "otdb-sports-beae86a6d7",
+  "question": "When was the first official international game played?",
+  "correct": "1872",
+  "incorrect": [
+   "1880",
+   "1863",
+   "1865"
+  ]
+ },
+ {
+  "id": "otdb-sports-d518ec9895",
+  "question": "Who won the 2015 College Football Playoff (CFP) National Championship? ",
+  "correct": "Ohio State Buckeyes",
+  "incorrect": [
+   "Alabama Crimson Tide",
+   "Clemson Tigers",
+   "Wisconsin Badgers"
+  ]
+ },
+ {
+  "id": "otdb-sports-0bf14d800d",
+  "question": "Which portuguese island is soccer player Cristiano Ronaldo from?",
+  "correct": "Madeira",
+  "incorrect": [
+   "Terceira",
+   "Santa Maria",
+   "Porto Santo"
+  ]
+ },
+ {
+  "id": "otdb-sports-c4a8fbe1d1",
+  "question": "Which basketball team has attended the most NBA grand finals?",
+  "correct": "Los Angeles Lakers",
+  "incorrect": [
+   "Boston Celtics",
+   "Philadelphia 76ers",
+   "Golden State Warriors"
+  ]
+ },
+ {
+  "id": "otdb-sports-96ae8a7764",
+  "question": "Which driver has been the Formula 1 world champion for a record 7 times?",
+  "correct": "Michael Schumacher",
+  "incorrect": [
+   "Ayrton Senna",
+   "Fernando Alonso",
+   "Jim Clark"
+  ]
+ },
+ {
+  "id": "otdb-sports-5b8183c2f5",
+  "question": "How many times did Martina Navratilova win the Wimbledon Singles Championship?",
+  "correct": "Nine",
+  "incorrect": [
+   "Ten",
+   "Seven",
+   "Eight"
+  ]
+ },
+ {
+  "id": "otdb-sports-e8bc60f332",
+  "question": "Who was the first footballer to score 200 goals in the English Premier League?",
+  "correct": "Alan Shearer",
+  "incorrect": [
+   "Wayne Rooney",
+   "Robbie Fowler",
+   "Thierry Henry"
+  ]
+ },
+ {
+  "id": "otdb-sports-4335cf25a8",
+  "question": "Who won the 2011 Stanley Cup?",
+  "correct": "Boston Bruins",
+  "incorrect": [
+   "Montreal Canadiens",
+   "New York Rangers",
+   "Toronto Maple Leafs"
+  ]
+ },
+ {
+  "id": "otdb-sports-f50b1caa17",
+  "question": "Which NFL team plays for New England?",
+  "correct": "Patriots",
+  "incorrect": [
+   "Chiefs",
+   "Dolphins",
+   "49ers"
+  ]
+ },
+ {
+  "id": "otdb-sports-bae0234226",
+  "question": "\"Stadium of Light\" is the home stadium for which soccer team?",
+  "correct": "Sunderland FC",
+  "incorrect": [
+   "Barcelona FC",
+   "Paris Saints-Germain",
+   "Manchester United"
+  ]
+ },
+ {
+  "id": "otdb-sports-62ca6a7f62",
+  "question": "At which bridge does the annual Oxford and Cambridge boat race start?",
+  "correct": "Putney",
+  "incorrect": [
+   "Hammersmith",
+   "Vauxhall ",
+   "Battersea"
+  ]
+ },
+ {
+  "id": "otdb-sports-501364b1ef",
+  "question": "Which country won the 2018 FIFA World Cup hosted in Russia?",
+  "correct": "France",
+  "incorrect": [
+   "Croatia",
+   "Belgium",
+   "England"
+  ]
+ },
+ {
+  "id": "otdb-sports-4b4d08eda9",
+  "question": "In 2016, who won the Formula 1 World Constructor's Championship for the third time in a row?",
+  "correct": "Mercedes-AMG Petronas",
+  "incorrect": [
+   "Scuderia Ferrari",
+   "McLaren Honda",
+   "Red Bull Racing Renault"
+  ]
+ },
+ {
+  "id": "otdb-sports-d5c86fb8ce",
+  "question": "Who is Manchester United's top premier league goal scorer?",
+  "correct": "Wayne Rooney",
+  "incorrect": [
+   "Sir Bobby Charlton",
+   "Ryan Giggs",
+   "David Beckham"
+  ]
+ },
+ {
+  "id": "otdb-sports-4b5526de8c",
+  "question": "What is the oldest team in the NFL?",
+  "correct": "Arizona Cardinals",
+  "incorrect": [
+   "Chicago Bears",
+   "Green Bay Packers",
+   "New York Giants"
+  ]
+ }
+]

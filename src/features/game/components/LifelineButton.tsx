@@ -1,5 +1,6 @@
 import { Pressable, StyleSheet } from "react-native";
 import { Text } from "@/components/ui";
+import { useI18n } from "@/i18n";
 import { colors } from "@/theme";
 
 interface LifelineButtonProps {
@@ -9,11 +10,12 @@ interface LifelineButtonProps {
 }
 
 export function LifelineButton({ used, disabled, onUse }: LifelineButtonProps) {
+  const { t } = useI18n();
   const tone = used ? colors.textMuted : colors.warning;
   return (
     <Pressable
       role="button"
-      aria-label={used ? "٥٠/٥٠، استخدمتها" : "٥٠/٥٠، احذف إجابتين"}
+      aria-label={used ? t.fiftyFiftyUsedLabel : t.fiftyFiftyLabel}
       aria-disabled={used || disabled}
       disabled={used || disabled}
       onPress={onUse}
@@ -27,10 +29,10 @@ export function LifelineButton({ used, disabled, onUse }: LifelineButtonProps) {
         align="center"
         style={used ? styles.struck : undefined}
       >
-        ٥٠/٥٠
+        {t.fiftyFifty}
       </Text>
       <Text weight="bold" size={11} lineHeight={15} color={tone} align="center">
-        {used ? "استخدمتها" : "احذف ٢"}
+        {used ? t.fiftyFiftyUsed : t.fiftyFiftyRemove}
       </Text>
     </Pressable>
   );

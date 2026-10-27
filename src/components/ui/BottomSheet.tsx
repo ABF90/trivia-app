@@ -2,7 +2,8 @@ import type { ReactNode } from "react";
 import { Modal, Pressable, ScrollView, StyleSheet, View } from "react-native";
 import Animated, { SlideInDown } from "react-native-reanimated";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { colors, layout, tints } from "@/theme";
+import { useI18n } from "@/i18n";
+import { colors, directionStyle, layout, tints } from "@/theme";
 
 interface BottomSheetProps {
   open: boolean;
@@ -13,10 +14,11 @@ interface BottomSheetProps {
 /** Modal sheet: dimmed backdrop closes it, Android back closes it, content scrolls if tall. */
 export function BottomSheet({ open, onClose, children }: BottomSheetProps) {
   const insets = useSafeAreaInsets();
+  const { dir, t } = useI18n();
   return (
     <Modal visible={open} transparent animationType="fade" statusBarTranslucent navigationBarTranslucent onRequestClose={onClose}>
-      <View style={styles.overlay}>
-        <Pressable style={StyleSheet.absoluteFill} onPress={onClose} aria-label="إغلاق" role="button" />
+      <View style={[styles.overlay, directionStyle(dir)]}>
+        <Pressable style={StyleSheet.absoluteFill} onPress={onClose} aria-label={t.close} role="button" />
         <Animated.View
           entering={SlideInDown.duration(300)}
           style={[styles.sheet, { paddingBottom: Math.max(insets.bottom, 12) + 16 }]}

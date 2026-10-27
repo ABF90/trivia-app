@@ -1,5 +1,6 @@
 import { StyleSheet, View } from "react-native";
-import { colors, rtl } from "@/theme";
+import { useI18n } from "@/i18n";
+import { colors } from "@/theme";
 import { Icon } from "./Icon";
 
 interface ResultDotsProps {
@@ -9,7 +10,8 @@ interface ResultDotsProps {
 }
 
 export function ResultDots({ results, size = 32, showIcons = true }: ResultDotsProps) {
-  const label = results.map((ok) => (ok ? "صح" : "غلط")).join("، ");
+  const { t } = useI18n();
+  const label = results.map((ok) => (ok ? t.correct : t.wrong)).join(t.listSeparator);
   return (
     <View style={styles.row} accessible aria-label={label}>
       {results.map((ok, i) => (
@@ -25,6 +27,6 @@ export function ResultDots({ results, size = 32, showIcons = true }: ResultDotsP
 }
 
 const styles = StyleSheet.create({
-  row: { flexDirection: rtl.row, flexWrap: "wrap", justifyContent: "center", gap: 8 },
+  row: { flexDirection: "row", flexWrap: "wrap", justifyContent: "center", gap: 8 },
   dot: { borderRadius: 10, alignItems: "center", justifyContent: "center" },
 });

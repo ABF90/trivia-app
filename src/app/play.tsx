@@ -1,13 +1,18 @@
 import { useLocalSearchParams } from "expo-router";
-import { isCategoryId } from "@/data/categories";
+import { parseCategories } from "@/data/categories";
+import type { DifficultyFilter } from "@/features/game";
 import { PlayScreen } from "@/features/play/PlayScreen";
 
+const DIFFICULTIES: readonly DifficultyFilter[] = ["easy", "medium", "hard", "mixed"];
+
+/** /play?categories=sports,history&difficulty=hard&intent=challenge */
 export default function PlayRoute() {
-  const { category, intent } = useLocalSearchParams<{ category?: string; intent?: string }>();
+  const params = useLocalSearchParams<{ categories?: string; difficulty?: string; intent?: string }>();
+  const difficulty = DIFFICULTIES.find((d) => d === params.difficulty) ?? "mixed";
   return (
     <PlayScreen
-      category={isCategoryId(category) ? category : undefined}
-      intent={intent === "challenge" ? "challenge" : undefined}
+      filter={{ categories: parseCategories(params.categories), difficulty }}
+      intent={params.intent === "challenge" ? "challenge" : undefined}
     />
   );
 }

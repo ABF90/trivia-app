@@ -1,0 +1,352 @@
+[
+ {
+  "id": "otdb-animals-d12aa9bb76",
+  "question": "How many legs do butterflies have?",
+  "correct": "6",
+  "incorrect": [
+   "2",
+   "4",
+   "0"
+  ]
+ },
+ {
+  "id": "otdb-animals-b4fce8d2c4",
+  "question": "Which of these species is not extinct?",
+  "correct": "Komodo dragon",
+  "incorrect": [
+   "Japanese sea lion",
+   "Tasmanian tiger",
+   "Saudi gazelle"
+  ]
+ },
+ {
+  "id": "otdb-animals-2a3779ccb2",
+  "question": "What are rhino's horn made of?",
+  "correct": "Keratin",
+  "incorrect": [
+   "Bone",
+   "Ivory",
+   "Skin"
+  ]
+ },
+ {
+  "id": "otdb-animals-9fce89800e",
+  "question": "What is the scientific name for the \"Polar Bear\"?",
+  "correct": "Ursus Maritimus",
+  "incorrect": [
+   "Polar Bear",
+   "Ursus Spelaeus",
+   "Ursus Arctos"
+  ]
+ },
+ {
+  "id": "otdb-animals-f6bb63ff3c",
+  "question": "What is the national bird of Bahrain?",
+  "correct": "Bulbul",
+  "incorrect": [
+   "Hummingbird",
+   "Falcon",
+   "Sparrow"
+  ]
+ },
+ {
+  "id": "otdb-animals-c62d161ab8",
+  "question": "Unlike on most salamanders, this part of a newt is flat?",
+  "correct": "Tail",
+  "incorrect": [
+   "Head",
+   "Teeth",
+   "Feet"
+  ]
+ },
+ {
+  "id": "otdb-animals-35017b4ed9",
+  "question": "Cashmere is the wool from which kind of animal?",
+  "correct": "Goat",
+  "incorrect": [
+   "Sheep",
+   "Camel",
+   "Llama"
+  ]
+ },
+ {
+  "id": "otdb-animals-8dd55ebeb6",
+  "question": "Which of the following is true when alligators are behaving territorially?",
+  "correct": "They bellow while showing their tail and neck",
+  "incorrect": [
+   "Open their jaws while making a clicking noise",
+   "They run full force at the threat",
+   "Slap their tails on the ground"
+  ]
+ },
+ {
+  "id": "otdb-animals-cc8960f824",
+  "question": "What is the scientific name of the Budgerigar?",
+  "correct": "Melopsittacus undulatus",
+  "incorrect": [
+   "Nymphicus hollandicus",
+   "Pyrrhura molinae",
+   "Ara macao"
+  ]
+ },
+ {
+  "id": "otdb-animals-7bcee664fa",
+  "question": "What is the name of the family that the domestic cat is a member of?",
+  "correct": "Felidae",
+  "incorrect": [
+   "Felinae",
+   "Felis",
+   "Cat"
+  ]
+ },
+ {
+  "id": "otdb-animals-fbc563eabc",
+  "question": "What is the common term for bovine spongiform encephalopathy (BSE)?",
+  "correct": "Mad Cow disease",
+  "incorrect": [
+   "Weil's disease",
+   "Milk fever",
+   "Foot-and-mouth disease"
+  ]
+ },
+ {
+  "id": "otdb-animals-30b102ecb3",
+  "question": "What is the collective noun for vultures?",
+  "correct": "Wake",
+  "incorrect": [
+   "Ambush",
+   "Building",
+   "Gaze"
+  ]
+ },
+ {
+  "id": "otdb-animals-23663567ba",
+  "question": "Hippocampus is the Latin name for which marine creature?",
+  "correct": "Seahorse",
+  "incorrect": [
+   "Dolphin",
+   "Whale",
+   "Octopus"
+  ]
+ },
+ {
+  "id": "otdb-animals-b77afa2e6a",
+  "question": "What scientific family does the Aardwolf belong to?",
+  "correct": "Hyaenidae",
+  "incorrect": [
+   "Canidae",
+   "Felidae",
+   "Eupleridae"
+  ]
+ },
+ {
+  "id": "otdb-animals-53c5e6c98c",
+  "question": "What type of animal is a natterjack?",
+  "correct": "Toad",
+  "incorrect": [
+   "Bird",
+   "Fish",
+   "Insect"
+  ]
+ },
+ {
+  "id": "otdb-animals-4a38aa318c",
+  "question": "What is Grumpy Cat's real name?",
+  "correct": "Tardar Sauce",
+  "incorrect": [
+   "Sauce",
+   "Minnie",
+   "Broccoli"
+  ]
+ },
+ {
+  "id": "otdb-animals-125772307f",
+  "question": "What is the fastest animal?",
+  "correct": "Peregrine Falcon",
+  "incorrect": [
+   "Golden Eagle",
+   "Cheetah",
+   "Horsefly"
+  ]
+ },
+ {
+  "id": "otdb-animals-6f9001d7ba",
+  "question": "What is the fastest  land animal?",
+  "correct": "Cheetah",
+  "incorrect": [
+   "Lion",
+   "Thomson’s Gazelle",
+   "Pronghorn Antelope"
+  ]
+ },
+ {
+  "id": "otdb-animals-8199eb5fe0",
+  "question": "A carnivorous animal eats flesh, what does a nucivorous animal eat?",
+  "correct": "Nuts",
+  "incorrect": [
+   "Nothing",
+   "Fruit",
+   "Seaweed"
+  ]
+ },
+ {
+  "id": "otdb-animals-f89980e2fa",
+  "question": "What are the scales on all snakes and most lizards are made of?",
+  "correct": "Keratin",
+  "incorrect": [
+   "Ecdysis",
+   "Epidermis",
+   "Ankyloglossia"
+  ]
+ },
+ {
+  "id": "otdb-animals-202004fb1d",
+  "question": "What colour is the female blackbird?",
+  "correct": "Brown",
+  "incorrect": [
+   "Black",
+   "White",
+   "Yellow"
+  ]
+ },
+ {
+  "id": "otdb-animals-4b485ddb4f",
+  "question": "Which dog breed is named after a region in Croatia",
+  "correct": "Dalmatian",
+  "incorrect": [
+   "Pekingnese",
+   "Chihuahua ",
+   "Pomeranian"
+  ]
+ },
+ {
+  "id": "otdb-animals-de4cf5115c",
+  "question": "What does \"hippopotamus\" mean and in what langauge?",
+  "correct": "River Horse (Greek)",
+  "incorrect": [
+   "River Horse (Latin)",
+   "Fat Pig (Greek)",
+   "Fat Pig (Latin)"
+  ]
+ },
+ {
+  "id": "otdb-animals-d0046f0312",
+  "question": "What color is a Steller's Jay?",
+  "correct": "blue and black",
+  "incorrect": [
+   "blue and grey",
+   "blue and white",
+   "grey and black"
+  ]
+ },
+ {
+  "id": "otdb-animals-19b5e4fed2",
+  "question": "The now extinct species \"Thylacine\" was native to where?",
+  "correct": "Tasmania, Australia",
+  "incorrect": [
+   "Baluchistan, Pakistan",
+   "Wallachia, Romania",
+   "Oregon, United States"
+  ]
+ },
+ {
+  "id": "otdb-animals-b036e98836",
+  "question": "Which of these is a colony of polyps and not a jellyfish?",
+  "correct": "Portuguese Man-of-War",
+  "incorrect": [
+   "Sea Wasp",
+   "Irukandji",
+   "Sea Nettle"
+  ]
+ },
+ {
+  "id": "otdb-animals-4891222568",
+  "question": "What is the name of the copper-rich protein that creates the blue blood in the Antarctic octopus?",
+  "correct": "Hemocyanin",
+  "incorrect": [
+   "Cytochrome",
+   "Iron",
+   "Methionine"
+  ]
+ },
+ {
+  "id": "otdb-animals-9d7733ffac",
+  "question": "Which animal was part of an Russian domestication experiment in 1959?",
+  "correct": "Foxes",
+  "incorrect": [
+   "Pigeons",
+   "Bears",
+   "Alligators"
+  ]
+ },
+ {
+  "id": "otdb-animals-c51570b283",
+  "question": "What dog breed is one of the oldest breeds of dog and has flourished since before 400 BCE.",
+  "correct": "Pugs",
+  "incorrect": [
+   "Bulldogs",
+   "Boxers",
+   "Chihuahua"
+  ]
+ },
+ {
+  "id": "otdb-animals-dfd9de0990",
+  "question": "What is the name for a male bee that comes from an unfertilized egg?",
+  "correct": "Drone",
+  "incorrect": [
+   "Soldier",
+   "Worker",
+   "Male"
+  ]
+ },
+ {
+  "id": "otdb-animals-0d38c22ac2",
+  "question": "What is the collective noun for a group of crows?",
+  "correct": "Murder",
+  "incorrect": [
+   "Pack",
+   "Gaggle",
+   "Herd"
+  ]
+ },
+ {
+  "id": "otdb-animals-851fac9b1a",
+  "question": "Which class of animals are newts members of?",
+  "correct": "Amphibian",
+  "incorrect": [
+   "Fish",
+   "Reptiles",
+   "Mammals"
+  ]
+ },
+ {
+  "id": "otdb-animals-ad7cbd4486",
+  "question": "By definition, where does an abyssopelagic animal live?",
+  "correct": "At the bottom of the ocean",
+  "incorrect": [
+   "In the desert",
+   "On top of a mountain",
+   "Inside a tree"
+  ]
+ },
+ {
+  "id": "otdb-animals-4f92fdd880",
+  "question": "What is the scientific name for modern day humans?",
+  "correct": "Homo Sapiens",
+  "incorrect": [
+   "Homo Ergaster",
+   "Homo Erectus",
+   "Homo Neanderthalensis"
+  ]
+ },
+ {
+  "id": "otdb-animals-a0c6a001d5",
+  "question": "Which of these animals are not real?",
+  "correct": "Nemean Lion",
+  "incorrect": [
+   "Sea Dragon",
+   "Tasmanian Devil",
+   "Giant Squid"
+  ]
+ }
+]

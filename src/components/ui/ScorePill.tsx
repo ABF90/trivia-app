@@ -1,18 +1,19 @@
 import { StyleSheet, View } from "react-native";
-import { toArabicDigits } from "@/lib/arabic";
-import { colors, rtl } from "@/theme";
+import { useI18n } from "@/i18n";
+import { colors } from "@/theme";
 import { Icon } from "./Icon";
 import { Text } from "./Text";
 
 export function ScorePill({ points }: { points: number }) {
+  const { n, t } = useI18n();
   return (
-    <View style={styles.pill} accessible aria-label={`${toArabicDigits(points)} نقاط`}>
+    <View style={styles.pill} accessible aria-label={t.pointsLabel(n(points))}>
       <Icon name="trophy" size={18} color={colors.warning} />
       <Text weight="display" size={22} lineHeight={30}>
-        {toArabicDigits(points)}
+        {n(points)}
       </Text>
       <Text weight="bold" size={13} color={colors.textSecondary}>
-        نقاط
+        {t.points}
       </Text>
     </View>
   );
@@ -24,7 +25,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 14,
     borderRadius: 22,
     backgroundColor: colors.surface,
-    flexDirection: rtl.row,
+    flexDirection: "row",
     alignItems: "center",
     gap: 6,
   },

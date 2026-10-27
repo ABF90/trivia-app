@@ -1,5 +1,5 @@
 import { StyleSheet, View } from "react-native";
-import { colors, rtl } from "@/theme";
+import { colors } from "@/theme";
 
 export type SegmentState = "correct" | "wrong" | "current" | "pending";
 
@@ -21,6 +21,6 @@ export function ProgressSegments({ segments }: { segments: SegmentState[] }) {
 }
 
 const styles = StyleSheet.create({
-  track: { flexDirection: rtl.row, gap: 4 },
+  track: { flexDirection: "row", gap: 4 },
   segment: { flex: 1, height: 6, borderRadius: 3 },
 });

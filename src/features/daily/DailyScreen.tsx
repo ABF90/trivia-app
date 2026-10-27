@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { Screen } from "@/components/ui";
 import { useGoHome } from "@/hooks/useGoHome";
-import { toArabicDigits } from "@/lib/arabic";
+import { useI18n } from "@/i18n";
 import { toDateKey } from "@/lib/date";
 import { GameRunner } from "../game";
 import { recordDaily, selectDailyEntry, selectStreak, usePlayer } from "../player";
@@ -12,6 +12,7 @@ import { entryToResult, getDailyNumber, getDailyRound } from "./daily";
 export function DailyScreen() {
   const goHome = useGoHome();
   const player = usePlayer();
+  const { t, n } = useI18n();
   const [today] = useState(() => toDateKey(new Date()));
   const [playing, setPlaying] = useState(false);
 
@@ -31,7 +32,7 @@ export function DailyScreen() {
         questions={round}
         onFinish={(r) => recordDaily(today, r)}
         onExit={goHome}
-        label={(i, total) => `تحدي #${toArabicDigits(dailyNumber)} · ${toArabicDigits(i + 1)} من ${toArabicDigits(total)}`}
+        label={(i, total) => t.dailyRoundLabel(n(dailyNumber), n(i + 1), n(total))}
       />
     );
   } else {

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import type { SegmentState } from "@/components/ui";
-import { toArabicDigits } from "@/lib/arabic";
+import { useI18n, type I18n } from "@/i18n";
 import { haptics } from "@/lib/platform/haptics";
 import { useGame } from "../hooks/useGame";
 import type { GameState } from "../model/gameReducer";
@@ -16,14 +16,13 @@ export interface GameRunnerProps {
   /** Called after the player confirms leaving mid-round. */
   onExit: () => void;
   allowLifeline?: boolean;
-  /** Header text, defaults to "السؤال ٢ من ٥". */
+  /** Header text, defaults to "السؤال ٢ من ٥" / "Question 2 of 5". */
   label?: (index: number, total: number) => string;
   /** Points earned before this round (e.g. a diwaniya player's running total). */
   scoreOffset?: number;
 }
 
-const defaultLabel = (index: number, total: number) =>
-  `السؤال ${toArabicDigits(index + 1)} من ${toArabicDigits(total)}`;
+const defaultLabel = ({ t, n }: I18n) => (index: number, total: number) => t.questionOf(n(index + 1), n(total));
 
 function toSegments(state: GameState): SegmentState[] {
   return state.questions.map((_, i) => {
@@ -43,10 +42,13 @@ export function GameRunner({
   onFinish,
   onExit,
   allowLifeline = true,
-  label = defaultLabel,
+  label,
   scoreOffset = 0,
 }: GameRunnerProps) {
+  const i18n = useI18n();
+  const { t } = i18n;
   const { state, question, lastAnswer, score, actions } = useGame(questions, { onFinish });
+  const headerLabel = label ?? defaultLabel(i18n);
   const [confirmingExit, setConfirmingExit] = useState(false);
 
   useEffect(() => {
@@ -72,7 +74,7 @@ export function GameRunner({
   return (
     <>
       <GameHeader
-        label={label(state.index, state.questions.length)}
+        label={headerLabel(state.index, state.questions.length)}
         segments={toSegments(state)}
         score={scoreOffset + score}
         onExit={showFeedback ? undefined : openExit}
@@ -82,7 +84,7 @@ export function GameRunner({
         <FeedbackView
           question={question}
           answer={lastAnswer}
-          nextLabel={isLast ? "شوف النتيجة" : "التالي"}
+          nextLabel={isLast ? t.seeResult : t.next}
           disabled={state.phase === "finished"}
           onNext={actions.next}
         />

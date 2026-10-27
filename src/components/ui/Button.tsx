@@ -9,7 +9,7 @@ import Animated, {
   withSequence,
   withTiming,
 } from "react-native-reanimated";
-import { colors, radius, rtl, shadows } from "@/theme";
+import { colors, radius, shadows } from "@/theme";
 import { Icon, type IconName } from "./Icon";
 import { Text } from "./Text";
 
@@ -120,7 +120,7 @@ export function Button({
 
 const styles = StyleSheet.create({
   base: { alignItems: "center", justifyContent: "center" },
-  content: { flexDirection: rtl.row, alignItems: "center", justifyContent: "center", gap: 10 },
+  content: { flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 10 },
   pressed: { transform: [{ scale: 0.98 }], opacity: 0.92 },
   disabled: { opacity: 0.5 },
 });

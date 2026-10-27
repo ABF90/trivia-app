@@ -8,7 +8,8 @@ import Animated, {
   withSpring,
   withTiming,
 } from "react-native-reanimated";
-import { colors, rtl } from "@/theme";
+import type { Language } from "@/i18n";
+import { colors, directionStyle } from "@/theme";
 import { Icon } from "./Icon";
 import { Text } from "./Text";
 
@@ -24,6 +25,8 @@ interface AnswerOptionProps {
   compact?: boolean;
   disabled?: boolean;
   animateIn?: boolean;
+  /** Language of the label when it isn't the UI language. */
+  textLang?: Language;
   onSelect?: () => void;
 }
 
@@ -43,6 +46,7 @@ export function AnswerOption({
   compact,
   disabled,
   animateIn = true,
+  textLang,
   onSelect,
 }: AnswerOptionProps) {
   const shake = useSharedValue(0);
@@ -73,39 +77,45 @@ export function AnswerOption({
   const height = state === "dimmed" ? 48 : compact ? 56 : 60;
 
   return (
-    <Animated.View entering={animateIn ? FadeInDown.delay(350 + index * 70).duration(300) : undefined} style={motion}>
-      <Pressable
-        role="button"
-        aria-disabled={disabled || state !== "idle"}
-        aria-hidden={state === "removed"}
-        disabled={disabled || state !== "idle"}
-        onPress={onSelect}
-        style={({ pressed }) => [
-          styles.option,
-          { minHeight: height },
-          CONTAINER[state],
-          pressed && state === "idle" && styles.pressed,
-        ]}
-      >
-        <Text
-          weight={onAccent ? "heavy" : "bold"}
-          size={state === "dimmed" ? 17 : 19}
-          color={textColor}
-          style={[styles.label, state === "removed" && styles.struck]}
+    // Entry animation and state motion (shake/pop/fade) live on separate views so neither overwrites the other.
+    <Animated.View entering={animateIn ? FadeInDown.delay(350 + index * 70).duration(300) : undefined}>
+      <Animated.View style={motion}>
+        <Pressable
+          role="button"
+          aria-disabled={disabled || state !== "idle"}
+          aria-hidden={state === "removed"}
+          disabled={disabled || state !== "idle"}
+          onPress={onSelect}
+          style={({ pressed }) => [
+            styles.option,
+            // An English option inside the Arabic UI reads left-to-right as a whole.
+            textLang && directionStyle(textLang === "ar" ? "rtl" : "ltr"),
+            { minHeight: height },
+            CONTAINER[state],
+            pressed && state === "idle" && styles.pressed,
+          ]}
         >
-          {label}
-        </Text>
-        {(icon || tag) && (
-          <View style={styles.tag}>
-            {tag && (
-              <Text weight="heavy" size={13} color={colors.onAccent}>
-                {tag}
-              </Text>
-            )}
-            {icon && <Icon name={icon} size={22} color={colors.onAccent} strokeWidth={3} />}
-          </View>
-        )}
-      </Pressable>
+          <Text
+            weight={onAccent ? "heavy" : "bold"}
+            size={state === "dimmed" ? 17 : 19}
+            color={textColor}
+            lang={textLang}
+          style={[styles.label, state === "removed" && styles.struck]}
+          >
+            {label}
+          </Text>
+          {(icon || tag) && (
+            <View style={styles.tag}>
+              {tag && (
+                <Text weight="heavy" size={13} color={colors.onAccent}>
+                  {tag}
+                </Text>
+              )}
+              {icon && <Icon name={icon} size={22} color={colors.onAccent} strokeWidth={3} />}
+            </View>
+          )}
+        </Pressable>
+      </Animated.View>
     </Animated.View>
   );
 }
@@ -116,7 +126,7 @@ const styles = StyleSheet.create({
     borderWidth: 1.5,
     paddingHorizontal: 20,
     paddingVertical: 8,
-    flexDirection: rtl.row,
+    flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
     gap: 12,
@@ -124,5 +134,5 @@ const styles = StyleSheet.create({
   pressed: { borderColor: colors.primary300 },
   label: { flexShrink: 1 },
   struck: { textDecorationLine: "line-through" },
-  tag: { flexDirection: rtl.row, alignItems: "center", gap: 6, flexShrink: 0 },
+  tag: { flexDirection: "row", alignItems: "center", gap: 6, flexShrink: 0 },
 });

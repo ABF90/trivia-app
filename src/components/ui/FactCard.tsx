@@ -1,16 +1,18 @@
 import { StyleSheet, View } from "react-native";
 import Animated, { FadeInDown } from "react-native-reanimated";
-import { colors, radius, rtl, tints } from "@/theme";
+import { useI18n } from "@/i18n";
+import { colors, radius, tints } from "@/theme";
 import { Icon } from "./Icon";
 import { Text } from "./Text";
 
-export function FactCard({ children, title = "تعرف؟" }: { children: string; title?: string }) {
+export function FactCard({ children, title }: { children: string; title?: string }) {
+  const { t } = useI18n();
   return (
     <Animated.View entering={FadeInDown.delay(700).duration(400)} style={styles.fact}>
       <Icon name="bulb" size={24} color={colors.primary300} style={styles.icon} />
       <View style={styles.body}>
         <Text weight="heavy" size={15} color={colors.primary200}>
-          {title}
+          {title ?? t.didYouKnow}
         </Text>
         <Text size={15} lineHeight={25} color={colors.textFact}>
           {children}
@@ -28,7 +30,7 @@ const styles = StyleSheet.create({
     backgroundColor: tints.primary12,
     borderWidth: 1,
     borderColor: tints.primary35,
-    flexDirection: rtl.row,
+    flexDirection: "row",
     gap: 12,
   },
   icon: { marginTop: 2 },

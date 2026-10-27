@@ -35,15 +35,13 @@ export function formatDuration(ms: number): string {
   return parts.map((n) => String(n).padStart(2, "0")).join(":");
 }
 
-const WEEKDAYS = ["أحد", "اثنين", "ثلاثاء", "أربعاء", "خميس", "جمعة", "سبت"];
-
-/** The Saturday→Friday week containing `key`, as date keys. */
-export function weekOf(key: string): { key: string; label: string }[] {
+/** The Saturday→Friday week containing `key`; `weekday` is 0 (Sunday) … 6 (Saturday). */
+export function weekOf(key: string): { key: string; weekday: number }[] {
   const date = fromDateKey(key);
   const sinceSaturday = (date.getDay() + 1) % 7;
   const start = addDays(key, -sinceSaturday);
   return Array.from({ length: 7 }, (_, i) => {
     const dayKey = addDays(start, i);
-    return { key: dayKey, label: WEEKDAYS[fromDateKey(dayKey).getDay()]! };
+    return { key: dayKey, weekday: fromDateKey(dayKey).getDay() };
   });
 }

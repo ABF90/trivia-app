@@ -1,0 +1,402 @@
+[
+ {
+  "id": "otdb-sports-1ce05de3bd",
+  "question": "Who won the 1998 Daytona 500?",
+  "correct": "Dale Earnhardt",
+  "incorrect": [
+   "John Anderson",
+   "Jeff Gordon",
+   "Michael Walltrip"
+  ]
+ },
+ {
+  "id": "otdb-sports-eefc68e260",
+  "question": "How many soccer players should be on the field at the same time?",
+  "correct": "22",
+  "incorrect": [
+   "20",
+   "24",
+   "26"
+  ]
+ },
+ {
+  "id": "otdb-sports-9a2e8869ef",
+  "question": "What was the final score of the Germany vs. Brazil 2014 FIFA World Cup match?",
+  "correct": "7 - 1",
+  "incorrect": [
+   "0 - 1",
+   "3 - 4",
+   "16 - 0"
+  ]
+ },
+ {
+  "id": "otdb-sports-4662b30da9",
+  "question": "What team won the 2016 MLS Cup?",
+  "correct": "Seattle Sounders",
+  "incorrect": [
+   "Colorado Rapids",
+   "Toronto FC",
+   "Montreal Impact"
+  ]
+ },
+ {
+  "id": "otdb-sports-b665177bd4",
+  "question": "How many points did LeBron James score in his first NBA game?",
+  "correct": "25",
+  "incorrect": [
+   "19",
+   "69",
+   "41"
+  ]
+ },
+ {
+  "id": "otdb-sports-7438299a0f",
+  "question": "Etihad Stadium is the home stadium for which team?",
+  "correct": "Manchester City",
+  "incorrect": [
+   "Manchester United",
+   "Arsenal",
+   "Blackpool"
+  ]
+ },
+ {
+  "id": "otdb-sports-11d0e9fa88",
+  "question": "Which country did Kabaddi, a contact sport involving tackling, originate from?",
+  "correct": "India",
+  "incorrect": [
+   "Australia",
+   "Turkey",
+   "Cambodia"
+  ]
+ },
+ {
+  "id": "otdb-sports-305ff13634",
+  "question": "Which of these jersey numbers has Shaquille O'Neal never worn?",
+  "correct": "35",
+  "incorrect": [
+   "36",
+   "33",
+   "32"
+  ]
+ },
+ {
+  "id": "otdb-sports-85dd1d65da",
+  "question": "Which city features all of their professional sports teams' jersey's with the same color scheme?",
+  "correct": "Pittsburgh",
+  "incorrect": [
+   "New York",
+   "Seattle",
+   "Tampa Bay"
+  ]
+ },
+ {
+  "id": "otdb-sports-c588e810c1",
+  "question": "What is the name of the AHL affiliate of the Toronto Maple Leafs?",
+  "correct": "Toronto Marlies",
+  "incorrect": [
+   "Toronto Rock",
+   "Toronto Argonauts",
+   "Toronto Wolfpack"
+  ]
+ },
+ {
+  "id": "otdb-sports-6f900b50d2",
+  "question": "With which doubles partner did John McEnroe have most success?",
+  "correct": "Peter Fleming",
+  "incorrect": [
+   "Mark Woodforde",
+   "Michael Stich",
+   "Mary Carillo"
+  ]
+ },
+ {
+  "id": "otdb-sports-9d4ee38624",
+  "question": "Which of the following Grand Slam tennis tournaments occurs LAST?",
+  "correct": "US Open",
+  "incorrect": [
+   "French Open",
+   "Wimbledon",
+   "Australian Open"
+  ]
+ },
+ {
+  "id": "otdb-sports-792d1f8a26",
+  "question": "Which of these track-and-field events is NOT included in the Olympic men's decathlon?",
+  "correct": "Hammer throw",
+  "incorrect": [
+   "Pole vault",
+   "Long jump",
+   "Shot put"
+  ]
+ },
+ {
+  "id": "otdb-sports-1da37079d6",
+  "question": "Which of the following pitchers was named National League Rookie of the Year for the 2013 season?",
+  "correct": "Jose Fernandez",
+  "incorrect": [
+   "Jacob deGrom",
+   "Shelby Miller",
+   "Matt Harvey"
+  ]
+ },
+ {
+  "id": "otdb-sports-ec7421ef09",
+  "question": "What year was hockey legend Wayne Gretzky born?",
+  "correct": "1961",
+  "incorrect": [
+   "1965",
+   "1959",
+   "1963"
+  ]
+ },
+ {
+  "id": "otdb-sports-17659c2dec",
+  "question": "The AHL affiliate team of the Boston Bruins is named what?",
+  "correct": "Providence Bruins",
+  "incorrect": [
+   "New Haven Bruins",
+   "Cambridge Bruins",
+   "Hartford Bruins"
+  ]
+ },
+ {
+  "id": "otdb-sports-c18bbb4226",
+  "question": "Prior to 2018, which car company is the only Japanese company which won the 24 Hours of Le Mans?",
+  "correct": "Mazda",
+  "incorrect": [
+   "Toyota",
+   "Subaru",
+   "Nissan"
+  ]
+ },
+ {
+  "id": "otdb-sports-288abeeed2",
+  "question": "What is the name of Manchester United's home stadium?",
+  "correct": "Old Trafford",
+  "incorrect": [
+   "Anfield",
+   "City of Manchester Stadium",
+   "St James Park"
+  ]
+ },
+ {
+  "id": "otdb-sports-0fdf67abd7",
+  "question": "Which of these European cities was the first to host the modern Summer Olympic Games three times?",
+  "correct": "London",
+  "incorrect": [
+   "Paris",
+   "Athens",
+   "Rome"
+  ]
+ },
+ {
+  "id": "otdb-sports-45735f9ed6",
+  "question": "Which female player won the gold medal of table tennis singles in 2016 Olympics Games?",
+  "correct": "DING Ning (China)",
+  "incorrect": [
+   "LI Xiaoxia (China)",
+   "Ai FUKUHARA (Japan)",
+   "Song KIM (North Korea)"
+  ]
+ },
+ {
+  "id": "otdb-sports-c98ca5ab72",
+  "question": "Which nation hosted the FIFA World Cup in 2006?",
+  "correct": "Germany",
+  "incorrect": [
+   "United Kingdom",
+   "Brazil",
+   "South Africa"
+  ]
+ },
+ {
+  "id": "otdb-sports-fc520a6f04",
+  "question": "Who scored the injury time winning goal in the 1999 UEFA Champions League final between Manchester United and Bayern Munich?",
+  "correct": "Ole Gunnar Solskjær",
+  "incorrect": [
+   "Dwight Yorke",
+   "Andy Cole",
+   "David Beckham"
+  ]
+ },
+ {
+  "id": "otdb-sports-2e5c76b30b",
+  "question": "Which darts player has won the most World Championship titles?",
+  "correct": "Phil Taylor",
+  "incorrect": [
+   "Michael van Gerwen",
+   "Raymond van Barneveld",
+   "Eric Bristow"
+  ]
+ },
+ {
+  "id": "otdb-sports-2101b0e426",
+  "question": "In Canadian football, scoring a rouge is worth how many points?",
+  "correct": "1",
+  "incorrect": [
+   "2",
+   "3",
+   "4"
+  ]
+ },
+ {
+  "id": "otdb-sports-c6861673e3",
+  "question": "The F1 season of 1994 is remembered for what tragic event?",
+  "correct": "Death of Ayrton Senna (San Marino)",
+  "incorrect": [
+   "The Showdown (Australia)",
+   "Verstappen on Fire (Germany)",
+   "Schumacher's Ban (Britain)"
+  ]
+ },
+ {
+  "id": "otdb-sports-7732c495a3",
+  "question": "Which country is hosting the 2022 FIFA World Cup?",
+  "correct": "Qatar",
+  "incorrect": [
+   "Uganda",
+   "Vietnam",
+   "Bolivia"
+  ]
+ },
+ {
+  "id": "otdb-sports-c39015cf72",
+  "question": "In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?",
+  "correct": "Jules Bianchi",
+  "incorrect": [
+   "Ayrton Senna",
+   "Ronald Ratzenberger",
+   "Gilles Villeneuve"
+  ]
+ },
+ {
+  "id": "otdb-sports-ab736faeb3",
+  "question": "Which player \"kung-fu kicked\" a Crystal Palace fan in January 1995?",
+  "correct": "Eric Cantona",
+  "incorrect": [
+   "David Seamen",
+   "Ashley Cole",
+   "Mark Hughes"
+  ]
+ },
+ {
+  "id": "otdb-sports-5f6128a20d",
+  "question": "What team did England beat to win in the 1966 World Cup final?",
+  "correct": "West Germany",
+  "incorrect": [
+   "Soviet Union",
+   "Portugal",
+   "Brazil"
+  ]
+ },
+ {
+  "id": "otdb-sports-d22bb2a51c",
+  "question": "A stimpmeter measures the speed of a ball over what surface?",
+  "correct": "Golf Putting Green",
+  "incorrect": [
+   " Football Pitch",
+   "Cricket Outfield",
+   "Pinball Table"
+  ]
+ },
+ {
+  "id": "otdb-sports-6186dabb27",
+  "question": "Which team won the 2015-16 English Premier League?",
+  "correct": "Leicester City",
+  "incorrect": [
+   "Liverpool",
+   "Cheslea",
+   "Manchester United"
+  ]
+ },
+ {
+  "id": "otdb-sports-eb5ddb86b1",
+  "question": "Which of these countries' national teams qualified for the 2018 FIFA World Cup in Russia?",
+  "correct": "Tunisia",
+  "incorrect": [
+   "United States of America",
+   "Italy",
+   "Netherlands"
+  ]
+ },
+ {
+  "id": "otdb-sports-23432106ab",
+  "question": "Which two teams played in Super Bowl XLII?",
+  "correct": "The New York Giants & The New England Patriots",
+  "incorrect": [
+   "The Green Bay Packers & The Pittsburgh Steelers",
+   "The Philadelphia Eagles & The New England Patriots",
+   "The Seattle Seahawks & The Denver Broncos"
+  ]
+ },
+ {
+  "id": "otdb-sports-e21b77c3b1",
+  "question": "Which team has won the most Stanley Cups in the NHL?",
+  "correct": "Montreal Canadians",
+  "incorrect": [
+   "Chicago Blackhawks",
+   "Toronto Maple Leafs",
+   "Detroit Red Wings"
+  ]
+ },
+ {
+  "id": "otdb-sports-4a1fbcd9e0",
+  "question": "Which year did Jenson Button won his first ever Formula One World Drivers' Championship?",
+  "correct": "2009",
+  "incorrect": [
+   "2010",
+   "2007",
+   "2006"
+  ]
+ },
+ {
+  "id": "otdb-sports-691e043708",
+  "question": "The Rio 2016 Summer Olympics held it's closing ceremony on what date?",
+  "correct": "August 21",
+  "incorrect": [
+   "August 23",
+   "August 19",
+   "August 17"
+  ]
+ },
+ {
+  "id": "otdb-sports-8fbff9d2af",
+  "question": "What is the highest belt you can get in Taekwondo?",
+  "correct": "Black",
+  "incorrect": [
+   "White",
+   "Red",
+   "Green"
+  ]
+ },
+ {
+  "id": "otdb-sports-7a406e6abe",
+  "question": "Which team was the 2015-2016 NBA Champions?",
+  "correct": "Cleveland Cavaliers",
+  "incorrect": [
+   "Golden State Warriors",
+   "Toronto Raptors",
+   "Oklahoma City Thunders"
+  ]
+ },
+ {
+  "id": "otdb-sports-0a1d5579b6",
+  "question": "Who has played the most tournaments on the Brazilian national soccer team?",
+  "correct": "Cafu",
+  "incorrect": [
+   "Ronaldo",
+   "Kaká",
+   "Roberto Carlos"
+  ]
+ },
+ {
+  "id": "otdb-sports-9ff9ef2a30",
+  "question": "Who is Manchester United's leading appearance maker?",
+  "correct": "Ryan Giggs",
+  "incorrect": [
+   "David Beckham",
+   "Wayne Rooney",
+   "Eric Cantona"
+  ]
+ }
+]

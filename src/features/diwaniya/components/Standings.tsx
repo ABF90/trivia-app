@@ -1,7 +1,7 @@
 import { StyleSheet, View } from "react-native";
 import { Avatar, avatarColorAt, Text } from "@/components/ui";
-import { toArabicDigits } from "@/lib/arabic";
-import { colors, rtl } from "@/theme";
+import { useI18n } from "@/i18n";
+import { colors } from "@/theme";
 import type { selectStandings } from "../model";
 
 interface StandingsProps {
@@ -10,14 +10,15 @@ interface StandingsProps {
 }
 
 export function Standings({ standings, activeIndex }: StandingsProps) {
+  const { t, n } = useI18n();
   return (
-    <View style={styles.list} aria-label="ترتيب اللاعبين">
+    <View style={styles.list} aria-label={t.standings}>
       {standings.map(({ player, index, name, rank }, i) => {
         const active = index === activeIndex;
         return (
           <View key={player.id} style={[styles.row, i > 0 && styles.divider]}>
             <Text weight="display" size={18} color={rank === 1 ? colors.warning : colors.textMuted} align="center" style={styles.rank}>
-              {toArabicDigits(rank)}
+              {n(rank)}
             </Text>
             <Avatar label={name.charAt(0)} color={avatarColorAt(index)} size={30} />
             <Text
@@ -27,10 +28,10 @@ export function Standings({ standings, activeIndex }: StandingsProps) {
               numberOfLines={1}
               style={styles.name}
             >
-              {active ? `${name} · دوره` : name}
+              {active ? t.theirTurn(name) : name}
             </Text>
             <Text weight="display" size={22} lineHeight={32}>
-              {toArabicDigits(player.score)}
+              {n(player.score)}
             </Text>
           </View>
         );
@@ -41,7 +42,7 @@ export function Standings({ standings, activeIndex }: StandingsProps) {
 
 const styles = StyleSheet.create({
   list: { backgroundColor: colors.surface, borderRadius: 22, paddingVertical: 8, paddingHorizontal: 16 },
-  row: { flexDirection: rtl.row, alignItems: "center", gap: 12, minHeight: 52 },
+  row: { flexDirection: "row", alignItems: "center", gap: 12, minHeight: 52 },
   divider: { borderTopWidth: 1, borderTopColor: colors.border },
   rank: { width: 18 },
   name: { flex: 1, minWidth: 0 },

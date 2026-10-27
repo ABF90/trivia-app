@@ -1,6 +1,7 @@
 import { StyleSheet, View } from "react-native";
 import { IconButton, ProgressSegments, ScorePill, Text, type SegmentState } from "@/components/ui";
-import { rtl } from "@/theme";
+import { useI18n } from "@/i18n";
+
 
 interface GameHeaderProps {
   label: string;
@@ -10,9 +11,10 @@ interface GameHeaderProps {
 }
 
 export function GameHeader({ label, segments, score, onExit }: GameHeaderProps) {
+  const { t } = useI18n();
   return (
     <View style={styles.header}>
-      {onExit && <IconButton icon="close" label="خروج" onPress={onExit} />}
+      {onExit && <IconButton icon="close" label={t.exit} onPress={onExit} />}
       <View style={styles.progress}>
         <Text weight="heavy" size={15} numberOfLines={1}>
           {label}
@@ -25,6 +27,6 @@ export function GameHeader({ label, segments, score, onExit }: GameHeaderProps) 
 }
 
 const styles = StyleSheet.create({
-  header: { flexDirection: rtl.row, alignItems: "center", gap: 12 },
+  header: { flexDirection: "row", alignItems: "center", gap: 12 },
   progress: { flex: 1, minWidth: 0, gap: 6 },
 });

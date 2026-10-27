@@ -1,15 +1,15 @@
 import type { ReactNode } from "react";
 import { View, type StyleProp, type ViewStyle } from "react-native";
 import Svg, { Circle, Path, Rect } from "react-native-svg";
+import { useI18n } from "@/i18n";
 import { colors } from "@/theme";
 
 /** Line icons from the design, drawn on a 24×24 grid. */
 const PATHS = {
   close: <Path d="M6 6l12 12M18 6L6 18" />,
   check: <Path d="M5 12l5 5L20 7" />,
-  /** Points left: "forward" in RTL. */
+  /** Forward / back in the reading direction (flipped for English below). */
   chevronForward: <Path d="M15 6l-6 6 6 6" />,
-  /** Points right: "back" in RTL. */
   chevronBack: <Path d="M9 6l6 6-6 6" />,
   flame: <Path d="M12 2c1 3.5 5 6 5 11a5 5 0 0 1-10 0c0-2.5 1.5-4 2.5-5 .3 1.6 1.2 2.6 2.5 3-.3-3.3 0-6.3 0-9z" />,
   trophy: (
@@ -87,7 +87,11 @@ interface IconProps {
   style?: StyleProp<ViewStyle>;
 }
 
+const MIRRORED: Partial<Record<IconName, IconName>> = { chevronForward: "chevronBack", chevronBack: "chevronForward" };
+
 export function Icon({ name, size = 20, color = colors.text, strokeWidth = 2, fill = "none", label, style }: IconProps) {
+  const { dir } = useI18n();
+  const glyph = dir === "ltr" ? (MIRRORED[name] ?? name) : name;
   // Accessibility props live on the View: react-native-svg forwards unknown props to the DOM on web.
   return (
     <View
@@ -107,7 +111,7 @@ export function Icon({ name, size = 20, color = colors.text, strokeWidth = 2, fi
         strokeLinecap="round"
         strokeLinejoin="round"
       >
-        {PATHS[name]}
+        {PATHS[glyph]}
       </Svg>
     </View>
   );

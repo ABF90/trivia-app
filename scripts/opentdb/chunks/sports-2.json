@@ -1,0 +1,402 @@
+[
+ {
+  "id": "otdb-sports-2c2e96fb8e",
+  "question": "Which city did the former NHL team \"The Nordiques\" originiate from?",
+  "correct": "Quebec City",
+  "incorrect": [
+   "Houston",
+   "Montreal",
+   "New York"
+  ]
+ },
+ {
+  "id": "otdb-sports-7cf667a447",
+  "question": "What sport features the terms love, deuce, match and volley?",
+  "correct": "Tennis",
+  "incorrect": [
+   "Cricket",
+   "Basketball",
+   "Curling"
+  ]
+ },
+ {
+  "id": "otdb-sports-f620ca3c54",
+  "question": "What is “The Sport of Kings”?",
+  "correct": "Horse Racing",
+  "incorrect": [
+   "Chess",
+   "Jousting",
+   "Fencing"
+  ]
+ },
+ {
+  "id": "otdb-sports-12ee12715e",
+  "question": "What national team won the 2016 edition of UEFA European Championship?",
+  "correct": "Portugal",
+  "incorrect": [
+   "France",
+   "Germany",
+   "England"
+  ]
+ },
+ {
+  "id": "otdb-sports-ccc0e1ae1a",
+  "question": "Who has played the most tournaments in the German national soccer team?",
+  "correct": "Lothar Matthäus",
+  "incorrect": [
+   "Miroslav Klose",
+   "Philipp Lahm",
+   "Oliver Kahn"
+  ]
+ },
+ {
+  "id": "otdb-sports-7f2b1ddc5b",
+  "question": "Who won NFL Super Bowl LI? (51)",
+  "correct": "Patriots",
+  "incorrect": [
+   "Falcons",
+   "Broncos",
+   "Eagles"
+  ]
+ },
+ {
+  "id": "otdb-sports-3436a34455",
+  "question": "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?",
+  "correct": "4",
+  "incorrect": [
+   "1",
+   "2",
+   "3"
+  ]
+ },
+ {
+  "id": "otdb-sports-5f1d9913eb",
+  "question": "With which team did Michael Schumacher make his Formula One debut at the 1991 Belgian Grand Prix?",
+  "correct": "Jordan",
+  "incorrect": [
+   "Benetton",
+   "Ferrari",
+   "Mercedes"
+  ]
+ },
+ {
+  "id": "otdb-sports-f5c97ed1cb",
+  "question": "What is the full name of the footballer \"Cristiano Ronaldo\"?",
+  "correct": "Cristiano Ronaldo dos Santos Aveiro",
+  "incorrect": [
+   "Cristiano Ronaldo los Santos Diego",
+   "Cristiano Armando Diego Ronaldo",
+   "Cristiano Luis Armando Ronaldo"
+  ]
+ },
+ {
+  "id": "otdb-sports-a24d5e429e",
+  "question": "What team did England beat in the semi-final stage to win in the 1966 World Cup final?",
+  "correct": "Portugal",
+  "incorrect": [
+   "West Germany",
+   "Soviet Union",
+   "Brazil"
+  ]
+ },
+ {
+  "id": "otdb-sports-fe43d20b69",
+  "question": "Who was the British professional wrestler Shirley Crabtree better known as?",
+  "correct": "Big Daddy",
+  "incorrect": [
+   "Giant Haystacks",
+   "Kendo Nagasaki",
+   "Masambula"
+  ]
+ },
+ {
+  "id": "otdb-sports-b56372c6ec",
+  "question": "Which is Kenesisa Bekele's personal best at marathon?",
+  "correct": "2:01:41",
+  "incorrect": [
+   "2:01:12",
+   "2:01:45",
+   "2:01:51"
+  ]
+ },
+ {
+  "id": "otdb-sports-5274b8aa1c",
+  "question": "Which of the following sports is not part of the triathlon?",
+  "correct": "Horse-Riding",
+  "incorrect": [
+   "Cycling",
+   "Swimming",
+   "Running"
+  ]
+ },
+ {
+  "id": "otdb-sports-a1be12f821",
+  "question": "Who won the 2017 Formula One World Drivers' Championship?",
+  "correct": "Lewis Hamilton",
+  "incorrect": [
+   "Sebastian Vettel",
+   "Nico Rosberg",
+   "Max Verstappen"
+  ]
+ },
+ {
+  "id": "otdb-sports-f637fa7283",
+  "question": "How many players are there in an association football/soccer team?",
+  "correct": "11",
+  "incorrect": [
+   "10",
+   "9",
+   "8"
+  ]
+ },
+ {
+  "id": "otdb-sports-7a1f6eb879",
+  "question": "What city did the Lakers represent before relocating to Los Angeles?",
+  "correct": "Minneapolis",
+  "incorrect": [
+   "Philadelphia",
+   "Chicago",
+   "San Francisco"
+  ]
+ },
+ {
+  "id": "otdb-sports-f6efd38514",
+  "question": "Which of these NHL teams have never moved since their inception?",
+  "correct": "St. Louis Blues",
+  "incorrect": [
+   "New Jersey Devils",
+   "Carolina Hurricanes",
+   "Dallas Stars"
+  ]
+ },
+ {
+  "id": "otdb-sports-f7c92d5eab",
+  "question": "In what country were the 2014 Winter Olympics held in the town of Sochi?",
+  "correct": "Russia",
+  "incorrect": [
+   "South Korea",
+   "Norway",
+   "Canada"
+  ]
+ },
+ {
+  "id": "otdb-sports-1eea042143",
+  "question": "What was Sir Donald Bradman's batting average in test matches?",
+  "correct": "99.94",
+  "incorrect": [
+   "100",
+   "69.51",
+   "44.78"
+  ]
+ },
+ {
+  "id": "otdb-sports-936aabd0d4",
+  "question": "Which of the following player scored a hat-trick during their Manchester United debut?",
+  "correct": "Wayne Rooney",
+  "incorrect": [
+   "Cristiano Ronaldo",
+   "Robin Van Persie",
+   "David Beckham"
+  ]
+ },
+ {
+  "id": "otdb-sports-903474d8aa",
+  "question": "Which English football club has the nickname 'The Foxes'?",
+  "correct": "Leicester City",
+  "incorrect": [
+   "Northampton Town",
+   "Bradford City",
+   "West Bromwich Albion"
+  ]
+ },
+ {
+  "id": "otdb-sports-d81d0a253c",
+  "question": "What cricketing term denotes a batsman being dismissed with a score of zero?",
+  "correct": "Duck",
+  "incorrect": [
+   "Bye",
+   "Beamer",
+   "Carry"
+  ]
+ },
+ {
+  "id": "otdb-sports-f05d2bd06c",
+  "question": "Josh Mansour is part of what NRL team?",
+  "correct": "Penrith Panthers",
+  "incorrect": [
+   "Melbourne Storm",
+   "Sydney Roosters",
+   "North Queensland Cowboys"
+  ]
+ },
+ {
+  "id": "otdb-sports-32f172a452",
+  "question": "Which soccer team won the Copa América Centenario 2016?",
+  "correct": "Chile",
+  "incorrect": [
+   "Argentina",
+   "Brazil",
+   "Colombia"
+  ]
+ },
+ {
+  "id": "otdb-sports-4b6035b6c6",
+  "question": "In golf, what name is given to a hole score of two under par?",
+  "correct": "Eagle",
+  "incorrect": [
+   "Birdie",
+   "Bogey",
+   "Albatross"
+  ]
+ },
+ {
+  "id": "otdb-sports-078172726f",
+  "question": "What country hosted the 2014 Winter Olympics?",
+  "correct": "Russia",
+  "incorrect": [
+   "Canada",
+   "United States",
+   "Germany"
+  ]
+ },
+ {
+  "id": "otdb-sports-d211489b32",
+  "question": "The UEFA Champions League is an annual club football competition featuring clubs from which continent?",
+  "correct": "Europe",
+  "incorrect": [
+   "South America",
+   "Africa",
+   "Asia"
+  ]
+ },
+ {
+  "id": "otdb-sports-9ef1dca5f4",
+  "question": "Who is regarded as the best Romanian footballer of all time?",
+  "correct": "Gheorghe Hagi",
+  "incorrect": [
+   "Cristian Chivu",
+   "Nicolae Dobrin",
+   "Gheorghe Popescu"
+  ]
+ },
+ {
+  "id": "otdb-sports-a13419cbf3",
+  "question": "Which wrestler won the 2019 Men’s Royal Rumble?",
+  "correct": "Seth Rollins",
+  "incorrect": [
+   "Braun Strowman",
+   "AJ Styles",
+   "Andrade"
+  ]
+ },
+ {
+  "id": "otdb-sports-f1df49cb21",
+  "question": "Which country hosted the 2020 Summer Olympics?",
+  "correct": "Japan",
+  "incorrect": [
+   "China",
+   "Australia",
+   "Germany"
+  ]
+ },
+ {
+  "id": "otdb-sports-81233a576f",
+  "question": "Which country hosted the 2022 FIFA World Cup?",
+  "correct": "Qatar",
+  "incorrect": [
+   "USA",
+   "Japan",
+   "Switzerland"
+  ]
+ },
+ {
+  "id": "otdb-sports-ea26702b15",
+  "question": "What tool lends it's name to a last-stone advantage in an end in Curling?",
+  "correct": "Hammer",
+  "incorrect": [
+   "Wrench",
+   "Drill",
+   "Screwdriver"
+  ]
+ },
+ {
+  "id": "otdb-sports-b9087ba68a",
+  "question": "Which NBA player won Most Valuable Player for the 1999-2000 season?",
+  "correct": "Shaquille O'Neal",
+  "incorrect": [
+   "Allen Iverson",
+   "Kobe Bryant",
+   "Paul Pierce"
+  ]
+ },
+ {
+  "id": "otdb-sports-6f4052c248",
+  "question": "Which of these Russian cities did NOT contain a stadium that was used in the 2018 FIFA World Cup?",
+  "correct": "Vladivostok",
+  "incorrect": [
+   "Rostov-on-Don",
+   "Yekaterinburg",
+   "Kaliningrad"
+  ]
+ },
+ {
+  "id": "otdb-sports-149b4b2127",
+  "question": "Which player has scored the most goals in the England Premier League (EPL)?",
+  "correct": "Alan Shearer",
+  "incorrect": [
+   "Wayne Rooney",
+   "Lionel Messi",
+   "Didier Drogba"
+  ]
+ },
+ {
+  "id": "otdb-sports-eb268f6e9e",
+  "question": "Which of these NHL teams originally played in Atlanta?",
+  "correct": "Calgary Flames",
+  "incorrect": [
+   "St. Louis Blues",
+   "Minnesota Wild",
+   "Vancouver Canucks"
+  ]
+ },
+ {
+  "id": "otdb-sports-d7cd2f1ada",
+  "question": "In bowling, what is the term used for getting three consecutive strikes?",
+  "correct": "Turkey",
+  "incorrect": [
+   "Flamingo",
+   "Birdie",
+   "Eagle"
+  ]
+ },
+ {
+  "id": "otdb-sports-d80d317579",
+  "question": "Which car manufacturer won the 2017 24 Hours of Le Mans?",
+  "correct": "Porsche",
+  "incorrect": [
+   "Toyota",
+   "Audi",
+   "Chevrolet"
+  ]
+ },
+ {
+  "id": "otdb-sports-adf7defe29",
+  "question": "Who won the 2018 Monaco Grand Prix?",
+  "correct": "Daniel Ricciardo",
+  "incorrect": [
+   "Sebastian Vettel",
+   "Kimi Raikkonen",
+   "Lewis Hamilton"
+  ]
+ },
+ {
+  "id": "otdb-sports-6862fc52a7",
+  "question": "Which football manager won more trophies than any other during his tenure at English football club Manchester United?",
+  "correct": "Sir Alex Ferguson",
+  "incorrect": [
+   "David Moyes",
+   "Louis van Gaal",
+   "José Mourinho"
+  ]
+ }
+]

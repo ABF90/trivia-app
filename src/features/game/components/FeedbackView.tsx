@@ -1,6 +1,7 @@
 import { StyleSheet, View } from "react-native";
 import Animated, { ZoomIn } from "react-native-reanimated";
 import { AnswerOption, Button, FactCard, QuestionCard, Spacer, Text, type AnswerState } from "@/components/ui";
+import { useI18n } from "@/i18n";
 import { colors } from "@/theme";
 import type { AnswerRecord, Question } from "../types";
 
@@ -13,12 +14,14 @@ interface FeedbackViewProps {
 }
 
 /** Shown after a wrong answer or timeout: reveals the right answer and a fact. */
-export function FeedbackView({ question, answer, nextLabel = "التالي", disabled, onNext }: FeedbackViewProps) {
+export function FeedbackView({ question, answer, nextLabel, disabled, onNext }: FeedbackViewProps) {
+  const { t, pick, lang } = useI18n();
+  const english = lang === "ar" && question.untranslated ? "en" : undefined;
   const timedOut = answer.selected === null;
 
   const stateFor = (i: number): { state: AnswerState; tag?: string } => {
-    if (i === question.answer) return { state: "correct", tag: "الجواب الصح" };
-    if (i === answer.selected) return { state: "wrong", tag: "جوابك" };
+    if (i === question.answer) return { state: "correct", tag: t.rightAnswer };
+    if (i === answer.selected) return { state: "wrong", tag: t.yourAnswer };
     return { state: "dimmed" };
   };
 
@@ -26,27 +29,29 @@ export function FeedbackView({ question, answer, nextLabel = "التالي", dis
     <>
       <Animated.View entering={ZoomIn.duration(400)} style={styles.headline}>
         <Text weight="display" size={36} lineHeight={52} color={colors.danger} align="center" aria-live="polite">
-          {timedOut ? "خلص الوقت!" : "مو هالمرة!"}
+          {timedOut ? t.timeUp : t.wrongHeadline}
         </Text>
       </Animated.View>
 
-      <QuestionCard prompt={question.prompt} compact />
+      <QuestionCard prompt={pick(question.prompt)} compact textLang={english} />
 
       <View style={styles.options}>
         {question.options.map((label, i) => {
           const { state, tag } = stateFor(i);
-          return <AnswerOption key={i} label={label} state={state} tag={tag} compact animateIn={false} />;
+          return <AnswerOption key={i} label={pick(label)} state={state} tag={tag} compact animateIn={false} textLang={english} />;
         })}
       </View>
 
-      <View style={styles.fact}>
-        <FactCard>{question.fact}</FactCard>
-      </View>
+      {question.fact && (
+        <View style={styles.fact}>
+          <FactCard>{pick(question.fact)}</FactCard>
+        </View>
+      )}
 
       <Spacer />
 
       <Button size="lg" flat icon="chevronForward" onPress={onNext} disabled={disabled}>
-        {nextLabel}
+        {nextLabel ?? t.next}
       </Button>
     </>
   );

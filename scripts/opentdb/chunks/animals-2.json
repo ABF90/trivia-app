@@ -1,0 +1,342 @@
+[
+ {
+  "id": "otdb-animals-b36456159f",
+  "question": "What is the average lifespan of a domestic rabbit?",
+  "correct": "8-12 years",
+  "incorrect": [
+   "1-2 years",
+   "4-7 years",
+   "14-20 years"
+  ]
+ },
+ {
+  "id": "otdb-animals-e8c2ccab12",
+  "question": "What color/colour is a polar bear's skin?",
+  "correct": "Black",
+  "incorrect": [
+   "White",
+   "Pink",
+   "Green"
+  ]
+ },
+ {
+  "id": "otdb-animals-90558984b6",
+  "question": "What do you call a baby bat?",
+  "correct": "Pup",
+  "incorrect": [
+   "Cub",
+   "Chick",
+   "Kid"
+  ]
+ },
+ {
+  "id": "otdb-animals-d6c2fad7e3",
+  "question": "How many known living species of hyenas are there?",
+  "correct": "4",
+  "incorrect": [
+   "8",
+   "2",
+   "6"
+  ]
+ },
+ {
+  "id": "otdb-animals-d10eb3948e",
+  "question": "What is the Gray Wolf's scientific name?",
+  "correct": "Canis Lupus",
+  "incorrect": [
+   "Canis Aureus",
+   "Canis Latrans",
+   "Canis Lupus Lycaon"
+  ]
+ },
+ {
+  "id": "otdb-animals-7b598563d9",
+  "question": "Snakes and lizards are known to flick their tongue, this behavior is to?",
+  "correct": "Capture scent particles",
+  "incorrect": [
+   "Taste the sweet air",
+   "Threaten other species",
+   "Attract female mates"
+  ]
+ },
+ {
+  "id": "otdb-animals-942cb09830",
+  "question": "Which species is a \"mountain chicken\"?",
+  "correct": "Frog",
+  "incorrect": [
+   "Chicken",
+   "Horse",
+   "Fly"
+  ]
+ },
+ {
+  "id": "otdb-animals-bddfa66541",
+  "question": "Chronic Wasting Disease (CWD) exclusively infects members of which family of animals?",
+  "correct": "Cervids",
+  "incorrect": [
+   "Hominids",
+   "Felids",
+   "Canids"
+  ]
+ },
+ {
+  "id": "otdb-animals-3d0a5c5ca8",
+  "question": "What is the collective noun for rats?",
+  "correct": "Mischief",
+  "incorrect": [
+   "Pack",
+   "Race",
+   "Drift"
+  ]
+ },
+ {
+  "id": "otdb-animals-18fd417019",
+  "question": "Which is the national animal of India?",
+  "correct": "Tiger",
+  "incorrect": [
+   "Lion",
+   "Horse",
+   "Camel"
+  ]
+ },
+ {
+  "id": "otdb-animals-600599abcb",
+  "question": "What bird is born with claws on its wing digits?",
+  "correct": "Hoatzin",
+  "incorrect": [
+   "Cormorant",
+   "Cassowary",
+   "Secretary bird"
+  ]
+ },
+ {
+  "id": "otdb-animals-12cf0b4e64",
+  "question": "What is the scientific name of the Common Chimpanzee?",
+  "correct": "Pan troglodytes",
+  "incorrect": [
+   "Gorilla gorilla",
+   "Pan paniscus",
+   "Panthera leo"
+  ]
+ },
+ {
+  "id": "otdb-animals-e6c6843c0e",
+  "question": "What is the collective noun for bears?",
+  "correct": "Sloth",
+  "incorrect": [
+   "Drove",
+   "Tribe",
+   "Husk"
+  ]
+ },
+ {
+  "id": "otdb-animals-ffdc889941",
+  "question": "What was the name of the Ethiopian Wolf before they knew it was related to wolves?",
+  "correct": "Simien Jackel",
+  "incorrect": [
+   "Ethiopian Coyote",
+   "Amharic Fox",
+   "Canis Simiensis"
+  ]
+ },
+ {
+  "id": "otdb-animals-f65b7b7fc6",
+  "question": "What is the average amount of chinchillas born into a single litter?",
+  "correct": "2-3",
+  "incorrect": [
+   "10-15",
+   "5-8",
+   "15-18"
+  ]
+ },
+ {
+  "id": "otdb-animals-6359939b8b",
+  "question": "Which of the following is NOT a venomous snake?",
+  "correct": "Reticulated python",
+  "incorrect": [
+   "Malayan Krait",
+   "Yellow bellied sea snake",
+   "Black mamba"
+  ]
+ },
+ {
+  "id": "otdb-animals-fa829de003",
+  "question": "The dish Fugu, is made from what family of fish?",
+  "correct": "Pufferfish",
+  "incorrect": [
+   "Bass",
+   "Salmon",
+   "Mackerel"
+  ]
+ },
+ {
+  "id": "otdb-animals-bb682bd910",
+  "question": "For what reason would a spotted hyena \"laugh\"?",
+  "correct": "Nervousness",
+  "incorrect": [
+   "Excitement",
+   "Aggression",
+   "Exhaustion"
+  ]
+ },
+ {
+  "id": "otdb-animals-0fa16e91bb",
+  "question": "What type of creature is a Bonobo?",
+  "correct": "Ape",
+  "incorrect": [
+   "Lion",
+   "Parrot",
+   "Wildcat"
+  ]
+ },
+ {
+  "id": "otdb-animals-d4ecb76368",
+  "question": "The Kākāpō is a large, flightless, nocturnal parrot native to which country?",
+  "correct": "New Zealand",
+  "incorrect": [
+   "South Africa",
+   "Australia",
+   "Madagascar"
+  ]
+ },
+ {
+  "id": "otdb-animals-29bfe89dd5",
+  "question": "What is the world's longest venomous snake?",
+  "correct": "King Cobra",
+  "incorrect": [
+   "Green Anaconda",
+   "Inland Taipan",
+   "Yellow Bellied Sea Snake"
+  ]
+ },
+ {
+  "id": "otdb-animals-5c2f3ad2c8",
+  "question": "Which of these animals is NOT a lizard?",
+  "correct": "Tuatara",
+  "incorrect": [
+   "Komodo Dragon",
+   "Gila Monster",
+   "Green Iguana"
+  ]
+ },
+ {
+  "id": "otdb-animals-08b8b239e8",
+  "question": "Wombats are native to which Country?",
+  "correct": "Australia",
+  "incorrect": [
+   "New Zealand",
+   "Papua New Guinea",
+   "Palau"
+  ]
+ },
+ {
+  "id": "otdb-animals-9a674e4757",
+  "question": "About how much of their body weight in food do sea otters eat every day?",
+  "correct": "25%",
+  "incorrect": [
+   "10%",
+   "80%",
+   "45%"
+  ]
+ },
+ {
+  "id": "otdb-animals-666b2d7156",
+  "question": "What is the scientific name of the cheetah?",
+  "correct": "Acinonyx jubatus",
+  "incorrect": [
+   "Panthera onca",
+   "Lynx rufus",
+   "Felis catus"
+  ]
+ },
+ {
+  "id": "otdb-animals-2957639413",
+  "question": "What scientific suborder does the family Hyaenidae belong to?",
+  "correct": "Feliformia",
+  "incorrect": [
+   "Haplorhini",
+   "Caniformia",
+   "Ciconiiformes"
+  ]
+ },
+ {
+  "id": "otdb-animals-3d2e374020",
+  "question": "What is the scientific name for the Bald Eagle?",
+  "correct": "Haliaeetus Leucocephalus ",
+  "incorrect": [
+   "Tyto Alba",
+   "Cyanocitta Cristata",
+   "Aquila Chrysaetos"
+  ]
+ },
+ {
+  "id": "otdb-animals-857fcd1aab",
+  "question": "How many teeth does an adult rabbit have?",
+  "correct": "28",
+  "incorrect": [
+   "30",
+   "26",
+   "24"
+  ]
+ },
+ {
+  "id": "otdb-animals-c8b19e08e0",
+  "question": "Which breed of dog is traditionally associated with firefighters?",
+  "correct": "Dalmatians",
+  "incorrect": [
+   "German Shepard",
+   "Great Dane",
+   "Mastiff"
+  ]
+ },
+ {
+  "id": "otdb-animals-de675b06cd",
+  "question": "To which biological phylum do all mammals, birds and reptiles belong?",
+  "correct": "Chordata",
+  "incorrect": [
+   "Echinodermata",
+   "Annelida",
+   "Placazoa"
+  ]
+ },
+ {
+  "id": "otdb-animals-0ff0982be1",
+  "question": "What is the name of a rabbit's abode?",
+  "correct": "Burrow",
+  "incorrect": [
+   "Nest",
+   "Den",
+   "Dray"
+  ]
+ },
+ {
+  "id": "otdb-animals-32d28d6d5b",
+  "question": "\"Decapods\" are an order of ten-footed crustaceans.  Which of these are NOT decapods?",
+  "correct": "Krill",
+  "incorrect": [
+   "Lobsters",
+   "Shrimp",
+   "Crabs"
+  ]
+ },
+ {
+  "id": "otdb-animals-f432ed2e73",
+  "question": "Which of the following is another name for the \"Poecilotheria Metallica Tarantula\"?",
+  "correct": "Gooty",
+  "incorrect": [
+   "Hopper",
+   "Silver Stripe",
+   "Woebegone"
+  ]
+ },
+ {
+  "id": "otdb-animals-0216a4f54f",
+  "question": "Which species of Brown Bear is not extinct?",
+  "correct": "Syrian Brown Bear",
+  "incorrect": [
+   "California Grizzly Bear",
+   "Atlas Bear",
+   "Mexican Grizzly Bear"
+  ]
+ }
+]

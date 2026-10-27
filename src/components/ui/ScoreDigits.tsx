@@ -1,6 +1,6 @@
 import { StyleSheet, useWindowDimensions, View } from "react-native";
-import { toArabicDigits } from "@/lib/arabic";
-import { colors, rtl } from "@/theme";
+import { useI18n } from "@/i18n";
+import { colors } from "@/theme";
 import { Text } from "./Text";
 
 interface ScoreDigitsProps {
@@ -11,9 +11,10 @@ interface ScoreDigitsProps {
   variant?: "inset" | "boxed";
 }
 
-/** Stadium-scoreboard style "٤ / ٥" (score on the right). */
+/** Stadium-scoreboard style "٤ / ٥" (score at the reading start). */
 export function ScoreDigits({ score, total, size = 96, variant = "inset" }: ScoreDigitsProps) {
   const { width } = useWindowDimensions();
+  const { n, t } = useI18n();
   const w = Math.min(size, width / 4);
   const tile = [
     styles.tile,
@@ -23,7 +24,7 @@ export function ScoreDigits({ score, total, size = 96, variant = "inset" }: Scor
   const digit = (value: number, color: string) => (
     <View style={tile}>
       <Text weight="display" size={w * 0.95} lineHeight={w * 1.2} color={color} align="center">
-        {toArabicDigits(value)}
+        {n(value)}
       </Text>
     </View>
   );
@@ -31,7 +32,7 @@ export function ScoreDigits({ score, total, size = 96, variant = "inset" }: Scor
     <View
       style={[styles.row, { gap: w * 0.18 }]}
       accessible
-      aria-label={`${toArabicDigits(score)} من ${toArabicDigits(total)}`}
+      aria-label={t.scoreOf(n(score), n(total))}
     >
       {digit(score, score === 0 ? colors.danger : colors.success)}
       <Text weight="display" size={w * 0.46} color={colors.textMuted}>
@@ -43,7 +44,7 @@ export function ScoreDigits({ score, total, size = 96, variant = "inset" }: Scor
 }
 
 const styles = StyleSheet.create({
-  row: { flexDirection: rtl.row, alignItems: "center" },
+  row: { flexDirection: "row", alignItems: "center" },
   tile: { backgroundColor: colors.surfaceMuted, alignItems: "center", justifyContent: "center", overflow: "hidden" },
   boxed: { backgroundColor: colors.bgDeep, borderWidth: 2, borderColor: colors.border },
 });

@@ -2,8 +2,8 @@ import { StyleSheet, View } from "react-native";
 import Animated, { FadeInLeft, FadeInRight, ZoomIn } from "react-native-reanimated";
 import { Avatar, Button, Logo, Spacer, Text } from "@/components/ui";
 import { GAME_CONFIG } from "@/config/game";
-import { toArabicDigits } from "@/lib/arabic";
-import { colors, radius, rtl } from "@/theme";
+import { useI18n } from "@/i18n";
+import { colors, radius } from "@/theme";
 import type { Challenge } from "../codec";
 import { describeRules } from "../rules";
 
@@ -15,30 +15,33 @@ interface ChallengeIntroProps {
 
 export function ChallengeIntro({ challenge, onAccept, onDecline }: ChallengeIntroProps) {
   const total = challenge.questions.length;
+  const i18n = useI18n();
+  const { t, n } = i18n;
+  const name = challenge.name || t.aFriend;
   return (
     <>
       <View style={styles.brand}>
         <Logo size={36} variant="mark" decorative />
         <Text weight="display" size={26} lineHeight={36}>
-          صفارة
+          {t.appName}
         </Text>
       </View>
 
       <Text weight="display" size={42} lineHeight={56} align="center" style={styles.title} role="heading">
-        {`${challenge.name} يتحداك!`}
+        {t.challengesYou(name)}
       </Text>
       <Text size={16} color={colors.textSecondary} align="center">
-        {`نفس الـ ${toArabicDigits(total)} أسئلة، ونفس الـ ${toArabicDigits(GAME_CONFIG.secondsPerQuestion)} ثانية لكل سؤال`}
+        {t.sameQuestions(n(total), n(GAME_CONFIG.secondsPerQuestion))}
       </Text>
 
       <View style={styles.versus}>
         <Animated.View entering={FadeInRight.duration(400)} style={styles.player}>
-          <Avatar label={challenge.name.charAt(0)} size={64} />
+          <Avatar label={name.charAt(0)} size={64} />
           <Text weight="heavy" size={16} align="center" numberOfLines={1}>
-            {challenge.name}
+            {name}
           </Text>
           <Text weight="display" size={38} lineHeight={50} color={colors.success} align="center">
-            {`${toArabicDigits(challenge.score)} / ${toArabicDigits(total)}`}
+            {`${n(challenge.score)} / ${n(total)}`}
           </Text>
         </Animated.View>
         <Animated.View entering={ZoomIn.delay(500).springify()} style={styles.vs}>
@@ -49,26 +52,26 @@ export function ChallengeIntro({ challenge, onAccept, onDecline }: ChallengeIntr
         <Animated.View entering={FadeInLeft.delay(150).duration(400)} style={[styles.player, styles.you]}>
           <Avatar label="؟" color="slate" size={64} />
           <Text weight="heavy" size={16} align="center">
-            إنت
+            {t.you}
           </Text>
           <Text weight="display" size={38} lineHeight={50} color={colors.textMuted} align="center">
-            {`؟ / ${toArabicDigits(total)}`}
+            {`? / ${n(total)}`}
           </Text>
         </Animated.View>
       </View>
 
       <Text size={15} color={colors.textMuted} align="center" style={styles.rules}>
-        {describeRules(challenge.score, total)}
+        {describeRules(i18n, challenge.score, total)}
       </Text>
 
       <Spacer />
 
       <View style={styles.actions}>
         <Button size="lg" onPress={onAccept}>
-          اقبل التحدي
+          {t.acceptChallenge}
         </Button>
         <Button variant="ghost" size="sm" onPress={onDecline}>
-          مو الحين
+          {t.notNow}
         </Button>
       </View>
     </>
@@ -76,9 +79,9 @@ export function ChallengeIntro({ challenge, onAccept, onDecline }: ChallengeIntr
 }
 
 const styles = StyleSheet.create({
-  brand: { flexDirection: rtl.row, alignItems: "center", gap: 10 },
+  brand: { flexDirection: "row", alignItems: "center", gap: 10 },
   title: { marginTop: 40 },
-  versus: { marginTop: 36, flexDirection: rtl.row, alignItems: "center", gap: 8 },
+  versus: { marginTop: 36, flexDirection: "row", alignItems: "center", gap: 8 },
   player: {
     flex: 1,
     minWidth: 0,

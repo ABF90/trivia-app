@@ -1,5 +1,6 @@
 import { StyleSheet, View } from "react-native";
 import { BottomSheet, Button, Icon, Text } from "@/components/ui";
+import { useI18n } from "@/i18n";
 import { colors, radius, tints } from "@/theme";
 
 interface ExitConfirmSheetProps {
@@ -9,23 +10,24 @@ interface ExitConfirmSheetProps {
 }
 
 export function ExitConfirmSheet({ open, onStay, onLeave }: ExitConfirmSheetProps) {
+  const { t } = useI18n();
   return (
     <BottomSheet open={open} onClose={onStay}>
       <View style={styles.icon}>
         <Icon name="exit" size={30} color={colors.danger} />
       </View>
       <Text weight="display" size={34} lineHeight={48} align="center" role="heading">
-        تبي تطلع؟
+        {t.exitTitle}
       </Text>
       <Text size={16} lineHeight={27} color={colors.textSecondary} align="center">
-        بتضيع نقاط هالجولة، والتايمر واقف لين تقرر.
+        {t.exitBody}
       </Text>
       <View style={styles.actions}>
         <Button size="lg" flat onPress={onStay}>
-          كمّل اللعب
+          {t.keepPlaying}
         </Button>
         <Button variant="danger" onPress={onLeave}>
-          اطلع
+          {t.leave}
         </Button>
       </View>
     </BottomSheet>

@@ -1,5 +1,5 @@
 import { Pressable, StyleSheet, View } from "react-native";
-import { colors, radius, rtl, tints } from "@/theme";
+import { colors, radius, tints } from "@/theme";
 import { Text } from "./Text";
 
 interface SegmentedControlProps<T extends string | number> {
@@ -8,6 +8,8 @@ interface SegmentedControlProps<T extends string | number> {
   value: T;
   onChange: (value: T) => void;
   format?: (value: T) => string;
+  /** "display" for numbers (Lalezar), "text" for words. */
+  variant?: "display" | "text";
 }
 
 export function SegmentedControl<T extends string | number>({
@@ -16,6 +18,7 @@ export function SegmentedControl<T extends string | number>({
   value,
   onChange,
   format = String,
+  variant = "display",
 }: SegmentedControlProps<T>) {
   return (
     <View role="radiogroup" aria-label={legend} style={styles.group}>
@@ -33,7 +36,12 @@ export function SegmentedControl<T extends string | number>({
               onPress={() => onChange(option)}
               style={[styles.option, selected && styles.selected]}
             >
-              <Text weight="display" size={22} lineHeight={32} align="center">
+              <Text
+                weight={variant === "display" ? "display" : selected ? "heavy" : "bold"}
+                size={variant === "display" ? 22 : 15}
+                lineHeight={variant === "display" ? 32 : undefined}
+                align="center"
+              >
                 {format(option)}
               </Text>
             </Pressable>
@@ -46,7 +54,7 @@ export function SegmentedControl<T extends string | number>({
 
 const styles = StyleSheet.create({
   group: { gap: 10 },
-  options: { flexDirection: rtl.row, gap: 10 },
+  options: { flexDirection: "row", gap: 10 },
   option: {
     flex: 1,
     height: 52,

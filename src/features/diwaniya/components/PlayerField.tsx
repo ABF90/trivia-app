@@ -1,7 +1,7 @@
 import { Pressable, StyleSheet, TextInput, View } from "react-native";
 import { Avatar, avatarColorAt, Icon } from "@/components/ui";
-import { toArabicDigits } from "@/lib/arabic";
-import { colors, fonts, radius, rtl } from "@/theme";
+import { useI18n } from "@/i18n";
+import { colors, fonts, radius, textStyleFor } from "@/theme";
 
 interface PlayerFieldProps {
   index: number;
@@ -13,23 +13,24 @@ interface PlayerFieldProps {
 }
 
 export function PlayerField({ index, name, placeholder, canRemove, onRename, onRemove }: PlayerFieldProps) {
+  const { t, n, lang } = useI18n();
   return (
     <View style={styles.field}>
-      <Avatar label={toArabicDigits(index + 1)} color={avatarColorAt(index)} />
+      <Avatar label={n(index + 1)} color={avatarColorAt(index)} />
       <TextInput
-        style={styles.input}
+        style={[styles.input, textStyleFor(lang)]}
         value={name}
         placeholder={placeholder}
         placeholderTextColor={colors.textMuted}
         maxLength={20}
-        aria-label={`اسم اللاعب ${toArabicDigits(index + 1)}`}
+        aria-label={t.playerNameLabel(n(index + 1))}
         onChangeText={onRename}
         returnKeyType="done"
       />
       {canRemove && (
         <Pressable
           role="button"
-          aria-label={`احذف ${name || placeholder}`}
+          aria-label={t.removePlayer(name || placeholder)}
           hitSlop={6}
           onPress={onRemove}
           style={({ pressed }) => [styles.remove, pressed && styles.removePressed]}
@@ -43,7 +44,7 @@ export function PlayerField({ index, name, placeholder, canRemove, onRename, onR
 
 const styles = StyleSheet.create({
   field: {
-    flexDirection: rtl.row,
+    flexDirection: "row",
     alignItems: "center",
     gap: 12,
     height: 56,
@@ -57,8 +58,6 @@ const styles = StyleSheet.create({
     color: colors.text,
     fontFamily: fonts.bold,
     fontSize: 17,
-    textAlign: rtl.textStart,
-    writingDirection: "rtl",
     paddingVertical: 0,
   },
   remove: { width: 40, height: 40, borderRadius: 12, alignItems: "center", justifyContent: "center" },

@@ -10,7 +10,7 @@ import Animated, {
 } from "react-native-reanimated";
 import { Button, Icon, ScreenHeader, Spacer, Text } from "@/components/ui";
 import { GAME_CONFIG } from "@/config/game";
-import { formatDays, toArabicDigits } from "@/lib/arabic";
+import { useI18n } from "@/i18n";
 import { colors, radius } from "@/theme";
 import { NextDailyCountdown } from "./NextDailyCountdown";
 import { WeekStrip } from "./WeekStrip";
@@ -39,30 +39,31 @@ function Flame() {
 }
 
 export function DailyIntro({ today, streak, playedDays, onStart }: DailyIntroProps) {
+  const { t, n, days } = useI18n();
   return (
     <>
-      <ScreenHeader title="تحدي اليوم" backHref="/" />
+      <ScreenHeader title={t.dailyHeader} backHref="/" />
 
       <View style={styles.hero}>
         <Flame />
         <Text weight="display" size={52} lineHeight={72} color={colors.warning} align="center">
-          {streak > 0 ? formatDays(streak) : "ابدأ سلسلتك"}
+          {streak > 0 ? days(streak) : t.startStreak}
         </Text>
         <Text size={15} color={colors.textSecondary} align="center">
-          {streak > 0 ? "سلسلتك ما انقطعت، لا تخربها اليوم!" : "العب كل يوم وخل السلسلة تكبر"}
+          {streak > 0 ? t.streakAlive : t.streakStart}
         </Text>
         <WeekStrip today={today} playedDays={playedDays} />
       </View>
 
       <Text size={16} lineHeight={27} color={colors.textSecondary} align="center" style={styles.rules}>
-        {`نفس الـ ${toArabicDigits(GAME_CONFIG.roundSize)} أسئلة لكل اللاعبين، ومحاولة وحدة بس.`}
+        {t.dailyRules(n(GAME_CONFIG.roundSize))}
       </Text>
 
       <Spacer />
 
       <NextDailyCountdown />
       <Button size="lg" variant="warning" onPress={onStart}>
-        ابدأ تحدي اليوم
+        {t.startDaily}
       </Button>
     </>
   );

@@ -1,0 +1,602 @@
+[
+ {
+  "id": "otdb-history-1ef2cacab3",
+  "question": "In relation to the British Occupation in Ireland, what does the IRA stand for.",
+  "correct": "Irish Republican Army",
+  "incorrect": [
+   "Irish Rebel Alliance",
+   "Irish Reformation Army",
+   "Irish-Royal Alliance"
+  ]
+ },
+ {
+  "id": "otdb-history-328fd814ca",
+  "question": "What was the official German currency until 2002?",
+  "correct": "Mark",
+  "incorrect": [
+   "Frank",
+   "Pound sterling",
+   "Reichtoken"
+  ]
+ },
+ {
+  "id": "otdb-history-f603187e06",
+  "question": "In what year was the famous 45 foot tall Hollywood sign first erected?",
+  "correct": "1923",
+  "incorrect": [
+   "1903",
+   "1913",
+   "1933"
+  ]
+ },
+ {
+  "id": "otdb-history-d1a84e5e94",
+  "question": "Who is believed to have been the first European to 'discover' the land of New Zealand?",
+  "correct": "Abel Tasman",
+  "incorrect": [
+   "Christopher Columbus",
+   "Jeanne Baré",
+   "John Cabot "
+  ]
+ },
+ {
+  "id": "otdb-history-f8bf4c4dda",
+  "question": "Which country gifted the Statue of Liberty to the United States of America?",
+  "correct": "France",
+  "incorrect": [
+   "Spain",
+   "England",
+   "Germany"
+  ]
+ },
+ {
+  "id": "otdb-history-be2c68ec2f",
+  "question": "Which of these countries was NOT a part of the Soviet Union?",
+  "correct": "Afghanistan",
+  "incorrect": [
+   "Turkmenistan",
+   "Kazakhstan",
+   "Uzbekistan"
+  ]
+ },
+ {
+  "id": "otdb-history-7deb2933ed",
+  "question": "During the Mongolian invasions of Japan, what were the Mongol boats mostly stopped by?",
+  "correct": "Typhoons",
+  "incorrect": [
+   "Tornados",
+   "Economic depression",
+   "Samurai"
+  ]
+ },
+ {
+  "id": "otdb-history-bd4c402d0d",
+  "question": "What year did Australia become a federation?",
+  "correct": "1901",
+  "incorrect": [
+   "1910",
+   "1899",
+   "1911"
+  ]
+ },
+ {
+  "id": "otdb-history-d11b280e97",
+  "question": "The RMS Titanic sunk during her maiden voyage from Southampton, England to which American city?",
+  "correct": "New York City",
+  "incorrect": [
+   "Boston ",
+   "Philadelphia",
+   "Washington"
+  ]
+ },
+ {
+  "id": "otdb-history-964029ad85",
+  "question": "What micro-state is considered to have the oldest constitution still in effect?",
+  "correct": "San Marino",
+  "incorrect": [
+   "Andorra",
+   "Monaco",
+   "Saint Kitts and Nevis"
+  ]
+ },
+ {
+  "id": "otdb-history-aecd663497",
+  "question": "Who was the British Prime Minister at the outbreak of the Second World War in 1939?",
+  "correct": "Neville Chamberlain",
+  "incorrect": [
+   "Stanley Baldwin",
+   "Winston Churchill",
+   "Ramsay MacDonald"
+  ]
+ },
+ {
+  "id": "otdb-history-60b6882975",
+  "question": "From 1940 to 1942, what was the capital-in-exile of Free France ?",
+  "correct": "Brazzaville",
+  "incorrect": [
+   "Algiers",
+   "Paris",
+   "Tunis"
+  ]
+ },
+ {
+  "id": "otdb-history-9dac395649",
+  "question": "The assassination of which royal led to the start of World War I?",
+  "correct": "Archduke Franz Ferdinand",
+  "incorrect": [
+   "Louis Mountbatten",
+   "King Charles I",
+   "Nicholas II"
+  ]
+ },
+ {
+  "id": "otdb-history-0081e0b7ae",
+  "question": "Which American civilization is the source of the belief that the world would end or drastically change on December 21st, 2012?",
+  "correct": "The Mayans",
+  "incorrect": [
+   "The Incas",
+   "The Aztecs",
+   "The Navajos"
+  ]
+ },
+ {
+  "id": "otdb-history-91b97daaec",
+  "question": "What year was the Italian firearms manufacturer Beretta founded?",
+  "correct": "1526",
+  "incorrect": [
+   "1776",
+   "1923",
+   "1998"
+  ]
+ },
+ {
+  "id": "otdb-history-92e49ee3f9",
+  "question": "Where did first known lesbian rights organization in the United States, Daughters of Bilitis, start?",
+  "correct": "San Francisco",
+  "incorrect": [
+   "New York",
+   "Chicago",
+   "Los Angeles"
+  ]
+ },
+ {
+  "id": "otdb-history-666eb26d8d",
+  "question": "Which of the following was Brazil was a former colony under?",
+  "correct": "Portugal",
+  "incorrect": [
+   "Spain",
+   "The Netherlands",
+   "France"
+  ]
+ },
+ {
+  "id": "otdb-history-5c4405309b",
+  "question": "The Ottoman Empire was dissolved after their loss in which war?",
+  "correct": "World War I",
+  "incorrect": [
+   "Crimean War",
+   "Serbian Revolution",
+   "Second Balkan War"
+  ]
+ },
+ {
+  "id": "otdb-history-d6c91f11ba",
+  "question": "When did Jamaica receive its independence from England? ",
+  "correct": "1962",
+  "incorrect": [
+   "1492",
+   "1963",
+   "1987"
+  ]
+ },
+ {
+  "id": "otdb-history-0fe29aefc6",
+  "question": "What happened on June 6, 1944?",
+  "correct": "D-Day",
+  "incorrect": [
+   "Atomic bombings of Hiroshima and Nagasaki",
+   "Attack on Pearl Harbor",
+   "The Liberation of Paris"
+  ]
+ },
+ {
+  "id": "otdb-history-0f3590eb90",
+  "question": "Which of these positions did the astronomer and physicist Isaac Newton not hold?",
+  "correct": "Surveyor to the City of London",
+  "incorrect": [
+   "Professor of Mathematics",
+   "Warden of the Royal Mint",
+   "Member of Parliament"
+  ]
+ },
+ {
+  "id": "otdb-history-cc5ed9d5c9",
+  "question": "The catastrophic nuclear accident that occurred in Ukraine in 1986 occurred at which power plant?",
+  "correct": "Chernobyl",
+  "incorrect": [
+   "Ignalina",
+   "Mayak",
+   "Kursk"
+  ]
+ },
+ {
+  "id": "otdb-history-6344aa0103",
+  "question": "What year did World War I begin?",
+  "correct": "1914",
+  "incorrect": [
+   "1905",
+   "1919",
+   "1925"
+  ]
+ },
+ {
+  "id": "otdb-history-109372d8c1",
+  "question": "According to scholarly estimates, what percentage of the world population at the time died due to Tamerlane's conquests?",
+  "correct": "5%",
+  "incorrect": [
+   "1%",
+   "3%",
+   "<1%"
+  ]
+ },
+ {
+  "id": "otdb-history-4e569aa3af",
+  "question": "When did construction of the Suez Canal finish?",
+  "correct": "1869",
+  "incorrect": [
+   "1859",
+   "1860",
+   "1850"
+  ]
+ },
+ {
+  "id": "otdb-history-26d376449f",
+  "question": "When did Norway get its constitution?",
+  "correct": "1814",
+  "incorrect": [
+   "1932",
+   "1905",
+   "1854"
+  ]
+ },
+ {
+  "id": "otdb-history-af49268d75",
+  "question": "What battle was the longest in World War I, lasting approximately 303 days?",
+  "correct": "Battle of Verdun ",
+  "incorrect": [
+   "Battle of Passchendaele",
+   "Battle of Amiens",
+   "Battle of Stalingrad"
+  ]
+ },
+ {
+  "id": "otdb-history-3141e4ffc1",
+  "question": "Which famous world leader is famed for the saying, \"Let them eat cake\", yet is rumored that he/she never said it at all?",
+  "correct": "Marie Antoinette",
+  "incorrect": [
+   "Czar Nicholas II",
+   "Elizabeth I",
+   "Henry VIII"
+  ]
+ },
+ {
+  "id": "otdb-history-0e40a195e9",
+  "question": "What was the code name for the German invasion of the Soviet Union in WW2?",
+  "correct": "Operation Barbarossa",
+  "incorrect": [
+   "Operation Kaiserschlact",
+   "Operation Unthinkable",
+   "Operation Molotov"
+  ]
+ },
+ {
+  "id": "otdb-history-1aea8b2a25",
+  "question": "How long did World War II last?",
+  "correct": "6 years",
+  "incorrect": [
+   "4 years",
+   "5 years",
+   "7 years"
+  ]
+ },
+ {
+  "id": "otdb-history-064e9092ff",
+  "question": "Which countries participated in the Lobster War?",
+  "correct": "France and Brazil",
+  "incorrect": [
+   "Canada and Norway",
+   "Australia and New Zealand",
+   "United States and England"
+  ]
+ },
+ {
+  "id": "otdb-history-cdaeb43a87",
+  "question": "Which country were potatoes originally grown?",
+  "correct": "Peru",
+  "incorrect": [
+   "United States ",
+   "Ireland",
+   "New Zealand"
+  ]
+ },
+ {
+  "id": "otdb-history-ef40915524",
+  "question": "What is the historical name of Sri Lanka?",
+  "correct": "Ceylon",
+  "incorrect": [
+   "Myanmar",
+   "Colombo",
+   "Badulla"
+  ]
+ },
+ {
+  "id": "otdb-history-227127048e",
+  "question": "How many sonatas did Ludwig van Beethoven write?",
+  "correct": "32",
+  "incorrect": [
+   "50",
+   "31",
+   "21"
+  ]
+ },
+ {
+  "id": "otdb-history-b6bd4a5852",
+  "question": "What was the last colony the UK ceded marking the end of the British Empire?",
+  "correct": "Hong Kong",
+  "incorrect": [
+   "India",
+   "Australia",
+   "Ireland"
+  ]
+ },
+ {
+  "id": "otdb-history-54c6ea4971",
+  "question": "Who tutored Alexander the Great?",
+  "correct": "Aristotle",
+  "incorrect": [
+   "Socrates",
+   "Plato",
+   "King Philip"
+  ]
+ },
+ {
+  "id": "otdb-history-4a066cdd4f",
+  "question": "What was the first recorded object to ever reach space?",
+  "correct": "Bumper-WAC",
+  "incorrect": [
+   "American Manhole Cover",
+   "Sputnik I ",
+   "Sputnik II"
+  ]
+ },
+ {
+  "id": "otdb-history-e11f02a49e",
+  "question": "When did the Crisis of the Third Century begin?",
+  "correct": "235 AD",
+  "incorrect": [
+   "235 BC",
+   "242 AD",
+   "210 AD"
+  ]
+ },
+ {
+  "id": "otdb-history-f00ecb5b1a",
+  "question": "On which aircraft carrier did the Doolitte Raid launch from on April 18, 1942 during World War II?",
+  "correct": "USS Hornet",
+  "incorrect": [
+   "USS Enterprise",
+   "USS Lexington",
+   "USS Saratoga"
+  ]
+ },
+ {
+  "id": "otdb-history-3052284be3",
+  "question": "As poverty and racial tensions pushed African-Americans out of the southern US, many of them moved north in an event known as what?",
+  "correct": "The Great Migration",
+  "incorrect": [
+   "The Great Awakening",
+   "The Harlem Renaissance",
+   "The Resettlement"
+  ]
+ },
+ {
+  "id": "otdb-history-c78144de5b",
+  "question": "Which one of these tanks was designed and operated by the United Kingdom?",
+  "correct": "Tog II",
+  "incorrect": [
+   "M4 Sherman",
+   "Tiger H1",
+   "T-34"
+  ]
+ },
+ {
+  "id": "otdb-history-a744ba4f09",
+  "question": "Who was the first explorer to sail to North America?",
+  "correct": "Leif Erikson",
+  "incorrect": [
+   "Christopher Columbus",
+   "Amerigo Vespucci",
+   "Ferdinand Magellan"
+  ]
+ },
+ {
+  "id": "otdb-history-93b58c4a7a",
+  "question": "Who was the first man to travel into outer space?",
+  "correct": "Yuri Gagarin",
+  "incorrect": [
+   "Virgil Ivan \"Gus\" Grissom",
+   "Neil Armstrong",
+   "Buzz Aldrin"
+  ]
+ },
+ {
+  "id": "otdb-history-21863ad46f",
+  "question": "When did Norway become free from Sweden?",
+  "correct": "1905",
+  "incorrect": [
+   "1925",
+   "1814",
+   "1834"
+  ]
+ },
+ {
+  "id": "otdb-history-2c9a739fc2",
+  "question": "Which Australian Prime Minister disappeared in 1967 and was never found?",
+  "correct": "Harold Holt",
+  "incorrect": [
+   "Paul Keating",
+   "Edmund Barton",
+   "Scott Morrison"
+  ]
+ },
+ {
+  "id": "otdb-history-73586b0add",
+  "question": "In the Seven Wonders of the World, which wonder is the only that has survived to this day?",
+  "correct": "Great Pyramid of Giza",
+  "incorrect": [
+   "Colossus of Rhodes",
+   "Lighthouse of Alexandria",
+   "Statue of Zeus at Olympia"
+  ]
+ },
+ {
+  "id": "otdb-history-c6db39ba67",
+  "question": "The Arab Spring was a series of protests and rebellions that began in which of these Arab nations?",
+  "correct": "Tunisia",
+  "incorrect": [
+   "Morocco",
+   "Syria",
+   "Egypt"
+  ]
+ },
+ {
+  "id": "otdb-history-0aff6c2033",
+  "question": "What year were the Marian Reforms instituted in the Roman Republic?",
+  "correct": "107 BCE",
+  "incorrect": [
+   "42 BCE",
+   "264 BCE",
+   "102 CE"
+  ]
+ },
+ {
+  "id": "otdb-history-bf372c28d7",
+  "question": "Who is the creator of the soft drink, Dr. Pepper?",
+  "correct": "Charles Alderton",
+  "incorrect": [
+   "James Wellington",
+   "Johnson Hinsin",
+   "Boris Heviltik"
+  ]
+ },
+ {
+  "id": "otdb-history-f69f1bf78f",
+  "question": "In 1961, an American B-52 aircraft crashed and nearly detonated two 4mt nuclear bombs over which US city?",
+  "correct": "Goldsboro, North Carolina",
+  "incorrect": [
+   "Hicksville, New York",
+   "Jacksonville, Florida",
+   "Conway, Arkansas"
+  ]
+ },
+ {
+  "id": "otdb-history-fd0fa07563",
+  "question": "During WWII, in 1945, the United States dropped atomic bombs on the two Japanese cities of Hiroshima and what other city?",
+  "correct": "Nagasaki",
+  "incorrect": [
+   "Kawasaki",
+   "Tokyo",
+   "Kagoshima"
+  ]
+ },
+ {
+  "id": "otdb-history-270b1e0c4f",
+  "question": "In 1845, a series of wars named after which indigenous people began in New Zealand?",
+  "correct": "Māori",
+  "incorrect": [
+   "Papuans",
+   "Aborigines",
+   "Polynesians"
+  ]
+ },
+ {
+  "id": "otdb-history-e68dfaa596",
+  "question": "Who was the first ruler of Haiti after the country had gained its independence?",
+  "correct": "Jean-Jacques Dessalines",
+  "incorrect": [
+   "Toussaint Louverture",
+   "Henri Christophe",
+   "Alexandre Petion"
+  ]
+ },
+ {
+  "id": "otdb-history-472cb93df2",
+  "question": "When was the United States National Security Agency established?",
+  "correct": "November 4, 1952",
+  "incorrect": [
+   "July 26, 1908",
+   " July 1, 1973",
+   " November 25, 2002"
+  ]
+ },
+ {
+  "id": "otdb-history-13922575fa",
+  "question": "Which U.S. president took part in the Potsdam Conference, where the Allies reached a peace settlement with Germany?",
+  "correct": "Harry S. Truman",
+  "incorrect": [
+   "Dwight D. Eisenhower",
+   "Franklin D. Roosevelt",
+   "Herbert Hoover"
+  ]
+ },
+ {
+  "id": "otdb-history-44212a51f3",
+  "question": "When did the French Revolution begin?",
+  "correct": "May 05 1789",
+  "incorrect": [
+   "April 12 1789",
+   "April 05 1789",
+   "May 06 1799"
+  ]
+ },
+ {
+  "id": "otdb-history-2b62bc2f67",
+  "question": "All of the following are names of the Seven Warring States EXCEPT:",
+  "correct": "Zhai (翟)",
+  "incorrect": [
+   "Zhao (趙)",
+   "Qin (秦)",
+   "Qi (齊)"
+  ]
+ },
+ {
+  "id": "otdb-history-4adad3393e",
+  "question": "The ancient city of Chichén Itzá was built by which civilization?",
+  "correct": "Mayans",
+  "incorrect": [
+   "Aztecs",
+   "Incas",
+   "Toltecs"
+  ]
+ },
+ {
+  "id": "otdb-history-233df1f4f8",
+  "question": "The seed drill was invented by which British inventor?",
+  "correct": "Jethro Tull",
+  "incorrect": [
+   "Charles Babbage",
+   "Isaac Newton",
+   "J.J Thomson"
+  ]
+ },
+ {
+  "id": "otdb-history-4bf07028e1",
+  "question": "In what year did Neil Armstrong and Buzz Aldrin land on the moon?",
+  "correct": "1969",
+  "incorrect": [
+   "1965",
+   "1966",
+   "1973"
+  ]
+ }
+]

@@ -1,0 +1,402 @@
+[
+ {
+  "id": "otdb-sports-bd5b4748c8",
+  "question": "In baseball, how many fouls are an out?",
+  "correct": "0",
+  "incorrect": [
+   "5",
+   "3",
+   "2"
+  ]
+ },
+ {
+  "id": "otdb-sports-23ca1da737",
+  "question": "What year did the New Orleans Saints win the Super Bowl?",
+  "correct": "2010",
+  "incorrect": [
+   "2008",
+   "2009",
+   "2011"
+  ]
+ },
+ {
+  "id": "otdb-sports-faa18c936d",
+  "question": "Which team was the 2014-2015 NBA Champions?",
+  "correct": "Golden State Warriors",
+  "incorrect": [
+   "Cleveland Cavaliers",
+   "Houston Rockets",
+   "Atlanta Hawks"
+  ]
+ },
+ {
+  "id": "otdb-sports-a3b9cd2657",
+  "question": "In what sport is a \"shuttlecock\" used?",
+  "correct": "Badminton",
+  "incorrect": [
+   "Table Tennis",
+   "Rugby",
+   "Cricket"
+  ]
+ },
+ {
+  "id": "otdb-sports-48c77ab7ff",
+  "question": "Who won the 2016 Formula 1 World Driver's Championship?",
+  "correct": "Nico Rosberg",
+  "incorrect": [
+   "Lewis Hamilton",
+   "Max Verstappen",
+   "Kimi Raikkonen"
+  ]
+ },
+ {
+  "id": "otdb-sports-2e569da969",
+  "question": "In what year did Steaua București win the European Cup, actual UEFA Champions League, against FC Barcelona?",
+  "correct": "1986",
+  "incorrect": [
+   "1990",
+   "1982",
+   "1989"
+  ]
+ },
+ {
+  "id": "otdb-sports-1577baa13e",
+  "question": "Which Formula One driver was nicknamed 'The Professor'?",
+  "correct": "Alain Prost",
+  "incorrect": [
+   "Ayrton Senna",
+   "Niki Lauda",
+   "Emerson Fittipaldi"
+  ]
+ },
+ {
+  "id": "otdb-sports-6ef2c33df8",
+  "question": "Which German sportswear company's logo is the 'Formstripe'?",
+  "correct": "Puma",
+  "incorrect": [
+   "Nike",
+   "Adidas",
+   "Reebok"
+  ]
+ },
+ {
+  "id": "otdb-sports-c9f7d7cd4c",
+  "question": "What is Tiger Woods' all-time best career golf-score?",
+  "correct": "61",
+  "incorrect": [
+   "65",
+   "63",
+   "67"
+  ]
+ },
+ {
+  "id": "otdb-sports-bb3c293917",
+  "question": "What is the most common type of pitch thrown by pitchers in baseball?",
+  "correct": "Fastball",
+  "incorrect": [
+   "Slowball",
+   "Screwball",
+   "Palmball"
+  ]
+ },
+ {
+  "id": "otdb-sports-75639b86bb",
+  "question": "Edson Arantes do Nascimento is the full name of which legendary football player?",
+  "correct": "Pelé",
+  "incorrect": [
+   "Romário",
+   "Zico",
+   "Ronaldinho"
+  ]
+ },
+ {
+  "id": "otdb-sports-d42122ef37",
+  "question": "At which race was the 2018 F1 Drivers Championship won?",
+  "correct": "Mexico",
+  "incorrect": [
+   "United States",
+   "Belgium",
+   "Abu Dhabi"
+  ]
+ },
+ {
+  "id": "otdb-sports-0d55dcf75d",
+  "question": "Who won the UEFA Champions League in 2017?",
+  "correct": "Real Madrid C.F.",
+  "incorrect": [
+   "Atletico Madrid",
+   "AS Monaco FC",
+   "Juventus F.C."
+  ]
+ },
+ {
+  "id": "otdb-sports-448fa7558c",
+  "question": "Who won the premier league title in the 2015-2016 season following a fairy tale run?",
+  "correct": "Leicester City",
+  "incorrect": [
+   "Tottenham Hotspur",
+   "Watford",
+   "Stoke City"
+  ]
+ },
+ {
+  "id": "otdb-sports-dfc95b9838",
+  "question": "How many scoring zones are there on a conventional dart board?",
+  "correct": "82",
+  "incorrect": [
+   "62",
+   "42",
+   "102"
+  ]
+ },
+ {
+  "id": "otdb-sports-c043548cad",
+  "question": "Who won the 2015 Formula 1 World Championship?",
+  "correct": "Lewis Hamilton",
+  "incorrect": [
+   "Nico Rosberg",
+   "Sebastian Vettel",
+   "Jenson Button"
+  ]
+ },
+ {
+  "id": "otdb-sports-118412f73e",
+  "question": "When was the FC Schalke 04 founded?",
+  "correct": "1904",
+  "incorrect": [
+   "1909",
+   "2008",
+   "1999"
+  ]
+ },
+ {
+  "id": "otdb-sports-2dfdc8c47d",
+  "question": "Which team won 2014 FIFA World Cup in Brazil?",
+  "correct": "Germany",
+  "incorrect": [
+   "Argentina",
+   "Brazil",
+   "Netherlands"
+  ]
+ },
+ {
+  "id": "otdb-sports-e3b9706abe",
+  "question": "The 1988 Formula 1 season had McLaren win all but one race, what race did they not win?",
+  "correct": "Italian Grand Prix",
+  "incorrect": [
+   "Japanese Grand Prix",
+   "Monaco Grand Prix",
+   "Brazilian Grand Prix"
+  ]
+ },
+ {
+  "id": "otdb-sports-fd17a41a0e",
+  "question": "What is the oldest team in Major League Baseball?",
+  "correct": "Atlanta Braves",
+  "incorrect": [
+   "Chicago Cubs",
+   "Cincinnati Reds",
+   "St. Louis Cardinals"
+  ]
+ },
+ {
+  "id": "otdb-sports-15364ba138",
+  "question": "Who won the 1994 San Marino Grand Prix, the race in which Ayrton Senna was killed?",
+  "correct": "Michael Schumacher",
+  "incorrect": [
+   "Nicola Larini",
+   "Gerhard Berger",
+   "Mika Häkkinen"
+  ]
+ },
+ {
+  "id": "otdb-sports-480675b77a",
+  "question": "Which sport is NOT traditionally played during the Mongolian Naadam festival?",
+  "correct": "American Football",
+  "incorrect": [
+   "Wrestling",
+   "Archery",
+   "Horse-Racing"
+  ]
+ },
+ {
+  "id": "otdb-sports-987e930052",
+  "question": "How many games did Arsenal FC go unbeaten during the 2003-2004 season of the English Premier League",
+  "correct": "38",
+  "incorrect": [
+   "51",
+   "49",
+   "22"
+  ]
+ },
+ {
+  "id": "otdb-sports-e20f6a362a",
+  "question": "Who was the top scorer of the 2014 FIFA World Cup?",
+  "correct": "James Rodríguez",
+  "incorrect": [
+   "Thomas Müller",
+   "Lionel Messi",
+   "Neymar"
+  ]
+ },
+ {
+  "id": "otdb-sports-b40ce4d38a",
+  "question": "Which African American is in part responsible for integrating  Major League baseball?",
+  "correct": "Jackie Robinson",
+  "incorrect": [
+   "Curt Flood",
+   "Roy Campanella",
+   "Satchell Paige"
+  ]
+ },
+ {
+  "id": "otdb-sports-1ed6de0b0c",
+  "question": "What national team won the first UEFA Nations League?",
+  "correct": "Portugal",
+  "incorrect": [
+   "Netherlands",
+   "England",
+   "Switzerland"
+  ]
+ },
+ {
+  "id": "otdb-sports-edee009d10",
+  "question": "Who was the topscorer for England national football team?",
+  "correct": "Wayne Rooney",
+  "incorrect": [
+   "David Beckham",
+   "Steven Gerrard",
+   "Michael Owen"
+  ]
+ },
+ {
+  "id": "otdb-sports-f43404e2d9",
+  "question": "What is the nickname of Northampton town's rugby union club?",
+  "correct": "Saints",
+  "incorrect": [
+   "Harlequins",
+   "Saracens",
+   "Wasps"
+  ]
+ },
+ {
+  "id": "otdb-sports-a34b0ff50f",
+  "question": "Which player holds the NHL record of 2,857 points?",
+  "correct": "Wayne Gretzky",
+  "incorrect": [
+   "Mario Lemieux ",
+   "Sidney Crosby",
+   "Gordie Howe"
+  ]
+ },
+ {
+  "id": "otdb-sports-04d97b9de4",
+  "question": "The Mazda 787B won the 24 Hours of Le Mans in what year?",
+  "correct": "1991",
+  "incorrect": [
+   "1990",
+   "2000",
+   "1987"
+  ]
+ },
+ {
+  "id": "otdb-sports-aad79629a3",
+  "question": "Who won the UEFA Champions League in 2016?",
+  "correct": "Real Madrid C.F.",
+  "incorrect": [
+   "FC Bayern Munich",
+   "Atletico Madrid",
+   "Manchester City F.C."
+  ]
+ },
+ {
+  "id": "otdb-sports-e0c7d38338",
+  "question": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
+  "correct": "13",
+  "incorrect": [
+   "11",
+   "20",
+   "22"
+  ]
+ },
+ {
+  "id": "otdb-sports-b2285f4a0a",
+  "question": "Which of these teams has Jaromir Jagr not played for?",
+  "correct": "New York Islanders",
+  "incorrect": [
+   "Calgary Flames",
+   "New Jersey Devils",
+   "Dallas Stars"
+  ]
+ },
+ {
+  "id": "otdb-sports-a2d33e8d94",
+  "question": "Which of these English football clubs is based in Liverpool?",
+  "correct": "Everton",
+  "incorrect": [
+   "West Ham United",
+   "Crystal Palace",
+   "Arsenal"
+  ]
+ },
+ {
+  "id": "otdb-sports-edf13ef958",
+  "question": "Which car manufacturer won the 2016 24 Hours of Le Mans?",
+  "correct": "Porsche",
+  "incorrect": [
+   "Toyota",
+   "Audi",
+   "Ferrari"
+  ]
+ },
+ {
+  "id": "otdb-sports-9c4037dac2",
+  "question": "Which professional wrestler fell from the rafters to his death during a live Pay-Per-View event in 1999?",
+  "correct": "Owen Hart",
+  "incorrect": [
+   "Chris Benoit",
+   "Lex Luger",
+   "Al Snow"
+  ]
+ },
+ {
+  "id": "otdb-sports-4bda23d18f",
+  "question": "In the 2014 FIFA World Cup, what was the final score in the match Brazil - Germany?",
+  "correct": "1-7",
+  "incorrect": [
+   "1-5",
+   "1-6",
+   "2-6"
+  ]
+ },
+ {
+  "id": "otdb-sports-c576c628e7",
+  "question": "Which Formula 1 driver switched teams in the middle of the 2017 season?",
+  "correct": "Carlos Sainz Jr.",
+  "incorrect": [
+   "Daniil Kvyat",
+   "Jolyon Palmer",
+   "Rio Haryanto"
+  ]
+ },
+ {
+  "id": "otdb-sports-73b2fb60a5",
+  "question": "The song \"Three Lions\" by the Lightning Seeds was made for which major football event in 1996?",
+  "correct": "European Championships",
+  "incorrect": [
+   "World Cup",
+   "Champions League",
+   "Confederations Cup"
+  ]
+ },
+ {
+  "id": "otdb-sports-f1a0fcd407",
+  "question": "Why was The Green Monster at Fenway Park was originally built?",
+  "correct": "To prevent viewing games from outside the park.",
+  "incorrect": [
+   "To make getting home runs harder.",
+   "To display advertisements.",
+   "To provide extra seating."
+  ]
+ }
+]

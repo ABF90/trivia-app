@@ -1,0 +1,552 @@
+[
+ {
+  "id": "otdb-history-4f23bec8d3",
+  "question": "In what year did the First World War end?",
+  "correct": "1918",
+  "incorrect": [
+   "1914",
+   "1916",
+   "1912"
+  ]
+ },
+ {
+  "id": "otdb-history-fec17d94b8",
+  "question": "Which of the following Assyrian kings did NOT rule during the Neo-Assyrian Empire?",
+  "correct": "Shamshi-Adad III",
+  "incorrect": [
+   "Shalmaneser V",
+   "Esharhaddon",
+   "Ashur-nasir-pal II"
+  ]
+ },
+ {
+  "id": "otdb-history-b5bfc0e192",
+  "question": "What was the name of the German offensive operation in October 1941 to take Moscow before winter?",
+  "correct": "Operation Typhoon",
+  "incorrect": [
+   "Operation Sunflower",
+   "Operation Barbarossa",
+   "Case Blue"
+  ]
+ },
+ {
+  "id": "otdb-history-654b88d7d8",
+  "question": "What historical event was Tchaikovsky's 1812 Overture referencing?",
+  "correct": "The Napoleonic Wars",
+  "incorrect": [
+   "The American War of 1812",
+   "The Russian Revolution",
+   "The Charge of the Light Brigade (Crimean War)"
+  ]
+ },
+ {
+  "id": "otdb-history-80c9627dde",
+  "question": "What was the bloodiest single-day battle during the American Civil War?",
+  "correct": "The Battle of Antietam",
+  "incorrect": [
+   "The Siege of Vicksburg",
+   "The Battle of Gettysburg",
+   "The Battles of Chancellorsville"
+  ]
+ },
+ {
+  "id": "otdb-history-d681505889",
+  "question": "In which war did the atomic bombings of Hiroshima and Nagasaki occur?",
+  "correct": "World War II",
+  "incorrect": [
+   "World War I",
+   "Russo-Japanese War",
+   "First Sino-Japanese War"
+  ]
+ },
+ {
+  "id": "otdb-history-2655e6c80b",
+  "question": "Which U.S. president was said to have been too honest to lie to his father about chopping down a cherry tree?",
+  "correct": "George Washington",
+  "incorrect": [
+   "Abraham Lincoln",
+   "Thomas Jefferson",
+   "James Monroe"
+  ]
+ },
+ {
+  "id": "otdb-history-68be42e34e",
+  "question": "In what year did the Berlin Wall fall?",
+  "correct": "1989",
+  "incorrect": [
+   "1987",
+   "1991",
+   "1993"
+  ]
+ },
+ {
+  "id": "otdb-history-f01377bc92",
+  "question": "Which country had an \"Orange Revolution\" between 2004 and 2005?",
+  "correct": "Ukraine",
+  "incorrect": [
+   "Belarus",
+   "Latvia",
+   "Lithuania"
+  ]
+ },
+ {
+  "id": "otdb-history-b825725228",
+  "question": "The crown of the Empire State Building was originally built for what purpose?",
+  "correct": "Airship Dock",
+  "incorrect": [
+   "Lightning Rod",
+   "Antennae",
+   "Flag Pole"
+  ]
+ },
+ {
+  "id": "otdb-history-fe8e755b8c",
+  "question": "The Little Entente was an alliance formed against which nation?",
+  "correct": "Hungary",
+  "incorrect": [
+   "Germany",
+   "France",
+   "Prussia"
+  ]
+ },
+ {
+  "id": "otdb-history-936120abf3",
+  "question": "Who was the only US President to be elected four times?",
+  "correct": "Franklin Roosevelt",
+  "incorrect": [
+   "Theodore Roosevelt",
+   "George Washington",
+   "Abraham Lincoln"
+  ]
+ },
+ {
+  "id": "otdb-history-7e424a0b7d",
+  "question": "When did the British hand-over sovereignty of Hong Kong back to China?",
+  "correct": "1997",
+  "incorrect": [
+   "1999",
+   "1841",
+   "1900"
+  ]
+ },
+ {
+  "id": "otdb-history-b6df25c3b4",
+  "question": "On what street did the 1666 Great Fire of London start?",
+  "correct": "Pudding Lane",
+  "incorrect": [
+   "Baker Street",
+   "Houses of Parliament",
+   "St Paul's Cathedral"
+  ]
+ },
+ {
+  "id": "otdb-history-adcfdd13f6",
+  "question": "What year did the Titanic sink?",
+  "correct": "1912",
+  "incorrect": [
+   "1930",
+   "1917",
+   "1941"
+  ]
+ },
+ {
+  "id": "otdb-history-f335983d6c",
+  "question": "The Fallingwater House, located in Pennsylvania, was designed by which architect?",
+  "correct": "Frank Lloyd Wright",
+  "incorrect": [
+   "Antoni Gaudi",
+   "Frank Gehry",
+   "Le Corbusier"
+  ]
+ },
+ {
+  "id": "otdb-history-f3cd25f534",
+  "question": "Who invented the \"Flying Shuttle\" in 1738; one of the key developments in the industrialization of weaving?",
+  "correct": "John Kay",
+  "incorrect": [
+   "James Hargreaves",
+   "Richard Arkwright",
+   "John Deere"
+  ]
+ },
+ {
+  "id": "otdb-history-1e4745d7b1",
+  "question": "Who is attributed credit for recording the epic poem The Odyssey?",
+  "correct": "Homer",
+  "incorrect": [
+   "Aristotle",
+   "Odysseus",
+   "Socrates"
+  ]
+ },
+ {
+  "id": "otdb-history-b1bb92ad5c",
+  "question": "Which British monarch was also known as \"William of Orange\"?",
+  "correct": "William III",
+  "incorrect": [
+   "William I",
+   "William II",
+   "William IV"
+  ]
+ },
+ {
+  "id": "otdb-history-01216abf44",
+  "question": "In which years did the Battle of Gallipoli take place?",
+  "correct": "1915 - 1916",
+  "incorrect": [
+   "1914 - 1918",
+   "1914 - 1915",
+   "1915 - 1918"
+  ]
+ },
+ {
+  "id": "otdb-history-2eb5fc7613",
+  "question": "Joseph Smith was the founder of what religion?",
+  "correct": "Mormonism",
+  "incorrect": [
+   "Buddhism",
+   "Christianity",
+   "Hinduism"
+  ]
+ },
+ {
+  "id": "otdb-history-65da0ea7ee",
+  "question": "In addition to his career as an astrologer and \"prophet\", Nostradamus published a 1555 treatise that included a section on what?",
+  "correct": "Making jams and jellies",
+  "incorrect": [
+   "Teaching parrots to talk",
+   "Cheating at card games",
+   "Digging graves"
+  ]
+ },
+ {
+  "id": "otdb-history-d4280b6d25",
+  "question": "The original Roman alphabet lacked the following letters EXCEPT:",
+  "correct": "X",
+  "incorrect": [
+   "W",
+   "U",
+   "J"
+  ]
+ },
+ {
+  "id": "otdb-history-3d1a76ea7a",
+  "question": "How many women joined the United States Armed Services during World War II?",
+  "correct": "350,000",
+  "incorrect": [
+   "225,000",
+   "100,000",
+   "500,000"
+  ]
+ },
+ {
+  "id": "otdb-history-545454059b",
+  "question": "Who was the first wife of King Henry VIII?",
+  "correct": "Catherine of Aragon",
+  "incorrect": [
+   "Jane Seymour",
+   "Anne Boleyn",
+   "Anne of Cleves"
+  ]
+ },
+ {
+  "id": "otdb-history-8a1c24f577",
+  "question": "The Hagia Sophia was commissioned by which emperor of the Byzantine Empire?",
+  "correct": "Justinian I",
+  "incorrect": [
+   "Constantine IV",
+   "Arcadius",
+   "Theodosius the Great"
+  ]
+ },
+ {
+  "id": "otdb-history-a1b5385d0a",
+  "question": "Which of the following is not in the Indo-European language family?",
+  "correct": "Finnish",
+  "incorrect": [
+   "English",
+   "Hindi",
+   "Russian"
+  ]
+ },
+ {
+  "id": "otdb-history-94cf15ddf0",
+  "question": "The Herero genocide was perpetrated in Africa by which of the following colonial nations?",
+  "correct": "Germany",
+  "incorrect": [
+   "Britain",
+   "Belgium",
+   "France"
+  ]
+ },
+ {
+  "id": "otdb-history-5ba4b7d64c",
+  "question": "The 15th century conflicts between the Houses of York and Lancaster are known as the Wars of the what?",
+  "correct": "Wars of the Roses",
+  "incorrect": [
+   "Wars of the Lillies",
+   "Wars of the Daffodils",
+   "Wars of the Tulips"
+  ]
+ },
+ {
+  "id": "otdb-history-2ce779fa8b",
+  "question": "After his loss at the Battle of Waterloo, Napoleon Bonaparte was exiled to which island?",
+  "correct": "St. Helena",
+  "incorrect": [
+   "Elba",
+   "Corsica",
+   "Canary"
+  ]
+ },
+ {
+  "id": "otdb-history-2849739354",
+  "question": "In which one of these cities did the Great Stink of 1858 occur?",
+  "correct": "London",
+  "incorrect": [
+   "Berlin",
+   "New York",
+   "Moscow"
+  ]
+ },
+ {
+  "id": "otdb-history-e70af9eb08",
+  "question": "What year was Canada founded in?",
+  "correct": "1867",
+  "incorrect": [
+   "1798",
+   "1859",
+   "1668"
+  ]
+ },
+ {
+  "id": "otdb-history-a929f6b0e6",
+  "question": "Hong Kong was a part of which country's territory before Britain regained it in 1945?",
+  "correct": "Japan",
+  "incorrect": [
+   "China",
+   "Phillipines",
+   "French Indonesia"
+  ]
+ },
+ {
+  "id": "otdb-history-6bbbb2f977",
+  "question": "What is the mnemonic device for remembering the fates of the wives of Henry VIII?",
+  "correct": "Divorced, Beheaded, Died, Divorced, Beheaded, Survived",
+  "incorrect": [
+   "Beheaded, Died, Divorced, Divorced, Beheaded, Survived",
+   "Died, Beheaded, Divorced, Beheaded, Survived, Divorced",
+   "Survived, Beheaded, Died, Divorced, Divorced, Beheaded"
+  ]
+ },
+ {
+  "id": "otdb-history-8c394874bc",
+  "question": "The fraudelent doctor John R. Brinkley acummulated great fame and wealth in the early 1900s offering what service?",
+  "correct": "Goat testicles transplant",
+  "incorrect": [
+   "Pig blood transfusion",
+   "Cow liver transplant",
+   "Turkey breast implants"
+  ]
+ },
+ {
+  "id": "otdb-history-a96aa85fa1",
+  "question": "Which of his six wives was Henry VIII married to the longest?",
+  "correct": "Catherine of Aragon",
+  "incorrect": [
+   "Anne Boleyn",
+   "Jane Seymour",
+   "Catherine Parr"
+  ]
+ },
+ {
+  "id": "otdb-history-2fee6b66ff",
+  "question": "Which one of these countries was NOT in the Central Powers during WWI?",
+  "correct": "Spain",
+  "incorrect": [
+   "Austria-Hungary",
+   "Turkey",
+   "Germany"
+  ]
+ },
+ {
+  "id": "otdb-history-3f546d85eb",
+  "question": "What was the name commonly given to the ancient trade routes that connected the East and West of Eurasia?",
+  "correct": "Silk Road",
+  "incorrect": [
+   "Spice Road",
+   "Clay Road",
+   "Salt Road"
+  ]
+ },
+ {
+  "id": "otdb-history-38cb18a94a",
+  "question": "A collection of Sanskrit hymns and verses known as the Vedas are sacred texts in what religion?",
+  "correct": "Hinduism",
+  "incorrect": [
+   "Judaism",
+   "Islam",
+   "Buddhism"
+  ]
+ },
+ {
+  "id": "otdb-history-cb5ec7f325",
+  "question": "In which year did the Invasion of Kuwait by Iraq occur?",
+  "correct": "1990",
+  "incorrect": [
+   "1992",
+   "1988",
+   "1986"
+  ]
+ },
+ {
+  "id": "otdb-history-d5c08827de",
+  "question": "When did the Byzantine Empire collapse?",
+  "correct": "1453",
+  "incorrect": [
+   "1299",
+   "1353",
+   "1498"
+  ]
+ },
+ {
+  "id": "otdb-history-2ab0ad0e4e",
+  "question": "What was the name of one of the surviving palaces of Henry VIII located near Richmond, London?",
+  "correct": "Hampton Court",
+  "incorrect": [
+   "St James's Palace",
+   "Buckingham Palace",
+   "Coughton Court"
+  ]
+ },
+ {
+  "id": "otdb-history-cc5c1afec1",
+  "question": "How old was Adolf Hitler when he died?",
+  "correct": "56",
+  "incorrect": [
+   "43",
+   "65",
+   "47"
+  ]
+ },
+ {
+  "id": "otdb-history-675bcaf4c6",
+  "question": "Which of these 1900s tanks were designed and built BEFORE the others?",
+  "correct": "Renault FT",
+  "incorrect": [
+   "M4 Sherman",
+   " Panzer IV",
+   "Cromwell "
+  ]
+ },
+ {
+  "id": "otdb-history-f01ef6a437",
+  "question": "Which of these theoretical phycisists first predicted the existence of antimatter?",
+  "correct": "Paul Dirac",
+  "incorrect": [
+   "Niels Bohr",
+   "Albert Einstein",
+   "Werner Heisenberg"
+  ]
+ },
+ {
+  "id": "otdb-history-e5a4ee62b6",
+  "question": "According to legend, the ancient Greeks constructed a huge wooden model of which animal to gain entrance to Troy?",
+  "correct": "Horse",
+  "incorrect": [
+   "Goat",
+   "Elephant",
+   "Wolf"
+  ]
+ },
+ {
+  "id": "otdb-history-7fec29d498",
+  "question": "Which of the following physicists did NOT work on the Manhattan project?",
+  "correct": "Murray Gell-Mann",
+  "incorrect": [
+   "Richard Feynman",
+   "J. Robert Oppenheimer",
+   "John Von-Neumann"
+  ]
+ },
+ {
+  "id": "otdb-history-fe44fb57e1",
+  "question": "When was Adolf Hitler appointed as Chancellor of Germany?",
+  "correct": "January 30, 1933",
+  "incorrect": [
+   "September 1, 1939",
+   "February 27, 1933",
+   "October 6, 1939"
+  ]
+ },
+ {
+  "id": "otdb-history-573528c478",
+  "question": "Which German field marshal was known as the `Desert Fox`?",
+  "correct": "Erwin Rommel",
+  "incorrect": [
+   "Ernst Busch",
+   "Wolfram Freiherr von Richthofen",
+   "Wilhelm List"
+  ]
+ },
+ {
+  "id": "otdb-history-b80cc9a2d5",
+  "question": "What day did the Battle of Gettysburg begin?",
+  "correct": "July 1, 1863",
+  "incorrect": [
+   "September 17, 1862",
+   "July 21, 1861",
+   "Apr 30, 1863"
+  ]
+ },
+ {
+  "id": "otdb-history-e1256cdc62",
+  "question": "Which country was Josef Stalin born in?",
+  "correct": "Georgia",
+  "incorrect": [
+   "Russia",
+   "Germany",
+   "Poland"
+  ]
+ },
+ {
+  "id": "otdb-history-b097f3c4d9",
+  "question": "One of the deadliest pandemics, the \"Spanish Flu\", killed off what percentage of the human world population at the time?",
+  "correct": "3 to 6 percent",
+  "incorrect": [
+   "6 to 10 percent",
+   "1 to 3 percent",
+   "less than 1 percent"
+  ]
+ },
+ {
+  "id": "otdb-history-340cbeb580",
+  "question": "In 1547 who became the 1st Tsar of Russia",
+  "correct": "Ivan the Terrible",
+  "incorrect": [
+   "Alexis of Russia",
+   "Mikhail Romanov",
+   "Peter the Great"
+  ]
+ },
+ {
+  "id": "otdb-history-9b1d123380",
+  "question": "The son of which pope supposedly held a lecherous fête involving 50 courtesans in the papal palace?",
+  "correct": "Alexander VI",
+  "incorrect": [
+   "Innocent V",
+   "Urban II",
+   "Pius III"
+  ]
+ },
+ {
+  "id": "otdb-history-dd306c68c1",
+  "question": "What year did World War II end?",
+  "correct": "1945",
+  "incorrect": [
+   "1943",
+   "1947",
+   "1950"
+  ]
+ }
+]

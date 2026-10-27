@@ -1,5 +1,6 @@
 import { createContext, useContext, useMemo, useReducer, type ReactNode } from "react";
 import { pickRound } from "@/data/questionBank";
+import { playerStore } from "../player/store";
 import { diwaniyaReducer, initialDiwaniyaState, totalTurns, type DiwaniyaState, type QuestionCount } from "./model";
 
 interface DiwaniyaContextValue {
@@ -27,7 +28,8 @@ export function DiwaniyaProvider({ children }: { children: ReactNode }) {
       removePlayer: (id) => dispatch({ type: "removePlayer", id }),
       renamePlayer: (id, name) => dispatch({ type: "renamePlayer", id, name }),
       setQuestionCount: (count) => dispatch({ type: "setQuestionCount", count }),
-      start: () => dispatch({ type: "start", queue: pickRound(totalTurns(state)) }),
+      // Prefer questions this phone hasn't shown yet, but never run short.
+      start: () => dispatch({ type: "start", queue: pickRound(totalTurns(state), undefined, new Set(playerStore.getSnapshot().seen)) }),
       recordTurn: (correct) => dispatch({ type: "recordTurn", correct }),
       reset: () => dispatch({ type: "reset" }),
     }),

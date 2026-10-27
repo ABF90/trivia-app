@@ -1,5 +1,6 @@
 import { View } from "react-native";
 import Svg, { Circle, Path, Rect } from "react-native-svg";
+import { useI18n } from "@/i18n";
 import { colors } from "@/theme";
 
 interface LogoProps {
@@ -11,11 +12,12 @@ interface LogoProps {
 
 export function Logo({ size = 112, variant = "full", decorative = false }: LogoProps) {
   const full = variant === "full";
+  const { t } = useI18n();
   return (
     <View
       accessible={!decorative}
       role={decorative ? undefined : "img"}
-      aria-label={decorative ? undefined : "شعار صفارة"}
+      aria-label={decorative ? undefined : t.logoLabel}
     >
       <Svg width={size} height={size} viewBox="0 0 120 120">
         <Rect width="120" height="120" rx="28" fill={colors.primary} />

@@ -1,15 +1,13 @@
 import { useMemo } from "react";
 import { StyleSheet, TextInput, useWindowDimensions, View } from "react-native";
 import { BottomSheet, Button, Text } from "@/components/ui";
-import { formatScore } from "@/lib/arabic";
-import { colors, fonts, radius, rtl } from "@/theme";
+import { useI18n } from "@/i18n";
+import { colors, fonts, radius, textStyleFor } from "@/theme";
 import { buildChallengeUrl } from "../challenge/codec";
 import type { GameResult } from "../game/types";
 import { setPlayerName, usePlayer } from "../player";
 import { ShareCard } from "./ShareCard";
 import { useShare } from "./useShare";
-
-const FALLBACK_NAME = "لاعب صفارة";
 
 interface ShareSheetProps {
   open: boolean;
@@ -21,29 +19,22 @@ interface ShareSheetProps {
   intent?: "score" | "challenge";
 }
 
-const STATUS_TEXT = {
-  idle: "",
-  shared: "تمت المشاركة",
-  copied: "تم نسخ الرابط، أرسله للربع",
-  error: "ما قدرنا نشارك، جرّب تنسخ الرابط",
-} as const;
-
 export function ShareSheet({ open, onClose, result, subtitle, streak, intent = "score" }: ShareSheetProps) {
   const player = usePlayer();
+  const { t, lang, score } = useI18n();
   const { width } = useWindowDimensions();
   const { status, share, copy } = useShare();
-  const displayName = player.name.trim() || FALLBACK_NAME;
+  const displayName = player.name.trim() || t.defaultPlayerName;
   const url = useMemo(() => buildChallengeUrl(displayName, result), [displayName, result]);
 
+  const resultText = score(result.score, result.total);
   const text =
-    intent === "challenge"
-      ? `${displayName} يتحداك في صفارة! جبت ${formatScore(result.score, result.total)}، تقدر تغلبني؟`
-      : `صفارة · ${subtitle}\nجبت ${formatScore(result.score, result.total)}، تقدر تغلبني؟`;
+    intent === "challenge" ? t.shareChallengeText(displayName, resultText) : t.shareScoreText(subtitle, resultText);
 
   return (
     <BottomSheet open={open} onClose={onClose}>
       <Text weight="heavy" size={18} role="heading">
-        {intent === "challenge" ? "تحدَّ ربعك بنفس الأسئلة" : "شارك نتيجتك"}
+        {intent === "challenge" ? t.shareChallengeTitle : t.shareTitle}
       </Text>
 
       <ShareCard
@@ -58,25 +49,25 @@ export function ShareSheet({ open, onClose, result, subtitle, streak, intent = "
 
       <View style={styles.field}>
         <Text size={14} color={colors.textMuted}>
-          اسمك
+          {t.yourName}
         </Text>
         <TextInput
-          style={styles.input}
+          style={[styles.input, textStyleFor(lang)]}
           value={player.name}
-          placeholder={FALLBACK_NAME}
+          placeholder={t.defaultPlayerName}
           placeholderTextColor={colors.textMuted}
           maxLength={24}
           onChangeText={setPlayerName}
-          aria-label="اسمك"
+          aria-label={t.yourName}
           returnKeyType="done"
         />
       </View>
 
-      <Button size="lg" flat icon="share" iconPosition="start" onPress={() => share({ title: "صفارة", text, url })}>
-        {intent === "challenge" ? "أرسل التحدي" : "شارك"}
+      <Button size="lg" flat icon="share" iconPosition="start" onPress={() => share({ title: t.appName, text, url })}>
+        {intent === "challenge" ? t.sendChallengeShort : t.share}
       </Button>
       <Button variant="secondary" icon="copy" iconPosition="start" onPress={() => copy(`${text}\n${url}`)}>
-        انسخ الرابط
+        {t.copyLink}
       </Button>
       <Text
         size={14}
@@ -84,7 +75,7 @@ export function ShareSheet({ open, onClose, result, subtitle, streak, intent = "
         align="center"
         aria-live="polite"
       >
-        {STATUS_TEXT[status]}
+        {t.shareStatus[status]}
       </Text>
     </BottomSheet>
   );
@@ -92,7 +83,7 @@ export function ShareSheet({ open, onClose, result, subtitle, streak, intent = "
 
 const styles = StyleSheet.create({
   field: {
-    flexDirection: rtl.row,
+    flexDirection: "row",
     alignItems: "center",
     gap: 10,
     height: 52,
@@ -108,8 +99,6 @@ const styles = StyleSheet.create({
     color: colors.text,
     fontFamily: fonts.bold,
     fontSize: 16,
-    textAlign: rtl.textStart,
-    writingDirection: "rtl",
     paddingVertical: 0,
   },
 });

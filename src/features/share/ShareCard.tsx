@@ -2,9 +2,9 @@ import { LinearGradient } from "expo-linear-gradient";
 import { StyleSheet, View } from "react-native";
 import { Badge, Logo, ResultDots, ScoreDigits, Spacer, Text } from "@/components/ui";
 import { GAME_CONFIG } from "@/config/game";
-import { formatDays, toArabicDigits } from "@/lib/arabic";
-import { colors, rtl } from "@/theme";
-import { getTitle } from "../game/model/titles";
+import { useI18n } from "@/i18n";
+import { colors } from "@/theme";
+import { titleText } from "../game/model/titles";
 
 export interface ShareCardProps {
   playerName: string;
@@ -18,6 +18,7 @@ export interface ShareCardProps {
 }
 
 export function ShareCard({ playerName, subtitle, score, total, results, streak, width }: ShareCardProps) {
+  const { t, n, days } = useI18n();
   const u = width / 100; // 1% of the card width
   return (
     <View style={[styles.card, { width, height: width * (16 / 9), padding: 8 * u, paddingTop: 10 * u }]}>
@@ -25,7 +26,7 @@ export function ShareCard({ playerName, subtitle, score, total, results, streak,
       <View style={[styles.brand, { gap: 2.5 * u }]}>
         <Logo size={11 * u} decorative />
         <Text weight="display" size={8.4 * u} lineHeight={12 * u}>
-          صفارة
+          {t.appName}
         </Text>
       </View>
       <Text weight="display" size={6.4 * u} lineHeight={10 * u} align="center" style={{ marginTop: 3 * u }}>
@@ -43,11 +44,11 @@ export function ShareCard({ playerName, subtitle, score, total, results, streak,
       </View>
       <View style={[styles.badges, { marginTop: 4 * u, gap: 2.5 * u }]}>
         <Badge icon="badge" size={3.7 * u}>
-          {getTitle(score, total)}
+          {titleText(t, score, total)}
         </Badge>
         {!!streak && (
           <Badge icon="flame" size={3.7 * u}>
-            {`سلسلة ${formatDays(streak)}`}
+            {t.streakBadge(days(streak))}
           </Badge>
         )}
       </View>
@@ -55,10 +56,10 @@ export function ShareCard({ playerName, subtitle, score, total, results, streak,
       <Spacer />
 
       <Text weight="display" size={10.8 * u} lineHeight={15 * u} align="center">
-        تقدر تغلبني؟
+        {t.canYouBeatMe}
       </Text>
       <Text size={3.7 * u} color={colors.textSecondary} align="center">
-        {`نفس الأسئلة، نفس الـ ${toArabicDigits(GAME_CONFIG.secondsPerQuestion)} ثانية`}
+        {t.sameTimer(n(GAME_CONFIG.secondsPerQuestion))}
       </Text>
 
       <View style={styles.flag}>
@@ -72,8 +73,8 @@ export function ShareCard({ playerName, subtitle, score, total, results, streak,
 
 const styles = StyleSheet.create({
   card: { alignSelf: "center", alignItems: "center", borderRadius: 24, overflow: "hidden", backgroundColor: colors.bg },
-  brand: { flexDirection: rtl.row, alignItems: "center" },
-  badges: { flexDirection: rtl.row, flexWrap: "wrap", justifyContent: "center" },
-  flag: { position: "absolute", left: 0, right: 0, bottom: 0, height: 8, flexDirection: rtl.row },
+  brand: { flexDirection: "row", alignItems: "center" },
+  badges: { flexDirection: "row", flexWrap: "wrap", justifyContent: "center" },
+  flag: { position: "absolute", left: 0, right: 0, bottom: 0, height: 8, flexDirection: "row" },
   flagStripe: { flex: 1 },
 });

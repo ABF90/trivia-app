@@ -12,7 +12,7 @@ import Animated, {
   withTiming,
 } from "react-native-reanimated";
 import Svg, { Circle } from "react-native-svg";
-import { toArabicDigits } from "@/lib/arabic";
+import { useI18n } from "@/i18n";
 import { colors } from "@/theme";
 import { Text } from "./Text";
 
@@ -31,6 +31,7 @@ interface TimerRingProps {
 export function TimerRing({ timeLeft, total, warningAt, paused = false }: TimerRingProps) {
   const warning = timeLeft <= warningAt;
   const reduceMotion = useReducedMotion();
+  const { n, t } = useI18n();
   const progress = useSharedValue(timeLeft / total);
   const pulse = useSharedValue(1);
 
@@ -57,7 +58,7 @@ export function TimerRing({ timeLeft, total, warningAt, paused = false }: TimerR
       style={[styles.timer, pulseStyle, paused && styles.paused]}
       accessible
       role="timer"
-      aria-label={`باقي ${toArabicDigits(timeLeft)} ثانية`}
+      aria-label={t.secondsLeft(n(timeLeft))}
     >
       <Svg width={SIZE} height={SIZE} viewBox="0 0 76 76">
         <Circle cx="38" cy="38" r={RADIUS} fill="none" stroke={colors.border} strokeWidth={7} />
@@ -76,7 +77,7 @@ export function TimerRing({ timeLeft, total, warningAt, paused = false }: TimerR
       </Svg>
       <View style={styles.value} pointerEvents="none">
         <Text weight="display" size={warning ? 30 : 28} color={warning ? colors.warning : colors.text} align="center" lineHeight={40}>
-          {toArabicDigits(timeLeft)}
+          {n(timeLeft)}
         </Text>
       </View>
     </Animated.View>

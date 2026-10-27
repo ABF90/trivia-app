@@ -1,5 +1,5 @@
 import { StyleSheet, View } from "react-native";
-import { colors, rtl, tints } from "@/theme";
+import { colors, tints } from "@/theme";
 import { Icon, type IconName } from "./Icon";
 import { Text } from "./Text";
 
@@ -34,7 +34,7 @@ export function Badge({ children, icon, tone = "warning", outlined, size = 15 }:
 
 const styles = StyleSheet.create({
   badge: {
-    flexDirection: rtl.row,
+    flexDirection: "row",
     alignItems: "center",
     alignSelf: "center",
     gap: 6,

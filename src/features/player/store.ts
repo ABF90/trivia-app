@@ -1,7 +1,8 @@
 import { STORAGE_KEYS } from "@/config/game";
 import { createPersistentStore } from "@/lib/createPersistentStore";
 import { addDays } from "@/lib/date";
-import type { GameResult } from "../game/types";
+import type { Language } from "@/i18n/strings";
+import type { CategoryId, DifficultyFilter, GameResult } from "../game/types";
 
 export interface DailyEntry {
   score: number;
@@ -13,6 +14,11 @@ export interface DailyEntry {
 
 export interface PlayerData {
   name: string;
+  language: Language;
+  /** Last free-play picks, restored on the home screen. */
+  preferences: { categories: CategoryId[]; difficulty: DifficultyFilter };
+  /** IDs of questions already shown in free play, so they don't repeat. */
+  seen: string[];
   best: { score: number; total: number } | null;
   daily: {
     lastPlayed: string | null;
@@ -23,6 +29,9 @@ export interface PlayerData {
 
 const DEFAULT_PLAYER: PlayerData = {
   name: "",
+  language: "ar",
+  preferences: { categories: [], difficulty: "mixed" },
+  seen: [],
   best: null,
   daily: { lastPlayed: null, streak: 0, history: {} },
 };
@@ -63,6 +72,23 @@ export function recordDaily(dateKey: string, result: GameResult) {
     };
   });
   recordRound(result);
+}
+
+export function setLanguage(language: Language) {
+  playerStore.update((p) => ({ ...p, language }));
+}
+
+export function setPreferences(preferences: PlayerData["preferences"]) {
+  playerStore.update((p) => ({ ...p, preferences }));
+}
+
+export function markSeen(questionIds: string[]) {
+  playerStore.update((p) => ({ ...p, seen: [...new Set([...p.seen, ...questionIds])] }));
+}
+
+/** Forget seen questions (all of them, or only those matching `ids`). */
+export function resetSeen(ids?: ReadonlySet<string>) {
+  playerStore.update((p) => ({ ...p, seen: ids ? p.seen.filter((id) => !ids.has(id)) : [] }));
 }
 
 export function setPlayerName(name: string) {
