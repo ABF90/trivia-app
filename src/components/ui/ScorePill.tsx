@@ -6,7 +6,7 @@ import { Text } from "./Text";
 
 export function ScorePill({ points }: { points: number }) {
   return (
-    <View style={styles.pill} accessible accessibilityLabel={`${toArabicDigits(points)} نقاط`}>
+    <View style={styles.pill} accessible aria-label={`${toArabicDigits(points)} نقاط`}>
       <Icon name="trophy" size={18} color={colors.warning} />
       <Text weight="display" size={22} lineHeight={30}>
         {toArabicDigits(points)}

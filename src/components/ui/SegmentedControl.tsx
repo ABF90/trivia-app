@@ -18,7 +18,7 @@ export function SegmentedControl<T extends string | number>({
   format = String,
 }: SegmentedControlProps<T>) {
   return (
-    <View accessibilityRole="radiogroup" accessibilityLabel={legend} style={styles.group}>
+    <View role="radiogroup" aria-label={legend} style={styles.group}>
       <Text weight="heavy" size={15} color={colors.textMuted}>
         {legend}
       </Text>
@@ -28,8 +28,8 @@ export function SegmentedControl<T extends string | number>({
           return (
             <Pressable
               key={option}
-              accessibilityRole="radio"
-              accessibilityState={{ selected }}
+              role="radio"
+              aria-checked={selected}
               onPress={() => onChange(option)}
               style={[styles.option, selected && styles.selected]}
             >

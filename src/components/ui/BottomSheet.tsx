@@ -16,11 +16,11 @@ export function BottomSheet({ open, onClose, children }: BottomSheetProps) {
   return (
     <Modal visible={open} transparent animationType="fade" statusBarTranslucent navigationBarTranslucent onRequestClose={onClose}>
       <View style={styles.overlay}>
-        <Pressable style={StyleSheet.absoluteFill} onPress={onClose} accessibilityLabel="إغلاق" accessibilityRole="button" />
+        <Pressable style={StyleSheet.absoluteFill} onPress={onClose} aria-label="إغلاق" role="button" />
         <Animated.View
           entering={SlideInDown.duration(300)}
           style={[styles.sheet, { paddingBottom: Math.max(insets.bottom, 12) + 16 }]}
-          accessibilityViewIsModal
+          aria-modal
         >
           <View style={styles.handle} />
           <ScrollView contentContainerStyle={styles.content} bounces={false} keyboardShouldPersistTaps="handled">

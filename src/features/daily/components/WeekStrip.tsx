@@ -10,7 +10,7 @@ interface WeekStripProps {
 
 export function WeekStrip({ today, playedDays }: WeekStripProps) {
   return (
-    <View style={styles.week} accessibilityLabel="أيام هالأسبوع">
+    <View style={styles.week} aria-label="أيام هالأسبوع">
       {weekOf(today).map(({ key, label }) => {
         const isToday = key === today;
         const played = playedDays.has(key);
@@ -22,7 +22,7 @@ export function WeekStrip({ today, playedDays }: WeekStripProps) {
             <View
               style={[styles.box, played && styles.played, isToday && !played && styles.pending]}
               accessible
-              accessibilityLabel={played ? "لعبت" : "ما لعبت"}
+              aria-label={played ? "لعبت" : "ما لعبت"}
             >
               {played && <Icon name="check" size={16} color={colors.onAccent} strokeWidth={3} />}
             </View>

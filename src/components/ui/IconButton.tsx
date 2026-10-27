@@ -14,8 +14,8 @@ export function IconButton({ icon, label, href, onPress }: IconButtonProps) {
   const router = useRouter();
   return (
     <Pressable
-      accessibilityRole="button"
-      accessibilityLabel={label}
+      role="button"
+      aria-label={label}
       hitSlop={8}
       onPress={() => (href ? router.push(href) : onPress?.())}
       style={({ pressed }) => [styles.button, pressed && styles.pressed]}

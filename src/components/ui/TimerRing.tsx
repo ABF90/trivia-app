@@ -56,8 +56,8 @@ export function TimerRing({ timeLeft, total, warningAt, paused = false }: TimerR
     <Animated.View
       style={[styles.timer, pulseStyle, paused && styles.paused]}
       accessible
-      accessibilityRole="timer"
-      accessibilityLabel={`باقي ${toArabicDigits(timeLeft)} ثانية`}
+      role="timer"
+      aria-label={`باقي ${toArabicDigits(timeLeft)} ثانية`}
     >
       <Svg width={SIZE} height={SIZE} viewBox="0 0 76 76">
         <Circle cx="38" cy="38" r={RADIUS} fill="none" stroke={colors.border} strokeWidth={7} />

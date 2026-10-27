@@ -22,14 +22,14 @@ export function PlayerField({ index, name, placeholder, canRemove, onRename, onR
         placeholder={placeholder}
         placeholderTextColor={colors.textMuted}
         maxLength={20}
-        accessibilityLabel={`اسم اللاعب ${toArabicDigits(index + 1)}`}
+        aria-label={`اسم اللاعب ${toArabicDigits(index + 1)}`}
         onChangeText={onRename}
         returnKeyType="done"
       />
       {canRemove && (
         <Pressable
-          accessibilityRole="button"
-          accessibilityLabel={`احذف ${name || placeholder}`}
+          role="button"
+          aria-label={`احذف ${name || placeholder}`}
           hitSlop={6}
           onPress={onRemove}
           style={({ pressed }) => [styles.remove, pressed && styles.removePressed]}

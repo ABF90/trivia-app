@@ -29,7 +29,7 @@ function DailyCard({ player }: { player: PlayerData }) {
   return (
     <Animated.View entering={FadeInDown.delay(450).duration(500)}>
       <Pressable
-        accessibilityRole="button"
+        role="button"
         onPress={() => router.push("/daily")}
         style={({ pressed }) => [styles.daily, pressed && styles.dailyPressed]}
       >
@@ -61,7 +61,7 @@ export function HomeScreen() {
           <Logo size={112} />
         </Animated.View>
         <Animated.View entering={FadeInDown.delay(300).duration(500)} style={styles.name}>
-          <Text weight="display" size={64} lineHeight={86} align="center" accessibilityRole="header">
+          <Text weight="display" size={64} lineHeight={86} align="center" role="heading">
             صفارة
           </Text>
           <Text weight="bold" size={13} color={colors.textTertiary} align="center" style={styles.latin}>

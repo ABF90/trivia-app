@@ -23,7 +23,7 @@ export function QuestionCard({ prompt, category, warning, compact }: QuestionCar
           </Text>
         </View>
       )}
-      <Text weight="heavy" size={compact ? 20 : 22} lineHeight={compact ? 31 : 35} accessibilityRole="header">
+      <Text weight="heavy" size={compact ? 20 : 22} lineHeight={compact ? 31 : 35} role="heading">
         {prompt}
       </Text>
     </Animated.View>

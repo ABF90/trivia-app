@@ -12,8 +12,8 @@ interface ChipProps {
 export function Chip({ selected = false, onPress, children }: ChipProps) {
   return (
     <Pressable
-      accessibilityRole="button"
-      accessibilityState={{ selected }}
+      role="button"
+      aria-selected={selected}
       onPress={onPress}
       style={[styles.chip, selected && styles.selected]}
     >

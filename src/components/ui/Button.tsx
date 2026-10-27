@@ -30,7 +30,8 @@ interface ButtonProps {
   /** Subtle "breathing" call-to-action animation. */
   breathe?: boolean;
   disabled?: boolean;
-  accessibilityLabel?: string;
+  /** Accessible name when the visible text isn't descriptive enough. */
+  label?: string;
   style?: StyleProp<ViewStyle>;
 }
 
@@ -74,7 +75,7 @@ export function Button({
   flat,
   breathe = false,
   disabled,
-  accessibilityLabel,
+  label,
   style,
 }: ButtonProps) {
   const router = useRouter();
@@ -91,9 +92,9 @@ export function Button({
   return (
     <Animated.View style={[breatheStyle, style]}>
       <Pressable
-        accessibilityRole="button"
-        accessibilityLabel={accessibilityLabel}
-        accessibilityState={{ disabled: !!disabled }}
+        role="button"
+        aria-label={label}
+        aria-disabled={!!disabled}
         disabled={disabled}
         onPress={handlePress}
         style={({ pressed }) => [

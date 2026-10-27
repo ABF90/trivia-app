@@ -14,8 +14,8 @@ export function Logo({ size = 112, variant = "full", decorative = false }: LogoP
   return (
     <View
       accessible={!decorative}
-      accessibilityRole={decorative ? undefined : "image"}
-      accessibilityLabel={decorative ? undefined : "شعار صفارة"}
+      role={decorative ? undefined : "img"}
+      aria-label={decorative ? undefined : "شعار صفارة"}
     >
       <Svg width={size} height={size} viewBox="0 0 120 120">
         <Rect width="120" height="120" rx="28" fill={colors.primary} />

@@ -37,7 +37,7 @@ export function ResultView({ result, best, headline, hint, children }: ResultVie
         entering={ZoomIn.springify().damping(12)}
         style={styles.board}
         accessible
-        accessibilityLabel={`نتيجتك ${toArabicDigits(score)} من ${toArabicDigits(total)}`}
+        aria-label={`نتيجتك ${toArabicDigits(score)} من ${toArabicDigits(total)}`}
       >
         <Text weight="bold" size={13} color={colors.textMuted} align="center" style={styles.boardLabel}>
           النتيجة النهائية

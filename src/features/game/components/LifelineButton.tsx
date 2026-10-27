@@ -12,9 +12,9 @@ export function LifelineButton({ used, disabled, onUse }: LifelineButtonProps) {
   const tone = used ? colors.textMuted : colors.warning;
   return (
     <Pressable
-      accessibilityRole="button"
-      accessibilityLabel={used ? "٥٠/٥٠، استخدمتها" : "٥٠/٥٠، احذف إجابتين"}
-      accessibilityState={{ disabled: used || disabled }}
+      role="button"
+      aria-label={used ? "٥٠/٥٠، استخدمتها" : "٥٠/٥٠، احذف إجابتين"}
+      aria-disabled={used || disabled}
       disabled={used || disabled}
       onPress={onUse}
       style={({ pressed }) => [styles.button, { borderColor: used ? colors.borderStrong : colors.warning }, pressed && styles.pressed]}

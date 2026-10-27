@@ -11,7 +11,7 @@ interface StandingsProps {
 
 export function Standings({ standings, activeIndex }: StandingsProps) {
   return (
-    <View style={styles.list} accessibilityLabel="ترتيب اللاعبين">
+    <View style={styles.list} aria-label="ترتيب اللاعبين">
       {standings.map(({ player, index, name, rank }, i) => {
         const active = index === activeIndex;
         return (

@@ -28,8 +28,7 @@ export function Avatar({ label, color = "blue", size = 34 }: AvatarProps) {
   const p = PALETTE[color];
   return (
     <View
-      importantForAccessibility="no-hide-descendants"
-      accessibilityElementsHidden
+      aria-hidden
       style={{ width: size, height: size, borderRadius: size / 2, backgroundColor: p.bg, alignItems: "center", justifyContent: "center" }}
     >
       <Text weight="display" size={size * 0.5} lineHeight={size * 0.75} color={p.fg} align="center">

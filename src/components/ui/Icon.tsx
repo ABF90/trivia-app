@@ -93,10 +93,9 @@ export function Icon({ name, size = 20, color = colors.text, strokeWidth = 2, fi
     <View
       style={style}
       accessible={!!label}
-      accessibilityRole={label ? "image" : undefined}
-      accessibilityLabel={label}
-      accessibilityElementsHidden={!label}
-      importantForAccessibility={label ? "yes" : "no-hide-descendants"}
+      role={label ? "img" : undefined}
+      aria-label={label}
+      aria-hidden={!label}
     >
       <Svg
         width={size}

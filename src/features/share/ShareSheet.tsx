@@ -42,7 +42,7 @@ export function ShareSheet({ open, onClose, result, subtitle, streak, intent = "
 
   return (
     <BottomSheet open={open} onClose={onClose}>
-      <Text weight="heavy" size={18} accessibilityRole="header">
+      <Text weight="heavy" size={18} role="heading">
         {intent === "challenge" ? "تحدَّ ربعك بنفس الأسئلة" : "شارك نتيجتك"}
       </Text>
 
@@ -67,7 +67,7 @@ export function ShareSheet({ open, onClose, result, subtitle, streak, intent = "
           placeholderTextColor={colors.textMuted}
           maxLength={24}
           onChangeText={setPlayerName}
-          accessibilityLabel="اسمك"
+          aria-label="اسمك"
           returnKeyType="done"
         />
       </View>
@@ -82,7 +82,7 @@ export function ShareSheet({ open, onClose, result, subtitle, streak, intent = "
         size={14}
         color={status === "error" ? colors.danger : colors.success}
         align="center"
-        accessibilityLiveRegion="polite"
+        aria-live="polite"
       >
         {STATUS_TEXT[status]}
       </Text>

@@ -24,7 +24,7 @@ export function ChallengeIntro({ challenge, onAccept, onDecline }: ChallengeIntr
         </Text>
       </View>
 
-      <Text weight="display" size={42} lineHeight={56} align="center" style={styles.title} accessibilityRole="header">
+      <Text weight="display" size={42} lineHeight={56} align="center" style={styles.title} role="heading">
         {`${challenge.name} يتحداك!`}
       </Text>
       <Text size={16} color={colors.textSecondary} align="center">

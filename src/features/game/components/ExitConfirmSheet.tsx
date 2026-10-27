@@ -14,7 +14,7 @@ export function ExitConfirmSheet({ open, onStay, onLeave }: ExitConfirmSheetProp
       <View style={styles.icon}>
         <Icon name="exit" size={30} color={colors.danger} />
       </View>
-      <Text weight="display" size={34} lineHeight={48} align="center" accessibilityRole="header">
+      <Text weight="display" size={34} lineHeight={48} align="center" role="heading">
         تبي تطلع؟
       </Text>
       <Text size={16} lineHeight={27} color={colors.textSecondary} align="center">

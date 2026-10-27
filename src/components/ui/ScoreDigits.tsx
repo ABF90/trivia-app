@@ -31,7 +31,7 @@ export function ScoreDigits({ score, total, size = 96, variant = "inset" }: Scor
     <View
       style={[styles.row, { gap: w * 0.18 }]}
       accessible
-      accessibilityLabel={`${toArabicDigits(score)} من ${toArabicDigits(total)}`}
+      aria-label={`${toArabicDigits(score)} من ${toArabicDigits(total)}`}
     >
       {digit(score, score === 0 ? colors.danger : colors.success)}
       <Text weight="display" size={w * 0.46} color={colors.textMuted}>

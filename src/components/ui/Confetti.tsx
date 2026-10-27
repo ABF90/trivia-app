@@ -43,7 +43,7 @@ export function Confetti() {
   const { height } = useWindowDimensions();
   if (reduceMotion) return null;
   return (
-    <View style={StyleSheet.absoluteFill} pointerEvents="none" importantForAccessibility="no-hide-descendants">
+    <View style={StyleSheet.absoluteFill} pointerEvents="none" aria-hidden>
       {PIECES.map((p, i) => (
         <Piece key={i} left={p.left} delay={p.delay} color={COLORS[i % COLORS.length]!} fall={height * 0.65} />
       ))}

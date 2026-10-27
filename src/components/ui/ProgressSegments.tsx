@@ -12,7 +12,7 @@ const COLORS: Record<SegmentState, string> = {
 
 export function ProgressSegments({ segments }: { segments: SegmentState[] }) {
   return (
-    <View style={styles.track} accessibilityElementsHidden importantForAccessibility="no-hide-descendants">
+    <View style={styles.track} aria-hidden>
       {segments.map((state, i) => (
         <View key={i} style={[styles.segment, { backgroundColor: COLORS[state] }]} />
       ))}

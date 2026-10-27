@@ -24,7 +24,7 @@ export function DailyResult({ dailyNumber, result, streak }: DailyResultProps) {
     <>
       <ScreenHeader title={label} backHref="/" backLabel="الرئيسية" />
 
-      <View style={styles.summary} accessible accessibilityLabel={`نتيجتك ${toArabicDigits(score)} من ${toArabicDigits(total)}`}>
+      <View style={styles.summary} accessible aria-label={`نتيجتك ${toArabicDigits(score)} من ${toArabicDigits(total)}`}>
         <View style={styles.info}>
           <Text weight="display" size={34} lineHeight={46}>
             {getHeadline(score, total)}

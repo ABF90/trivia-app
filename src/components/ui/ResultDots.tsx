@@ -11,7 +11,7 @@ interface ResultDotsProps {
 export function ResultDots({ results, size = 32, showIcons = true }: ResultDotsProps) {
   const label = results.map((ok) => (ok ? "صح" : "غلط")).join("، ");
   return (
-    <View style={styles.row} accessible accessibilityLabel={label}>
+    <View style={styles.row} accessible aria-label={label}>
       {results.map((ok, i) => (
         <View
           key={i}

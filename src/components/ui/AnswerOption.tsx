@@ -75,10 +75,9 @@ export function AnswerOption({
   return (
     <Animated.View entering={animateIn ? FadeInDown.delay(350 + index * 70).duration(300) : undefined} style={motion}>
       <Pressable
-        accessibilityRole="button"
-        accessibilityState={{ disabled: disabled || state !== "idle" }}
-        accessibilityElementsHidden={state === "removed"}
-        importantForAccessibility={state === "removed" ? "no-hide-descendants" : "auto"}
+        role="button"
+        aria-disabled={disabled || state !== "idle"}
+        aria-hidden={state === "removed"}
         disabled={disabled || state !== "idle"}
         onPress={onSelect}
         style={({ pressed }) => [

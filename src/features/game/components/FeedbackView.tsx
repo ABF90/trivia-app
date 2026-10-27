@@ -25,7 +25,7 @@ export function FeedbackView({ question, answer, nextLabel = "التالي", dis
   return (
     <>
       <Animated.View entering={ZoomIn.duration(400)} style={styles.headline}>
-        <Text weight="display" size={36} lineHeight={52} color={colors.danger} align="center" accessibilityLiveRegion="polite">
+        <Text weight="display" size={36} lineHeight={52} color={colors.danger} align="center" aria-live="polite">
           {timedOut ? "خلص الوقت!" : "مو هالمرة!"}
         </Text>
       </Animated.View>

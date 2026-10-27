@@ -66,7 +66,7 @@ export function ScreenHeader({ title, backHref, backLabel = "رجوع", onBack }
     <View style={styles.header}>
       {(backHref || onBack) && <IconButton icon="chevronBack" href={backHref} onPress={onBack} label={backLabel} />}
       {title && (
-        <Text weight="heavy" size={20} accessibilityRole="header">
+        <Text weight="heavy" size={20} role="heading">
           {title}
         </Text>
       )}
