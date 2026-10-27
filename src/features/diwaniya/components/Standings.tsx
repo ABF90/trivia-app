@@ -1,8 +1,8 @@
-import { Avatar, avatarColorAt } from "@/components/ui";
+import { StyleSheet, View } from "react-native";
+import { Avatar, avatarColorAt, Text } from "@/components/ui";
 import { toArabicDigits } from "@/lib/arabic";
-import { cx } from "@/lib/cx";
+import { colors, rtl } from "@/theme";
 import type { selectStandings } from "../model";
-import styles from "./Standings.module.css";
 
 interface StandingsProps {
   standings: ReturnType<typeof selectStandings>;
@@ -11,21 +11,38 @@ interface StandingsProps {
 
 export function Standings({ standings, activeIndex }: StandingsProps) {
   return (
-    <ol className={styles.list} aria-label="ترتيب اللاعبين">
-      {standings.map(({ player, index, name, rank }) => {
+    <View style={styles.list} accessibilityLabel="ترتيب اللاعبين">
+      {standings.map(({ player, index, name, rank }, i) => {
         const active = index === activeIndex;
         return (
-          <li key={player.id} className={cx(styles.row, rank === 1 && styles.leader, active && styles.active)}>
-            <span className={styles.rank}>{toArabicDigits(rank)}</span>
+          <View key={player.id} style={[styles.row, i > 0 && styles.divider]}>
+            <Text weight="display" size={18} color={rank === 1 ? colors.warning : colors.textMuted} align="center" style={styles.rank}>
+              {toArabicDigits(rank)}
+            </Text>
             <Avatar label={name.charAt(0)} color={avatarColorAt(index)} size={30} />
-            <span className={styles.name}>
-              {name}
-              {active && " · دوره"}
-            </span>
-            <span className={styles.score}>{toArabicDigits(player.score)}</span>
-          </li>
+            <Text
+              weight={active ? "heavy" : "bold"}
+              size={16}
+              color={active ? colors.success : colors.text}
+              numberOfLines={1}
+              style={styles.name}
+            >
+              {active ? `${name} · دوره` : name}
+            </Text>
+            <Text weight="display" size={22} lineHeight={32}>
+              {toArabicDigits(player.score)}
+            </Text>
+          </View>
         );
       })}
-    </ol>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  list: { backgroundColor: colors.surface, borderRadius: 22, paddingVertical: 8, paddingHorizontal: 16 },
+  row: { flexDirection: rtl.row, alignItems: "center", gap: 12, minHeight: 52 },
+  divider: { borderTopWidth: 1, borderTopColor: colors.border },
+  rank: { width: 18 },
+  name: { flex: 1, minWidth: 0 },
+});

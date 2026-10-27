@@ -1,8 +1,7 @@
-"use client";
-
 import { useEffect, useState } from "react";
 import type { SegmentState } from "@/components/ui";
 import { toArabicDigits } from "@/lib/arabic";
+import { haptics } from "@/lib/platform/haptics";
 import { useGame } from "../hooks/useGame";
 import type { GameState } from "../model/gameReducer";
 import type { GameResult, Question } from "../types";
@@ -34,13 +33,6 @@ function toSegments(state: GameState): SegmentState[] {
   });
 }
 
-function vibrate(pattern: number | number[]) {
-  if (typeof navigator === "undefined" || !("vibrate" in navigator)) return;
-  // Browsers reject vibration before the first real tap.
-  if (navigator.userActivation && !navigator.userActivation.hasBeenActive) return;
-  navigator.vibrate(pattern);
-}
-
 /**
  * Plays one round from first question to last. The parent owns what happens
  * before and after (intro, result screen), which keeps this reusable across
@@ -58,7 +50,7 @@ export function GameRunner({
   const [confirmingExit, setConfirmingExit] = useState(false);
 
   useEffect(() => {
-    if (lastAnswer) vibrate(lastAnswer.correct ? 30 : [40, 60, 40]);
+    if (lastAnswer) void (lastAnswer.correct ? haptics.success() : haptics.error());
   }, [lastAnswer]);
 
   const openExit = () => {
@@ -68,6 +60,10 @@ export function GameRunner({
   const stay = () => {
     setConfirmingExit(false);
     actions.resume();
+  };
+  const leave = () => {
+    setConfirmingExit(false);
+    onExit();
   };
 
   const showFeedback = lastAnswer && !lastAnswer.correct;
@@ -101,7 +97,7 @@ export function GameRunner({
         />
       )}
 
-      <ExitConfirmSheet open={confirmingExit} onStay={stay} onLeave={onExit} />
+      <ExitConfirmSheet open={confirmingExit} onStay={stay} onLeave={leave} />
     </>
   );
 }

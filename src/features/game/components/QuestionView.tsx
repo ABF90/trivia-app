@@ -1,10 +1,11 @@
+import { StyleSheet, View } from "react-native";
 import { AnswerOption, QuestionCard, Spacer, TimerRing, type AnswerState } from "@/components/ui";
 import { GAME_CONFIG } from "@/config/game";
 import { getCategory } from "@/data/categories";
+import { rtl } from "@/theme";
 import type { GameState } from "../model/gameReducer";
 import type { AnswerRecord, Question } from "../types";
 import { LifelineButton } from "./LifelineButton";
-import styles from "./QuestionView.module.css";
 
 interface QuestionViewProps {
   state: GameState;
@@ -28,29 +29,28 @@ export function QuestionView({ state, question, lastAnswer, allowLifeline, onAns
 
   return (
     <>
-      <div className={styles.timerRow}>
-        <span />
+      {/* Timer centred, 50/50 at the reading end (left), away from the answers. */}
+      <View style={styles.timerRow}>
+        <View style={styles.side} />
         <TimerRing
           timeLeft={state.timeLeft}
           total={state.secondsPerQuestion}
           warningAt={GAME_CONFIG.warningSeconds}
           paused={state.paused || !answering}
         />
-        {allowLifeline ? (
-          <LifelineButton used={state.lifelineUsed} disabled={!answering} onUse={onLifeline} />
-        ) : (
-          <span />
-        )}
-      </div>
+        <View style={[styles.side, styles.sideEnd]}>
+          {allowLifeline && <LifelineButton used={state.lifelineUsed} disabled={!answering} onUse={onLifeline} />}
+        </View>
+      </View>
 
-      {/* key restarts the entry animation for every new question */}
-      <div className={styles.card} key={question.id}>
+      {/* key remounts the card so every question gets its entry animation */}
+      <View style={styles.card} key={question.id}>
         <QuestionCard prompt={question.prompt} category={getCategory(question.category).label} warning={warning} />
-      </div>
+      </View>
 
       <Spacer />
 
-      <div className={styles.options} key={`${question.id}-options`}>
+      <View style={styles.options} key={`${question.id}-options`}>
         {question.options.map((label, i) => (
           <AnswerOption
             key={i}
@@ -61,7 +61,15 @@ export function QuestionView({ state, question, lastAnswer, allowLifeline, onAns
             onSelect={() => onAnswer(i)}
           />
         ))}
-      </div>
+      </View>
     </>
   );
 }
+
+const styles = StyleSheet.create({
+  timerRow: { flexDirection: rtl.row, alignItems: "center", marginTop: 28 },
+  side: { flex: 1 },
+  sideEnd: { alignItems: rtl.alignEnd },
+  card: { marginTop: 20 },
+  options: { gap: 12 },
+});

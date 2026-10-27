@@ -1,7 +1,7 @@
-import { Icon } from "@/components/ui";
-import { cx } from "@/lib/cx";
+import { StyleSheet, View } from "react-native";
+import { Icon, Text } from "@/components/ui";
 import { weekOf } from "@/lib/date";
-import styles from "./WeekStrip.module.css";
+import { colors, radius, rtl } from "@/theme";
 
 interface WeekStripProps {
   today: string;
@@ -10,22 +10,41 @@ interface WeekStripProps {
 
 export function WeekStrip({ today, playedDays }: WeekStripProps) {
   return (
-    <ul className={styles.week} role="list" aria-label="أيام هالأسبوع">
+    <View style={styles.week} accessibilityLabel="أيام هالأسبوع">
       {weekOf(today).map(({ key, label }) => {
         const isToday = key === today;
         const played = playedDays.has(key);
         return (
-          <li key={key} className={cx(styles.day, isToday && styles.today)}>
-            <span className={styles.label}>{isToday ? "اليوم" : label}</span>
-            <span
-              className={cx(styles.box, played && styles.played, isToday && !played && styles.pending)}
-              aria-label={played ? "لعبت" : "ما لعبت"}
+          <View key={key} style={styles.day}>
+            <Text size={12} weight={isToday ? "heavy" : "regular"} color={isToday ? colors.text : colors.textMuted} align="center">
+              {isToday ? "اليوم" : label}
+            </Text>
+            <View
+              style={[styles.box, played && styles.played, isToday && !played && styles.pending]}
+              accessible
+              accessibilityLabel={played ? "لعبت" : "ما لعبت"}
             >
-              {played && <Icon name="check" size={16} strokeWidth={3} />}
-            </span>
-          </li>
+              {played && <Icon name="check" size={16} color={colors.onAccent} strokeWidth={3} />}
+            </View>
+          </View>
         );
       })}
-    </ul>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  week: { marginTop: 16, alignSelf: "stretch", flexDirection: rtl.row, gap: 6 },
+  day: { flex: 1, alignItems: "center", gap: 6 },
+  box: {
+    width: "100%",
+    maxWidth: 34,
+    aspectRatio: 1,
+    borderRadius: radius.sm,
+    backgroundColor: colors.surfaceMuted,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  played: { backgroundColor: colors.warning },
+  pending: { backgroundColor: "transparent", borderWidth: 2, borderStyle: "dashed", borderColor: colors.warning },
+});

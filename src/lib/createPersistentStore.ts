@@ -1,11 +1,11 @@
+import { syncStorage } from "./platform/storage";
+
 /**
- * Minimal external store backed by localStorage, designed for React's
- * useSyncExternalStore. The server snapshot is always `defaults`, so SSR
- * output is stable and the stored value is applied right after hydration.
+ * Minimal external store over synchronous device storage, designed for
+ * React's useSyncExternalStore. Reads once, then serves from memory.
  */
 export interface PersistentStore<T> {
   getSnapshot: () => T;
-  getServerSnapshot: () => T;
   subscribe: (listener: () => void) => () => void;
   update: (updater: (prev: T) => T) => void;
 }
@@ -17,7 +17,7 @@ export function createPersistentStore<T extends object>(key: string, defaults: T
   const read = (): T => {
     if (cache) return cache;
     try {
-      const raw = window.localStorage.getItem(key);
+      const raw = syncStorage.get(key);
       cache = raw ? { ...defaults, ...(JSON.parse(raw) as Partial<T>) } : defaults;
     } catch {
       cache = defaults;
@@ -25,33 +25,20 @@ export function createPersistentStore<T extends object>(key: string, defaults: T
     return cache;
   };
 
-  const emit = () => listeners.forEach((l) => l());
-
-  const onStorage = (event: StorageEvent) => {
-    if (event.key !== key) return;
-    cache = undefined;
-    emit();
-  };
-
   return {
-    getSnapshot: () => (typeof window === "undefined" ? defaults : read()),
-    getServerSnapshot: () => defaults,
+    getSnapshot: read,
     subscribe(listener) {
-      if (listeners.size === 0) window.addEventListener("storage", onStorage);
       listeners.add(listener);
-      return () => {
-        listeners.delete(listener);
-        if (listeners.size === 0) window.removeEventListener("storage", onStorage);
-      };
+      return () => listeners.delete(listener);
     },
     update(updater) {
       cache = updater(read());
       try {
-        window.localStorage.setItem(key, JSON.stringify(cache));
+        syncStorage.set(key, JSON.stringify(cache));
       } catch {
-        // Private mode / quota: keep the in-memory value.
+        // Storage unavailable: keep the in-memory value.
       }
-      emit();
+      listeners.forEach((l) => l());
     },
   };
 }

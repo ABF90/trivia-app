@@ -1,5 +1,3 @@
-"use client";
-
 import { useCallback, useEffect, useMemo, useReducer, useRef } from "react";
 import { GAME_CONFIG } from "@/config/game";
 import {
@@ -32,15 +30,15 @@ export function useGame(questions: Question[], options: UseGameOptions = {}) {
   // Countdown — one interval per question, stopped while paused or revealed.
   useEffect(() => {
     if (phase !== "answering" || paused) return;
-    const id = window.setInterval(() => dispatch({ type: "tick" }), 1000);
-    return () => window.clearInterval(id);
+    const id = setInterval(() => dispatch({ type: "tick" }), 1000);
+    return () => clearInterval(id);
   }, [phase, paused, state.index]);
 
   // Correct answers advance on their own; wrong ones wait for "التالي".
   useEffect(() => {
     if (phase !== "revealed" || !lastAnswer?.correct) return;
-    const id = window.setTimeout(() => dispatch({ type: "next" }), GAME_CONFIG.correctAdvanceMs);
-    return () => window.clearTimeout(id);
+    const id = setTimeout(() => dispatch({ type: "next" }), GAME_CONFIG.correctAdvanceMs);
+    return () => clearTimeout(id);
   }, [phase, lastAnswer]);
 
   // Fire onFinish exactly once per finished round.

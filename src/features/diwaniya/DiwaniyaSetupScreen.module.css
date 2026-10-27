@@ -1,4 +1,0 @@
-.intro { margin-top: 20px; font-size: 16px; line-height: 1.7; color: var(--color-text-secondary); }
-.players { margin-top: 20px; display: flex; flex-direction: column; gap: 10px; }
-.sectionTitle { font-size: 15px; font-weight: 800; color: var(--color-text-muted); }
-.count { margin-top: 24px; }

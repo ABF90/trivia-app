@@ -1,15 +1,26 @@
-import type { CSSProperties } from "react";
-import { cx } from "@/lib/cx";
-import styles from "./ProgressSegments.module.css";
+import { StyleSheet, View } from "react-native";
+import { colors, rtl } from "@/theme";
 
 export type SegmentState = "correct" | "wrong" | "current" | "pending";
 
+const COLORS: Record<SegmentState, string> = {
+  correct: colors.success,
+  wrong: colors.danger,
+  current: colors.primary,
+  pending: colors.border,
+};
+
 export function ProgressSegments({ segments }: { segments: SegmentState[] }) {
   return (
-    <div className={styles.track} style={{ "--count": segments.length } as CSSProperties} aria-hidden>
+    <View style={styles.track} accessibilityElementsHidden importantForAccessibility="no-hide-descendants">
       {segments.map((state, i) => (
-        <span key={i} className={cx(styles.segment, state !== "pending" && styles[state])} />
+        <View key={i} style={[styles.segment, { backgroundColor: COLORS[state] }]} />
       ))}
-    </div>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  track: { flexDirection: rtl.row, gap: 4 },
+  segment: { flex: 1, height: 6, borderRadius: 3 },
+});

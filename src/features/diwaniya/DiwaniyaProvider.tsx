@@ -1,5 +1,3 @@
-"use client";
-
 import { createContext, useContext, useMemo, useReducer, type ReactNode } from "react";
 import { pickRound } from "@/data/questionBank";
 import { diwaniyaReducer, initialDiwaniyaState, totalTurns, type DiwaniyaState, type QuestionCount } from "./model";

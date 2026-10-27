@@ -1,3 +1,4 @@
+import * as Linking from "expo-linking";
 import { getQuestionById } from "@/data/questionBank";
 import type { GameResult, Question } from "../game/types";
 
@@ -19,17 +20,25 @@ interface WireFormat {
   r: string; // "10111"
 }
 
+// UTF-8 via encodeURIComponent so this runs on Hermes, browsers and Node alike
+// (Hermes doesn't guarantee TextDecoder).
+function utf8ToBinary(text: string): string {
+  return encodeURIComponent(text).replace(/%([0-9A-F]{2})/g, (_, hex: string) => String.fromCharCode(parseInt(hex, 16)));
+}
+
+function binaryToUtf8(binary: string): string {
+  return decodeURIComponent(
+    Array.from(binary, (c) => `%${c.charCodeAt(0).toString(16).padStart(2, "0")}`).join(""),
+  );
+}
+
 function toBase64Url(text: string): string {
-  const bytes = new TextEncoder().encode(text);
-  let binary = "";
-  bytes.forEach((b) => (binary += String.fromCharCode(b)));
-  return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  return btoa(utf8ToBinary(text)).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 }
 
 function fromBase64Url(code: string): string {
   const base64 = code.replace(/-/g, "+").replace(/_/g, "/");
-  const binary = atob(base64 + "=".repeat((4 - (base64.length % 4)) % 4));
-  return new TextDecoder().decode(Uint8Array.from(binary, (c) => c.charCodeAt(0)));
+  return binaryToUtf8(atob(base64 + "=".repeat((4 - (base64.length % 4)) % 4)));
 }
 
 export function encodeChallenge(name: string, result: GameResult): string {
@@ -64,8 +73,12 @@ export function decodeChallenge(code: string | null | undefined): Challenge | nu
   }
 }
 
-export function buildChallengeUrl(origin: string, name: string, result: GameResult): string {
-  return `${origin}/challenge?d=${encodeChallenge(name, result)}`;
+/**
+ * Deep link into the challenge screen. Resolves to `sfara://challenge?d=…` in
+ * builds, `exp://<dev-server>/--/challenge?d=…` in Expo Go and an http URL on web.
+ */
+export function buildChallengeUrl(name: string, result: GameResult): string {
+  return Linking.createURL("challenge", { queryParams: { d: encodeChallenge(name, result) } });
 }
 
 export type ChallengeOutcome = "win" | "draw" | "lose";

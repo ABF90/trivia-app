@@ -1,7 +1,6 @@
-"use client";
-
-import { BottomSheet, Button, Icon } from "@/components/ui";
-import styles from "./ExitConfirmSheet.module.css";
+import { StyleSheet, View } from "react-native";
+import { BottomSheet, Button, Icon, Text } from "@/components/ui";
+import { colors, radius, tints } from "@/theme";
 
 interface ExitConfirmSheetProps {
   open: boolean;
@@ -11,26 +10,38 @@ interface ExitConfirmSheetProps {
 
 export function ExitConfirmSheet({ open, onStay, onLeave }: ExitConfirmSheetProps) {
   return (
-    <BottomSheet open={open} onClose={onStay} title="تبي تطلع؟">
-      {(titleId) => (
-        <>
-          <span className={styles.icon}>
-            <Icon name="exit" size={30} />
-          </span>
-          <h2 id={titleId} className={styles.title}>
-            تبي تطلع؟
-          </h2>
-          <p className={styles.body}>بتضيع نقاط هالجولة، والتايمر واقف لين تقرر.</p>
-          <div className={styles.actions}>
-            <Button size="lg" flat onClick={onStay}>
-              كمّل اللعب
-            </Button>
-            <Button variant="danger" onClick={onLeave}>
-              اطلع
-            </Button>
-          </div>
-        </>
-      )}
+    <BottomSheet open={open} onClose={onStay}>
+      <View style={styles.icon}>
+        <Icon name="exit" size={30} color={colors.danger} />
+      </View>
+      <Text weight="display" size={34} lineHeight={48} align="center" accessibilityRole="header">
+        تبي تطلع؟
+      </Text>
+      <Text size={16} lineHeight={27} color={colors.textSecondary} align="center">
+        بتضيع نقاط هالجولة، والتايمر واقف لين تقرر.
+      </Text>
+      <View style={styles.actions}>
+        <Button size="lg" flat onPress={onStay}>
+          كمّل اللعب
+        </Button>
+        <Button variant="danger" onPress={onLeave}>
+          اطلع
+        </Button>
+      </View>
     </BottomSheet>
   );
 }
+
+const styles = StyleSheet.create({
+  icon: {
+    alignSelf: "center",
+    marginTop: 14,
+    width: 64,
+    height: 64,
+    borderRadius: radius.lg,
+    backgroundColor: tints.danger14,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  actions: { marginTop: 16, gap: 10 },
+});

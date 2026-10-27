@@ -1,57 +1,79 @@
-"use client";
-
+import { Redirect, useRouter } from "expo-router";
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-import { Button, Confetti, Icon, IconButton, Screen, Spacer } from "@/components/ui";
+import { StyleSheet, View } from "react-native";
+import Animated, {
+  useAnimatedStyle,
+  useReducedMotion,
+  useSharedValue,
+  withRepeat,
+  withSequence,
+  withTiming,
+  ZoomIn,
+} from "react-native-reanimated";
+import { Button, Confetti, Icon, IconButton, Screen, Spacer, Text } from "@/components/ui";
+import { useGoHome } from "@/hooks/useGoHome";
 import { toArabicDigits } from "@/lib/arabic";
-import { cx } from "@/lib/cx";
+import { colors, rtl } from "@/theme";
 import { GameRunner } from "../game";
 import { Standings } from "./components/Standings";
 import { useDiwaniya } from "./DiwaniyaProvider";
 import { playerName, selectCurrentQuestion, selectStandings } from "./model";
-import styles from "./DiwaniyaPlayScreen.module.css";
+
+/** The phone icon sways from side to side: "pass it on". */
+function PassingPhone() {
+  const reduceMotion = useReducedMotion();
+  const t = useSharedValue(0);
+  useEffect(() => {
+    if (!reduceMotion) t.set(withRepeat(withSequence(withTiming(1, { duration: 800 }), withTiming(-1, { duration: 800 })), -1, true));
+  }, [reduceMotion, t]);
+  const style = useAnimatedStyle(() => ({
+    transform: [{ translateX: 18 * t.get() }, { rotate: `${8 * t.get()}deg` }],
+  }));
+  return (
+    <Animated.View style={[styles.phone, style]}>
+      <Icon name="phone" size={84} strokeWidth={1.6} color={colors.success} />
+    </Animated.View>
+  );
+}
 
 export function DiwaniyaPlayScreen() {
+  const goHome = useGoHome();
   const router = useRouter();
-  const { state, recordTurn, reset, start } = useDiwaniya();
+  const { state, recordTurn, start } = useDiwaniya();
   const [answering, setAnswering] = useState(false);
 
-  // Landing here without a game (refresh / direct link) → back to setup.
-  useEffect(() => {
-    if (state.status === "setup") router.replace("/diwaniya");
-  }, [state.status, router]);
-
-  // Leaving the /diwaniya layout unmounts the provider, which discards the session.
-  const leave = () => router.push("/");
-
-  if (state.status === "setup") return <Screen>{null}</Screen>;
+  // Landing here without a game (reload / deep link) → back to setup.
+  if (state.status === "setup") return <Redirect href="/diwaniya" />;
 
   const standings = selectStandings(state);
   const roundLabel = `الجولة ${toArabicDigits(state.round + 1)} من ${toArabicDigits(state.questionsPerPlayer)}`;
 
   if (state.status === "finished") {
     const top = standings.filter((s) => s.rank === 1);
-    const tie = top.length > 1;
     return (
-      <Screen background="glowCenter">
-        <Confetti />
-        <div className={styles.trophy}>
-          <Icon name="trophy" size={84} strokeWidth={1.6} />
-        </div>
-        <p className={styles.winnerLabel}>{tie ? "تعادل بين" : "الفايز"}</p>
-        <p className={cx(styles.name, styles.winner)}>{top.map((s) => s.name).join(" و ")}</p>
-        <div className={styles.standings}>
+      <Screen background="glowCenter" overlay={<Confetti />}>
+        <Animated.View entering={ZoomIn.springify()} style={styles.trophy}>
+          <Icon name="trophy" size={84} strokeWidth={1.6} color={colors.warning} />
+        </Animated.View>
+        <Text size={18} color={colors.textSecondary} align="center" style={styles.winnerLabel}>
+          {top.length > 1 ? "تعادل بين" : "الفايز"}
+        </Text>
+        <Text weight="display" size={52} lineHeight={72} color={colors.warning} align="center">
+          {top.map((s) => s.name).join(" و ")}
+        </Text>
+        <View style={styles.standings}>
           <Standings standings={standings} />
-        </div>
+        </View>
         <Spacer />
-        <div className={styles.actions}>
-          <Button size="lg" icon="replay" iconPosition="start" onClick={start}>
+        <View style={styles.actions}>
+          <Button size="lg" icon="replay" iconPosition="start" onPress={start}>
             جولة ثانية بنفس الربع
           </Button>
-          <Button variant="ghost" size="sm" onClick={reset}>
+          {/* Setup keeps the names; starting again resets the scores. */}
+          <Button variant="ghost" size="sm" onPress={() => router.dismissTo("/diwaniya")}>
             غيّر اللاعبين
           </Button>
-        </div>
+        </View>
       </Screen>
     );
   }
@@ -73,7 +95,7 @@ export function DiwaniyaPlayScreen() {
             recordTurn(r.score > 0);
             setAnswering(false);
           }}
-          onExit={leave}
+          onExit={goHome}
         />
       </Screen>
     );
@@ -81,29 +103,45 @@ export function DiwaniyaPlayScreen() {
 
   return (
     <Screen background="glowTeal">
-      <header className={styles.header}>
-        <IconButton icon="close" label="إنهاء اللعبة" onClick={leave} />
-        <span className={styles.round}>{roundLabel}</span>
-      </header>
+      <View style={styles.header}>
+        <IconButton icon="close" label="إنهاء اللعبة" onPress={goHome} />
+        <Text weight="heavy" size={15} color={colors.textSecondary}>
+          {roundLabel}
+        </Text>
+      </View>
 
-      <div className={styles.phone}>
-        <Icon name="phone" size={84} strokeWidth={1.6} />
-      </div>
-      <p className={styles.passTo}>مرّر التلفون لـ</p>
-      <p className={styles.name} key={current.id}>
-        {currentName}
-      </p>
-      <p className={styles.warning}>لا تشوف السؤال قبل دورك!</p>
+      <PassingPhone />
+      <Text size={18} color={colors.textSecondary} align="center" style={styles.passTo}>
+        مرّر التلفون لـ
+      </Text>
+      <Animated.View key={current.id} entering={ZoomIn.delay(200).springify()}>
+        <Text weight="display" size={56} lineHeight={76} color={colors.success} align="center">
+          {currentName}
+        </Text>
+      </Animated.View>
+      <Text size={15} color={colors.textMuted} align="center">
+        لا تشوف السؤال قبل دورك!
+      </Text>
 
-      <div className={styles.standings}>
+      <View style={styles.standings}>
         <Standings standings={standings} activeIndex={state.turn} />
-      </div>
+      </View>
 
       <Spacer />
 
-      <Button size="lg" variant="success" onClick={() => setAnswering(true)}>
-        أنا {currentName}، جاهز
+      <Button size="lg" variant="success" onPress={() => setAnswering(true)}>
+        {`أنا ${currentName}، جاهز`}
       </Button>
     </Screen>
   );
 }
+
+const styles = StyleSheet.create({
+  header: { flexDirection: rtl.row, alignItems: "center", justifyContent: "space-between" },
+  phone: { marginTop: 40, alignSelf: "center" },
+  passTo: { marginTop: 20 },
+  standings: { marginTop: 32 },
+  trophy: { marginTop: 24, alignSelf: "center" },
+  winnerLabel: { marginTop: 24 },
+  actions: { gap: 10 },
+});

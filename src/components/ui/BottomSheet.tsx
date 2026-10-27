@@ -1,60 +1,49 @@
-"use client";
-
-import { useEffect, useId, useRef, type ReactNode } from "react";
-import { createPortal } from "react-dom";
-import styles from "./BottomSheet.module.css";
+import type { ReactNode } from "react";
+import { Modal, Pressable, ScrollView, StyleSheet, View } from "react-native";
+import Animated, { SlideInDown } from "react-native-reanimated";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { colors, layout, tints } from "@/theme";
 
 interface BottomSheetProps {
   open: boolean;
   onClose: () => void;
-  /** Rendered as the dialog's accessible name. */
-  title: string;
-  children: (titleId: string) => ReactNode;
+  children: ReactNode;
 }
 
-/** Modal sheet: portal, Escape to close, focus moved in and restored on close, page scroll locked. */
-export function BottomSheet({ open, onClose, title, children }: BottomSheetProps) {
-  const titleId = useId();
-  const sheetRef = useRef<HTMLElement>(null);
-  const onCloseRef = useRef(onClose);
-  useEffect(() => {
-    onCloseRef.current = onClose;
-  });
-
-  useEffect(() => {
-    if (!open) return;
-    const previouslyFocused = document.activeElement as HTMLElement | null;
-    const { overflow } = document.body.style;
-    document.body.style.overflow = "hidden";
-    sheetRef.current?.focus();
-
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && onCloseRef.current();
-    window.addEventListener("keydown", onKey);
-    return () => {
-      window.removeEventListener("keydown", onKey);
-      document.body.style.overflow = overflow;
-      previouslyFocused?.focus();
-    };
-  }, [open]);
-
-  if (!open) return null;
-
-  return createPortal(
-    <div className={styles.overlay}>
-      <button type="button" className={styles.dim} aria-label="إغلاق" tabIndex={-1} onClick={onClose} />
-      <section
-        ref={sheetRef}
-        role="dialog"
-        aria-modal="true"
-        aria-label={title}
-        aria-labelledby={titleId}
-        tabIndex={-1}
-        className={styles.sheet}
-      >
-        <span className={styles.handle} aria-hidden />
-        {children(titleId)}
-      </section>
-    </div>,
-    document.body,
+/** Modal sheet: dimmed backdrop closes it, Android back closes it, content scrolls if tall. */
+export function BottomSheet({ open, onClose, children }: BottomSheetProps) {
+  const insets = useSafeAreaInsets();
+  return (
+    <Modal visible={open} transparent animationType="fade" statusBarTranslucent navigationBarTranslucent onRequestClose={onClose}>
+      <View style={styles.overlay}>
+        <Pressable style={StyleSheet.absoluteFill} onPress={onClose} accessibilityLabel="إغلاق" accessibilityRole="button" />
+        <Animated.View
+          entering={SlideInDown.duration(300)}
+          style={[styles.sheet, { paddingBottom: Math.max(insets.bottom, 12) + 16 }]}
+          accessibilityViewIsModal
+        >
+          <View style={styles.handle} />
+          <ScrollView contentContainerStyle={styles.content} bounces={false} keyboardShouldPersistTaps="handled">
+            {children}
+          </ScrollView>
+        </Animated.View>
+      </View>
+    </Modal>
   );
 }
+
+const styles = StyleSheet.create({
+  overlay: { flex: 1, justifyContent: "flex-end", alignItems: "center", backgroundColor: tints.scrim },
+  sheet: {
+    width: "100%",
+    maxWidth: layout.maxWidth,
+    maxHeight: "92%",
+    backgroundColor: colors.surface,
+    borderTopLeftRadius: 32,
+    borderTopRightRadius: 32,
+    paddingTop: 14,
+    paddingHorizontal: 20,
+  },
+  handle: { alignSelf: "center", width: 44, height: 5, borderRadius: 3, backgroundColor: colors.borderStrong, marginBottom: 10 },
+  content: { alignItems: "stretch", gap: 10 },
+});

@@ -1,8 +1,10 @@
-import { Badge, Logo, ResultDots, ScoreDigits, Spacer } from "@/components/ui";
+import { LinearGradient } from "expo-linear-gradient";
+import { StyleSheet, View } from "react-native";
+import { Badge, Logo, ResultDots, ScoreDigits, Spacer, Text } from "@/components/ui";
 import { GAME_CONFIG } from "@/config/game";
 import { formatDays, toArabicDigits } from "@/lib/arabic";
+import { colors, rtl } from "@/theme";
 import { getTitle } from "../game/model/titles";
-import styles from "./ShareCard.module.css";
 
 export interface ShareCardProps {
   playerName: string;
@@ -11,41 +13,67 @@ export interface ShareCardProps {
   total: number;
   results: boolean[];
   streak?: number;
-  linkLabel?: string;
+  /** Card width; every size inside scales with it (story format 9:16). */
+  width: number;
 }
 
-export function ShareCard({ playerName, subtitle, score, total, results, streak, linkLabel }: ShareCardProps) {
+export function ShareCard({ playerName, subtitle, score, total, results, streak, width }: ShareCardProps) {
+  const u = width / 100; // 1% of the card width
   return (
-    <div className={styles.card}>
-      <div className={styles.brand}>
-        <Logo size={44} decorative />
-        <span className={styles.brandName}>صفارة</span>
-      </div>
-      <p className={styles.name}>{playerName}</p>
-      <p className={styles.subtitle}>{subtitle}</p>
+    <View style={[styles.card, { width, height: width * (16 / 9), padding: 8 * u, paddingTop: 10 * u }]}>
+      <LinearGradient colors={["#1B3A80", colors.bg]} locations={[0, 0.65]} style={StyleSheet.absoluteFill} />
+      <View style={[styles.brand, { gap: 2.5 * u }]}>
+        <Logo size={11 * u} decorative />
+        <Text weight="display" size={8.4 * u} lineHeight={12 * u}>
+          صفارة
+        </Text>
+      </View>
+      <Text weight="display" size={6.4 * u} lineHeight={10 * u} align="center" style={{ marginTop: 3 * u }}>
+        {playerName}
+      </Text>
+      <Text weight="bold" size={3.7 * u} color={colors.primary200} align="center">
+        {subtitle}
+      </Text>
 
-      <div className={styles.score}>
-        <ScoreDigits score={score} total={total} size="27cqw" variant="boxed" />
-      </div>
-      <div className={styles.dots}>
-        <ResultDots results={results} size={36} showIcons={false} />
-      </div>
-      <div className={styles.badges}>
-        <Badge icon="badge">{getTitle(score, total)}</Badge>
-        {!!streak && <Badge icon="flame">سلسلة {formatDays(streak)}</Badge>}
-      </div>
+      <View style={{ marginTop: 6 * u }}>
+        <ScoreDigits score={score} total={total} size={27 * u} variant="boxed" />
+      </View>
+      <View style={{ marginTop: 5 * u }}>
+        <ResultDots results={results} size={9 * u} showIcons={false} />
+      </View>
+      <View style={[styles.badges, { marginTop: 4 * u, gap: 2.5 * u }]}>
+        <Badge icon="badge" size={3.7 * u}>
+          {getTitle(score, total)}
+        </Badge>
+        {!!streak && (
+          <Badge icon="flame" size={3.7 * u}>
+            {`سلسلة ${formatDays(streak)}`}
+          </Badge>
+        )}
+      </View>
 
       <Spacer />
 
-      <p className={styles.cta}>تقدر تغلبني؟</p>
-      <p className={styles.ctaSub}>نفس الأسئلة، نفس الـ {toArabicDigits(GAME_CONFIG.secondsPerQuestion)} ثانية</p>
-      {linkLabel && <p className={styles.link}>{linkLabel}</p>}
+      <Text weight="display" size={10.8 * u} lineHeight={15 * u} align="center">
+        تقدر تغلبني؟
+      </Text>
+      <Text size={3.7 * u} color={colors.textSecondary} align="center">
+        {`نفس الأسئلة، نفس الـ ${toArabicDigits(GAME_CONFIG.secondsPerQuestion)} ثانية`}
+      </Text>
 
-      <div className={styles.flag} aria-hidden>
-        <span />
-        <span />
-        <span />
-      </div>
-    </div>
+      <View style={styles.flag}>
+        <View style={[styles.flagStripe, { backgroundColor: colors.flagGreen }]} />
+        <View style={[styles.flagStripe, { backgroundColor: colors.text }]} />
+        <View style={[styles.flagStripe, { backgroundColor: colors.flagRed }]} />
+      </View>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  card: { alignSelf: "center", alignItems: "center", borderRadius: 24, overflow: "hidden", backgroundColor: colors.bg },
+  brand: { flexDirection: rtl.row, alignItems: "center" },
+  badges: { flexDirection: rtl.row, flexWrap: "wrap", justifyContent: "center" },
+  flag: { position: "absolute", left: 0, right: 0, bottom: 0, height: 8, flexDirection: rtl.row },
+  flagStripe: { flex: 1 },
+});

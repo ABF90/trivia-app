@@ -1,13 +1,12 @@
-"use client";
-
-import { useRouter } from "next/navigation";
-import { Button, Screen, ScreenHeader, SegmentedControl, Spacer } from "@/components/ui";
+import { useRouter } from "expo-router";
+import { StyleSheet, View } from "react-native";
+import { Button, Screen, ScreenHeader, SegmentedControl, Spacer, Text } from "@/components/ui";
 import { DIWANIYA_CONFIG } from "@/config/game";
 import { toArabicDigits } from "@/lib/arabic";
+import { colors } from "@/theme";
 import { PlayerField } from "./components/PlayerField";
 import { useDiwaniya } from "./DiwaniyaProvider";
 import { defaultPlayerName } from "./model";
-import styles from "./DiwaniyaSetupScreen.module.css";
 
 export function DiwaniyaSetupScreen() {
   const router = useRouter();
@@ -24,12 +23,14 @@ export function DiwaniyaSetupScreen() {
     <Screen>
       <ScreenHeader title="وضع الديوانية" backHref="/" />
 
-      <p className={styles.intro}>تلفون واحد يتمرر بين الربع. كل واحد يجاوب سؤاله، واللي يجمع أكثر يفوز.</p>
+      <Text size={16} lineHeight={27} color={colors.textSecondary} style={styles.intro}>
+        تلفون واحد يتمرر بين الربع. كل واحد يجاوب سؤاله، واللي يجمع أكثر يفوز.
+      </Text>
 
-      <section className={styles.players}>
-        <h2 className={styles.sectionTitle}>
-          اللاعبين ({toArabicDigits(players.length)}) · اكتب الأسماء، أو خلّها
-        </h2>
+      <View style={styles.players}>
+        <Text weight="heavy" size={15} color={colors.textMuted}>
+          {`اللاعبين (${toArabicDigits(players.length)}) · اكتب الأسماء، أو خلّها`}
+        </Text>
         {players.map((player, index) => (
           <PlayerField
             key={player.id}
@@ -42,13 +43,13 @@ export function DiwaniyaSetupScreen() {
           />
         ))}
         {players.length < DIWANIYA_CONFIG.maxPlayers && (
-          <Button variant="dashed" size="sm" icon="plus" iconPosition="start" onClick={addPlayer}>
+          <Button variant="dashed" size="sm" icon="plus" iconPosition="start" onPress={addPlayer}>
             أضف لاعب
           </Button>
         )}
-      </section>
+      </View>
 
-      <div className={styles.count}>
+      <View style={styles.count}>
         <SegmentedControl
           legend="كم سؤال لكل لاعب؟"
           options={DIWANIYA_CONFIG.questionCounts}
@@ -56,13 +57,19 @@ export function DiwaniyaSetupScreen() {
           onChange={setQuestionCount}
           format={toArabicDigits}
         />
-      </div>
+      </View>
 
       <Spacer />
 
-      <Button size="lg" onClick={begin}>
+      <Button size="lg" onPress={begin}>
         يلا نبدأ
       </Button>
     </Screen>
   );
 }
+
+const styles = StyleSheet.create({
+  intro: { marginTop: 20 },
+  players: { marginTop: 20, gap: 10 },
+  count: { marginTop: 24 },
+});

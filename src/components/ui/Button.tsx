@@ -1,78 +1,125 @@
-import Link from "next/link";
-import type { ButtonHTMLAttributes, ReactNode } from "react";
-import { cx } from "@/lib/cx";
-import { Icon, type IconName } from "../icons/Icon";
-import styles from "./Button.module.css";
+import { useRouter, type Href } from "expo-router";
+import { useEffect, type ReactNode } from "react";
+import { Pressable, StyleSheet, View, type StyleProp, type ViewStyle } from "react-native";
+import Animated, {
+  useAnimatedStyle,
+  useReducedMotion,
+  useSharedValue,
+  withRepeat,
+  withSequence,
+  withTiming,
+} from "react-native-reanimated";
+import { colors, radius, rtl, shadows } from "@/theme";
+import { Icon, type IconName } from "./Icon";
+import { Text } from "./Text";
 
 export type ButtonVariant = "primary" | "secondary" | "ghost" | "danger" | "warning" | "success" | "dashed";
 export type ButtonSize = "sm" | "md" | "lg";
 
-interface BaseProps {
+interface ButtonProps {
+  children: ReactNode;
+  onPress?: () => void;
+  /** Navigates with the router instead of calling onPress. */
+  href?: Href;
   variant?: ButtonVariant;
   size?: ButtonSize;
   icon?: IconName;
   iconPosition?: "start" | "end";
-  /** Stretch to the container width (default). */
-  block?: boolean;
   /** Drop the coloured glow shadow. */
   flat?: boolean;
   /** Subtle "breathing" call-to-action animation. */
   breathe?: boolean;
-  className?: string;
-  children: ReactNode;
+  disabled?: boolean;
+  accessibilityLabel?: string;
+  style?: StyleProp<ViewStyle>;
 }
 
-type ButtonProps = BaseProps &
-  (
-    | ({ href: string } & { onClick?: never; type?: never; disabled?: never })
-    | ({ href?: undefined } & Omit<ButtonHTMLAttributes<HTMLButtonElement>, keyof BaseProps>)
-  );
+const VARIANTS: Record<ButtonVariant, { container: ViewStyle; text: string; shadow?: ViewStyle }> = {
+  primary: { container: { backgroundColor: colors.primary }, text: colors.white, shadow: shadows.primary },
+  secondary: { container: { backgroundColor: colors.surface, borderWidth: 1, borderColor: colors.border }, text: colors.text },
+  ghost: { container: { backgroundColor: "transparent" }, text: colors.textSecondary },
+  danger: { container: { backgroundColor: "transparent" }, text: colors.danger },
+  warning: { container: { backgroundColor: colors.warning }, text: colors.onAccent, shadow: shadows.warning },
+  success: { container: { backgroundColor: colors.success }, text: colors.onAccent, shadow: shadows.success },
+  dashed: {
+    container: { backgroundColor: "transparent", borderWidth: 1.5, borderStyle: "dashed", borderColor: colors.borderStrong },
+    text: colors.primary200,
+  },
+};
 
-export function Button(props: ButtonProps) {
-  const {
-    variant = "primary",
-    size = "md",
-    icon,
-    iconPosition = "end",
-    block = true,
-    flat,
-    breathe,
-    className,
-    children,
-    ...rest
-  } = props;
+const SIZES: Record<ButtonSize, { height: number; radius: number; font: number; icon: number; px: number }> = {
+  lg: { height: 64, radius: radius.lg, font: 21, icon: 22, px: 24 },
+  md: { height: 56, radius: 18, font: 16, icon: 20, px: 14 },
+  sm: { height: 48, radius: 18, font: 16, icon: 18, px: 16 },
+};
 
-  const classes = cx(
-    styles.button,
-    styles[size],
-    styles[variant],
-    block && styles.block,
-    flat && styles.flat,
-    breathe && styles.breathe,
-    className,
-  );
-  const iconSize = size === "lg" ? 22 : 20;
-  const iconEl = icon && <Icon name={icon} size={iconSize} strokeWidth={2.4} />;
-  const content = (
-    <>
-      {iconPosition === "start" && iconEl}
-      {children}
-      {iconPosition === "end" && iconEl}
-    </>
-  );
+function useBreathe(enabled: boolean) {
+  const reduceMotion = useReducedMotion();
+  const scale = useSharedValue(1);
+  useEffect(() => {
+    if (!enabled || reduceMotion) return;
+    scale.set(withRepeat(withSequence(withTiming(1.04, { duration: 600 }), withTiming(1, { duration: 600 })), -1));
+  }, [enabled, reduceMotion, scale]);
+  return useAnimatedStyle(() => ({ transform: [{ scale: scale.get() }] }));
+}
 
-  if ("href" in rest && rest.href !== undefined) {
-    return (
-      <Link href={rest.href} className={classes}>
-        {content}
-      </Link>
-    );
-  }
+export function Button({
+  children,
+  onPress,
+  href,
+  variant = "primary",
+  size = "md",
+  icon,
+  iconPosition = "end",
+  flat,
+  breathe = false,
+  disabled,
+  accessibilityLabel,
+  style,
+}: ButtonProps) {
+  const router = useRouter();
+  const v = VARIANTS[variant];
+  const s = SIZES[size];
+  const breatheStyle = useBreathe(breathe);
+  const iconEl = icon && <Icon name={icon} size={s.icon} color={v.text} strokeWidth={2.4} />;
 
-  const { type = "button", ...buttonProps } = rest as ButtonHTMLAttributes<HTMLButtonElement>;
+  const handlePress = () => {
+    if (href) router.push(href);
+    else onPress?.();
+  };
+
   return (
-    <button type={type} className={classes} {...buttonProps}>
-      {content}
-    </button>
+    <Animated.View style={[breatheStyle, style]}>
+      <Pressable
+        accessibilityRole="button"
+        accessibilityLabel={accessibilityLabel}
+        accessibilityState={{ disabled: !!disabled }}
+        disabled={disabled}
+        onPress={handlePress}
+        style={({ pressed }) => [
+          styles.base,
+          { minHeight: s.height, borderRadius: s.radius, paddingHorizontal: s.px },
+          v.container,
+          !flat && v.shadow,
+          pressed && styles.pressed,
+          disabled && styles.disabled,
+        ]}
+      >
+        <View style={styles.content}>
+          {iconPosition === "start" && iconEl}
+          <Text weight={size === "sm" ? "bold" : "heavy"} size={s.font} color={v.text} align="center">
+            {children}
+          </Text>
+          {iconPosition === "end" && iconEl}
+        </View>
+      </Pressable>
+    </Animated.View>
   );
 }
+
+const styles = StyleSheet.create({
+  base: { alignItems: "center", justifyContent: "center" },
+  content: { flexDirection: rtl.row, alignItems: "center", justifyContent: "center", gap: 10 },
+  pressed: { transform: [{ scale: 0.98 }], opacity: 0.92 },
+  disabled: { opacity: 0.5 },
+});

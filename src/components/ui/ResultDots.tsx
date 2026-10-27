@@ -1,7 +1,6 @@
-import type { CSSProperties } from "react";
-import { cx } from "@/lib/cx";
-import { Icon } from "../icons/Icon";
-import styles from "./ResultDots.module.css";
+import { StyleSheet, View } from "react-native";
+import { colors, rtl } from "@/theme";
+import { Icon } from "./Icon";
 
 interface ResultDotsProps {
   results: boolean[];
@@ -12,12 +11,20 @@ interface ResultDotsProps {
 export function ResultDots({ results, size = 32, showIcons = true }: ResultDotsProps) {
   const label = results.map((ok) => (ok ? "صح" : "غلط")).join("، ");
   return (
-    <div className={styles.row} role="img" aria-label={label} style={{ "--size": `${size}px` } as CSSProperties}>
+    <View style={styles.row} accessible accessibilityLabel={label}>
       {results.map((ok, i) => (
-        <span key={i} className={cx(styles.dot, ok ? styles.correct : styles.wrong)}>
-          {showIcons && <Icon name={ok ? "check" : "close"} size={size * 0.56} strokeWidth={3} />}
-        </span>
+        <View
+          key={i}
+          style={[styles.dot, { width: size, height: size, backgroundColor: ok ? colors.success : colors.danger }]}
+        >
+          {showIcons && <Icon name={ok ? "check" : "close"} size={size * 0.56} color={colors.onAccent} strokeWidth={3} />}
+        </View>
       ))}
-    </div>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  row: { flexDirection: rtl.row, flexWrap: "wrap", justifyContent: "center", gap: 8 },
+  dot: { borderRadius: 10, alignItems: "center", justifyContent: "center" },
+});

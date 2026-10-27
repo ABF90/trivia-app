@@ -1,26 +1,38 @@
-import Link from "next/link";
-import { Icon, type IconName } from "../icons/Icon";
-import styles from "./IconButton.module.css";
+import { useRouter, type Href } from "expo-router";
+import { Pressable, StyleSheet } from "react-native";
+import { colors } from "@/theme";
+import { Icon, type IconName } from "./Icon";
 
 interface IconButtonProps {
   icon: IconName;
   label: string;
-  href?: string;
-  onClick?: () => void;
+  href?: Href;
+  onPress?: () => void;
 }
 
-export function IconButton({ icon, label, href, onClick }: IconButtonProps) {
-  const glyph = <Icon name={icon} size={20} strokeWidth={2.2} />;
-  if (href) {
-    return (
-      <Link href={href} aria-label={label} className={styles.iconButton}>
-        {glyph}
-      </Link>
-    );
-  }
+export function IconButton({ icon, label, href, onPress }: IconButtonProps) {
+  const router = useRouter();
   return (
-    <button type="button" aria-label={label} onClick={onClick} className={styles.iconButton}>
-      {glyph}
-    </button>
+    <Pressable
+      accessibilityRole="button"
+      accessibilityLabel={label}
+      hitSlop={8}
+      onPress={() => (href ? router.push(href) : onPress?.())}
+      style={({ pressed }) => [styles.button, pressed && styles.pressed]}
+    >
+      <Icon name={icon} size={20} color={colors.textSecondary} strokeWidth={2.2} />
+    </Pressable>
   );
 }
+
+const styles = StyleSheet.create({
+  button: {
+    width: 44,
+    height: 44,
+    borderRadius: 14,
+    backgroundColor: colors.surface,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  pressed: { backgroundColor: colors.border },
+});

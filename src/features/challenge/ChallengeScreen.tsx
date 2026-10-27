@@ -1,8 +1,6 @@
-"use client";
-
 import { useMemo, useState } from "react";
-import { useRouter } from "next/navigation";
-import { Button, Screen } from "@/components/ui";
+import { Button, Confetti, Screen } from "@/components/ui";
+import { useGoHome } from "@/hooks/useGoHome";
 import { toArabicDigits } from "@/lib/arabic";
 import { GameRunner, ResultView, type GameResult } from "../game";
 import { recordRound } from "../player";
@@ -20,7 +18,7 @@ const HEADLINES: Record<ChallengeOutcome, string> = {
 };
 
 export function ChallengeScreen({ code }: { code?: string }) {
-  const router = useRouter();
+  const goHome = useGoHome();
   const challenge = useMemo(() => decodeChallenge(code), [code]);
   const [stage, setStage] = useState<Stage>({ kind: "intro" });
   const [sharing, setSharing] = useState(false);
@@ -28,7 +26,7 @@ export function ChallengeScreen({ code }: { code?: string }) {
   if (!challenge) {
     return (
       <Screen>
-        <InvalidChallenge />
+        <InvalidChallenge onHome={goHome} />
       </Screen>
     );
   }
@@ -38,13 +36,15 @@ export function ChallengeScreen({ code }: { code?: string }) {
     setStage({ kind: "result", result });
   };
 
-  return (
-    <Screen background={stage.kind === "playing" ? "plain" : "glowCenter"}>
-      {stage.kind === "intro" && <ChallengeIntro challenge={challenge} onAccept={() => setStage({ kind: "playing" })} />}
+  const celebrate = stage.kind === "result" && compareScores(stage.result.score, challenge.score) === "win";
 
-      {stage.kind === "playing" && (
-        <GameRunner questions={challenge.questions} onFinish={finish} onExit={() => router.push("/")} />
+  return (
+    <Screen background={stage.kind === "playing" ? "plain" : "glowCenter"} overlay={celebrate ? <Confetti /> : null}>
+      {stage.kind === "intro" && (
+        <ChallengeIntro challenge={challenge} onAccept={() => setStage({ kind: "playing" })} onDecline={goHome} />
       )}
+
+      {stage.kind === "playing" && <GameRunner questions={challenge.questions} onFinish={finish} onExit={goHome} />}
 
       {stage.kind === "result" && (
         <>
@@ -53,10 +53,10 @@ export function ChallengeScreen({ code }: { code?: string }) {
             headline={HEADLINES[compareScores(stage.result.score, challenge.score)]}
             hint={`${challenge.name} جاب ${toArabicDigits(challenge.score)} من ${toArabicDigits(challenge.questions.length)}`}
           >
-            <Button variant="secondary" icon="swords" iconPosition="start" onClick={() => setSharing(true)}>
+            <Button variant="secondary" icon="swords" iconPosition="start" onPress={() => setSharing(true)}>
               رد التحدي
             </Button>
-            <Button size="lg" href="/" icon="chevronForward">
+            <Button size="lg" icon="chevronForward" onPress={goHome}>
               العب صفارة
             </Button>
           </ResultView>
@@ -72,3 +72,4 @@ export function ChallengeScreen({ code }: { code?: string }) {
     </Screen>
   );
 }
+

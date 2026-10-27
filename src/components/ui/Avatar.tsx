@@ -1,12 +1,21 @@
-import type { CSSProperties } from "react";
-import { cx } from "@/lib/cx";
-import styles from "./Avatar.module.css";
+import { View } from "react-native";
+import { colors } from "@/theme";
+import { Text } from "./Text";
 
-export const AVATAR_COLORS = ["blue", "teal", "amber", "rose", "sky", "slate"] as const;
-export type AvatarColor = (typeof AVATAR_COLORS)[number];
+const PALETTE = {
+  blue: { bg: colors.primary, fg: colors.white },
+  teal: { bg: colors.success, fg: colors.onAccent },
+  amber: { bg: colors.warning, fg: colors.onAccent },
+  rose: { bg: colors.danger, fg: colors.onAccent },
+  sky: { bg: colors.primary300, fg: colors.onAccent },
+  slate: { bg: colors.border, fg: colors.textSecondary },
+} as const;
+
+export type AvatarColor = keyof typeof PALETTE;
+const ORDER: AvatarColor[] = ["blue", "teal", "amber", "rose", "sky", "slate"];
 
 export function avatarColorAt(index: number): AvatarColor {
-  return AVATAR_COLORS[index % AVATAR_COLORS.length]!;
+  return ORDER[index % ORDER.length]!;
 }
 
 interface AvatarProps {
@@ -16,9 +25,16 @@ interface AvatarProps {
 }
 
 export function Avatar({ label, color = "blue", size = 34 }: AvatarProps) {
+  const p = PALETTE[color];
   return (
-    <span aria-hidden className={cx(styles.avatar, styles[color])} style={{ "--size": `${size}px` } as CSSProperties}>
-      {label}
-    </span>
+    <View
+      importantForAccessibility="no-hide-descendants"
+      accessibilityElementsHidden
+      style={{ width: size, height: size, borderRadius: size / 2, backgroundColor: p.bg, alignItems: "center", justifyContent: "center" }}
+    >
+      <Text weight="display" size={size * 0.5} lineHeight={size * 0.75} color={p.fg} align="center">
+        {label}
+      </Text>
+    </View>
   );
 }

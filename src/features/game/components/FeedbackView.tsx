@@ -1,6 +1,8 @@
-import { AnswerOption, Button, FactCard, QuestionCard, Spacer, type AnswerState } from "@/components/ui";
+import { StyleSheet, View } from "react-native";
+import Animated, { ZoomIn } from "react-native-reanimated";
+import { AnswerOption, Button, FactCard, QuestionCard, Spacer, Text, type AnswerState } from "@/components/ui";
+import { colors } from "@/theme";
 import type { AnswerRecord, Question } from "../types";
-import styles from "./FeedbackView.module.css";
 
 interface FeedbackViewProps {
   question: Question;
@@ -22,30 +24,36 @@ export function FeedbackView({ question, answer, nextLabel = "التالي", dis
 
   return (
     <>
-      <p className={styles.headline} role="status">
-        {timedOut ? "خلص الوقت!" : "مو هالمرة!"}
-      </p>
+      <Animated.View entering={ZoomIn.duration(400)} style={styles.headline}>
+        <Text weight="display" size={36} lineHeight={52} color={colors.danger} align="center" accessibilityLiveRegion="polite">
+          {timedOut ? "خلص الوقت!" : "مو هالمرة!"}
+        </Text>
+      </Animated.View>
 
-      <div className={styles.card}>
-        <QuestionCard prompt={question.prompt} compact />
-      </div>
+      <QuestionCard prompt={question.prompt} compact />
 
-      <div className={styles.options}>
+      <View style={styles.options}>
         {question.options.map((label, i) => {
           const { state, tag } = stateFor(i);
-          return <AnswerOption key={i} label={label} state={state} tag={tag} compact />;
+          return <AnswerOption key={i} label={label} state={state} tag={tag} compact animateIn={false} />;
         })}
-      </div>
+      </View>
 
-      <div className={styles.fact}>
+      <View style={styles.fact}>
         <FactCard>{question.fact}</FactCard>
-      </div>
+      </View>
 
       <Spacer />
 
-      <Button size="lg" flat icon="chevronForward" onClick={onNext} disabled={disabled}>
+      <Button size="lg" flat icon="chevronForward" onPress={onNext} disabled={disabled}>
         {nextLabel}
       </Button>
     </>
   );
 }
+
+const styles = StyleSheet.create({
+  headline: { marginTop: 14, marginBottom: 8 },
+  options: { marginTop: 16, gap: 10 },
+  fact: { marginTop: 16 },
+});

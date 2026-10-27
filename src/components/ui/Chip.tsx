@@ -1,26 +1,58 @@
-import type { ReactNode } from "react";
-import { cx } from "@/lib/cx";
-import styles from "./Chip.module.css";
+import { useRef, type ReactNode } from "react";
+import { I18nManager, Pressable, ScrollView, StyleSheet, type ScrollViewInstance } from "react-native";
+import { colors, layout, rtl, tints } from "@/theme";
+import { Text } from "./Text";
 
 interface ChipProps {
   selected?: boolean;
-  onClick?: () => void;
-  children: ReactNode;
+  onPress?: () => void;
+  children: string;
 }
 
-export function Chip({ selected = false, onClick, children }: ChipProps) {
+export function Chip({ selected = false, onPress, children }: ChipProps) {
   return (
-    <button type="button" aria-pressed={selected} onClick={onClick} className={cx(styles.chip, selected && styles.selected)}>
-      {children}
-    </button>
+    <Pressable
+      accessibilityRole="button"
+      accessibilityState={{ selected }}
+      onPress={onPress}
+      style={[styles.chip, selected && styles.selected]}
+    >
+      <Text weight={selected ? "heavy" : "bold"} size={15}>
+        {children}
+      </Text>
+    </Pressable>
   );
 }
 
-/** Horizontally scrolling chip list that bleeds to the screen edges. */
-export function ChipRow({ children, label }: { children: ReactNode; label: string }) {
+/** Horizontally scrolling chip list that bleeds to the screen edges and starts on the right. */
+export function ChipRow({ children }: { children: ReactNode }) {
+  const ref = useRef<ScrollViewInstance>(null);
   return (
-    <div role="group" aria-label={label} className={styles.row}>
+    <ScrollView
+      ref={ref}
+      horizontal
+      showsHorizontalScrollIndicator={false}
+      style={styles.row}
+      contentContainerStyle={styles.rowContent}
+      // Without native RTL the reversed row starts scrolled to the left; jump to its right edge.
+      onContentSizeChange={() => !I18nManager.isRTL && ref.current?.scrollToEnd({ animated: false })}
+    >
       {children}
-    </div>
+    </ScrollView>
   );
 }
+
+const styles = StyleSheet.create({
+  chip: {
+    height: 44,
+    paddingHorizontal: 16,
+    borderRadius: 22,
+    borderWidth: 1.5,
+    borderColor: colors.borderStrong,
+    backgroundColor: colors.surface,
+    justifyContent: "center",
+  },
+  selected: { borderWidth: 2, borderColor: colors.primary, backgroundColor: tints.primary20 },
+  row: { marginHorizontal: -layout.gutter, flexGrow: 0 },
+  rowContent: { flexDirection: rtl.row, gap: 8, paddingHorizontal: layout.gutter },
+});

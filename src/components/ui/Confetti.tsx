@@ -1,27 +1,56 @@
-import styles from "./Confetti.module.css";
+import { useEffect } from "react";
+import { StyleSheet, useWindowDimensions, View } from "react-native";
+import Animated, {
+  Easing,
+  useAnimatedStyle,
+  useReducedMotion,
+  useSharedValue,
+  withDelay,
+  withRepeat,
+  withTiming,
+} from "react-native-reanimated";
+import { colors } from "@/theme";
 
-const COLORS = ["var(--color-primary)", "var(--color-success)", "var(--color-warning)", "var(--color-text)"];
-// Fixed layout keeps server and client markup identical.
+const COLORS = [colors.primary, colors.success, colors.warning, colors.text];
 const PIECES = [
-  { left: "8%", delay: 0.2 },
-  { left: "20%", delay: 0.9 },
-  { left: "36%", delay: 0.4 },
-  { left: "51%", delay: 1.3 },
-  { left: "64%", delay: 0.6 },
-  { left: "79%", delay: 1.1 },
-  { left: "90%", delay: 0.1 },
+  { left: 0.08, delay: 200 },
+  { left: 0.2, delay: 900 },
+  { left: 0.36, delay: 400 },
+  { left: 0.51, delay: 1300 },
+  { left: 0.64, delay: 600 },
+  { left: 0.79, delay: 1100 },
+  { left: 0.9, delay: 100 },
 ];
 
+function Piece({ left, delay, color, fall }: { left: number; delay: number; color: string; fall: number }) {
+  const t = useSharedValue(0);
+  useEffect(() => {
+    t.set(withDelay(delay, withRepeat(withTiming(1, { duration: 2600, easing: Easing.in(Easing.quad) }), -1)));
+  }, [delay, t]);
+  const style = useAnimatedStyle(() => {
+    const p = t.get();
+    return {
+      opacity: p < 0.1 ? p * 10 : 1 - p,
+      transform: [{ translateY: -40 + p * fall }, { rotate: `${p * 540}deg` }],
+    };
+  });
+  return <Animated.View style={[styles.piece, { left: `${left * 100}%`, backgroundColor: color }, style]} />;
+}
+
+/** Falling confetti for scores of 4/5 or better. Hidden when Reduce Motion is on. */
 export function Confetti() {
+  const reduceMotion = useReducedMotion();
+  const { height } = useWindowDimensions();
+  if (reduceMotion) return null;
   return (
-    <div className={styles.layer} aria-hidden>
+    <View style={StyleSheet.absoluteFill} pointerEvents="none" importantForAccessibility="no-hide-descendants">
       {PIECES.map((p, i) => (
-        <span
-          key={i}
-          className={styles.piece}
-          style={{ left: p.left, background: COLORS[i % COLORS.length], animationDelay: `${p.delay}s` }}
-        />
+        <Piece key={i} left={p.left} delay={p.delay} color={COLORS[i % COLORS.length]!} fall={height * 0.65} />
       ))}
-    </div>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  piece: { position: "absolute", top: 0, width: 8, height: 14, borderRadius: 2 },
+});

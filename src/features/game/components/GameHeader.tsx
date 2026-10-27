@@ -1,5 +1,6 @@
-import { IconButton, ProgressSegments, ScorePill, type SegmentState } from "@/components/ui";
-import styles from "./GameHeader.module.css";
+import { StyleSheet, View } from "react-native";
+import { IconButton, ProgressSegments, ScorePill, Text, type SegmentState } from "@/components/ui";
+import { rtl } from "@/theme";
 
 interface GameHeaderProps {
   label: string;
@@ -10,13 +11,20 @@ interface GameHeaderProps {
 
 export function GameHeader({ label, segments, score, onExit }: GameHeaderProps) {
   return (
-    <header className={styles.header}>
-      {onExit && <IconButton icon="close" label="خروج" onClick={onExit} />}
-      <div className={styles.progress}>
-        <span className={styles.label}>{label}</span>
+    <View style={styles.header}>
+      {onExit && <IconButton icon="close" label="خروج" onPress={onExit} />}
+      <View style={styles.progress}>
+        <Text weight="heavy" size={15} numberOfLines={1}>
+          {label}
+        </Text>
         <ProgressSegments segments={segments} />
-      </div>
+      </View>
       <ScorePill points={score} />
-    </header>
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  header: { flexDirection: rtl.row, alignItems: "center", gap: 12 },
+  progress: { flex: 1, minWidth: 0, gap: 6 },
+});

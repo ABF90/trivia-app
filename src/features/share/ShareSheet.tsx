@@ -1,14 +1,12 @@
-"use client";
-
 import { useMemo } from "react";
-import { BottomSheet, Button } from "@/components/ui";
+import { StyleSheet, TextInput, useWindowDimensions, View } from "react-native";
+import { BottomSheet, Button, Text } from "@/components/ui";
 import { formatScore } from "@/lib/arabic";
-import { cx } from "@/lib/cx";
+import { colors, fonts, radius, rtl } from "@/theme";
 import { buildChallengeUrl } from "../challenge/codec";
 import type { GameResult } from "../game/types";
 import { setPlayerName, usePlayer } from "../player";
 import { ShareCard } from "./ShareCard";
-import styles from "./ShareSheet.module.css";
 import { useShare } from "./useShare";
 
 const FALLBACK_NAME = "لاعب صفارة";
@@ -32,13 +30,10 @@ const STATUS_TEXT = {
 
 export function ShareSheet({ open, onClose, result, subtitle, streak, intent = "score" }: ShareSheetProps) {
   const player = usePlayer();
+  const { width } = useWindowDimensions();
   const { status, share, copy } = useShare();
   const displayName = player.name.trim() || FALLBACK_NAME;
-
-  const url = useMemo(
-    () => (open ? buildChallengeUrl(window.location.origin, displayName, result) : ""),
-    [open, displayName, result],
-  );
+  const url = useMemo(() => buildChallengeUrl(displayName, result), [displayName, result]);
 
   const text =
     intent === "challenge"
@@ -46,48 +41,75 @@ export function ShareSheet({ open, onClose, result, subtitle, streak, intent = "
       : `صفارة · ${subtitle}\nجبت ${formatScore(result.score, result.total)}، تقدر تغلبني؟`;
 
   return (
-    <BottomSheet open={open} onClose={onClose} title={intent === "challenge" ? "تحدَّ ربعك" : "شارك نتيجتك"}>
-      {(titleId) => (
-        <>
-          <h2 id={titleId} className={styles.title}>
-            {intent === "challenge" ? "تحدَّ ربعك بنفس الأسئلة" : "شارك نتيجتك"}
-          </h2>
+    <BottomSheet open={open} onClose={onClose}>
+      <Text weight="heavy" size={18} accessibilityRole="header">
+        {intent === "challenge" ? "تحدَّ ربعك بنفس الأسئلة" : "شارك نتيجتك"}
+      </Text>
 
-          <div className={styles.preview}>
-            <ShareCard
-              playerName={displayName}
-              subtitle={subtitle}
-              score={result.score}
-              total={result.total}
-              results={result.answers.map((a) => a.correct)}
-              streak={streak}
-            />
-          </div>
+      <ShareCard
+        width={Math.min(260, width - 80)}
+        playerName={displayName}
+        subtitle={subtitle}
+        score={result.score}
+        total={result.total}
+        results={result.answers.map((a) => a.correct)}
+        streak={streak}
+      />
 
-          <label className={styles.field}>
-            <span className={styles.fieldLabel}>اسمك</span>
-            <input
-              className={styles.input}
-              value={player.name}
-              placeholder={FALLBACK_NAME}
-              maxLength={24}
-              onChange={(e) => setPlayerName(e.target.value)}
-            />
-          </label>
+      <View style={styles.field}>
+        <Text size={14} color={colors.textMuted}>
+          اسمك
+        </Text>
+        <TextInput
+          style={styles.input}
+          value={player.name}
+          placeholder={FALLBACK_NAME}
+          placeholderTextColor={colors.textMuted}
+          maxLength={24}
+          onChangeText={setPlayerName}
+          accessibilityLabel="اسمك"
+          returnKeyType="done"
+        />
+      </View>
 
-          <div className={styles.actions}>
-            <Button size="lg" flat icon="share" iconPosition="start" onClick={() => share({ title: "صفارة", text, url })}>
-              {intent === "challenge" ? "أرسل التحدي" : "شارك"}
-            </Button>
-            <Button variant="secondary" icon="copy" iconPosition="start" onClick={() => copy(url)}>
-              انسخ الرابط
-            </Button>
-          </div>
-          <p className={cx(styles.status, status === "error" && styles.error)} role="status">
-            {STATUS_TEXT[status]}
-          </p>
-        </>
-      )}
+      <Button size="lg" flat icon="share" iconPosition="start" onPress={() => share({ title: "صفارة", text, url })}>
+        {intent === "challenge" ? "أرسل التحدي" : "شارك"}
+      </Button>
+      <Button variant="secondary" icon="copy" iconPosition="start" onPress={() => copy(`${text}\n${url}`)}>
+        انسخ الرابط
+      </Button>
+      <Text
+        size={14}
+        color={status === "error" ? colors.danger : colors.success}
+        align="center"
+        accessibilityLiveRegion="polite"
+      >
+        {STATUS_TEXT[status]}
+      </Text>
     </BottomSheet>
   );
 }
+
+const styles = StyleSheet.create({
+  field: {
+    flexDirection: rtl.row,
+    alignItems: "center",
+    gap: 10,
+    height: 52,
+    paddingHorizontal: 14,
+    borderRadius: radius.md,
+    backgroundColor: colors.bg,
+    borderWidth: 1.5,
+    borderColor: colors.borderStrong,
+  },
+  input: {
+    flex: 1,
+    minWidth: 0,
+    color: colors.text,
+    fontFamily: fonts.bold,
+    fontSize: 16,
+    textAlign: rtl.textStart,
+    writingDirection: "rtl",
+    paddingVertical: 0,
+  },
+});
