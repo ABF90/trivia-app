@@ -1,0 +1,19 @@
+.list {
+  margin: 0;
+  list-style: none;
+  background: var(--color-surface);
+  border-radius: 22px;
+  padding: 8px 16px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 52px;
+}
+.row + .row { border-top: 1px solid var(--color-border); }
+.rank { font-family: var(--font-display); font-size: 18px; color: var(--color-text-muted); width: 18px; text-align: center; }
+.leader .rank { color: var(--color-warning); }
+.name { flex: 1; min-width: 0; font-weight: 700; font-size: 16px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.active .name { font-weight: 800; color: var(--color-success); }
+.score { font-family: var(--font-display); font-size: 22px; }

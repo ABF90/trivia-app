@@ -1,0 +1,3 @@
+.box { margin-top: 25vh; display: grid; justify-items: center; gap: 12px; text-align: center; }
+.title { font-family: var(--font-display); font-weight: 400; font-size: 40px; }
+.body { color: var(--color-text-secondary); }

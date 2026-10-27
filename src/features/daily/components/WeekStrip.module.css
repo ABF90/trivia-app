@@ -1,0 +1,25 @@
+.week {
+  margin: 16px 0 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 6px;
+  text-align: center;
+}
+.day { display: flex; flex-direction: column; gap: 6px; align-items: center; }
+.label { font-size: 12px; color: var(--color-text-muted); }
+.today .label { color: var(--color-text); font-weight: 800; }
+.box {
+  width: min(34px, 100%);
+  aspect-ratio: 1;
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-on-accent);
+}
+.played { background: var(--color-warning); }
+.pending { background: transparent; border: 2px dashed var(--color-warning); }

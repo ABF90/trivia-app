@@ -1,0 +1,29 @@
+.timer {
+  position: relative;
+  width: 76px;
+  height: 76px;
+}
+.warning { animation: sf-pulse 1s ease-in-out infinite; }
+.paused { animation: none; opacity: 0.6; }
+.ring {
+  stroke: var(--color-primary);
+  transition: stroke-dashoffset 1s linear, stroke 200ms ease;
+}
+.warning .ring { stroke: var(--color-warning); }
+.track { stroke: var(--color-border); }
+.value {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-size: 28px;
+}
+.warning .value { color: var(--color-warning); font-size: 30px; }
+
+/* Keyframes are scoped per CSS module, so shared motions are declared where used. */
+@keyframes sf-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+}

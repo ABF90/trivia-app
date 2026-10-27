@@ -1,0 +1,18 @@
+.fact {
+  border-radius: var(--radius-lg);
+  padding: 16px 18px;
+  background: rgb(31 107 255 / 12%);
+  border: 1px solid rgb(31 107 255 / 35%);
+  display: flex;
+  gap: 12px;
+  animation: sf-up 0.4s 0.7s ease-out both;
+}
+.icon { flex-shrink: 0; margin-top: 2px; color: var(--color-primary-300); }
+.title { font-weight: 800; font-size: 15px; color: var(--color-primary-200); margin-bottom: 2px; }
+.body { font-size: 15px; line-height: 1.7; color: var(--color-text-fact); }
+
+/* Keyframes are scoped per CSS module, so shared motions are declared where used. */
+@keyframes sf-up {
+  from { transform: translateY(14px); opacity: 0; }
+  to { transform: none; opacity: 1; }
+}

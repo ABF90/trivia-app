@@ -1,0 +1,26 @@
+.chip {
+  flex-shrink: 0;
+  height: 44px;
+  padding: 0 16px;
+  border-radius: 22px;
+  border: 1.5px solid var(--color-border-strong);
+  background: var(--color-surface);
+  font-weight: 700;
+  font-size: 15px;
+  white-space: nowrap;
+  transition: background-color 150ms ease, border-color 150ms ease;
+}
+.selected {
+  border: 2px solid var(--color-primary);
+  background: rgb(31 107 255 / 20%);
+  font-weight: 800;
+}
+.row {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  margin-inline: calc(var(--screen-gutter) * -1);
+  padding-inline: var(--screen-gutter);
+  scrollbar-width: none;
+}
+.row::-webkit-scrollbar { display: none; }

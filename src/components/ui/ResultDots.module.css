@@ -1,0 +1,12 @@
+.row { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+.dot {
+  width: var(--size);
+  height: var(--size);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-on-accent);
+}
+.correct { background: var(--color-success); }
+.wrong { background: var(--color-danger); }

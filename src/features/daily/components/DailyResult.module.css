@@ -1,0 +1,19 @@
+.summary {
+  margin-top: 20px;
+  border-radius: var(--radius-xl);
+  padding: 18px 20px;
+  background: var(--color-bg-deep);
+  border: 2px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.info { display: flex; flex-direction: column; gap: 6px; }
+.headline { font-family: var(--font-display); font-size: 34px; line-height: 1.1; }
+.meta { display: inline-flex; align-items: center; gap: 6px; font-weight: 800; font-size: 14px; color: var(--color-warning); }
+.score { font-family: var(--font-display); font-size: 56px; line-height: 1; white-space: nowrap; }
+.score .mine { color: var(--color-success); }
+.score .sep { color: var(--color-text-muted); }
+.reviewTitle { margin: 22px 0 10px; font-size: 15px; font-weight: 800; color: var(--color-text-tertiary); }
+.actions { display: flex; flex-direction: column; gap: 10px; }
