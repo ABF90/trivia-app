@@ -13,7 +13,9 @@ export type CategoryId =
   // Open Trivia DB (translated)
   | "sports"
   | "animals"
-  | "history";
+  | "history"
+  // Written by the AI for a topic the player typed
+  | "ai";
 
 export type Difficulty = "easy" | "medium" | "hard";
 /** What the player picks: one level, or all of them. */
@@ -38,6 +40,8 @@ export interface Question {
   fact?: Localized;
   /** Live question with no Arabic translation yet: `ar` holds the English text. */
   untranslated?: boolean;
+  /** Written by the AI on the spot; exists only on this device (and in challenge links). */
+  generated?: boolean;
 }
 
 export interface AnswerRecord {

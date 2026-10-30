@@ -24,6 +24,27 @@ export const LIVE_CONFIG = {
   offlineCooldownMs: 30_000,
 } as const;
 
+/** AI question mode (OpenRouter). Phone only: a web build would hand the key to every visitor. */
+export const AI_CONFIG = {
+  endpoint: "https://openrouter.ai/api/v1/chat/completions",
+  /**
+   * Free models, in priority order. OpenRouter tries the next one when a model
+   * is rate-limited or down, within the same request. Keep every entry ":free"
+   * so a fallback can never land on a paid model. Swap names if one retires (404).
+   */
+  models: [
+    "google/gemma-4-31b-it:free", // fast, good Arabic; often busy
+    "nvidia/nemotron-3.5-lightning:free", // ~1 min
+    "nvidia/nemotron-3.5-super-vl:free", // last resort, slowest
+  ],
+  questionCount: 5,
+  /** Free models can be slow; give up after this long and show the error face. */
+  timeoutMs: 120_000,
+  /** Show the "still working" line after this long. */
+  slowHintMs: 20_000,
+  maxTopicLength: 80,
+} as const;
+
 export const DIWANIYA_CONFIG = {
   minPlayers: 2,
   maxPlayers: 6,
