@@ -1,6 +1,6 @@
 import { useRouter, type Href } from "expo-router";
 import { useState } from "react";
-import { Pressable, StyleSheet, View } from "react-native";
+import { Platform, Pressable, StyleSheet, View } from "react-native";
 import Animated, { FadeInDown, ZoomIn } from "react-native-reanimated";
 import { Button, Chip, ChipGroup, Icon, Logo, Screen, SegmentedControl, Spacer, Text } from "@/components/ui";
 import { CATEGORIES, MAX_CATEGORIES } from "@/data/categories";
@@ -75,6 +75,35 @@ function DailyCard({ player }: { player: PlayerData }) {
   );
 }
 
+/** "Create your own": AI mode. Phone only, since a web build would expose the API key. */
+function AiCard() {
+  const router = useRouter();
+  const { t } = useI18n();
+  if (Platform.OS === "web") return null;
+  return (
+    <Animated.View entering={FadeInDown.delay(420).duration(500)}>
+      <Pressable
+        role="button"
+        onPress={() => router.push("/ai")}
+        style={({ pressed }) => [styles.daily, styles.aiCard, pressed && styles.dailyPressed]}
+      >
+        <View style={[styles.dailyIcon, styles.aiIcon]}>
+          <Logo size={30} variant="mark" decorative />
+        </View>
+        <View style={styles.dailyText}>
+          <Text weight="heavy" size={17}>
+            {t.aiCardTitle}
+          </Text>
+          <Text size={14} color={colors.textTertiary}>
+            {t.aiCardBody}
+          </Text>
+        </View>
+        <Icon name="chevronForward" color={colors.textTertiary} />
+      </Pressable>
+    </Animated.View>
+  );
+}
+
 export function HomeScreen() {
   const player = usePlayer();
   const { t, n, pick, score } = useI18n();
@@ -123,6 +152,7 @@ export function HomeScreen() {
       </View>
 
       <DailyCard player={player} />
+      <AiCard />
 
       <Animated.View entering={FadeInDown.delay(450).duration(500)} style={styles.section}>
         <View style={styles.sectionHeader}>
@@ -231,6 +261,8 @@ const styles = StyleSheet.create({
     borderColor: colors.border,
   },
   dailyPressed: { borderColor: colors.borderStrong },
+  aiCard: { marginTop: 12, borderColor: tints.primary35 },
+  aiIcon: { backgroundColor: tints.primary15 },
   dailyIcon: {
     width: 52,
     height: 52,

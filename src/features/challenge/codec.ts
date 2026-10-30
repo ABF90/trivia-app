@@ -1,5 +1,5 @@
 import * as Linking from "expo-linking";
-import { isCategoryId } from "@/data/categories";
+import { isAnyCategoryId } from "@/data/categories";
 import { registerLiveQuestion } from "@/data/live/liveQuestions";
 import { getQuestionById } from "@/data/questionBank";
 import type { GameResult, Question } from "../game/types";
@@ -32,17 +32,26 @@ interface EmbeddedQuestion {
   p: string; // prompt (English)
   o: string[]; // 4 options (English)
   a: number; // answer index
+  g?: 1; // written by the AI (text is in the sender's language, not English-only)
 }
 
 const DIFFICULTIES = ["easy", "medium", "hard"] as const;
 
 function embed(q: Question): EmbeddedQuestion {
-  return { i: q.id, c: q.category, d: q.difficulty, p: q.prompt.en, o: q.options.map((o) => o.en), a: q.answer };
+  return {
+    i: q.id,
+    c: q.category,
+    d: q.difficulty,
+    p: q.prompt.en,
+    o: q.options.map((o) => o.en),
+    a: q.answer,
+    ...(q.generated ? { g: 1 as const } : {}),
+  };
 }
 
 function unembed(e: EmbeddedQuestion): Question | null {
   const difficulty = DIFFICULTIES.find((d) => d === e.d);
-  if (typeof e.i !== "string" || !isCategoryId(e.c) || !difficulty || typeof e.p !== "string") return null;
+  if (typeof e.i !== "string" || !isAnyCategoryId(e.c) || !difficulty || typeof e.p !== "string") return null;
   if (!Array.isArray(e.o) || e.o.length !== 4 || !Number.isInteger(e.a) || e.a < 0 || e.a > 3) return null;
   const question: Question = {
     id: e.i,
@@ -51,7 +60,7 @@ function unembed(e: EmbeddedQuestion): Question | null {
     prompt: { ar: e.p, en: e.p },
     options: e.o.map((en) => ({ ar: String(en), en: String(en) })) as unknown as Question["options"],
     answer: e.a,
-    untranslated: true,
+    ...(e.g === 1 ? { generated: true } : { untranslated: true }),
   };
   registerLiveQuestion(question);
   return question;
@@ -85,7 +94,7 @@ export function encodeChallenge(name: string, result: GameResult): string {
     q: result.questions.map((q) => q.id),
     r: result.answers.map((a) => (a.correct ? "1" : "0")).join(""),
   };
-  const untranslated = result.questions.filter((q) => q.untranslated);
+  const untranslated = result.questions.filter((q) => q.untranslated || q.generated);
   if (untranslated.length) wire.x = untranslated.map(embed);
   return toBase64Url(JSON.stringify(wire));
 }
